@@ -29,7 +29,7 @@ The archive now contains sourced observations, replacing all invented species, h
 
 The privately hosted site exposes a read-only `/api/conservation` endpoint. Browser visits, returning to the visible tab after 15 minutes, and a 15-minute visible-tab timer check this endpoint. A manual refresh button is available. Shared response caching is 15 minutes; annual source checks and upstream responses use 24-hour caching; full PDF bodies use seven-day caching. The hosted SAV adapter refreshes the latest three published years; the full import script refreshes the entire imported history. Published data remain authoritative; the service cache is disposable, and the versioned snapshot provides a fallback.
 
-The GitHub Pages export runs entirely in the browser. NOAA is queried directly on visits. DNR/VIMS annual histories require a manual data import and rebuild; GitHub Pages cannot execute a backend on a visitor request. The repository includes the manual import script. Scheduled imports are not enabled; run `npm run refresh:data` and `npm run build`, then commit the updated snapshots and `docs/`.
+The GitHub Pages export runs entirely in the browser. NOAA is queried directly on visits. DNR/VIMS annual histories use the daily GitHub Actions import and rebuild; GitHub Pages cannot execute a backend on a visitor request. The Refresh conservation data workflow runs daily at 10:23 UTC and supports manual runs in GitHub Actions. It imports data, rebuilds, commits the snapshots and docs/ output, and deploys GitHub Pages with the approved contents, Pages and OIDC permissions. Manual local imports remain available.
 
 ## Interpretation and failure behavior
 
