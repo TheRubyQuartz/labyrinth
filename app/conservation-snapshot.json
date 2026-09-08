@@ -1,0 +1,5406 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-07T12:04:17.442Z",
+  "metrics": {
+    "SP-001": [
+      {
+        "id": "females",
+        "label": "Adult female abundance",
+        "unit": "million crabs",
+        "precision": 1,
+        "scope": "Entire Chesapeake Bay · Maryland and Virginia",
+        "cadence": "Annual",
+        "definition": "Bay-wide Winter Dredge Survey population estimate, not a count at the marker. Adult females indicate spawning potential; juveniles indicate recruitment. Values retain DNR rounding; demographic components need not sum to the published total. Survey uncertainty is not quantified in this table.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 93,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2001",
+            "value": 61,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2002",
+            "value": 55,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2003",
+            "value": 84,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2004",
+            "value": 82,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2005",
+            "value": 110,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2006",
+            "value": 85,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2007",
+            "value": 89,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2008",
+            "value": 91,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2009",
+            "value": 162,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2010",
+            "value": 246,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2011",
+            "value": 191,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2012",
+            "value": 95,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2013",
+            "value": 147,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2014",
+            "value": 69,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2015",
+            "value": 101,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2016",
+            "value": 194,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2017",
+            "value": 254,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2018",
+            "value": 147,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2019",
+            "value": 191,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2020",
+            "value": 141,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2021",
+            "value": 158,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2022",
+            "value": 97,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2023",
+            "value": 152,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2024",
+            "value": 133,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2025",
+            "value": 108,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2026",
+            "value": 81,
+            "quality": "Published estimate",
+            "source": "crab"
+          }
+        ]
+      },
+      {
+        "id": "total",
+        "label": "Total crab abundance",
+        "unit": "million crabs",
+        "precision": 1,
+        "scope": "Entire Chesapeake Bay · Maryland and Virginia",
+        "cadence": "Annual",
+        "definition": "Bay-wide Winter Dredge Survey population estimate, not a count at the marker. Adult females indicate spawning potential; juveniles indicate recruitment. Values retain DNR rounding; demographic components need not sum to the published total. Survey uncertainty is not quantified in this table.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 281,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2001",
+            "value": 254,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2002",
+            "value": 315,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2003",
+            "value": 334,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2004",
+            "value": 270,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2005",
+            "value": 400,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2006",
+            "value": 313,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2007",
+            "value": 251,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2008",
+            "value": 293,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2009",
+            "value": 396,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2010",
+            "value": 663,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2011",
+            "value": 452,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2012",
+            "value": 765,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2013",
+            "value": 300,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2014",
+            "value": 297,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2015",
+            "value": 411,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2016",
+            "value": 553,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2017",
+            "value": 455,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2018",
+            "value": 372,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2019",
+            "value": 594,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2020",
+            "value": 405,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2021",
+            "value": 282,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2022",
+            "value": 227,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2023",
+            "value": 323,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2024",
+            "value": 317,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2025",
+            "value": 238,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2026",
+            "value": 349,
+            "quality": "Published estimate",
+            "source": "crab"
+          }
+        ]
+      },
+      {
+        "id": "juveniles",
+        "label": "Juvenile abundance",
+        "unit": "million crabs",
+        "precision": 1,
+        "scope": "Entire Chesapeake Bay · Maryland and Virginia",
+        "cadence": "Annual",
+        "definition": "Bay-wide Winter Dredge Survey population estimate, not a count at the marker. Adult females indicate spawning potential; juveniles indicate recruitment. Values retain DNR rounding; demographic components need not sum to the published total. Survey uncertainty is not quantified in this table.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 135,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2001",
+            "value": 156,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2002",
+            "value": 194,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2003",
+            "value": 172,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2004",
+            "value": 143,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2005",
+            "value": 242,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2006",
+            "value": 196,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2007",
+            "value": 112,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2008",
+            "value": 166,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2009",
+            "value": 170,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2010",
+            "value": 348,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2011",
+            "value": 204,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2012",
+            "value": 581,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2013",
+            "value": 111,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2014",
+            "value": 199,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2015",
+            "value": 269,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2016",
+            "value": 271,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2017",
+            "value": 125,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2018",
+            "value": 167,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2019",
+            "value": 324,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2020",
+            "value": 185,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2021",
+            "value": 86,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2022",
+            "value": 101,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2023",
+            "value": 116,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2024",
+            "value": 138,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2025",
+            "value": 103,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2026",
+            "value": 228,
+            "quality": "Published estimate",
+            "source": "crab"
+          }
+        ]
+      },
+      {
+        "id": "males",
+        "label": "Adult male abundance",
+        "unit": "million crabs",
+        "precision": 1,
+        "scope": "Entire Chesapeake Bay · Maryland and Virginia",
+        "cadence": "Annual",
+        "definition": "Bay-wide Winter Dredge Survey population estimate, not a count at the marker. Adult females indicate spawning potential; juveniles indicate recruitment. Values retain DNR rounding; demographic components need not sum to the published total. Survey uncertainty is not quantified in this table.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 40,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2001",
+            "value": 43,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2002",
+            "value": 65,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2003",
+            "value": 85,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2004",
+            "value": 47,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2005",
+            "value": 46,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2006",
+            "value": 36,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2007",
+            "value": 50,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2008",
+            "value": 37,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2009",
+            "value": 54,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2010",
+            "value": 72,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2011",
+            "value": 64,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2012",
+            "value": 82,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2013",
+            "value": 42,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2014",
+            "value": 29,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2015",
+            "value": 44,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2016",
+            "value": 91,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2017",
+            "value": 76,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2018",
+            "value": 59,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2019",
+            "value": 80,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2020",
+            "value": 79,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2021",
+            "value": 39,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2022",
+            "value": 28,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2023",
+            "value": 55,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2024",
+            "value": 46,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2025",
+            "value": 26,
+            "quality": "Published estimate",
+            "source": "crab"
+          },
+          {
+            "date": "2026",
+            "value": 37,
+            "quality": "Published estimate",
+            "source": "crab"
+          }
+        ]
+      }
+    ],
+    "AS-001": [
+      {
+        "id": "water_temperature",
+        "label": "Water temperature",
+        "unit": "°C",
+        "precision": 1,
+        "scope": "NOAA CO-OPS 8571892 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest published station water temperature. Temperature is habitat context, not a species health assessment. Preliminary provider readings and quality flags are retained. Battery, calibration and maintenance health are not inferred.",
+        "series": [
+          {
+            "date": "2026-09-07T11:48:00Z",
+            "value": 27.5,
+            "source": "noaa-8571892-water_temperature",
+            "quality": "Preliminary"
+          }
+        ]
+      },
+      {
+        "id": "water_level",
+        "label": "Observed water level",
+        "unit": "m relative to station MSL datum",
+        "precision": 3,
+        "scope": "NOAA CO-OPS 8571892 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest observed water surface height relative to the station MSL tidal datum. This is neither depth below the water nor a NAVD 88 terrain height; these values must not be subtracted from the map model without datum conversion.",
+        "series": [
+          {
+            "date": "2026-09-07T11:48:00Z",
+            "value": 0.284,
+            "source": "noaa-8571892-water_level",
+            "quality": "Flagged by NOAA",
+            "note": "Provider flags: 1,0,0,0. Inspect the source before interpreting."
+          }
+        ]
+      },
+      {
+        "id": "monthly_mean",
+        "label": "Monthly mean sea level",
+        "unit": "m relative to station MSL datum",
+        "precision": 3,
+        "scope": "NOAA CO-OPS 8571892 · station observation",
+        "cadence": "Monthly",
+        "definition": "NOAA verified monthly mean sea level from 2000 onward, relative to the station MSL tidal datum. Inferred months are marked. Regional flood exposure context; not a measurement of equipment health or seabed depth. Missing months are not interpolated.",
+        "series": [
+          {
+            "date": "2000-01",
+            "value": -0.173,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-02",
+            "value": -0.162,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-03",
+            "value": -0.008,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-04",
+            "value": 0.019,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-05",
+            "value": 0.086,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-06",
+            "value": 0.047,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-07",
+            "value": 0.111,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-08",
+            "value": 0.092,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-09",
+            "value": 0.116,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-10",
+            "value": 0.038,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-11",
+            "value": 0.056,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-12",
+            "value": -0.16,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-01",
+            "value": -0.088,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-02",
+            "value": -0.121,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-03",
+            "value": -0.014,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-04",
+            "value": 0.002,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-05",
+            "value": 0.067,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-06",
+            "value": 0.039,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-07",
+            "value": 0.07,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-08",
+            "value": 0.074,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-09",
+            "value": 0.126,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-10",
+            "value": 0.039,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-11",
+            "value": -0.012,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-12",
+            "value": -0.024,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-01",
+            "value": -0.176,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-02",
+            "value": -0.048,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-03",
+            "value": -0.142,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-04",
+            "value": -0.063,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-05",
+            "value": -0.032,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-06",
+            "value": 0.051,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-07",
+            "value": 0.036,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-08",
+            "value": 0.076,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-09",
+            "value": 0.137,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-10",
+            "value": 0.149,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-11",
+            "value": -0.03,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-12",
+            "value": -0.087,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-01",
+            "value": -0.136,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-02",
+            "value": -0.16,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-03",
+            "value": 0.01,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-04",
+            "value": 0.058,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-05",
+            "value": 0.093,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-06",
+            "value": 0.098,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-07",
+            "value": 0.066,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-08",
+            "value": 0.072,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-09",
+            "value": 0.223,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-10",
+            "value": 0.079,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-11",
+            "value": 0.045,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-12",
+            "value": -0.057,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-01",
+            "value": -0.157,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-02",
+            "value": -0.103,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-03",
+            "value": -0.019,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-04",
+            "value": -0.036,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-05",
+            "value": 0.01,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-06",
+            "value": 0.066,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-07",
+            "value": 0.103,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-08",
+            "value": 0.107,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-09",
+            "value": 0.18,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-10",
+            "value": 0.213,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-11",
+            "value": 0.049,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-12",
+            "value": -0.02,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-01",
+            "value": -0.015,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-02",
+            "value": 0.049,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-03",
+            "value": 0.025,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-04",
+            "value": 0.14,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-05",
+            "value": 0.152,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-06",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-07",
+            "value": 0.143,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-08",
+            "value": 0.149,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-09",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-10",
+            "value": 0.149,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-11",
+            "value": 0.02,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-12",
+            "value": -0.049,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-01",
+            "value": -0.03,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-02",
+            "value": -0.05,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-03",
+            "value": -0.041,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-04",
+            "value": 0.042,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-05",
+            "value": 0.14,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-06",
+            "value": 0.098,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-07",
+            "value": 0.057,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-08",
+            "value": 0.122,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-09",
+            "value": 0.218,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-10",
+            "value": 0.145,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-11",
+            "value": 0.105,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-12",
+            "value": -0.065,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-01",
+            "value": -0.087,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-02",
+            "value": -0.211,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-03",
+            "value": -0.111,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-04",
+            "value": 0.021,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-05",
+            "value": 0.025,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-06",
+            "value": 0.13,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-07",
+            "value": 0.095,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-08",
+            "value": 0.145,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-09",
+            "value": 0.125,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-10",
+            "value": 0.151,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-11",
+            "value": 0.035,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-12",
+            "value": -0.009,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-01",
+            "value": -0.06,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-02",
+            "value": -0.056,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-03",
+            "value": 0.007,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-04",
+            "value": 0.084,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-05",
+            "value": 0.167,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-06",
+            "value": 0.095,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-07",
+            "value": 0.085,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-08",
+            "value": 0.118,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-09",
+            "value": 0.173,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-10",
+            "value": 0.104,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-11",
+            "value": 0.02,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-12",
+            "value": -0.087,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-01",
+            "value": -0.107,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-02",
+            "value": -0.075,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-03",
+            "value": -0.003,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-04",
+            "value": 0.035,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-05",
+            "value": 0.055,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-06",
+            "value": 0.23,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-07",
+            "value": 0.178,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-08",
+            "value": 0.106,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-09",
+            "value": 0.199,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-10",
+            "value": 0.196,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-11",
+            "value": 0.19,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-12",
+            "value": 0.047,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-01",
+            "value": -0.003,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-02",
+            "value": 0.014,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-03",
+            "value": 0.186,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-04",
+            "value": 0.105,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-05",
+            "value": 0.1,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-06",
+            "value": 0.15,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-07",
+            "value": 0.117,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-08",
+            "value": 0.208,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-09",
+            "value": 0.205,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-10",
+            "value": 0.148,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-11",
+            "value": 0.133,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-12",
+            "value": 0.032,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-01",
+            "value": -0.004,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-02",
+            "value": -0.016,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-03",
+            "value": 0.077,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-04",
+            "value": 0.099,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-05",
+            "value": 0.22,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-06",
+            "value": 0.181,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-07",
+            "value": 0.165,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-08",
+            "value": 0.187,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-09",
+            "value": 0.277,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-10",
+            "value": 0.194,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-11",
+            "value": 0.084,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-12",
+            "value": 0.032,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-01",
+            "value": -0.045,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-02",
+            "value": -0.036,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-03",
+            "value": 0.042,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-04",
+            "value": 0.082,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-05",
+            "value": 0.146,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-06",
+            "value": 0.238,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-07",
+            "value": 0.169,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-08",
+            "value": 0.194,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-09",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-10",
+            "value": 0.191,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-11",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-12",
+            "value": 0.121,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-01",
+            "value": -0.011,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-02",
+            "value": -0.022,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-03",
+            "value": 0.103,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-04",
+            "value": 0.077,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-05",
+            "value": 0.064,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-06",
+            "value": 0.119,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-07",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-08",
+            "value": 0.182,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-09",
+            "value": 0.179,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-10",
+            "value": 0.218,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-11",
+            "value": -0.012,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-12",
+            "value": -0.016,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-01",
+            "value": -0.065,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-02",
+            "value": -0.064,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-03",
+            "value": -0.001,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-04",
+            "value": 0.098,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-05",
+            "value": 0.143,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-06",
+            "value": 0.186,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-07",
+            "value": 0.134,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-08",
+            "value": 0.208,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-09",
+            "value": 0.207,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-10",
+            "value": 0.211,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-11",
+            "value": 0.023,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-12",
+            "value": 0.051,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-01",
+            "value": -0.095,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-02",
+            "value": -0.08,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-03",
+            "value": -0.104,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-04",
+            "value": 0.013,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-05",
+            "value": 0.023,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-06",
+            "value": 0.138,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-07",
+            "value": 0.188,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-08",
+            "value": 0.169,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-09",
+            "value": 0.227,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-10",
+            "value": 0.2,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-11",
+            "value": 0.076,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-12",
+            "value": 0.08,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-01",
+            "value": 0.012,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-02",
+            "value": 0.02,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-03",
+            "value": 0.052,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-04",
+            "value": 0.103,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-05",
+            "value": 0.122,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-06",
+            "value": 0.133,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-07",
+            "value": 0.134,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-08",
+            "value": 0.137,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-09",
+            "value": 0.268,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-10",
+            "value": 0.187,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-11",
+            "value": 0.063,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-12",
+            "value": -0.012,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-01",
+            "value": -0.004,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-02",
+            "value": -0.001,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-03",
+            "value": -0.098,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-04",
+            "value": 0.141,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-05",
+            "value": 0.206,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-06",
+            "value": 0.171,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-07",
+            "value": 0.176,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-08",
+            "value": 0.221,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-09",
+            "value": 0.248,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-10",
+            "value": 0.192,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-11",
+            "value": 0.126,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-12",
+            "value": -0.019,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-01",
+            "value": -0.144,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-02",
+            "value": -0.036,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-03",
+            "value": 0.113,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-04",
+            "value": 0.072,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-05",
+            "value": 0.13,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-06",
+            "value": 0.242,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-07",
+            "value": 0.213,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-08",
+            "value": 0.188,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-09",
+            "value": 0.344,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-10",
+            "value": 0.206,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-11",
+            "value": 0.124,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-12",
+            "value": 0.157,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-01",
+            "value": 0.092,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-02",
+            "value": 0.022,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-03",
+            "value": 0.092,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-04",
+            "value": 0.123,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-05",
+            "value": 0.225,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-06",
+            "value": 0.196,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-07",
+            "value": 0.203,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-08",
+            "value": 0.237,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-09",
+            "value": 0.282,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-10",
+            "value": 0.318,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-11",
+            "value": 0.139,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-12",
+            "value": 0.057,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-01",
+            "value": 0.051,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-02",
+            "value": 0.05,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-03",
+            "value": 0.116,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-04",
+            "value": 0.187,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-05",
+            "value": 0.126,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-06",
+            "value": 0.198,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-07",
+            "value": 0.222,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-08",
+            "value": 0.224,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-09",
+            "value": 0.264,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-10",
+            "value": 0.204,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-11",
+            "value": 0.108,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-12",
+            "value": 0.084,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-01",
+            "value": 0.099,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-02",
+            "value": 0.089,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-03",
+            "value": 0.033,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-04",
+            "value": 0.122,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-05",
+            "value": 0.069,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-06",
+            "value": 0.16,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-07",
+            "value": 0.171,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-08",
+            "value": 0.21,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-09",
+            "value": 0.248,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-10",
+            "value": 0.313,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-11",
+            "value": 0.128,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-12",
+            "value": 0.051,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-01",
+            "value": 0.046,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-02",
+            "value": -0.05,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-03",
+            "value": 0.01,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-04",
+            "value": 0.072,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-05",
+            "value": 0.236,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-06",
+            "value": 0.198,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-07",
+            "value": 0.145,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-08",
+            "value": 0.171,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-09",
+            "value": 0.227,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-10",
+            "value": 0.199,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-11",
+            "value": 0.108,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-12",
+            "value": 0.129,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-01",
+            "value": 0.085,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-02",
+            "value": 0.068,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-03",
+            "value": 0.174,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-04",
+            "value": 0.184,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-05",
+            "value": 0.194,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-06",
+            "value": 0.277,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-07",
+            "value": 0.233,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-08",
+            "value": 0.231,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-09",
+            "value": 0.285,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-10",
+            "value": 0.265,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-11",
+            "value": 0.21,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-12",
+            "value": 0.166,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-01",
+            "value": 0.189,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-02",
+            "value": 0.269,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-03",
+            "value": 0.198,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-04",
+            "value": 0.298,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-05",
+            "value": 0.328,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-06",
+            "value": 0.21,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-07",
+            "value": 0.2,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-08",
+            "value": 0.23,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-09",
+            "value": 0.38,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-10",
+            "value": 0.238,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-11",
+            "value": 0.162,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-12",
+            "value": 0.01,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-01",
+            "value": -0.071,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-02",
+            "value": -0.001,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-03",
+            "value": 0.08,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-04",
+            "value": 0.093,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-05",
+            "value": 0.186,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-06",
+            "value": 0.195,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-07",
+            "value": 0.211,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-08",
+            "value": 0.298,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-09",
+            "value": 0.3,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-10",
+            "value": 0.311,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-11",
+            "value": 0.015,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-12",
+            "value": 0.002,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-01",
+            "value": -0.057,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-02",
+            "value": 0.104,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-03",
+            "value": 0.065,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-04",
+            "value": 0.128,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-05",
+            "value": 0.114,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-06",
+            "value": 0.203,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-07",
+            "value": 0.221,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-08",
+            "value": 0.211,
+            "source": "noaa-8571892-monthly_mean",
+            "quality": "Verified monthly mean"
+          }
+        ]
+      }
+    ],
+    "AS-002": [
+      {
+        "id": "water_temperature",
+        "label": "Water temperature",
+        "unit": "°C",
+        "precision": 1,
+        "scope": "NOAA CO-OPS 8577330 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest published station water temperature. Temperature is habitat context, not a species health assessment. Preliminary provider readings and quality flags are retained. Battery, calibration and maintenance health are not inferred.",
+        "series": [
+          {
+            "date": "2026-09-07T11:48:00Z",
+            "value": 28.5,
+            "source": "noaa-8577330-water_temperature",
+            "quality": "Preliminary"
+          }
+        ]
+      },
+      {
+        "id": "monthly_mean",
+        "label": "Monthly mean sea level",
+        "unit": "m relative to station MSL datum",
+        "precision": 3,
+        "scope": "NOAA CO-OPS 8577330 · station observation",
+        "cadence": "Monthly",
+        "definition": "NOAA verified monthly mean sea level from 2000 onward, relative to the station MSL tidal datum. Inferred months are marked. Regional flood exposure context; not a measurement of equipment health or seabed depth. Missing months are not interpolated.",
+        "series": [
+          {
+            "date": "2000-01",
+            "value": -0.202,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-02",
+            "value": -0.172,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-03",
+            "value": -0.007,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-04",
+            "value": 0.022,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-05",
+            "value": 0.093,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-06",
+            "value": 0.047,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-07",
+            "value": 0.125,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-08",
+            "value": 0.102,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-09",
+            "value": 0.132,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-10",
+            "value": 0.045,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-11",
+            "value": 0.041,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2000-12",
+            "value": -0.165,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-01",
+            "value": -0.086,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-02",
+            "value": -0.128,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-03",
+            "value": -0.017,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-04",
+            "value": 0.005,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-05",
+            "value": 0.08,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-06",
+            "value": 0.048,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-07",
+            "value": 0.072,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-08",
+            "value": 0.074,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-09",
+            "value": 0.142,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-10",
+            "value": 0.034,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-11",
+            "value": -0.006,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2001-12",
+            "value": -0.023,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-01",
+            "value": -0.173,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-02",
+            "value": -0.056,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-03",
+            "value": -0.135,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-04",
+            "value": -0.053,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-05",
+            "value": -0.026,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-06",
+            "value": 0.068,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-07",
+            "value": 0.057,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-08",
+            "value": 0.095,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-09",
+            "value": 0.157,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-10",
+            "value": 0.178,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-11",
+            "value": -0.033,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2002-12",
+            "value": -0.079,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-01",
+            "value": -0.126,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-02",
+            "value": -0.133,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-03",
+            "value": 0.032,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-04",
+            "value": 0.098,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-05",
+            "value": 0.121,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-06",
+            "value": 0.117,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-07",
+            "value": 0.077,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-08",
+            "value": 0.083,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-09",
+            "value": 0.234,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-10",
+            "value": 0.088,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-11",
+            "value": 0.046,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2003-12",
+            "value": -0.044,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-01",
+            "value": -0.148,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-02",
+            "value": -0.072,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-03",
+            "value": -0.007,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-04",
+            "value": -0.027,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-05",
+            "value": 0.019,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-06",
+            "value": 0.084,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-07",
+            "value": 0.118,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-08",
+            "value": 0.122,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-09",
+            "value": 0.221,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-10",
+            "value": 0.247,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-11",
+            "value": 0.084,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2004-12",
+            "value": 0.001,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-01",
+            "value": 0.026,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-02",
+            "value": 0.083,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-03",
+            "value": 0.044,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-04",
+            "value": 0.173,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-05",
+            "value": 0.182,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-06",
+            "value": 0.159,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-07",
+            "value": 0.158,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-08",
+            "value": 0.161,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-09",
+            "value": 0.152,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-10",
+            "value": 0.159,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-11",
+            "value": 0.013,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2005-12",
+            "value": -0.042,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-01",
+            "value": -0.027,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-02",
+            "value": -0.041,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-03",
+            "value": -0.032,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-04",
+            "value": 0.057,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-05",
+            "value": 0.156,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-06",
+            "value": 0.102,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-07",
+            "value": 0.063,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-08",
+            "value": 0.137,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-09",
+            "value": 0.242,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-10",
+            "value": 0.151,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-11",
+            "value": 0.139,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2006-12",
+            "value": -0.054,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-01",
+            "value": -0.08,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-02",
+            "value": -0.199,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-03",
+            "value": -0.08,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-04",
+            "value": 0.047,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-05",
+            "value": 0.057,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-06",
+            "value": 0.152,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-07",
+            "value": 0.113,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-08",
+            "value": 0.173,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-09",
+            "value": 0.15,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-10",
+            "value": 0.171,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-11",
+            "value": 0.041,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2007-12",
+            "value": 0,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-01",
+            "value": -0.05,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-02",
+            "value": -0.039,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-03",
+            "value": 0.028,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-04",
+            "value": 0.132,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-05",
+            "value": 0.188,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-06",
+            "value": 0.101,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-07",
+            "value": 0.088,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-08",
+            "value": 0.127,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-09",
+            "value": 0.202,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-10",
+            "value": 0.112,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-11",
+            "value": 0.023,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2008-12",
+            "value": -0.093,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-01",
+            "value": -0.096,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-02",
+            "value": -0.08,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-03",
+            "value": 0.018,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-04",
+            "value": 0.051,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-05",
+            "value": 0.075,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-06",
+            "value": 0.255,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-07",
+            "value": 0.196,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-08",
+            "value": 0.125,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-09",
+            "value": 0.233,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-10",
+            "value": 0.216,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-11",
+            "value": 0.229,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2009-12",
+            "value": 0.052,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-01",
+            "value": -0.005,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-02",
+            "value": 0.007,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-03",
+            "value": 0.204,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-04",
+            "value": 0.113,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-05",
+            "value": 0.112,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-06",
+            "value": 0.153,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-07",
+            "value": 0.12,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-08",
+            "value": 0.217,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-09",
+            "value": 0.212,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-10",
+            "value": 0.152,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-11",
+            "value": 0.153,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2010-12",
+            "value": -0.002,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-01",
+            "value": -0.006,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-02",
+            "value": -0.025,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-03",
+            "value": 0.101,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-04",
+            "value": 0.121,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-05",
+            "value": 0.247,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-06",
+            "value": 0.21,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-07",
+            "value": 0.183,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-08",
+            "value": 0.206,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-09",
+            "value": 0.307,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-10",
+            "value": 0.211,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-11",
+            "value": 0.097,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2011-12",
+            "value": 0.049,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-01",
+            "value": -0.032,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-02",
+            "value": -0.023,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-03",
+            "value": 0.063,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-04",
+            "value": 0.097,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-05",
+            "value": 0.152,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-06",
+            "value": 0.244,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-07",
+            "value": 0.177,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-08",
+            "value": 0.199,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-09",
+            "value": 0.145,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-11",
+            "value": 0.165,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2012-12",
+            "value": 0.124,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-01",
+            "value": -0.006,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-02",
+            "value": -0.015,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-03",
+            "value": 0.118,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-04",
+            "value": 0.098,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-05",
+            "value": 0.082,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-06",
+            "value": 0.126,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-07",
+            "value": 0.152,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-08",
+            "value": 0.207,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2013-09",
+            "value": 0.206,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-05",
+            "value": 0.18,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-06",
+            "value": 0.217,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-07",
+            "value": 0.154,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-08",
+            "value": 0.24,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-09",
+            "value": 0.241,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-10",
+            "value": 0.22,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-11",
+            "value": 0.031,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2014-12",
+            "value": 0.077,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-01",
+            "value": -0.083,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-05",
+            "value": 0.045,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-06",
+            "value": 0.161,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-07",
+            "value": 0.212,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-08",
+            "value": 0.198,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-09",
+            "value": 0.266,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-10",
+            "value": 0.245,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-11",
+            "value": 0.094,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2015-12",
+            "value": 0.094,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-01",
+            "value": 0.029,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-02",
+            "value": 0.03,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-03",
+            "value": 0.081,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-04",
+            "value": 0.122,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-05",
+            "value": 0.15,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-06",
+            "value": 0.14,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-07",
+            "value": 0.139,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-08",
+            "value": 0.144,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-09",
+            "value": 0.295,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-10",
+            "value": 0.205,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-11",
+            "value": 0.06,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2016-12",
+            "value": -0.017,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-01",
+            "value": 0.009,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-02",
+            "value": 0,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-03",
+            "value": -0.096,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-04",
+            "value": 0.164,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-05",
+            "value": 0.227,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-06",
+            "value": 0.178,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-07",
+            "value": 0.191,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-08",
+            "value": 0.239,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-09",
+            "value": 0.278,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-10",
+            "value": 0.206,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-11",
+            "value": 0.141,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2017-12",
+            "value": -0.016,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-01",
+            "value": -0.146,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-02",
+            "value": -0.023,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-03",
+            "value": 0.117,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-04",
+            "value": 0.081,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-05",
+            "value": 0.156,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-06",
+            "value": 0.266,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-07",
+            "value": 0.235,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-08",
+            "value": 0.198,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-09",
+            "value": 0.39,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-10",
+            "value": 0.216,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-11",
+            "value": 0.14,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2018-12",
+            "value": 0.186,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-01",
+            "value": 0.1,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-02",
+            "value": 0.049,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-03",
+            "value": 0.112,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-04",
+            "value": 0.144,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-05",
+            "value": 0.257,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-06",
+            "value": 0.218,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-07",
+            "value": 0.223,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-08",
+            "value": 0.264,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-09",
+            "value": 0.316,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-10",
+            "value": 0.349,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-11",
+            "value": 0.16,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2019-12",
+            "value": 0.079,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-01",
+            "value": 0.07,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-02",
+            "value": 0.064,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-03",
+            "value": 0.149,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-04",
+            "value": 0.204,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-05",
+            "value": 0.156,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-06",
+            "value": 0.231,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-07",
+            "value": 0.244,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-08",
+            "value": 0.247,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-09",
+            "value": 0.301,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-10",
+            "value": 0.229,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-11",
+            "value": 0.11,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2020-12",
+            "value": 0.086,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-01",
+            "value": 0.117,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-02",
+            "value": 0.111,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-03",
+            "value": 0.054,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-04",
+            "value": 0.133,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-05",
+            "value": 0.089,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-06",
+            "value": 0.179,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-07",
+            "value": 0.185,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-08",
+            "value": 0.237,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-09",
+            "value": 0.267,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-10",
+            "value": 0.336,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-11",
+            "value": 0.143,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2021-12",
+            "value": 0.07,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-01",
+            "value": 0.068,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-02",
+            "value": -0.029,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-03",
+            "value": 0.022,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-04",
+            "value": 0.089,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-05",
+            "value": 0.28,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-06",
+            "value": 0.216,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-07",
+            "value": 0.16,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-08",
+            "value": 0.188,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-09",
+            "value": 0.248,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-10",
+            "value": 0.232,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-11",
+            "value": 0.125,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2022-12",
+            "value": 0.145,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-01",
+            "value": 0.109,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-02",
+            "value": 0.086,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-03",
+            "value": 0.189,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-04",
+            "value": 0.204,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-05",
+            "value": 0.224,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-06",
+            "value": 0.308,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-07",
+            "value": 0.249,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-08",
+            "value": 0.251,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-09",
+            "value": 0.33,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-10",
+            "value": 0.28,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-11",
+            "value": 0.23,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2023-12",
+            "value": 0.185,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-01",
+            "value": 0.199,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-02",
+            "value": 0.292,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-03",
+            "value": 0.215,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-04",
+            "value": 0.318,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-05",
+            "value": 0.358,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-06",
+            "value": 0.22,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-07",
+            "value": 0.215,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-08",
+            "value": 0.248,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-09",
+            "value": 0.427,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-10",
+            "value": 0.26,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-11",
+            "value": 0.173,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2024-12",
+            "value": 0.021,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-01",
+            "value": -0.076,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-02",
+            "value": 0.012,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-03",
+            "value": 0.092,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-04",
+            "value": 0.111,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-05",
+            "value": 0.216,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-06",
+            "value": 0.228,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-07",
+            "value": 0.237,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-08",
+            "value": 0.346,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-09",
+            "value": 0.346,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-10",
+            "value": 0.354,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-11",
+            "value": 0.019,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2025-12",
+            "value": 0.011,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-01",
+            "value": -0.04,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-02",
+            "value": 0.122,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-03",
+            "value": 0.088,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-04",
+            "value": 0.164,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-05",
+            "value": 0.149,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-06",
+            "value": 0.231,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-07",
+            "value": 0.25,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          },
+          {
+            "date": "2026-08",
+            "value": 0.239,
+            "source": "noaa-8577330-monthly_mean",
+            "quality": "Verified monthly mean"
+          }
+        ]
+      },
+      {
+        "id": "water_level",
+        "label": "Observed water level",
+        "unit": "m relative to station MSL datum",
+        "precision": 3,
+        "scope": "NOAA CO-OPS 8577330 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest observed water surface height relative to the station MSL tidal datum. This is neither depth below the water nor a NAVD 88 terrain height; these values must not be subtracted from the map model without datum conversion.",
+        "series": [
+          {
+            "date": "2026-09-07T11:48:00Z",
+            "value": 0.434,
+            "source": "noaa-8577330-water_level",
+            "quality": "Flagged by NOAA",
+            "note": "Provider flags: 1,0,0,0. Inspect the source before interpreting."
+          }
+        ]
+      }
+    ],
+    "HB-001": [
+      {
+        "id": "sav",
+        "label": "Mapped underwater grass area",
+        "unit": "hectares",
+        "precision": 2,
+        "scope": "Tangier Sound Segment 1 · VIMS TANMH1 (whole segment)",
+        "cadence": "Annual",
+        "definition": "Aerial-survey area of submerged aquatic vegetation (SAV), an indicator of nursery habitat and water clarity. This is a regional mapped area, not percentage cover, oyster reef acreage, or a Maryland-only subtotal. Preliminary and partially mapped years must not be treated as final comparable totals.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 5086.26,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2001",
+            "value": 5387.54,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2002",
+            "value": 6076.76,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2003",
+            "value": 3805.51,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2004",
+            "value": 3455.89,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2005",
+            "value": 4385.36,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2006",
+            "value": 3929.36,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2007",
+            "value": 3879.3,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2008",
+            "value": 4420.26,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2009",
+            "value": 5165.22,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2010",
+            "value": 5491.74,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2011",
+            "value": 4299.19,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2012",
+            "value": 4214.35,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2013",
+            "value": 5562.36,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2014",
+            "value": 6849.64,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2015",
+            "value": 8332.08,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2016",
+            "value": 8952.29,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2017",
+            "value": 8700.38,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2018",
+            "value": 10663.86,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2019",
+            "value": 3217.66,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2020",
+            "value": 2696.16,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2021",
+            "value": 2779.55,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2021&Year2=2022&Year3=2022",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2022",
+            "value": 4330.62,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2021&Year2=2022&Year3=2022",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2023",
+            "value": 5383.87,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2024",
+            "value": 4582.98,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2025",
+            "value": 5808.02,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Preliminary"
+          }
+        ]
+      }
+    ],
+    "HB-002": [
+      {
+        "id": "sav",
+        "label": "Mapped underwater grass area",
+        "unit": "hectares",
+        "precision": 2,
+        "scope": "Mouth of the Choptank River · VIMS CHOMH1 (whole segment)",
+        "cadence": "Annual",
+        "definition": "Aerial-survey area of submerged aquatic vegetation (SAV), an indicator of nursery habitat and water clarity. This is a regional mapped area, not percentage cover, oyster reef acreage, or a Maryland-only subtotal. Preliminary and partially mapped years must not be treated as final comparable totals.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 680.65,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2001",
+            "value": 2128.51,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2002",
+            "value": 2664.62,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2000&Year2=2001&Year3=2002",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2003",
+            "value": 1202,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2004",
+            "value": 1526.62,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2005",
+            "value": 927.7,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2003&Year2=2004&Year3=2005",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2006",
+            "value": 422.03,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2007",
+            "value": 508.64,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2008",
+            "value": 186.36,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2006&Year2=2007&Year3=2008",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2009",
+            "value": 262.65,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2010",
+            "value": 163.54,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2011",
+            "value": 1143.58,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2009&Year2=2010&Year3=2011",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2012",
+            "value": 305.92,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2013",
+            "value": 510.61,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2014",
+            "value": 1534.76,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2012&Year2=2013&Year3=2014",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2015",
+            "value": 2446.53,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2016",
+            "value": 2933.06,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2017",
+            "value": 3527.11,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2015&Year2=2016&Year3=2017",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2018",
+            "value": 2165.03,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Partial survey",
+            "note": "Not fully mapped; area is incomplete."
+          },
+          {
+            "date": "2019",
+            "value": 2151.85,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2020",
+            "value": 1833.81,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2018&Year2=2019&Year3=2020",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2021",
+            "value": 1687.58,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2021&Year2=2022&Year3=2022",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2022",
+            "value": 2024.19,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2021&Year2=2022&Year3=2022",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2023",
+            "value": 2195.31,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2024",
+            "value": 1300.78,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2025",
+            "value": 2003.44,
+            "source": "sav",
+            "sourceUrl": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity&Year1=2023&Year2=2024&Year3=2025",
+            "quality": "Preliminary"
+          }
+        ]
+      }
+    ],
+    "SP-002": [
+      {
+        "id": "spat",
+        "label": "Spatfall intensity",
+        "unit": "spat / bushel of cultch",
+        "precision": 1,
+        "scope": "Maryland · 53 key oyster monitoring bars",
+        "cadence": "Annual",
+        "definition": "Annual recruitment index: average juvenile oysters per bushel of shell material at index bars. It is not oyster density per square metre or total population.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 6.4,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2001",
+            "value": 15.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2002",
+            "value": 40.3,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2003",
+            "value": 4.8,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2004",
+            "value": 6.5,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2005",
+            "value": 6.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2006",
+            "value": 35.2,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2007",
+            "value": 15.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2008",
+            "value": 13.5,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2009",
+            "value": 15.7,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2010",
+            "value": 78,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2011",
+            "value": 20.1,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2012",
+            "value": 59.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2013",
+            "value": 22.7,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2014",
+            "value": 11.3,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2015",
+            "value": 34.2,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2016",
+            "value": 30.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2017",
+            "value": 23.6,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2018",
+            "value": 15,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2019",
+            "value": 23,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2020",
+            "value": 109.1,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2021",
+            "value": 43.9,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2022",
+            "value": 32.1,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2023",
+            "value": 86.8,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2024",
+            "value": 40.7,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2025",
+            "value": 250,
+            "source": "oyster-preliminary",
+            "quality": "Preliminary",
+            "note": "Preliminary 2025 survey reported March 9, 2026. No numeric 2025 mortality imported from this release."
+          }
+        ]
+      },
+      {
+        "id": "mortality",
+        "label": "Observed oyster mortality",
+        "unit": "%",
+        "precision": 1,
+        "scope": "Maryland · disease-monitoring oyster bars",
+        "cadence": "Annual",
+        "definition": "Observed mortality index reported in Table 5, averaged across monitoring bars. Historical values retain the report’s rounded precision. This is not a Harris Creek-specific estimate and is not an IUCN conservation category.",
+        "series": [
+          {
+            "date": "2000",
+            "value": 35,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2001",
+            "value": 38,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2002",
+            "value": 58,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2003",
+            "value": 35,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2004",
+            "value": 20,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2005",
+            "value": 17,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2006",
+            "value": 16,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2007",
+            "value": 15,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2008",
+            "value": 17,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2009",
+            "value": 17,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2010",
+            "value": 12,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2011",
+            "value": 8,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2012",
+            "value": 7,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2013",
+            "value": 8,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2014",
+            "value": 11,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2015",
+            "value": 14,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2016",
+            "value": 16,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2017",
+            "value": 14,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2018",
+            "value": 14,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2019",
+            "value": 13,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2020",
+            "value": 10,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2021",
+            "value": 6,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2022",
+            "value": 8,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2023",
+            "value": 15,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          },
+          {
+            "date": "2024",
+            "value": 11.6,
+            "source": "oyster-report",
+            "quality": "Published survey"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": {
+    "crab": {
+      "name": "Maryland DNR · Winter Dredge Survey",
+      "url": "https://dnr.maryland.gov/fisheries/pages/blue-crab/dredge.aspx",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8571892-water_temperature": {
+      "name": "NOAA 8571892 · water temperature",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_temperature&station=8571892&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&date=latest",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8571892-water_level": {
+      "name": "NOAA 8571892 · water level",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&station=8571892&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&datum=MSL&date=latest",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "metadata-8571892": {
+      "name": "NOAA · station 8571892 metadata",
+      "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571892.json?expand=details",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8577330-water_temperature": {
+      "name": "NOAA 8577330 · water temperature",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_temperature&station=8577330&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&date=latest",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8577330-water_level": {
+      "name": "NOAA 8577330 · water level",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&station=8577330&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&datum=MSL&date=latest",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8577330-monthly_mean": {
+      "name": "NOAA 8577330 · monthly mean",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8577330&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260907",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "metadata-8577330": {
+      "name": "NOAA · station 8577330 metadata",
+      "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577330.json?expand=details",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "noaa-8571892-monthly_mean": {
+      "name": "NOAA 8571892 · monthly mean",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8571892&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260907",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "sav": {
+      "name": "VIMS · annual submerged aquatic vegetation survey",
+      "url": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "oyster-report": {
+      "name": "Maryland DNR · Fall Oyster Survey, tables 2 and 5",
+      "url": "https://dnr.maryland.gov/fisheries/Documents/oysters/2024RptFinal.pdf",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    },
+    "oyster-preliminary": {
+      "name": "Maryland DNR · 2025 preliminary oyster survey release",
+      "url": "https://news.maryland.gov/dnr/2026/03/09/governor-moore-announces-historic-year-for-oyster-reproduction-in-maryland-waters/",
+      "state": "ok",
+      "checkedAt": "2026-09-07T12:04:17.442Z",
+      "lastSuccessAt": "2026-09-07T12:04:17.442Z",
+      "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
+    }
+  },
+  "stations": {
+    "8571892": {
+      "id": "8571892",
+      "name": "Cambridge",
+      "lat": 38.5725,
+      "lon": -76.06167,
+      "established": "1980-10-21"
+    },
+    "8577330": {
+      "id": "8577330",
+      "name": "Solomons Island",
+      "lat": 38.3167,
+      "lon": -76.4517,
+      "established": "1937-11-05"
+    }
+  }
+}

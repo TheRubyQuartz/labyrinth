@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+# Keep docs/ tracked: GitHub Pages publishes this prebuilt folder.
