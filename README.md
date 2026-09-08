@@ -14,7 +14,7 @@ Use Node.js 24 or later. Run `npm ci`, then `npm run dev`. After edits run `npm 
 
 ## Data updates
 
-NOAA readings refresh in the browser on visits, tab return and every 15 minutes while visible. Annual DNR/VIMS data use a saved snapshot. To update annual data, run `npm run refresh:data`, then `npm run build`, and commit the updated source snapshots and `docs/`. Scheduled GitHub Actions imports are not enabled. Failed provider requests retain prior observations with their original dates.
+NOAA readings refresh in the browser on visits, tab return and every 15 minutes while visible. Annual DNR/VIMS data use a saved snapshot. To update annual data, run `npm run refresh:data`, then `npm run build`, and commit the updated source snapshots and `docs/`. The **Refresh conservation data** workflow runs daily at 10:23 UTC, commits validated snapshots and rebuilt files, and deploys GitHub Pages. Run it manually from Actions → Refresh conservation data → Run workflow. Failed provider requests retain prior observations with their original dates.
 
 See [DATA_GUIDE.md](DATA_GUIDE.md) for coverage, source links, datum distinctions, missing data and refresh behavior. Ecology and news are curated and require editorial updates; they are not automatic news feeds. Seasonal map callouts describe typical activity, not telemetry or observed movement tracks. Marketplace listings remain demonstrations. Workshop and Network are future modules.
 
