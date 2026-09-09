@@ -76,14 +76,18 @@ No API keys, account credentials, platform-specific deployment identity, Git his
 
 ## Prototype limitations
 
-- All measurements, updates, listings, reserve locations, and movement examples are illustrative.
-- Species are examples, not a confirmed selection native to your specific location.
-- The 3D map is a procedural terrain visualization projected onto a canvas, not georeferenced GIS imagery or a live tracking service.
-- Histories are sample arrays; no real-time ingestion pipeline is connected.
-- Marketplace saves last only while the page session is open. Refreshing clears them. There are no purchases, payments, messages, or submissions.
-- There is no shared database, authentication, upload service, or server-side API in this export.
-- A future shared archive or live pipeline requires a separate backend or hosted data service. GitHub Pages only serves the static frontend.
-- Protect sensitive species locations before publishing real records.
+- **Regional coverage:** Exploration currently focuses on Maryland’s Chesapeake Bay, with blue crab and eastern oyster profiles, selected habitats, and NOAA monitoring stations. It is not a comprehensive inventory of Bay species or conservation assets.
+- **Sourced data and historical gaps:** Conservation metrics use published agency observations, with histories beginning in 2000 where available. Some years are missing, preliminary, or only partially surveyed. Regional population and habitat indices should not be interpreted as measurements at individual map markers.
+- **Refresh frequency:** NOAA readings refresh on visits, eligible tab returns, and every 15 minutes while visible. A daily GitHub Actions workflow imports published annual data, rebuilds, and deploys the site. Annual surveys are not real-time measurements; provider outages or source-format changes can delay updates. Failed imports retain earlier values with their original dates.
+- **3D terrain and measurements:** The map uses a fixed, reduced-resolution NOAA land-elevation and seafloor grid. Point inspection, distance, area, and cross-section measurements are approximate. Terrain elevations reference NAVD 88; station water levels use a separate MSL tidal datum. Displayed depths are not live water depths or navigation soundings, and vertical exaggeration changes only the visual relief.
+- **Species activity:** Recent, Monthly, and Seasonal calendars are linked to the map, but describe typical activity windows and illustrative regional locations. They do not show live animal tracking, confirmed sightings, or measured migration routes. Adult oysters remain attached to reefs; their activity includes spawning and larval dispersal.
+- **Ecological context and news:** Risk summaries and conservation stories are sourced and curated. They require editorial review and do not update automatically with the measurement feeds. Regional risks do not establish the cause of a specific local decline.
+- **Asset health:** NOAA station readings are available, but battery levels, calibration records, and maintenance condition are not connected. A functioning data feed does not certify equipment health.
+- **Marketplace:** Listings remain demonstrations. Saved listings last only during the page session and clear on refresh. Purchases, payments, messaging, and submissions are not implemented.
+- **Shared services:** The GitHub Pages version has no shared application database, user authentication, upload service, or application server API. It uses public NOAA APIs and scheduled GitHub Actions imports; shared user records and collaboration would require additional services.
+- **Future modules and sensitive locations:** Workshop and Network remain future modules. Sensitive species locations must be reviewed before publishing additional records.
+
+See [DATA_GUIDE.md](DATA_GUIDE.md) for source coverage, refresh behavior, and interpretation details.
 
 ## Troubleshooting
 
