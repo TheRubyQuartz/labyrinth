@@ -1,0 +1,14 @@
+import type {ReactNode} from 'react';
+import full from './crab-full.json';
+
+export const crabHeadings=full.blocks.filter(block=>block.kind==='heading');
+export function FullCrabContents({link}:{link:(target:string,label:string)=>ReactNode}){
+ type Item={id:string;text:string;level:number;children:Item[]};
+ const roots:Item[]=[],stack:Item[]=[];
+ for(const heading of crabHeadings){const item:Item={id:heading.id!,text:heading.text,level:heading.level!,children:[]};while(stack.length&&stack.at(-1)!.level>=item.level)stack.pop();if(stack.length)stack.at(-1)!.children.push(item);else roots.push(item);stack.push(item)}
+ const render=(items:Item[]):ReactNode=><ul>{items.map(item=><li key={item.id}>{item.children.length?<details open><summary>{link(item.id,item.text)}</summary>{render(item.children)}</details>:link(item.id,item.text)}</li>)}</ul>;
+ return render(roots);
+}
+function citations(text:string):ReactNode[]{return text.split(/(\[\d+\])/g).map((part,i)=>/^\[\d+\]$/.test(part)?<sup key={i}><a href={'#crab-reference-'+part.slice(1,-1)} aria-label={'Crab reference '+part.slice(1,-1)}>{part}</a></sup>:part)}
+export function FullCrabArticle(){return <div className="article-prose full-crab"><p className="subnote">General crab article · Wikipedia contributors · <a href="https://en.wikipedia.org/wiki/Crab">Source article</a>. Blue-crab-specific information follows this general overview.</p>{full.blocks.map((block,i)=>{if(block.kind==='heading'){const Heading=block.level===2?'h2':block.level===3?'h3':block.level===4?'h4':'h5';return <Heading key={i} id={block.id}>{block.text}</Heading>}return block.kind==='diagram'?<div key={i} className="crab-diagram-labels" aria-label="Phylogeny diagram labels from supplied text">{citations(block.text)}</div>:block.text.startsWith('True crabs (Brachyura)')||block.text.startsWith('"The carapace')?<ul key={i} className="crab-original-list">{block.text.split('\n').filter(Boolean).map((line,j)=><li key={j}>{citations(line)}</li>)}</ul>:<p key={i} className="crab-original-paragraph">{citations(block.text)}</p>})}</div>}
+export function FullCrabReferences(){return <section className="full-crab-references"><h3>Crab article references</h3><ol>{full.references.map((reference,i)=><li id={'crab-reference-'+(i+1)} key={i}>{reference}</li>)}</ol><p className="subnote">Text from “Crab,” Wikipedia contributors, supplied by the user. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>. Article prose and section order are retained; orphaned image captions, detached diagram labels and duplicated display text have been removed. The numbered bibliography comes from the earlier complete copy supplied in this conversation. <a href="https://en.wikipedia.org/w/index.php?title=Crab&action=history">Contributor history</a> · <a href="./crab-supplied-text.txt" download>Download the complete supplied text</a>.</p></section>}

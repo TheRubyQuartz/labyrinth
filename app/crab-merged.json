@@ -1,0 +1,648 @@
+{
+  "intro": [
+    {
+      "text": "Crabs are decapod crustaceans, either the Brachyura (the \"true crabs\") or various groups within the closely related Anomura (hermit crabs and allies), characterised by having a heavily armoured shell, their tail segments concealed under the body, the ability to run sideways, and the habit of hiding in rocky crevices. They do not form a single natural group or clade, but have convergently evolved multiple times from the ancestral decapod body plan through carcinisation, the process of creating this set of characteristics. As a group, they are thus polyphyletic, meaning they have multiple evolutionary origins.",
+      "origin": "general",
+      "sources": []
+    },
+    {
+      "text": "Crabs vary in size from the pea crab, a few millimeters wide, to the Japanese spider crab, with a leg span up to 4 m (13 ft). Many crabs are free-living marine omnivores; others are specialist herbivores or carnivores, while some are parasitic. A substantial number of species are adapted to freshwater or other non-marine habitats.",
+      "origin": "general",
+      "sources": []
+    },
+    {
+      "text": "Crabs make up about 20% of the marine crustaceans that are caught or farmed for human consumption. In British cuisine, dressed crab is a traditional seafood meal, while in Goa and Mozambique, crab curry is a typical dish. Crabs feature in Greek and Malay mythology, and as the astrological sign Cancer. They have appeared in art in media including pottery, paintings, blouse panels, and book illustrations. Hermit crabs are often kept in aquariums and as pets. A popular meme jokes that everything will evolve into crabs, based inaccurately on the genuine evolutionary trend within the decapods.",
+      "origin": "general",
+      "sources": []
+    }
+  ],
+  "sections": [
+    {
+      "id": "article-etymology",
+      "title": "Etymology",
+      "paragraphs": [
+        {
+          "text": "Callinectes combines Greek roots for beauty and swimming; sapidus is Latin for savory. The name links the animal’s paddle-like swimming legs with its long culinary history. Atlantic blue crab and Maryland blue crab are common names for the same species, rather than separate taxonomic forms.",
+          "origin": "blue",
+          "sources": [
+            "blue"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "crab-diversity",
+      "title": "Diversity",
+      "paragraphs": [
+        {
+          "text": "The blue crab is one member of a much wider collection of animals called crabs. Similar names and compact bodies can conceal substantial evolutionary differences.",
+          "origin": "blue",
+          "sources": [
+            "crab"
+          ]
+        }
+      ],
+      "children": [
+        {
+          "id": "crab-taxonomic-range",
+          "title": "Taxonomic range",
+          "paragraphs": [
+            {
+              "text": "Blue crabs belong to Arthropoda, Malacostraca, Decapoda, Brachyura and the swimming-crab family Portunidae. Callinectes sapidus is the species name; the broader word crab is not an equally precise identification.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "crab-phylogeny",
+              "title": "Phylogeny",
+              "paragraphs": [
+                {
+                  "text": "Crabs are not a single taxonomic group.[1] Instead, alongside the Brachyura or true crabs, are multiple groups of the Anomura that are called crabs, including the hermit crabs, mole crabs, king crabs, and porcelain crabs.[2] A distantly-related group of arthropods, the horseshoe crabs, with an armoured carapace but a quite different body plan, is a member of the Chelicerata, the group that includes the spiders and scorpions.[3] The crab body form and associated behaviour have arisen independently at different times in multiple groups of decapod crustaceans.[1]",
+                  "origin": "general",
+                  "sources": []
+                },
+                {
+                  "text": "True crabs belong to Brachyura. Several crab-like anomuran lineages evolved similar shapes independently. This distinction explains why a king crab or hermit crab should not be treated as a close equivalent of a blue crab merely because both have claws.",
+                  "origin": "blue",
+                  "sources": [
+                    "crab"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "crab-specific-groups",
+              "title": "Specific groups",
+              "paragraphs": [
+                {
+                  "text": "The two major comparisons below place the blue crab within the larger animal groups discussed in the supplied crab article.",
+                  "origin": "blue",
+                  "sources": [
+                    "crab"
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "id": "crab-chelicerata",
+                  "title": "Chelicerata",
+                  "paragraphs": [
+                    {
+                      "text": "Horseshoe crabs (Xiphosura) are an ancient group within the Chelicerata, known from the late Ordovician of Canada, around 445 million years ago.[9] Their bodies are divided into an anterior prosoma (fused head and thorax) and a posterior opisthosoma, or abdomen. The upper surface of the prosoma is covered by a semicircular carapace (top part of the shell), while the underside bears five pairs of walking legs and a pair of pincer-like chelicerae. The mouth is on the underside of the prosoma, between the bases of the walking legs.[10]",
+                      "origin": "general",
+                      "sources": []
+                    },
+                    {
+                      "text": "Horseshoe crabs belong with chelicerates, a group that also includes spiders and scorpions. They are not decapod crustaceans, despite their common name and broad protective shield.",
+                      "origin": "blue",
+                      "sources": [
+                        "crab"
+                      ]
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "crab-decapoda",
+                  "title": "Decapoda",
+                  "paragraphs": [
+                    {
+                      "text": "Crab-like decapods span multiple groups:",
+                      "origin": "general",
+                      "sources": []
+                    },
+                    {
+                      "text": "True crabs (Brachyura) are generally covered with a thick exoskeleton (jointed shell), composed primarily of highly mineralized chitin.[11][12] Males often have larger claws than females.[13]\nPorcelain crabs (Porcellanidae) are small flattened decapods that hide under rocks. They often shed limbs to escape predators.[14]\nThe hairy stone crab (Lomisidae) is a slow-moving crab of the Australian shore. It is camouflaged with brown hair.[15]\nHermit crabs (Paguroidea) have heavily armoured crab-like claws, but in place of a carapace, they inhabit empty scavenged gastropod mollusc shells to protect their fragile bodies.[16][17]\nKing crabs (Lithodidae) live mainly in cold deep water. They resemble brachyurans but are more closely related to hermit crabs.[18]\nThe coconut crab (Birgus) is a large terrestrial hermit crab of islands in the Pacific and Indian oceans.[19]\nPatagurus rex is a specialised hermit crab from Polynesia, living at a depth of 400 metres. Its carapace is unique but enough to make it look crab-like.[20]",
+                      "origin": "general",
+                      "sources": []
+                    },
+                    {
+                      "text": "Blue crabs are true crabs within the ten-legged crustaceans. Hermit, porcelain and king crabs belong to other decapod branches. Lobsters and shrimp illustrate other body plans within the same order.",
+                      "origin": "blue",
+                      "sources": [
+                        "crab"
+                      ]
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "crab-size-and-shape",
+          "title": "Size and shape",
+          "paragraphs": [
+            {
+              "text": "Crabs vary in size from the pea crab, a few millimeters wide,[21] to the Japanese spider crab, with a leg span up to 4 m (13 ft).[22] The coconut crab is the largest terrestrial arthropod, and indeed the largest extant terrestrial invertebrate, at up to 40 cm (16 in) long and weighing up to 4.1 kg (9 lb).[19]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "A broad, flattened carapace protects the body. Lateral spines project from its sides, the first pair of legs bears claws, and the final pair forms flattened swimming paddles. The folded abdomen lies beneath the body. Shell color combines blue, green and brown tones; heating changes the pigment–protein association and produces the familiar orange-red cooked shell.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            },
+            {
+              "text": "Large blue crabs can approach 23 centimetres across the carapace. Size varies with sex, growth stage and conditions. Across crabs generally, the tiny pea crabs and long-legged Japanese spider crab show why the dimensions of another crab species cannot be used as a blue-crab benchmark.",
+              "origin": "blue",
+              "sources": [
+                "blue",
+                "crab"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "article-sexual-dimorphism",
+              "title": "Sexual dimorphism",
+              "paragraphs": [
+                {
+                  "text": "Males have a narrow apron; mature females have a broad, rounded apron, while immature females have a triangular one. These underside features are more useful for identification than color alone. Similar Callinectes species can overlap geographically, so identification also depends on carapace and other anatomical features.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "crab-feeding-methods",
+          "title": "Feeding methods",
+          "paragraphs": [
+            {
+              "text": "Many crabs are free-living marine omnivores, feeding on a mixture of algae, small animals such as molluscs, polychaete worms, other crustaceans, and detritus.[23] Others are more specialised: the mottled crab Grapsus albolineatus, for example, is herbivorous, feeding mainly on algae and preferring the more nutritious filamentous algae to leafy (foliose) algae,[24] while the yellow moon crab Ashtoret lunaris is carnivorous.[25] The porcelain crabs are plankton feeders, filtering their prey from seawater using long feathery bristles on their mouthparts.[26] The tiny soft-bodied oyster crab is a kleptoparasite of oysters, living inside the host's shell and eating its food.[27]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "Blue crabs are opportunistic omnivores and scavengers. They consume bivalves, worms, other crustaceans, small fish, plant material and carrion, and can eat other blue crabs. Claws manipulate or break prey; available food and crab size influence what can be captured.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "crab-ecological-niches",
+          "title": "Ecological niches",
+          "paragraphs": [
+            {
+              "text": "The tufted ghost crab Ocypode cursor is semi-terrestrial, consuming terrestrial animals such as insects.[23] Other species, including the pea crabs (Pinnotheridae), are parasitic, living inside hosts such as bivalve molluscs.[21] The tree crab or Caribbean hermit crab is terrestrial as an adult,[28] only returning to the ocean to spawn.[29] It feeds on plants and by scavenging,[30] and like other hermit crabs, takes over a mollusc shell for protection, breathing air with a lung.[28] Some 1,300 species of crabs in 8 families are adapted to freshwater.[31] Christmas Island red crabs make an annual mass migration to the sea to lay their eggs.[32]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "The species connects bottom-dwelling animals, shallow-water vegetation, larger predators and people. Its ecological role changes as it passes from tiny drifting larvae to mobile juveniles and adults.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            },
+            {
+              "text": "Juveniles use shallow habitats, including underwater grass beds, as refuge. Larger crabs forage across estuarine bottoms and marsh margins. Fish, rays and other predators eat crabs, especially small or recently molted individuals. The archive’s Tangier Sound marker provides regional context rather than a mapped population boundary.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "article-diseases-parasites-and-research",
+              "title": "Diseases, parasites and research",
+              "paragraphs": [
+                {
+                  "text": "Blue crabs host a variety of parasites and pathogens, including Hematodinium. Disease effects depend on the organism and environment; their general presence does not establish an outbreak at an archive marker. Genome research provides another way to investigate physiology, reproduction and susceptibility, but no genetic or disease-detection feed is connected here.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "article-distribution",
+      "title": "Distribution",
+      "paragraphs": [
+        {
+          "text": "The native range covers the western Atlantic and Gulf of Mexico, extending south to South America. Blue crabs also occur in introduced populations outside this range, including European waters. Native nursery and fishery roles in Chesapeake Bay should be distinguished from ecological impacts in invaded waters.",
+          "origin": "blue",
+          "sources": [
+            "blue"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "article-life-cycle",
+      "title": "Life cycle",
+      "paragraphs": [
+        {
+          "text": "Blue crabs alternate between planktonic early stages and bottom-associated juveniles and adults. The movement calendar below summarizes seasonal patterns; it does not track individual animals.",
+          "origin": "blue",
+          "sources": [
+            "blue"
+          ]
+        }
+      ],
+      "children": [
+        {
+          "id": "article-growth",
+          "title": "Growth",
+          "paragraphs": [
+            {
+              "text": "Larvae pass through zoeal stages before becoming megalopae and then juveniles. Growth requires molting: the rigid outer shell is shed and a larger one forms. Recently molted crabs are vulnerable until their new shell hardens. Temperature, food and disease can affect growth, so body width alone is not a reliable age clock.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "article-reproduction",
+          "title": "Reproduction",
+          "paragraphs": [
+            {
+              "text": "Mating is associated with the female’s maturity molt, and males guard receptive females around that transition. Females store sperm and can produce multiple broods. Eggs are carried beneath the abdomen as a sponge; larvae are released in saltier waters. In Chesapeake Bay, reproductive migration connects upper-estuary mating areas with lower-Bay spawning habitat.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "crab-similarity-of-body-plan-through-carcinisation",
+      "title": "Similarity of body plan through carcinisation",
+      "paragraphs": [
+        {
+          "text": "Most crabs are members of the Brachyura, sometimes called \"true crabs\", with around 7,000 species.[33] Several other groups of decapod crustaceans among the Anomura, such as king crabs and porcelain crabs, have a similar appearance; all have convergently evolved through the process of carcinisation to the crab body form and way of life. Crabs are thus not a single taxonomic group or clade, but are polyphyletic.[34][35][36][37] Many crabs can run swiftly sideways (\"crabwise\"), though others walk forwards,[38] and some can swim.[39]",
+          "origin": "general",
+          "sources": []
+        },
+        {
+          "text": "The carcinised body form is defined by Keiler and colleagues (2014) as having the following attributes:[1]",
+          "origin": "general",
+          "sources": []
+        },
+        {
+          "text": "\"The carapace is flatter than it is broad and possesses lateral margins.\"\n\"The sternites are fused into a wide sternal plastron which possesses a distinct emargination on its posterior margin.\"\n\"The pleon is flattened and strongly bent, in dorsal view completely hiding the tergites of the fourth pleonal segment, and partially or completely covers the plastron.\"",
+          "origin": "general",
+          "sources": []
+        },
+        {
+          "text": "Carcinisation describes the repeated evolution of a broad, compact, crab-like body in some decapod groups. A flattened body, protective carapace and folded abdomen can suit life near the seabed and sheltering in confined spaces. Blue crabs also specialize in swimming. Repeated evolution of this form does not mean that all animals are evolving toward crabs.",
+          "origin": "blue",
+          "sources": [
+            "crab"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "crab-interactions-with-humans",
+      "title": "Interactions with humans",
+      "paragraphs": [
+        {
+          "text": "Blue crabs are simultaneously wildlife, a source of food and a symbol of coastal identity. The broader crab traditions below include animals other than Callinectes sapidus.",
+          "origin": "blue",
+          "sources": [
+            "crab",
+            "blue"
+          ]
+        }
+      ],
+      "children": [
+        {
+          "id": "crab-fisheries-and-food",
+          "title": "Fisheries and food",
+          "paragraphs": [
+            {
+              "text": "Crabs make up some 20% of all marine crustaceans caught, farmed, and consumed worldwide, amounting to 1.5 million tonnes annually. One species, the Asian blue crab Portunus trituberculatus, accounts for one-fifth of that total. Other commercially important taxa include Portunus pelagicus, several species in the genus Chionoecetes, the blue crab (Callinectes sapidus), Charybdis spp., Cancer pagurus, the Dungeness crab (Metacarcinus magister), and Scylla serrata, each of which yields more than 20,000 tonnes annually.[40]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "In Western Europe, much of the crab meat is from the brown crab Cancer pagurus, noted for its sweet, delicate flavour. The United Kingdom hosts significant fisheries of this species, with major operations in Scotland and the South West of England.[41] Dressed crab is a traditional seafood meal in British cuisine made of the meat of the brown crab served in its own shell.[42]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "In North America, there are commercial fisheries for the blue crab Callinectes sapidus along the Atlantic coast of the United States, and in the Gulf of Mexico. The fishery was centered on the Chesapeake Bay, but other places are increasing in importance.[43] Crab cakes are traditionally made from Chesapeake Bay crabs.[44][45]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "In Goa and Mozambique, crab curry is a typical dish, flavoured with chilis, garlic, coconut, and spices.[46]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "In Ishikawa prefecture, Japan, both the meat and the eggs of the snow crab are served as sushi in wintertime. The male is known as kano-gani, the female as kobako-gani. The short fishing season for the females makes kobako-gani sushi a rare delicacy.[47]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "Hard-shell, peeler and soft-shell crabs support different parts of the seafood trade. The crab’s economic importance extends beyond harvesters to processors, distributors and restaurants. Landings measure catch, not the total number of crabs in the water.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            },
+            {
+              "text": "Steamed crabs, crab cakes and soft-shell preparations connect the species with Chesapeake food traditions. Other culinary traditions use different crab species, including brown and snow crabs. A soft-shell blue crab is a recently molted individual rather than a distinct species.",
+              "origin": "blue",
+              "sources": [
+                "crab",
+                "blue"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "article-range-of-fisheries",
+              "title": "Range of fisheries",
+              "paragraphs": [
+                {
+                  "text": "Commercial blue-crab fisheries operate along the U.S. Atlantic and Gulf coasts. The same species can be sold through geographically distant markets; a market name alone does not establish the place of harvest.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-history-of-the-crab-fishery",
+              "title": "History of the crab fishery",
+              "paragraphs": [
+                {
+                  "text": "The supplied history describes crab consumption by Indigenous communities and early settlers, followed by a wider commercial market as transport, refrigeration and processing improved. These developments changed access to markets as well as fishing effort.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "id": "article-atlantic-coast",
+                  "title": "Atlantic Coast",
+                  "paragraphs": [
+                    {
+                      "text": "Chesapeake Bay became an important center of the Atlantic fishery. Historical size restrictions emerged as managers responded to harvest concerns. Those early measures provide historical context and should not be read as today’s regulations.",
+                      "origin": "blue",
+                      "sources": [
+                        "blue"
+                      ]
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "article-gulf-of-mexico",
+                  "title": "Gulf of Mexico",
+                  "paragraphs": [
+                    {
+                      "text": "Gulf fisheries developed alongside coastal processing and distribution. Warmer seasonal conditions distinguish their growth and harvest patterns from northern estuaries. Regional differences mean a Chesapeake seasonal calendar is not a universal blue-crab calendar.",
+                      "origin": "blue",
+                      "sources": [
+                        "blue"
+                      ]
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "article-louisiana-fishery",
+                  "title": "Louisiana fishery",
+                  "paragraphs": [
+                    {
+                      "text": "Louisiana has been an important Gulf harvesting and processing center, linked through trade to markets elsewhere. The historical production figures in the supplied article describe particular years; this archive does not present them as current market shares or current certification status.",
+                      "origin": "blue",
+                      "sources": [
+                        "blue"
+                      ]
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "article-chesapeake-bay-fishery",
+              "title": "Chesapeake Bay fishery",
+              "paragraphs": [
+                {
+                  "text": "Maryland, Virginia and the Potomac River jurisdictions share responsibility for a connected crab population. The Winter Dredge Survey estimates abundance independently of commercial landings. The archive separates adult females, adult males and juveniles so that recruitment and spawning potential can be considered separately.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue",
+                    "dredge"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-recent-decline",
+              "title": "Recent decline",
+              "paragraphs": [
+                {
+                  "text": "The supplied article recounts declines in earlier decades. Those historical episodes are not a description of every later survey year. Chesapeake crab abundance fluctuates, and the dated assessment below is the place to inspect the loaded estimates. A single increase or decrease cannot identify a cause or establish a long-term trend.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue",
+                    "dredge"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-crabbing-gear",
+              "title": "Crabbing gear",
+              "paragraphs": [
+                {
+                  "text": "Handlines, dip nets, trotlines and baited pots represent different capture methods. A pot attracts crabs through inward-facing entrances; a trotline brings baited attachments through the water for crabs to grasp. Gear choices interact with habitat, target size and local management.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-bycatch",
+              "title": "Bycatch",
+              "paragraphs": [
+                {
+                  "text": "Crab pots can also catch animals that were not targeted, including diamondback terrapins. Entrance modifications known as bycatch reduction devices can reduce terrapin entry. This is a conservation issue distinct from crab abundance: productive catches do not demonstrate low impacts on other species.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-efforts-to-manage-fisheries",
+              "title": "Efforts to manage fisheries",
+              "paragraphs": [
+                {
+                  "text": "Managers combine population assessments, harvest information and reproductive considerations. Protections may address fishing effort, size, season or reproductive females. Current rules belong to the relevant jurisdiction; the descriptive article and demo marketplace do not provide a harvest authorization.",
+                  "origin": "blue",
+                  "sources": [
+                    "blue",
+                    "dredge"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "crab-in-culture",
+          "title": "In culture",
+          "paragraphs": [
+            {
+              "text": "Both the constellation Cancer and the astrological sign Cancer are named after the crab, and depicted as such.[48] In Greek mythology, Karkinos was a crab that came to the aid of the Lernaean Hydra as it battled the hero Heracles.[49] The crab is at best a secondary character in the myth, and sometimes omitted altogether. This has been explained by the suggestion that it was introduced into the myth by Mesopotamian influence, as astrologers tried to associate the Labours of Hercules with the twelve signs of the Zodiac.[50][51]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "Crabs have appeared in art since ancient times in many different media. The Moche people of ancient Peru worshipped nature, especially the sea,[52] and often depicted crabs in their art.[53] Among the many later representations, the German artist Albrecht Dürer made a meticulous painting of the crab Eriphia verrucosa in 1495; since the species lives on the Adriatic coast, he likely painted the animal when he visited Venice.[54] Quite a different artistic portrayal is the monumental crab table setting charger created by the Barbizet Studio that made glazed earthenware pottery between 1850 and 1890.[55] In China, Gao Qipei (1672–1734) painted Crabs and Chrysanthemums in ink and light watercolour on paper.[56] In Panama, the Guna people of the San Blas Islands make Mola appliqué blouse panels decorated with motifs such as crabs from the waters of the Caribbean.[57]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "One of Rudyard Kipling's Just So Stories, \"The Crab that Played with the Sea\", tells the story of a gigantic crab who made the waters of the sea go up and down like the tides.[58] The paleontologist Richard Fortey has identified Kipling's giant crab as a horseshoe crab.[59] In Malay mythology, ocean tides were believed to be caused by water rushing in and out of a hole in the Navel of the Seas (Pusat Tasek), where \"there sits a gigantic crab which twice a day gets out in order to search for food\".[60]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "Crabs appear in mythology, art and literature. Their visual identity often emphasizes claws and a compact shell rather than a scientifically identifiable species.",
+              "origin": "blue",
+              "sources": [
+                "crab"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "article-mythology-and-astrology",
+              "title": "Mythology and astrology",
+              "paragraphs": [
+                {
+                  "text": "Cancer and the Greek story of Karkinos connect the crab with the night sky and myth. These traditions concern the general crab form, not a historical identification of the Atlantic blue crab.",
+                  "origin": "blue",
+                  "sources": [
+                    "crab"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "article-in-different-media-through-the-centuries",
+              "title": "In different media through the centuries",
+              "paragraphs": [
+                {
+                  "text": "The supplied example traces crabs through pottery, paintings, textiles and book illustration, including work associated with Albrecht Dürer, Gao Qipei and Rudyard Kipling. Such depictions show cultural interest across places and periods rather than biological distribution records.",
+                  "origin": "blue",
+                  "sources": [
+                    "crab"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "crab-as-pets",
+          "title": "As pets",
+          "paragraphs": [
+            {
+              "text": "Hermit crabs are commonly kept as pets and used in the marine aquarium trade.[2] A popular species is the Caribbean hermit crab, Coenobita clypeatus. They can live for 30 years in captivity if their requirements, including simulating a coastal rainforest, are met. The size of tank must be substantial. There must be a substrate of sand and coconut fibre that they can dig in to facilitate moulting. The temperature and humidity of the air must be controlled. A pool of fresh water and a pool of correctly formulated salt water are both necessary.[61]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "The pet discussion in the broader crab example mainly concerns hermit crabs. Their housing, habitat and biology cannot be transferred directly to an aquatic blue crab. This archive is a natural-history resource and does not offer captive-care instructions.",
+              "origin": "blue",
+              "sources": [
+                "crab"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "crab-meme",
+          "title": "Meme",
+          "paragraphs": [
+            {
+              "text": "The zoologist Joanna Wolfe, writing in Scientific American, notes a popular meme which jokes that crabs are the \"ultimate forms\"[62] of life as \"everything will eventually evolve into a crab\".[62] Sara Kiley Watson, writing in Popular Science, comments that the joke \"comes from an actual truth\", that decapods span multiple crab-like groups, including the true crabs but not limited to them.[63] Wolfe explains that the meme parodies the genuine process of carcinisation which has taken place in at least five different groups of decapods, but that the process does not apply to humans or other animals.[62] The evolutionary palaeobiologist Matthew Wills comments that all the crabs are decapods, and the evolutionary pressures apply in a marine environment where defence, living in crevices, and being wave-swept favour armoured protection, a broad compact body, and the ability to scuttle sideways.[64]",
+              "origin": "general",
+              "sources": []
+            },
+            {
+              "text": "The internet joke that everything becomes a crab exaggerates carcinisation. Evolution has no predetermined final form; similar shapes can arise where similar constraints operate, without implying that unrelated animals will become crabs.",
+              "origin": "blue",
+              "sources": [
+                "crab"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "article-sports",
+          "title": "Sports",
+          "paragraphs": [
+            {
+              "text": "Blue-crab imagery appears in the identities of the Jersey Shore BlueClaws, Southern Maryland Blue Crabs and Annapolis Blues. Here these are examples from the supplied article’s cultural history, rather than a directory of current teams, affiliations or schedules.",
+              "origin": "blue",
+              "sources": [
+                "blue"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
