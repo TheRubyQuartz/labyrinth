@@ -1,0 +1,1525 @@
+{
+  "references": {
+    "crab": {
+      "title": "Crab — Wikipedia contributors (user-supplied article)",
+      "url": "https://en.wikipedia.org/wiki/Crab"
+    },
+    "blue": {
+      "title": "Callinectes sapidus — Wikipedia contributors (user-supplied article)",
+      "url": "https://en.wikipedia.org/wiki/Callinectes_sapidus"
+    },
+    "dredge": {
+      "title": "Maryland DNR — Blue Crab Winter Dredge Survey",
+      "url": "https://dnr.maryland.gov/fisheries/Pages/blue-crab/dredge.aspx"
+    },
+    "oyster": {
+      "title": "NOAA Fisheries — Eastern oyster",
+      "url": "https://www.fisheries.noaa.gov/species/eastern-oyster"
+    },
+    "oysterGuide": {
+      "title": "Chesapeake Bay Program — Eastern oyster field guide",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/eastern-oyster"
+    },
+    "reef": {
+      "title": "NOAA Fisheries — Oyster reef habitat",
+      "url": "https://www.fisheries.noaa.gov/national/habitat-conservation/oyster-reef-habitat"
+    },
+    "restoration": {
+      "title": "NOAA Fisheries — Chesapeake oyster restoration progress",
+      "url": "https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress"
+    },
+    "fall": {
+      "title": "Maryland DNR — Annual Fall Oyster Survey",
+      "url": "https://dnr.maryland.gov/fisheries/Pages/shellfish-monitoring/fall-survey.aspx"
+    },
+    "fallMethods": {
+      "title": "Maryland DNR — Fall survey methods",
+      "url": "https://dnr.maryland.gov/fisheries/Pages/shellfish-monitoring/methods.aspx"
+    },
+    "sav": {
+      "title": "VIMS — SAV Monitoring & Restoration",
+      "url": "https://www.vims.edu/research/units/programs/sav/"
+    },
+    "methods": {
+      "title": "VIMS — Monitoring methods for SAV",
+      "url": "https://www.vims.edu/research/units/programs/sav/methods/"
+    },
+    "grass": {
+      "title": "Chesapeake Bay Program — Underwater grasses",
+      "url": "https://www.chesapeakebay.net/issues/whats-at-risk/underwater-grasses"
+    },
+    "sediment": {
+      "title": "Chesapeake Bay Program — Sediment runoff",
+      "url": "https://www.chesapeakebay.net/issues/threats-to-the-bay/sediment-runoff"
+    },
+    "nutrient": {
+      "title": "Chesapeake Bay Program — Nutrient runoff",
+      "url": "https://www.chesapeakebay.net/state/pollution"
+    },
+    "tangier": {
+      "title": "VIMS — 2018 grass survey regional highlights",
+      "url": "https://www.vims.edu/newsandevents/topstories/2020/sav_2019_report.php"
+    },
+    "recovery": {
+      "title": "VIMS — 2022 underwater grass survey",
+      "url": "https://www.vims.edu/newsandevents/topstories/2023/sav_report_2022.php"
+    },
+    "study": {
+      "title": "VIMS — Water quality and SAV, 1984–2006",
+      "url": "https://www.vims.edu/newsandevents/topstories/archives/2010/sav_nitrogen.php"
+    },
+    "cambridge": {
+      "title": "NOAA — Cambridge station 8571892",
+      "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571892&obs="
+    },
+    "solomons": {
+      "title": "NOAA — Solomons Island station 8577330",
+      "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8577330"
+    },
+    "datum": {
+      "title": "NOAA — Tidal datums",
+      "url": "https://tidesandcurrents.noaa.gov/datum_options.html"
+    },
+    "api": {
+      "title": "NOAA CO-OPS — Data products and retrieval",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/dev"
+    },
+    "sea": {
+      "title": "NOAA — Sea-level trend questions",
+      "url": "https://tidesandcurrents.noaa.gov/sltrends/faq.html"
+    }
+  },
+  "articles": {
+    "SP-001": [
+      {
+        "id": "etymology",
+        "title": "Etymology",
+        "paragraphs": [
+          "Callinectes combines Greek roots for beauty and swimming; sapidus is Latin for savory. The name links the animal’s paddle-like swimming legs with its long culinary history. Atlantic blue crab and Maryland blue crab are common names for the same species, rather than separate taxonomic forms."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": []
+      },
+      {
+        "id": "diversity",
+        "title": "Diversity",
+        "paragraphs": [
+          "The blue crab is one member of a much wider collection of animals called crabs. Similar names and compact bodies can conceal substantial evolutionary differences."
+        ],
+        "sources": [
+          "crab"
+        ],
+        "children": [
+          {
+            "id": "taxonomic-range",
+            "title": "Taxonomic range",
+            "paragraphs": [
+              "Blue crabs belong to Arthropoda, Malacostraca, Decapoda, Brachyura and the swimming-crab family Portunidae. Callinectes sapidus is the species name; the broader word crab is not an equally precise identification."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "phylogeny",
+            "title": "Phylogeny",
+            "paragraphs": [
+              "True crabs belong to Brachyura. Several crab-like anomuran lineages evolved similar shapes independently. This distinction explains why a king crab or hermit crab should not be treated as a close equivalent of a blue crab merely because both have claws."
+            ],
+            "sources": [
+              "crab"
+            ],
+            "children": []
+          },
+          {
+            "id": "specific-groups",
+            "title": "Specific groups",
+            "paragraphs": [
+              "The two major comparisons below place the blue crab within the larger animal groups discussed in the supplied crab article."
+            ],
+            "sources": [
+              "crab"
+            ],
+            "children": [
+              {
+                "id": "chelicerata",
+                "title": "Chelicerata",
+                "paragraphs": [
+                  "Horseshoe crabs belong with chelicerates, a group that also includes spiders and scorpions. They are not decapod crustaceans, despite their common name and broad protective shield."
+                ],
+                "sources": [
+                  "crab"
+                ],
+                "children": []
+              },
+              {
+                "id": "decapoda",
+                "title": "Decapoda",
+                "paragraphs": [
+                  "Blue crabs are true crabs within the ten-legged crustaceans. Hermit, porcelain and king crabs belong to other decapod branches. Lobsters and shrimp illustrate other body plans within the same order."
+                ],
+                "sources": [
+                  "crab"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "description",
+        "title": "Description",
+        "paragraphs": [
+          "A broad, flattened carapace protects the body. Lateral spines project from its sides, the first pair of legs bears claws, and the final pair forms flattened swimming paddles. The folded abdomen lies beneath the body. Shell color combines blue, green and brown tones; heating changes the pigment–protein association and produces the familiar orange-red cooked shell."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": [
+          {
+            "id": "size-and-shape",
+            "title": "Size and shape",
+            "paragraphs": [
+              "Large blue crabs can approach 23 centimetres across the carapace. Size varies with sex, growth stage and conditions. Across crabs generally, the tiny pea crabs and long-legged Japanese spider crab show why the dimensions of another crab species cannot be used as a blue-crab benchmark."
+            ],
+            "sources": [
+              "blue",
+              "crab"
+            ],
+            "children": []
+          },
+          {
+            "id": "sexual-dimorphism",
+            "title": "Sexual dimorphism",
+            "paragraphs": [
+              "Males have a narrow apron; mature females have a broad, rounded apron, while immature females have a triangular one. These underside features are more useful for identification than color alone. Similar Callinectes species can overlap geographically, so identification also depends on carapace and other anatomical features."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "distribution",
+        "title": "Distribution",
+        "paragraphs": [
+          "The native range covers the western Atlantic and Gulf of Mexico, extending south to South America. Blue crabs also occur in introduced populations outside this range, including European waters. Native nursery and fishery roles in Chesapeake Bay should be distinguished from ecological impacts in invaded waters."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": []
+      },
+      {
+        "id": "ecology",
+        "title": "Ecology",
+        "paragraphs": [
+          "The species connects bottom-dwelling animals, shallow-water vegetation, larger predators and people. Its ecological role changes as it passes from tiny drifting larvae to mobile juveniles and adults."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": [
+          {
+            "id": "feeding-methods",
+            "title": "Feeding methods",
+            "paragraphs": [
+              "Blue crabs are opportunistic omnivores and scavengers. They consume bivalves, worms, other crustaceans, small fish, plant material and carrion, and can eat other blue crabs. Claws manipulate or break prey; available food and crab size influence what can be captured."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "ecological-niches",
+            "title": "Ecological niches",
+            "paragraphs": [
+              "Juveniles use shallow habitats, including underwater grass beds, as refuge. Larger crabs forage across estuarine bottoms and marsh margins. Fish, rays and other predators eat crabs, especially small or recently molted individuals. The archive’s Tangier Sound marker provides regional context rather than a mapped population boundary."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "diseases-parasites-and-research",
+            "title": "Diseases, parasites and research",
+            "paragraphs": [
+              "Blue crabs host a variety of parasites and pathogens, including Hematodinium. Disease effects depend on the organism and environment; their general presence does not establish an outbreak at an archive marker. Genome research provides another way to investigate physiology, reproduction and susceptibility, but no genetic or disease-detection feed is connected here."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "similarity-of-body-plan-through-carcinisation",
+        "title": "Similarity of body plan through carcinisation",
+        "paragraphs": [
+          "Carcinisation describes the repeated evolution of a broad, compact, crab-like body in some decapod groups. A flattened body, protective carapace and folded abdomen can suit life near the seabed and sheltering in confined spaces. Blue crabs also specialize in swimming. Repeated evolution of this form does not mean that all animals are evolving toward crabs."
+        ],
+        "sources": [
+          "crab"
+        ],
+        "children": []
+      },
+      {
+        "id": "life-cycle",
+        "title": "Life cycle",
+        "paragraphs": [
+          "Blue crabs alternate between planktonic early stages and bottom-associated juveniles and adults. The movement calendar below summarizes seasonal patterns; it does not track individual animals."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": [
+          {
+            "id": "growth",
+            "title": "Growth",
+            "paragraphs": [
+              "Larvae pass through zoeal stages before becoming megalopae and then juveniles. Growth requires molting: the rigid outer shell is shed and a larger one forms. Recently molted crabs are vulnerable until their new shell hardens. Temperature, food and disease can affect growth, so body width alone is not a reliable age clock."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "reproduction",
+            "title": "Reproduction",
+            "paragraphs": [
+              "Mating is associated with the female’s maturity molt, and males guard receptive females around that transition. Females store sperm and can produce multiple broods. Eggs are carried beneath the abdomen as a sponge; larvae are released in saltier waters. In Chesapeake Bay, reproductive migration connects upper-estuary mating areas with lower-Bay spawning habitat."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "commercial-importance",
+        "title": "Commercial importance",
+        "paragraphs": [
+          "Hard-shell, peeler and soft-shell crabs support different parts of the seafood trade. The crab’s economic importance extends beyond harvesters to processors, distributors and restaurants. Landings measure catch, not the total number of crabs in the water."
+        ],
+        "sources": [
+          "blue"
+        ],
+        "children": [
+          {
+            "id": "range-of-fisheries",
+            "title": "Range of fisheries",
+            "paragraphs": [
+              "Commercial blue-crab fisheries operate along the U.S. Atlantic and Gulf coasts. The same species can be sold through geographically distant markets; a market name alone does not establish the place of harvest."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "history-of-the-crab-fishery",
+            "title": "History of the crab fishery",
+            "paragraphs": [
+              "The supplied history describes crab consumption by Indigenous communities and early settlers, followed by a wider commercial market as transport, refrigeration and processing improved. These developments changed access to markets as well as fishing effort."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": [
+              {
+                "id": "atlantic-coast",
+                "title": "Atlantic Coast",
+                "paragraphs": [
+                  "Chesapeake Bay became an important center of the Atlantic fishery. Historical size restrictions emerged as managers responded to harvest concerns. Those early measures provide historical context and should not be read as today’s regulations."
+                ],
+                "sources": [
+                  "blue"
+                ],
+                "children": []
+              },
+              {
+                "id": "gulf-of-mexico",
+                "title": "Gulf of Mexico",
+                "paragraphs": [
+                  "Gulf fisheries developed alongside coastal processing and distribution. Warmer seasonal conditions distinguish their growth and harvest patterns from northern estuaries. Regional differences mean a Chesapeake seasonal calendar is not a universal blue-crab calendar."
+                ],
+                "sources": [
+                  "blue"
+                ],
+                "children": []
+              },
+              {
+                "id": "louisiana-fishery",
+                "title": "Louisiana fishery",
+                "paragraphs": [
+                  "Louisiana has been an important Gulf harvesting and processing center, linked through trade to markets elsewhere. The historical production figures in the supplied article describe particular years; this archive does not present them as current market shares or current certification status."
+                ],
+                "sources": [
+                  "blue"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "chesapeake-bay-fishery",
+            "title": "Chesapeake Bay fishery",
+            "paragraphs": [
+              "Maryland, Virginia and the Potomac River jurisdictions share responsibility for a connected crab population. The Winter Dredge Survey estimates abundance independently of commercial landings. The archive separates adult females, adult males and juveniles so that recruitment and spawning potential can be considered separately."
+            ],
+            "sources": [
+              "blue",
+              "dredge"
+            ],
+            "children": []
+          },
+          {
+            "id": "recent-decline",
+            "title": "Recent decline",
+            "paragraphs": [
+              "The supplied article recounts declines in earlier decades. Those historical episodes are not a description of every later survey year. Chesapeake crab abundance fluctuates, and the dated assessment below is the place to inspect the loaded estimates. A single increase or decrease cannot identify a cause or establish a long-term trend."
+            ],
+            "sources": [
+              "blue",
+              "dredge"
+            ],
+            "children": []
+          },
+          {
+            "id": "crabbing-gear",
+            "title": "Crabbing gear",
+            "paragraphs": [
+              "Handlines, dip nets, trotlines and baited pots represent different capture methods. A pot attracts crabs through inward-facing entrances; a trotline brings baited attachments through the water for crabs to grasp. Gear choices interact with habitat, target size and local management."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "bycatch",
+            "title": "Bycatch",
+            "paragraphs": [
+              "Crab pots can also catch animals that were not targeted, including diamondback terrapins. Entrance modifications known as bycatch reduction devices can reduce terrapin entry. This is a conservation issue distinct from crab abundance: productive catches do not demonstrate low impacts on other species."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "efforts-to-manage-fisheries",
+            "title": "Efforts to manage fisheries",
+            "paragraphs": [
+              "Managers combine population assessments, harvest information and reproductive considerations. Protections may address fishing effort, size, season or reproductive females. Current rules belong to the relevant jurisdiction; the descriptive article and demo marketplace do not provide a harvest authorization."
+            ],
+            "sources": [
+              "blue",
+              "dredge"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "interactions-with-humans",
+        "title": "Interactions with humans",
+        "paragraphs": [
+          "Blue crabs are simultaneously wildlife, a source of food and a symbol of coastal identity. The broader crab traditions below include animals other than Callinectes sapidus."
+        ],
+        "sources": [
+          "crab",
+          "blue"
+        ],
+        "children": [
+          {
+            "id": "fisheries-and-food",
+            "title": "Fisheries and food",
+            "paragraphs": [
+              "Steamed crabs, crab cakes and soft-shell preparations connect the species with Chesapeake food traditions. Other culinary traditions use different crab species, including brown and snow crabs. A soft-shell blue crab is a recently molted individual rather than a distinct species."
+            ],
+            "sources": [
+              "crab",
+              "blue"
+            ],
+            "children": []
+          },
+          {
+            "id": "in-culture",
+            "title": "In culture",
+            "paragraphs": [
+              "Crabs appear in mythology, art and literature. Their visual identity often emphasizes claws and a compact shell rather than a scientifically identifiable species."
+            ],
+            "sources": [
+              "crab"
+            ],
+            "children": [
+              {
+                "id": "mythology-and-astrology",
+                "title": "Mythology and astrology",
+                "paragraphs": [
+                  "Cancer and the Greek story of Karkinos connect the crab with the night sky and myth. These traditions concern the general crab form, not a historical identification of the Atlantic blue crab."
+                ],
+                "sources": [
+                  "crab"
+                ],
+                "children": []
+              },
+              {
+                "id": "in-different-media-through-the-centuries",
+                "title": "In different media through the centuries",
+                "paragraphs": [
+                  "The supplied example traces crabs through pottery, paintings, textiles and book illustration, including work associated with Albrecht Dürer, Gao Qipei and Rudyard Kipling. Such depictions show cultural interest across places and periods rather than biological distribution records."
+                ],
+                "sources": [
+                  "crab"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "as-pets",
+            "title": "As pets",
+            "paragraphs": [
+              "The pet discussion in the broader crab example mainly concerns hermit crabs. Their housing, habitat and biology cannot be transferred directly to an aquatic blue crab. This archive is a natural-history resource and does not offer captive-care instructions."
+            ],
+            "sources": [
+              "crab"
+            ],
+            "children": []
+          },
+          {
+            "id": "meme",
+            "title": "Meme",
+            "paragraphs": [
+              "The internet joke that everything becomes a crab exaggerates carcinisation. Evolution has no predetermined final form; similar shapes can arise where similar constraints operate, without implying that unrelated animals will become crabs."
+            ],
+            "sources": [
+              "crab"
+            ],
+            "children": []
+          },
+          {
+            "id": "sports",
+            "title": "Sports",
+            "paragraphs": [
+              "Blue-crab imagery appears in the identities of the Jersey Shore BlueClaws, Southern Maryland Blue Crabs and Annapolis Blues. Here these are examples from the supplied article’s cultural history, rather than a directory of current teams, affiliations or schedules."
+            ],
+            "sources": [
+              "blue"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ],
+    "SP-002": [
+      {
+        "id": "names-and-classification",
+        "title": "Names and classification",
+        "paragraphs": [
+          "The eastern oyster, Crassostrea virginica, is also called the American or Virginia oyster. It belongs to Mollusca, Bivalvia and Ostreidae: it is a two-shelled mollusk, rather than a crustacean. Regional market names need not represent different species."
+        ],
+        "sources": [
+          "oyster"
+        ],
+        "children": []
+      },
+      {
+        "id": "description",
+        "title": "Description",
+        "paragraphs": [
+          "The shell has two unequal valves: a cupped lower valve attached to the substrate and a flatter upper valve. The rough exterior contrasts with the smoother inner surface and its muscle scar. Crowded growth produces irregular outlines."
+        ],
+        "sources": [
+          "oysterGuide"
+        ],
+        "children": [
+          {
+            "id": "size-and-shape",
+            "title": "Size and shape",
+            "paragraphs": [
+              "Adults commonly measure three to five inches long. Shell length, living tissue and reef area are different measurements; none can substitute for the others when describing abundance."
+            ],
+            "sources": [
+              "oyster"
+            ],
+            "children": []
+          },
+          {
+            "id": "sex-and-maturity",
+            "title": "Sex and maturity",
+            "paragraphs": [
+              "Oysters can change sex during life. External shell shape does not provide an equivalent to the male and female apron differences used to identify blue crabs."
+            ],
+            "sources": [
+              "oysterGuide"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "distribution-and-habitat",
+        "title": "Distribution and habitat",
+        "paragraphs": [
+          "The species occurs along eastern North America and in brackish Chesapeake waters. Adults attach to firm surfaces and can form reefs. This archive’s Harris Creek association identifies a conservation context; its statewide survey series does not measure that creek alone."
+        ],
+        "sources": [
+          "oyster"
+        ],
+        "children": [
+          {
+            "id": "reef-structure",
+            "title": "Reef structure",
+            "paragraphs": [
+              "Accumulated shells create a three-dimensional habitat. The crevices provide shelter for fish and invertebrates. Removing or burying shell can therefore affect both oysters and the community that uses their structure."
+            ],
+            "sources": [
+              "reef"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ecology",
+        "title": "Ecology",
+        "paragraphs": [
+          "The oyster is both a living animal and a contributor to habitat. Interpreting its role requires considering the surrounding reef as well as individual shellfish."
+        ],
+        "sources": [
+          "reef"
+        ],
+        "children": [
+          {
+            "id": "feeding-methods",
+            "title": "Feeding methods",
+            "paragraphs": [
+              "Oysters draw water over their gills and capture suspended food particles, including plankton. Feeding activity depends on conditions. Filtration should not be interpreted as a guarantee of clean water at every place and time."
+            ],
+            "sources": [
+              "oysterGuide"
+            ],
+            "children": []
+          },
+          {
+            "id": "predators-and-associated-species",
+            "title": "Predators and associated species",
+            "paragraphs": [
+              "Larvae and spat face predators including other invertebrates, crabs and fish. Older shells also support attached organisms. A reef is thus a food-web setting, not simply a collection of harvestable oysters."
+            ],
+            "sources": [
+              "oysterGuide"
+            ],
+            "children": []
+          },
+          {
+            "id": "water-quality-and-ecosystem-services",
+            "title": "Water quality and ecosystem services",
+            "paragraphs": [
+              "Oyster reefs can support water filtration and habitat. Their benefits depend on living biomass and environmental setting. The archive does not convert an oyster recruitment index into a volume of water filtered or a local pollution-removal estimate."
+            ],
+            "sources": [
+              "reef"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "life-cycle",
+        "title": "Life cycle",
+        "paragraphs": [
+          "A drifting larval stage connects the water column with the fixed adult stage. The transition to a settled juvenile is central to both natural reef development and restoration."
+        ],
+        "sources": [
+          "oysterGuide"
+        ],
+        "children": [
+          {
+            "id": "reproduction",
+            "title": "Reproduction",
+            "paragraphs": [
+              "Adults release reproductive cells into the water. Larvae develop before settling on a suitable hard surface; settled juveniles are called spat. Spawning timing is seasonal and varies with environmental conditions."
+            ],
+            "sources": [
+              "oysterGuide"
+            ],
+            "children": []
+          },
+          {
+            "id": "growth-and-recruitment",
+            "title": "Growth and recruitment",
+            "paragraphs": [
+              "Recruitment describes the arrival of a new cohort. A strong spat year is encouraging but does not determine how many survive to adulthood. For this reason the archive presents recruitment and observed mortality as separate metrics."
+            ],
+            "sources": [
+              "fall"
+            ],
+            "children": []
+          },
+          {
+            "id": "reef-development",
+            "title": "Reef development",
+            "paragraphs": [
+              "Restoration can involve adding suitable substrate and planting young oysters. Monitoring then evaluates whether a living reef persists. Construction, seeding and ecological success are separate milestones."
+            ],
+            "sources": [
+              "restoration"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "disease-and-decline-pressures",
+        "title": "Disease and decline pressures",
+        "paragraphs": [
+          "Disease, habitat loss, poor water quality and harvesting have contributed to historical declines. These causes should not be collapsed into a single current condition label."
+        ],
+        "sources": [
+          "oyster"
+        ],
+        "children": [
+          {
+            "id": "dermo-and-msx",
+            "title": "Dermo and MSX",
+            "paragraphs": [
+              "Maryland’s survey program evaluates infections associated with Dermo and MSX using different laboratory methods. Detecting a pathogen, measuring infection prevalence and observing mortality answer different questions. A general account of disease is not evidence of a present Harris Creek outbreak."
+            ],
+            "sources": [
+              "fallMethods"
+            ],
+            "children": []
+          },
+          {
+            "id": "sediment-and-habitat-loss",
+            "title": "Sediment and habitat loss",
+            "paragraphs": [
+              "Sediment accumulation can compromise reef habitat, while damaging harvest methods can alter its structure. Restoration therefore concerns the physical foundation as well as the number of living oysters."
+            ],
+            "sources": [
+              "reef"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "commercial-importance",
+        "title": "Commercial importance",
+        "paragraphs": [
+          "Wild fisheries and aquaculture provide oysters through different production systems. Management and permitting are jurisdiction-specific. The archive’s demonstration listings do not identify licensed harvest areas or operating farms."
+        ],
+        "sources": [
+          "oyster"
+        ],
+        "children": [
+          {
+            "id": "fisheries-and-food",
+            "title": "Fisheries and food",
+            "paragraphs": [
+              "Eastern oysters are a seafood species with a long regional role. Market production, wild population estimates and sanctuary monitoring measure different aspects of that role. A change in seafood supply is not by itself a change in wild abundance."
+            ],
+            "sources": [
+              "oyster"
+            ],
+            "children": []
+          },
+          {
+            "id": "harvesting-and-habitat",
+            "title": "Harvesting and habitat",
+            "paragraphs": [
+              "Reef-disturbing gear can affect habitat structure. Evaluating a fishery therefore requires more than counting harvested animals: the persistence of shell substrate and associated habitat also matters."
+            ],
+            "sources": [
+              "reef"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "restoration-and-management",
+        "title": "Restoration and management",
+        "paragraphs": [
+          "Harris Creek is a documented tributary-scale restoration project. NOAA describes reef construction, oyster seed planting and follow-up monitoring against predefined criteria. This provides a local restoration account separate from Maryland-wide annual indices."
+        ],
+        "sources": [
+          "restoration"
+        ],
+        "children": [
+          {
+            "id": "harris-creek",
+            "title": "Harris Creek",
+            "paragraphs": [
+              "Initial restoration work was completed in 2015, followed by additional planned plantings where needed. Three- and six-year monitoring assessed outcomes. Those milestone results belong to their monitoring periods rather than serving as a continuously updated status for every reef."
+            ],
+            "sources": [
+              "restoration"
+            ],
+            "children": []
+          },
+          {
+            "id": "survey-methods",
+            "title": "Survey methods",
+            "paragraphs": [
+              "The Annual Fall Oyster Survey samples monitoring bars and produces records of spatfall and observed mortality. Laboratory testing adds infection information. Consistent methods and the long record support comparison through time, subject to each report’s limitations."
+            ],
+            "sources": [
+              "fall",
+              "fallMethods"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "reading-this-archive-entry",
+        "title": "Reading this archive entry",
+        "paragraphs": [
+          "Start with the observation date and metric definition. A spat index is recruitment, mortality is a different indicator, and neither is reef cover. The map’s habitat link leads to Choptank mouth grass habitat, not a polygon of restored oyster reef. Use the official survey and project references for their respective spatial coverage."
+        ],
+        "sources": [],
+        "children": []
+      }
+    ],
+    "HB-001": [
+      {
+        "id": "names-and-classification",
+        "title": "Names and classification",
+        "paragraphs": [
+          "Tangier Sound grass habitat is a regional submerged aquatic vegetation record, identified here by the survey segment TANMH1. SAV is a vegetation category rather than a single species. The entry’s name and code describe its reporting area; the exploration marker is a point used for navigation."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "description",
+        "title": "Description",
+        "paragraphs": [
+          "This record describes mapped underwater vegetation within TANMH1. It does not describe marsh plants above the waterline, oyster-reef cover or a count of individual shoots. Its headline measurement is annual area in hectares."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "structure-and-extent",
+            "title": "Structure and extent",
+            "paragraphs": [
+              "A grass bed has both an outer footprint and internal variation in density. A larger mapped footprint need not contain proportionally more plant material. Read the area series as an extent measure unless a separate density measurement is supplied."
+            ],
+            "sources": [
+              "methods"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "distribution",
+        "title": "Distribution",
+        "paragraphs": [
+          "Tangier Sound forms part of the eastern Chesapeake’s shallow-water habitat network. VIMS has described extensive beds around Smith and Tangier islands. The whole-segment total crosses the local context implied by the Maryland exploration marker."
+        ],
+        "sources": [
+          "tangier"
+        ],
+        "children": []
+      },
+      {
+        "id": "diversity-and-species-composition",
+        "title": "Diversity and species composition",
+        "paragraphs": [
+          "VIMS’s account of the 2018 survey described widgeon grass as dominant around Smith and Tangier islands, with eelgrass also present. That dated description does not establish the species mix of every bed today."
+        ],
+        "sources": [
+          "tangier"
+        ],
+        "children": []
+      },
+      {
+        "id": "ecology",
+        "title": "Ecology",
+        "paragraphs": [
+          "Underwater vegetation creates shelter and feeding opportunities in shallow water. Its role depends on the surrounding community as well as the plants themselves."
+        ],
+        "sources": [
+          "sav"
+        ],
+        "children": [
+          {
+            "id": "food-webs-and-nursery-habitat",
+            "title": "Food webs and nursery habitat",
+            "paragraphs": [
+              "Young fish and crabs use grass beds for refuge. Invertebrates live on plant surfaces, and animals consume plant material or its associated prey. The blue-crab connection is an ecological relationship, not an estimate of crab abundance in this segment."
+            ],
+            "sources": [
+              "grass"
+            ],
+            "children": []
+          },
+          {
+            "id": "water-quality",
+            "title": "Water quality",
+            "paragraphs": [
+              "Grasses can help trap particles and stabilize sediment. Their leaves also need light. This creates a link between plant persistence and water clarity, while excessive suspended material can overwhelm the benefits of the bed itself."
+            ],
+            "sources": [
+              "sav",
+              "sediment"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "growth-and-seasonal-cycle",
+        "title": "Growth and seasonal cycle",
+        "paragraphs": [
+          "Underwater plants use sunlight for photosynthesis. Growth and persistence respond to environmental conditions, and survey timing matters when comparing their visible extent."
+        ],
+        "sources": [
+          "grass"
+        ],
+        "children": [
+          {
+            "id": "temperature-and-salinity",
+            "title": "Temperature and salinity",
+            "paragraphs": [
+              "Different SAV species tolerate different conditions. High temperatures can harm eelgrass, while salinity helps structure which plants occur in an area. Regional temperature context alone cannot identify the species or condition of a particular bed."
+            ],
+            "sources": [
+              "grass",
+              "sav"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "monitoring-and-survey-methods",
+        "title": "Monitoring and survey methods",
+        "paragraphs": [
+          "VIMS maps beds from aerial imagery and combines this with supporting observations. Flights are timed to vegetation and visibility conditions; boundaries are interpreted and areas summarized by reporting unit."
+        ],
+        "sources": [
+          "methods"
+        ],
+        "children": [
+          {
+            "id": "coverage-and-uncertainty",
+            "title": "Coverage and uncertainty",
+            "paragraphs": [
+              "Cloudy water, survey timing and incomplete coverage can affect what is mapped. A missing archive value is not zero vegetation. Compare records with compatible coverage, and read partial-survey notes before interpreting an apparent change."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "history-and-change",
+        "title": "History and change",
+        "paragraphs": [
+          "VIMS reported substantial Tangier Sound gains in its 2022 survey account. This is a dated example of regional recovery, not a claim about the latest imported year. The archive’s annual series remains the record of the values actually loaded here."
+        ],
+        "sources": [
+          "recovery"
+        ],
+        "children": []
+      },
+      {
+        "id": "threats-and-decline-pressures",
+        "title": "Threats and decline pressures",
+        "paragraphs": [
+          "Sediment can reduce underwater light; excess nutrients can support algae that also shade plants. Declining habitat extent may have several interacting causes. The area series alone cannot assign responsibility to one pollution source."
+        ],
+        "sources": [
+          "sediment",
+          "nutrient"
+        ],
+        "children": []
+      },
+      {
+        "id": "conservation-and-restoration",
+        "title": "Conservation and restoration",
+        "paragraphs": [
+          "Maintaining water clarity and protecting existing vegetation are central to grass conservation. Planting is one possible intervention, but the conditions needed for persistence also matter. This record does not certify a proposed planting site."
+        ],
+        "sources": [
+          "grass"
+        ],
+        "children": []
+      },
+      {
+        "id": "human-importance",
+        "title": "Human importance",
+        "paragraphs": [
+          "Grass beds contribute to the habitat supporting fisheries and wildlife. Their value extends beyond the mapped acreage: changes can alter refuge and feeding opportunities. A connected marketplace listing is a demonstration resource, not proof that work is authorized in the survey area."
+        ],
+        "sources": [
+          "sav"
+        ],
+        "children": []
+      },
+      {
+        "id": "interpreting-the-archive",
+        "title": "Interpreting the archive",
+        "paragraphs": [
+          "Select the SAV indicator to inspect TANMH1 through time, then check units, coverage and source notes in the table. The graph does not provide species composition, water chemistry or exact bed boundaries. For spatial analysis, use the source survey mapping; for local conditions, obtain measurements appropriate to the bed and date."
+        ],
+        "sources": [],
+        "children": []
+      }
+    ],
+    "HB-002": [
+      {
+        "id": "names-and-classification",
+        "title": "Names and classification",
+        "paragraphs": [
+          "Choptank mouth grass habitat is a regional submerged aquatic vegetation record, identified here by the survey segment CHOMH1. SAV is a vegetation category rather than a single species. The entry’s name and code describe its reporting area; the exploration marker is a point used for navigation."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "description",
+        "title": "Description",
+        "paragraphs": [
+          "This record describes mapped underwater vegetation within CHOMH1. It does not describe marsh plants above the waterline, oyster-reef cover or a count of individual shoots. Its headline measurement is annual area in hectares."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "structure-and-extent",
+            "title": "Structure and extent",
+            "paragraphs": [
+              "A grass bed has both an outer footprint and internal variation in density. A larger mapped footprint need not contain proportionally more plant material. Read the area series as an extent measure unless a separate density measurement is supplied."
+            ],
+            "sources": [
+              "methods"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "distribution",
+        "title": "Distribution",
+        "paragraphs": [
+          "This entry concerns the mouth of the Choptank River. Its Harris Creek association links a nearby conservation topic to the broader lower-Choptank setting. It does not establish that the mapped grasses occupy a particular oyster sanctuary or restoration parcel."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "diversity-and-species-composition",
+        "title": "Diversity and species composition",
+        "paragraphs": [
+          "Plant communities vary along salinity gradients. The archive’s area series does not identify the species in each Choptank bed; species composition requires field observations or a survey layer that explicitly reports it."
+        ],
+        "sources": [
+          "sav"
+        ],
+        "children": []
+      },
+      {
+        "id": "ecology",
+        "title": "Ecology",
+        "paragraphs": [
+          "Underwater vegetation creates shelter and feeding opportunities in shallow water. Its role depends on the surrounding community as well as the plants themselves."
+        ],
+        "sources": [
+          "sav"
+        ],
+        "children": [
+          {
+            "id": "food-webs-and-nursery-habitat",
+            "title": "Food webs and nursery habitat",
+            "paragraphs": [
+              "Young fish and crabs use grass beds for refuge. Invertebrates live on plant surfaces, and animals consume plant material or its associated prey. The blue-crab connection is an ecological relationship, not an estimate of crab abundance in this segment."
+            ],
+            "sources": [
+              "grass"
+            ],
+            "children": []
+          },
+          {
+            "id": "water-quality",
+            "title": "Water quality",
+            "paragraphs": [
+              "Grasses can help trap particles and stabilize sediment. Their leaves also need light. This creates a link between plant persistence and water clarity, while excessive suspended material can overwhelm the benefits of the bed itself."
+            ],
+            "sources": [
+              "sav",
+              "sediment"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "growth-and-seasonal-cycle",
+        "title": "Growth and seasonal cycle",
+        "paragraphs": [
+          "Underwater plants use sunlight for photosynthesis. Growth and persistence respond to environmental conditions, and survey timing matters when comparing their visible extent."
+        ],
+        "sources": [
+          "grass"
+        ],
+        "children": [
+          {
+            "id": "temperature-and-salinity",
+            "title": "Temperature and salinity",
+            "paragraphs": [
+              "Different SAV species tolerate different conditions. High temperatures can harm eelgrass, while salinity helps structure which plants occur in an area. Regional temperature context alone cannot identify the species or condition of a particular bed."
+            ],
+            "sources": [
+              "grass",
+              "sav"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "monitoring-and-survey-methods",
+        "title": "Monitoring and survey methods",
+        "paragraphs": [
+          "VIMS maps beds from aerial imagery and combines this with supporting observations. Flights are timed to vegetation and visibility conditions; boundaries are interpreted and areas summarized by reporting unit."
+        ],
+        "sources": [
+          "methods"
+        ],
+        "children": [
+          {
+            "id": "coverage-and-uncertainty",
+            "title": "Coverage and uncertainty",
+            "paragraphs": [
+              "Cloudy water, survey timing and incomplete coverage can affect what is mapped. A missing archive value is not zero vegetation. Compare records with compatible coverage, and read partial-survey notes before interpreting an apparent change."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "history-and-change",
+        "title": "History and change",
+        "paragraphs": [
+          "A VIMS study using observations from 1984–2006 included the lower Choptank as a case study and found a broader relationship between SAV and nutrient conditions. That historical evidence informs interpretation but does not diagnose the cause of a particular recent change."
+        ],
+        "sources": [
+          "study"
+        ],
+        "children": []
+      },
+      {
+        "id": "threats-and-decline-pressures",
+        "title": "Threats and decline pressures",
+        "paragraphs": [
+          "Sediment can reduce underwater light; excess nutrients can support algae that also shade plants. Declining habitat extent may have several interacting causes. The area series alone cannot assign responsibility to one pollution source."
+        ],
+        "sources": [
+          "sediment",
+          "nutrient"
+        ],
+        "children": []
+      },
+      {
+        "id": "conservation-and-restoration",
+        "title": "Conservation and restoration",
+        "paragraphs": [
+          "Maintaining water clarity and protecting existing vegetation are central to grass conservation. Planting is one possible intervention, but the conditions needed for persistence also matter. This record does not certify a proposed planting site."
+        ],
+        "sources": [
+          "grass"
+        ],
+        "children": []
+      },
+      {
+        "id": "human-importance",
+        "title": "Human importance",
+        "paragraphs": [
+          "Grass beds contribute to the habitat supporting fisheries and wildlife. Their value extends beyond the mapped acreage: changes can alter refuge and feeding opportunities. A connected marketplace listing is a demonstration resource, not proof that work is authorized in the survey area."
+        ],
+        "sources": [
+          "sav"
+        ],
+        "children": []
+      },
+      {
+        "id": "interpreting-the-archive",
+        "title": "Interpreting the archive",
+        "paragraphs": [
+          "Select the SAV indicator to inspect CHOMH1 through time, then check units, coverage and source notes in the table. The graph does not provide species composition, water chemistry or exact bed boundaries. For spatial analysis, use the source survey mapping; for local conditions, obtain measurements appropriate to the bed and date."
+        ],
+        "sources": [],
+        "children": []
+      }
+    ],
+    "AS-001": [
+      {
+        "id": "name-and-identity",
+        "title": "Name and identity",
+        "paragraphs": [
+          "Cambridge is NOAA CO-OPS station 8571892, an observation site associated with the Choptank River. The station number is the durable identifier used to retrieve its data. The archive treats this entry as an asset, not as a species or habitat polygon."
+        ],
+        "sources": [
+          "cambridge"
+        ],
+        "children": []
+      },
+      {
+        "id": "location-and-regional-setting",
+        "title": "Location and regional setting",
+        "paragraphs": [
+          "The Cambridge record provides a Choptank River observation point. Its links to eastern oysters and Choptank mouth vegetation supply regional conservation context. They do not imply that the instruments are located on a restored oyster reef."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "history",
+        "title": "History",
+        "paragraphs": [
+          "NOAA lists this station as established on 21 October 1980 and its present installation as dating from 5 May 1997. Station history can therefore predate the period selected for an archive chart."
+        ],
+        "sources": [
+          "cambridge"
+        ],
+        "children": [
+          {
+            "id": "continuity-and-coverage",
+            "title": "Continuity and coverage",
+            "paragraphs": [
+              "A station’s existence does not guarantee uninterrupted coverage for every sensor. Different products can have different start dates and gaps. Use the selected metric’s observation dates rather than assuming the entire installation history is present."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "description-and-measurement-scope",
+        "title": "Description and measurement scope",
+        "paragraphs": [
+          "The entry combines current water-temperature and water-level products with monthly mean sea-level history. Each is a different measurement. A station position anchors observations geographically; it does not define an area over which conditions are uniform."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "water-temperature",
+            "title": "Water temperature",
+            "paragraphs": [
+              "Temperature readings describe water at the station’s measurement point and time. The chart’s values are not a whole-river average or a reconstructed temperature inside a linked habitat. Compare similar dates and sampling contexts when examining change."
+            ],
+            "sources": [],
+            "children": []
+          },
+          {
+            "id": "water-level",
+            "title": "Water level",
+            "paragraphs": [
+              "Water-level observations are elevations relative to a specified reference. They are not water depth at an arbitrary map location. Reading a value requires its units and datum as well as the time."
+            ],
+            "sources": [
+              "datum"
+            ],
+            "children": []
+          },
+          {
+            "id": "monthly-mean-sea-level",
+            "title": "Monthly mean sea level",
+            "paragraphs": [
+              "Monthly means summarize a longer interval than an individual reading. They are useful for examining variability over time; the archive keeps them separate from the latest station feed."
+            ],
+            "sources": [
+              "api"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "tides-datums-and-time",
+        "title": "Tides, datums and time",
+        "paragraphs": [
+          "A datum supplies the reference elevation. Mean lower low water and mean sea level describe different references, so values on those bases cannot be combined without appropriate conversion. NOAA also distinguishes time-zone options. Preserve the labels attached to exported observations."
+        ],
+        "sources": [
+          "datum",
+          "api"
+        ],
+        "children": []
+      },
+      {
+        "id": "observation-and-prediction",
+        "title": "Observation and prediction",
+        "paragraphs": [
+          "Measured water levels and tide predictions answer different questions. The former record conditions; the latter are a separate product. The archive’s observation chart should not be read as a future tide table."
+        ],
+        "sources": [
+          "api"
+        ],
+        "children": []
+      },
+      {
+        "id": "ecological-relevance",
+        "title": "Ecological relevance",
+        "paragraphs": [
+          "The Choptank River record can help frame regional environmental questions alongside biological surveys. Its main contribution here is dated physical context. An association with oysters, crabs or grasses is a starting point for investigation rather than evidence that a particular reading caused a biological change."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "long-term-environmental-change",
+        "title": "Long-term environmental change",
+        "paragraphs": [
+          "Local sea-level records include changes in water elevation relative to the land. Estimating a long-term trend requires a suitable record and treatment of variability. Comparing two selected months on this graphic is not equivalent to NOAA’s trend analysis."
+        ],
+        "sources": [
+          "sea"
+        ],
+        "children": []
+      },
+      {
+        "id": "data-quality-and-limitations",
+        "title": "Data quality and limitations",
+        "paragraphs": [
+          "The archive preserves observation-quality labels and displays older readings as such. Refreshing a page changes retrieval time, not the time when the environment was measured. Missing observations remain missing."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "preliminary-and-verified-products",
+            "title": "Preliminary and verified products",
+            "paragraphs": [
+              "NOAA distinguishes products and verification states. The metric definition and source link identify which data are being viewed. A newly available preliminary value and a verified historical monthly mean should not be treated as interchangeable."
+            ],
+            "sources": [
+              "api"
+            ],
+            "children": []
+          },
+          {
+            "id": "maintenance-and-sensor-condition",
+            "title": "Maintenance and sensor condition",
+            "paragraphs": [
+              "Battery, service history and calibration health are not supplied in this archive feed. A recent reading demonstrates recency; it does not certify every sensor. An older reading alone does not prove equipment failure."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "scientific-and-public-uses",
+        "title": "Scientific and public uses",
+        "paragraphs": [
+          "NOAA’s station page links water-level products, datums, tide predictions and coastal-flooding resources. These offer different ways to investigate the Cambridge setting. The archive selects a small conservation-focused subset."
+        ],
+        "sources": [
+          "cambridge"
+        ],
+        "children": []
+      },
+      {
+        "id": "using-this-entry",
+        "title": "Using this entry",
+        "paragraphs": [
+          "Choose an indicator, inspect its observation date, and compare the accompanying units and quality. For Cambridge, monthly history and the current feed must remain distinct. Exported values retain source information so that comparisons can be checked against the original product. The 3D terrain is a separate fixed model and does not change with each water-level reading."
+        ],
+        "sources": [],
+        "children": []
+      }
+    ],
+    "AS-002": [
+      {
+        "id": "name-and-identity",
+        "title": "Name and identity",
+        "paragraphs": [
+          "Solomons Island is NOAA CO-OPS station 8577330, an observation site associated with the Patuxent River mouth. The station number is the durable identifier used to retrieve its data. The archive treats this entry as an asset, not as a species or habitat polygon."
+        ],
+        "sources": [
+          "solomons"
+        ],
+        "children": []
+      },
+      {
+        "id": "location-and-regional-setting",
+        "title": "Location and regional setting",
+        "paragraphs": [
+          "The Solomons Island record provides an observation point near the Patuxent River mouth. Its Tangier Sound and blue-crab connections are thematic. A reading on the western side of the Bay is not a direct measurement in a Tangier Sound nursery."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "history",
+        "title": "History",
+        "paragraphs": [
+          "Station metadata and the data inventory are the appropriate sources for installation history and available record periods. This archive displays the establishment metadata it has loaded, while its historical chart covers only imported observations."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "continuity-and-coverage",
+            "title": "Continuity and coverage",
+            "paragraphs": [
+              "A station’s existence does not guarantee uninterrupted coverage for every sensor. Different products can have different start dates and gaps. Use the selected metric’s observation dates rather than assuming the entire installation history is present."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "description-and-measurement-scope",
+        "title": "Description and measurement scope",
+        "paragraphs": [
+          "The entry combines current water-temperature and water-level products with monthly mean sea-level history. Each is a different measurement. A station position anchors observations geographically; it does not define an area over which conditions are uniform."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "water-temperature",
+            "title": "Water temperature",
+            "paragraphs": [
+              "Temperature readings describe water at the station’s measurement point and time. The chart’s values are not a whole-river average or a reconstructed temperature inside a linked habitat. Compare similar dates and sampling contexts when examining change."
+            ],
+            "sources": [],
+            "children": []
+          },
+          {
+            "id": "water-level",
+            "title": "Water level",
+            "paragraphs": [
+              "Water-level observations are elevations relative to a specified reference. They are not water depth at an arbitrary map location. Reading a value requires its units and datum as well as the time."
+            ],
+            "sources": [
+              "datum"
+            ],
+            "children": []
+          },
+          {
+            "id": "monthly-mean-sea-level",
+            "title": "Monthly mean sea level",
+            "paragraphs": [
+              "Monthly means summarize a longer interval than an individual reading. They are useful for examining variability over time; the archive keeps them separate from the latest station feed."
+            ],
+            "sources": [
+              "api"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "tides-datums-and-time",
+        "title": "Tides, datums and time",
+        "paragraphs": [
+          "A datum supplies the reference elevation. Mean lower low water and mean sea level describe different references, so values on those bases cannot be combined without appropriate conversion. NOAA also distinguishes time-zone options. Preserve the labels attached to exported observations."
+        ],
+        "sources": [
+          "datum",
+          "api"
+        ],
+        "children": []
+      },
+      {
+        "id": "observation-and-prediction",
+        "title": "Observation and prediction",
+        "paragraphs": [
+          "Measured water levels and tide predictions answer different questions. The former record conditions; the latter are a separate product. The archive’s observation chart should not be read as a future tide table."
+        ],
+        "sources": [
+          "api"
+        ],
+        "children": []
+      },
+      {
+        "id": "ecological-relevance",
+        "title": "Ecological relevance",
+        "paragraphs": [
+          "The Patuxent River mouth record can help frame regional environmental questions alongside biological surveys. Its main contribution here is dated physical context. An association with oysters, crabs or grasses is a starting point for investigation rather than evidence that a particular reading caused a biological change."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "long-term-environmental-change",
+        "title": "Long-term environmental change",
+        "paragraphs": [
+          "Local sea-level records include changes in water elevation relative to the land. Estimating a long-term trend requires a suitable record and treatment of variability. Comparing two selected months on this graphic is not equivalent to NOAA’s trend analysis."
+        ],
+        "sources": [
+          "sea"
+        ],
+        "children": []
+      },
+      {
+        "id": "data-quality-and-limitations",
+        "title": "Data quality and limitations",
+        "paragraphs": [
+          "The archive preserves observation-quality labels and displays older readings as such. Refreshing a page changes retrieval time, not the time when the environment was measured. Missing observations remain missing."
+        ],
+        "sources": [],
+        "children": [
+          {
+            "id": "preliminary-and-verified-products",
+            "title": "Preliminary and verified products",
+            "paragraphs": [
+              "NOAA distinguishes products and verification states. The metric definition and source link identify which data are being viewed. A newly available preliminary value and a verified historical monthly mean should not be treated as interchangeable."
+            ],
+            "sources": [
+              "api"
+            ],
+            "children": []
+          },
+          {
+            "id": "maintenance-and-sensor-condition",
+            "title": "Maintenance and sensor condition",
+            "paragraphs": [
+              "Battery, service history and calibration health are not supplied in this archive feed. A recent reading demonstrates recency; it does not certify every sensor. An older reading alone does not prove equipment failure."
+            ],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "scientific-and-public-uses",
+        "title": "Scientific and public uses",
+        "paragraphs": [
+          "The archive uses the station as a dated physical reference alongside conservation records. Questions about flooding, navigation or official products require the relevant NOAA service and its own definitions, coverage and updates."
+        ],
+        "sources": [],
+        "children": []
+      },
+      {
+        "id": "using-this-entry",
+        "title": "Using this entry",
+        "paragraphs": [
+          "Choose an indicator, inspect its observation date, and compare the accompanying units and quality. For Solomons Island, monthly history and the current feed must remain distinct. Exported values retain source information so that comparisons can be checked against the original product. The 3D terrain is a separate fixed model and does not change with each water-level reading."
+        ],
+        "sources": [],
+        "children": []
+      }
+    ]
+  }
+}
