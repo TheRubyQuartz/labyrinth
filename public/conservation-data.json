@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T10:33:40.871Z",
+  "generatedAt": "2026-09-12T10:31:12.674Z",
   "metrics": {
     "SP-001": [
       {
@@ -698,23 +698,6 @@
     ],
     "AS-001": [
       {
-        "id": "water_temperature",
-        "label": "Water temperature",
-        "unit": "°C",
-        "precision": 1,
-        "scope": "NOAA CO-OPS 8571892 · station observation",
-        "cadence": "Station feed",
-        "definition": "Latest published station water temperature. Temperature is habitat context, not a species health assessment. Preliminary provider readings and quality flags are retained. Battery, calibration and maintenance health are not inferred.",
-        "series": [
-          {
-            "date": "2026-09-11T10:24:00Z",
-            "value": 27.3,
-            "source": "noaa-8571892-water_temperature",
-            "quality": "Preliminary"
-          }
-        ]
-      },
-      {
         "id": "water_level",
         "label": "Observed water level",
         "unit": "m relative to station MSL datum",
@@ -724,11 +707,28 @@
         "definition": "Latest observed water surface height relative to the station MSL tidal datum. This is neither depth below the water nor a NAVD 88 terrain height; these values must not be subtracted from the map model without datum conversion.",
         "series": [
           {
-            "date": "2026-09-11T10:24:00Z",
-            "value": 0.271,
+            "date": "2026-09-12T10:24:00Z",
+            "value": 0.451,
             "source": "noaa-8571892-water_level",
             "quality": "Flagged by NOAA",
             "note": "Provider flags: 1,0,0,0. Inspect the source before interpreting."
+          }
+        ]
+      },
+      {
+        "id": "water_temperature",
+        "label": "Water temperature",
+        "unit": "°C",
+        "precision": 1,
+        "scope": "NOAA CO-OPS 8571892 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest published station water temperature. Temperature is habitat context, not a species health assessment. Preliminary provider readings and quality flags are retained. Battery, calibration and maintenance health are not inferred.",
+        "series": [
+          {
+            "date": "2026-09-12T10:24:00Z",
+            "value": 26.8,
+            "source": "noaa-8571892-water_temperature",
+            "quality": "Preliminary"
           }
         ]
       },
@@ -2666,24 +2666,6 @@
     ],
     "AS-002": [
       {
-        "id": "water_level",
-        "label": "Observed water level",
-        "unit": "m relative to station MSL datum",
-        "precision": 3,
-        "scope": "NOAA CO-OPS 8577330 · station observation",
-        "cadence": "Station feed",
-        "definition": "Latest observed water surface height relative to the station MSL tidal datum. This is neither depth below the water nor a NAVD 88 terrain height; these values must not be subtracted from the map model without datum conversion.",
-        "series": [
-          {
-            "date": "2026-09-11T10:24:00Z",
-            "value": 0.055,
-            "source": "noaa-8577330-water_level",
-            "quality": "Flagged by NOAA",
-            "note": "Provider flags: 1,0,0,0. Inspect the source before interpreting."
-          }
-        ]
-      },
-      {
         "id": "water_temperature",
         "label": "Water temperature",
         "unit": "°C",
@@ -2693,10 +2675,28 @@
         "definition": "Latest published station water temperature. Temperature is habitat context, not a species health assessment. Preliminary provider readings and quality flags are retained. Battery, calibration and maintenance health are not inferred.",
         "series": [
           {
-            "date": "2026-09-11T10:24:00Z",
-            "value": 28,
+            "date": "2026-09-12T10:24:00Z",
+            "value": 27.7,
             "source": "noaa-8577330-water_temperature",
             "quality": "Preliminary"
+          }
+        ]
+      },
+      {
+        "id": "water_level",
+        "label": "Observed water level",
+        "unit": "m relative to station MSL datum",
+        "precision": 3,
+        "scope": "NOAA CO-OPS 8577330 · station observation",
+        "cadence": "Station feed",
+        "definition": "Latest observed water surface height relative to the station MSL tidal datum. This is neither depth below the water nor a NAVD 88 terrain height; these values must not be subtracted from the map model without datum conversion.",
+        "series": [
+          {
+            "date": "2026-09-12T10:24:00Z",
+            "value": 0.258,
+            "source": "noaa-8577330-water_level",
+            "quality": "Flagged by NOAA",
+            "note": "Provider flags: 1,0,0,0. Inspect the source before interpreting."
           }
         ]
       },
@@ -5294,96 +5294,96 @@
       "name": "Maryland DNR · Winter Dredge Survey",
       "url": "https://dnr.maryland.gov/fisheries/pages/blue-crab/dredge.aspx",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8571892-water_temperature": {
       "name": "NOAA 8571892 · water temperature",
       "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_temperature&station=8571892&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&date=latest",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8571892-water_level": {
       "name": "NOAA 8571892 · water level",
       "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&station=8571892&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&datum=MSL&date=latest",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "metadata-8571892": {
       "name": "NOAA · station 8571892 metadata",
       "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571892.json?expand=details",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8577330-water_temperature": {
       "name": "NOAA 8577330 · water temperature",
       "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_temperature&station=8577330&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&date=latest",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8577330-water_level": {
       "name": "NOAA 8577330 · water level",
       "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&station=8577330&time_zone=gmt&units=metric&format=json&application=LabyrinthConservation&datum=MSL&date=latest",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8577330-monthly_mean": {
       "name": "NOAA 8577330 · monthly mean",
-      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8577330&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260911",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8577330&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260912",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "metadata-8577330": {
       "name": "NOAA · station 8577330 metadata",
       "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577330.json?expand=details",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "noaa-8571892-monthly_mean": {
       "name": "NOAA 8571892 · monthly mean",
-      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8571892&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260911",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=monthly_mean&station=8571892&time_zone=lst&units=metric&format=json&application=LabyrinthConservation&datum=MSL&begin_date=20000101&end_date=20260912",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "sav": {
       "name": "VIMS · annual submerged aquatic vegetation survey",
       "url": "https://mobjack.vims.edu/SAV/SegmentAreaTable.aspx?SalZone=MH&ZoneType=Salinity",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "oyster-report": {
       "name": "Maryland DNR · Fall Oyster Survey, tables 2 and 5",
       "url": "https://dnr.maryland.gov/fisheries/Documents/oysters/2024RptFinal.pdf",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     },
     "oyster-preliminary": {
       "name": "Maryland DNR · 2025 preliminary oyster survey release",
       "url": "https://news.maryland.gov/dnr/2026/03/09/governor-moore-announces-historic-year-for-oyster-reproduction-in-maryland-waters/",
       "state": "ok",
-      "checkedAt": "2026-09-11T10:33:40.871Z",
-      "lastSuccessAt": "2026-09-11T10:33:40.871Z",
+      "checkedAt": "2026-09-12T10:31:12.674Z",
+      "lastSuccessAt": "2026-09-12T10:31:12.674Z",
       "message": "Loaded from provider; hosted caches: stations 15 min, annual sources 24 h, PDF reports 7 days. Observation dates are separate."
     }
   },
