@@ -1,0 +1,13 @@
+.wiki-article .full-crab{--crab-accent:#8ed6c9;--crab-ink:#eef5ef;line-height:1.85}
+.wiki-article .full-crab p{max-width:72ch;margin:1.1rem 0;color:var(--foreground)}
+.wiki-article .full-crab>.crab-section{margin-top:4.5rem}
+.wiki-article .full-crab .crab-level-0>h2{display:flex;align-items:baseline;gap:1.25rem;margin:0 0 2rem;padding:1.6rem 1.5rem;border:0;border-top:2px solid var(--crab-accent);border-bottom:1px solid var(--border);background:linear-gradient(110deg,#203b35,#15241f);font:400 clamp(1.8rem,3vw,2.5rem)/1.25 Georgia,serif;color:var(--crab-ink);text-wrap:balance}
+.wiki-article .full-crab .crab-level-0>h2{margin:0 0 2rem}
+.wiki-article .full-crab .crab-chapter-number{flex-shrink:0;font:500 .875rem/1.4 ui-monospace,monospace;letter-spacing:.08em;color:var(--crab-accent)}
+.wiki-article .full-crab .crab-level-1{margin-top:3rem;padding-top:.25rem}
+.wiki-article .full-crab .crab-level-1>h3{margin:0 0 1.25rem;padding:0 0 .65rem;border-bottom:1px solid #8ed6c938;font-weight:600;font-family:inherit;font-size:1.5rem;line-height:1.35;color:var(--crab-accent);letter-spacing:-.02em}
+.wiki-article .full-crab .crab-level-2{margin:2.25rem 0;padding-left:1.25rem;border-left:2px solid #8ed6c940}
+.wiki-article .full-crab .crab-level-2>h4{margin:0 0 1rem;font-size:1.15rem;line-height:1.4;font-weight:650;color:var(--crab-ink)}
+.wiki-article .full-crab .crab-level-3>h5{margin:1.75rem 0 .75rem;font:italic 600 1.1rem/1.4 Georgia,serif;color:#c9d7c9}
+.wiki-article .full-crab .crab-section:target>h2,.wiki-article .full-crab .crab-section:target>h3,.wiki-article .full-crab .crab-section:target>h4,.wiki-article .full-crab .crab-section:target>h5{outline:1px solid #8ed6c966;outline-offset:6px}
+@media(max-width:600px){.wiki-article .full-crab>.crab-section{margin-top:3rem}.wiki-article .full-crab .crab-level-0>h2{padding:1.25rem 1rem;gap:.8rem}.wiki-article .full-crab .crab-level-1>h3{font-size:1.3rem}.wiki-article .full-crab .crab-level-2{padding-left:.85rem}}

@@ -1,0 +1,14 @@
+.wiki-article .crab-tab-strip{scroll-margin-top:24px;margin:24px 0 0;overflow-x:auto;border-bottom:2px solid #8ed6c9;padding-bottom:8px}
+.wiki-article .crab-tabs-list{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:6px;width:100%;height:auto!important;background:transparent;padding:0;border-radius:0}
+.wiki-article .crab-tabs-list button{flex:0 0 auto;font-size:14px;padding:13px 16px;height:auto;border:1px solid #466157;background:#1b3028;color:#c0d0c7;border-radius:5px 5px 0 0}
+.wiki-article .crab-tabs-list button[data-state=active]{background:#8ed6c9;color:#10251e;border-color:#8ed6c9;font-weight:700}
+.wiki-article .crab-tabbed-profile .crab-level-0{margin-top:16px}
+.wiki-article .crab-tabbed-profile .crab-level-0>h2{margin-top:0}
+.wiki-article .crab-christianity{padding:24px!important;border:1px solid #75856b;border-left:4px solid #c6cb9a;background:#202e23;border-radius:4px}
+.wiki-article .crab-christianity>h3{color:#e0e4bb!important}
+.crab-tab-footer{margin-top:48px;padding-top:24px;border-top:2px solid var(--border)}
+.crab-tab-footer .article-references{margin-top:32px}.crab-tab-footer h3{font-size:1.35rem;color:var(--primary)}
+.crab-tab-footer ul{padding-left:20px;list-style:disc}.crab-tab-footer li{overflow-wrap:anywhere}
+@media(max-width:600px){.wiki-article .crab-tabs-list{flex-wrap:nowrap;width:max-content}.wiki-article .crab-tabs-list button{padding:12px}.wiki-article .crab-christianity{padding:16px!important}}
+.crab-overview-facts{display:flow-root;margin-top:32px;border-top:1px solid var(--border);padding-top:20px}
+.wiki-article .crab-overview-facts .wiki-infobox{margin-top:0}

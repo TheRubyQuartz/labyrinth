@@ -1,0 +1,346 @@
+[
+  {
+    "id": "overview",
+    "title": "Overview",
+    "sections": [
+      {
+        "source": "crab-overview-summary",
+        "cluster": "Summary"
+      },
+      {
+        "source": "overview-christianity",
+        "cluster": "Significance across Beliefs",
+        "subsection": "Christianity"
+      },
+      {
+        "source": "overview-significance-history",
+        "cluster": "Significance across Beliefs",
+        "subsection": "Moche traditions",
+        "paragraphs": [
+          0
+        ]
+      },
+      {
+        "source": "overview-buddhism",
+        "cluster": "Significance across Beliefs",
+        "subsection": "Buddhism"
+      },
+      {
+        "source": "overview-significance-history",
+        "paragraphs": [
+          1
+        ],
+        "id": "overview-greek-belief",
+        "cluster": "Significance across Beliefs",
+        "subsection": "Greek astral tradition"
+      },
+      {
+        "source": "overview-evolution",
+        "paragraphs": [
+          0
+        ],
+        "cluster": "Origins and development",
+        "subsection": "Origins"
+      },
+      {
+        "source": "overview-evolution",
+        "paragraphs": [
+          1
+        ],
+        "id": "overview-evolution-history",
+        "cluster": "Origins and development",
+        "subsection": "Evolution"
+      },
+      {
+        "source": "overview-evolution",
+        "paragraphs": [
+          2
+        ],
+        "id": "overview-current-form",
+        "cluster": "Origins and development",
+        "subsection": "Current developments"
+      },
+      {
+        "source": "overview-mind",
+        "cluster": "Mind, Body and Disposition",
+        "subsection": "Mind / consciousness"
+      },
+      {
+        "source": "overview-body",
+        "cluster": "Mind, Body and Disposition",
+        "subsection": "Body and functions"
+      },
+      {
+        "source": "overview-disposition",
+        "cluster": "Mind, Body and Disposition",
+        "subsection": "Personality and Disposition"
+      },
+      {
+        "source": "overview-christian-history",
+        "paragraphs": [
+          0
+        ],
+        "cluster": "Crabs in culture",
+        "subsection": "History"
+      },
+      {
+        "source": "overview-coastal-culture",
+        "cluster": "Crabs in culture",
+        "subsection": "History"
+      },
+      {
+        "source": "overview-significance-myth",
+        "cluster": "Crabs in culture",
+        "subsection": "Mythology"
+      },
+      {
+        "source": "overview-christian-fiction",
+        "cluster": "Crabs in culture",
+        "subsection": "Fiction"
+      },
+      {
+        "source": "overview-significance-fiction",
+        "cluster": "Crabs in culture",
+        "subsection": "Fiction"
+      }
+    ]
+  },
+  {
+    "id": "infrastructure",
+    "title": "Infrastructure",
+    "note": "Blue-crab refuge and shelter use. This profile does not document built shelters or external tool use; it does not borrow captive-care practices from other crab species.",
+    "sections": [
+      {
+        "source": "crab-ecological-niches",
+        "cluster": "Natural refuge and shelter"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "title": "Movement",
+    "sections": [
+      {
+        "source": "blue-reproductive-migration",
+        "cluster": "Migration and reproductive movement"
+      },
+      {
+        "source": "article-life-cycle",
+        "cluster": "Movement through life stages"
+      }
+    ],
+    "links": [
+      {
+        "target": "article-growth",
+        "title": "Larval movement, settlement and growth"
+      },
+      {
+        "target": "crab-size-and-shape",
+        "title": "Swimming anatomy"
+      }
+    ]
+  },
+  {
+    "id": "graphics",
+    "title": "Graphics",
+    "sections": []
+  },
+  {
+    "id": "business",
+    "title": "Society",
+    "sections": [
+      {
+        "source": "article-etymology",
+        "cluster": "Names & etymology"
+      },
+      {
+        "source": "blue-commercial-overview",
+        "cluster": "Seafood industry & regional history"
+      },
+      {
+        "source": "article-range-of-fisheries",
+        "cluster": "Seafood industry & regional history"
+      },
+      {
+        "source": "article-history-of-the-crab-fishery",
+        "cluster": "Seafood industry & regional history"
+      },
+      {
+        "source": "article-atlantic-coast",
+        "cluster": "Seafood industry & regional history"
+      },
+      {
+        "source": "article-gulf-of-mexico",
+        "cluster": "Seafood industry & regional history"
+      },
+      {
+        "source": "article-louisiana-fishery",
+        "cluster": "Seafood industry & regional history"
+      }
+    ],
+    "note": "Industry and regional history. Historical figures and source claims are not live market estimates."
+  },
+  {
+    "id": "fitness",
+    "title": "Health",
+    "sections": [
+      {
+        "source": "crab-taxonomic-range",
+        "cluster": "Classification, anatomy & evolution"
+      },
+      {
+        "source": "crab-size-and-shape",
+        "cluster": "Classification, anatomy & evolution"
+      },
+      {
+        "source": "article-growth",
+        "cluster": "Growth, molting & reproduction"
+      },
+      {
+        "source": "article-reproduction",
+        "cluster": "Growth, molting & reproduction"
+      },
+      {
+        "source": "crab-feeding-methods",
+        "cluster": "Diet, predators & food-web relationships"
+      },
+      {
+        "source": "crab-human-consumption",
+        "cluster": "Human consumption"
+      },
+      {
+        "source": "blue-contaminants",
+        "cluster": "Health, contaminants & research"
+      },
+      {
+        "source": "blue-parasites",
+        "cluster": "Health, contaminants & research"
+      }
+    ],
+    "note": "Classification, anatomy, growth, diet, population and health research. Active defenses are in Combat; external armor is in Models.",
+    "links": []
+  },
+  {
+    "id": "agriculture",
+    "title": "Combat",
+    "sections": [
+      {
+        "source": "blue-active-defense",
+        "cluster": "Claws, escape & regeneration"
+      }
+    ],
+    "links": [
+      {
+        "target": "crab-ecological-niches",
+        "title": "Protective habitat and refuge"
+      },
+      {
+        "target": "article-growth",
+        "title": "Molting and vulnerability"
+      }
+    ],
+    "note": "Claws, defensive encounters, escape and regeneration."
+  },
+  {
+    "id": "modeling",
+    "title": "Models",
+    "sections": [
+      {
+        "source": "crab-carcinisation-anatomy",
+        "cluster": "Armor & external protection"
+      },
+      {
+        "source": "blue-armor-models",
+        "cluster": "Armor & external protection"
+      },
+      {
+        "source": "blue-fashion-concepts",
+        "cluster": "Crab-inspired fashion · concepts for future models"
+      }
+    ],
+    "empty": "Specimen and fashion models are planned. Descriptions are available; no interactive 3D model is connected."
+  },
+  {
+    "id": "animation",
+    "title": "Art",
+    "sections": [
+      {
+        "source": "crab-art-history",
+        "cluster": "Art across media & history"
+      }
+    ],
+    "empty": "No drawings or animated artwork are attached yet. The existing crab illustration is in Graphics.",
+    "links": [
+      {
+        "target": "crab-category-graphics",
+        "title": "Blue crab illustration"
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "title": "Environment",
+    "sections": [
+      {
+        "source": "article-distribution",
+        "cluster": "Habitat, range & environmental change"
+      },
+      {
+        "source": "blue-climate",
+        "cluster": "Habitat, range & environmental change"
+      },
+      {
+        "source": "crab-habitat-roles",
+        "cluster": "Habitat, range & environmental change"
+      },
+      {
+        "source": "blue-environment-simulations",
+        "cluster": "Simulations · environmental conditions"
+      }
+    ],
+    "note": "Habitat, geographic range and environmental conditions. Use the planned simulation subsection to explore the scope of future environmental tests."
+  },
+  {
+    "id": "survival",
+    "title": "Survival",
+    "sections": [
+      {
+        "source": "blue-survival-behavior",
+        "cluster": "Refuge, seasonal retreat & avoiding predators"
+      },
+      {
+        "source": "article-chesapeake-bay-fishery",
+        "cluster": "Survival · fishing pressure, management & conservation"
+      },
+      {
+        "source": "article-recent-decline",
+        "cluster": "Survival · fishing pressure, management & conservation"
+      },
+      {
+        "source": "article-crabbing-gear",
+        "cluster": "Survival · fishing pressure, management & conservation"
+      },
+      {
+        "source": "article-bycatch",
+        "cluster": "Survival · fishing pressure, management & conservation"
+      },
+      {
+        "source": "article-efforts-to-manage-fisheries",
+        "cluster": "Survival · fishing pressure, management & conservation"
+      }
+    ],
+    "note": "How blue crabs cope with their surroundings, predators and human pressures. Historical fishery examples are not current regulations."
+  },
+  {
+    "id": "film",
+    "title": "Videos",
+    "sections": [],
+    "empty": "No live footage or edited videos have been added yet."
+  },
+  {
+    "id": "sounds",
+    "title": "Sounds",
+    "sections": [],
+    "empty": "No audio recordings or music library are connected yet. The persistent player remains available at the bottom of the page."
+  }
+]

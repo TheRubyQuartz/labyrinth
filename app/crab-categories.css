@@ -1,0 +1,8 @@
+.wiki-article .crab-category-note{font-size:.95rem;color:var(--muted-foreground);border-left:2px solid var(--primary);padding-left:1rem}
+.wiki-article .crab-media-empty{padding:1.5rem;border:1px dashed var(--border);background:var(--card);margin:1.5rem 0;border-radius:8px}
+.crab-media-empty>span{font-size:.8rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted-foreground)}
+.wiki-article .crab-media-empty p{margin:.65rem 0 0}
+.crab-category-links{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;padding:1rem 0;margin-top:1rem;border-top:1px solid var(--border);font-size:.9rem}
+.crab-player{display:flex;align-items:center;flex-wrap:wrap;gap:1rem;margin-top:1rem;color:var(--muted-foreground)}
+.crab-player button{border:1px solid var(--border);padding:.5rem 1rem;border-radius:4px;cursor:not-allowed}
+.crab-player input{max-width:100%;flex:1;min-width:120px}

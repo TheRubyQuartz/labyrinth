@@ -1,0 +1,12 @@
+.crab-music-dock{position:fixed;inset:auto 0 0;z-index:35;display:flex;align-items:center;gap:2rem;padding:14px max(24px,env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom)) max(24px,env(safe-area-inset-left));background:#13231f;color:#edf5ef;border-top:1px solid #8ed6c94d;box-shadow:0 -8px 30px #0004;font:14px/1.4 system-ui,sans-serif}
+.music-dock-track{display:flex;gap:12px;align-items:center;min-width:0;flex:1}.music-dock-track>svg{color:#8ed6c9;flex-shrink:0}.music-dock-track strong,.music-dock-track span{display:block}.music-dock-track strong{font-size:15px}.music-dock-track span{color:#b3c4bc;font-size:13px;margin-top:3px}
+.music-dock-controls{display:flex;align-items:center;gap:10px}.music-dock-controls button{display:grid;place-items:center;width:36px;height:36px;color:#a7b8b0;cursor:not-allowed}.music-dock-controls .music-dock-play{width:44px;height:44px;border-radius:50%;background:#29443a;border:1px solid #57766a}
+.music-dock-timeline{display:flex;align-items:center;gap:10px;flex:1;max-width:380px;color:#b3c4bc;font-size:12px}.music-dock-timeline input{width:100%;min-width:40px;accent-color:#8ed6c9}
+body:has(.crab-music-dock){padding-bottom:calc(100px + env(safe-area-inset-bottom))}.crab-music-dock:focus-visible{outline:2px solid #8ed6c9;outline-offset:-4px}
+@media(max-width:1000px){.wiki-layout:has(.crab-music-dock) .contents-trigger{bottom:calc(108px + env(safe-area-inset-bottom))}}
+@media(max-width:600px){.crab-music-dock{gap:10px;padding-inline:16px}.music-dock-track span{font-size:12px}.music-dock-timeline{display:none}.music-dock-controls{gap:2px}.music-dock-controls button{width:28px}.music-dock-track>svg{display:none}}
+.crab-music-toggle{position:fixed;bottom:max(18px,env(safe-area-inset-bottom));left:18px;z-index:35;display:flex;align-items:center;gap:8px;padding:12px 16px;border-radius:6px;background:#193329;color:#d3e8db;border:1px solid #57766a;font-size:14px;box-shadow:0 5px 18px #0005}
+.music-dock-hide{font-size:13px;padding:8px 10px;border:1px solid #57766a;border-radius:4px;color:#d3e8db;white-space:nowrap}
+.crab-music-dock .music-dock-hide:focus-visible,.crab-music-toggle:focus-visible{outline:2px solid #8ed6c9;outline-offset:3px}
+body:has(.crab-music-toggle){padding-bottom:80px}
+@media(max-width:600px){.crab-music-dock{flex-wrap:wrap}.music-dock-hide{margin-left:auto}}

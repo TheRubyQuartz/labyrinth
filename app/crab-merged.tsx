@@ -1,18 +1,70 @@
-import type {ReactNode} from 'react';
+import {Fragment,useEffect,useState} from 'react';
+import type {ReactNode,MouseEvent} from 'react';
+import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
 import merged from './crab-merged.json';
 import profiles from './archive-articles.json';
+import bibliography from './crab-full.json';
+import research from './crab-research.json';
+import categories from './crab-categories.json';
+import {CrabMusicDock} from './crab-music-dock';
+import {BlueFisheryTable} from './blue-fishery-table';
+import './crab-editorial.css';
+import './crab-categories.css';
+import './crab-tabs.css';
+import './crab-timeline.css';
+import {CrabBeliefTabs,cultureIntros} from './crab-overview-structure';
+import {CrabCultureSelections} from './crab-belief-index';
+import './crab-review-polish.css';
+import {CrabEvolutionLab} from './crab-evolution-lab';
+import {CrabNetworkPreview,CrabTestingPreview} from './crab-future-panels';
+import './crab-overview-poc.css';
+import {CrabOverviewHero,CrabBiologyExperience} from './crab-overview-experience';
+import './crab-overview-experience.css';
+import './crab-community-preview.css';
+import {CrabQuestions} from './crab-questions';
+import {CrabRisks} from './crab-overview-panels';
+import {CrabWorldMap} from './crab-spatial-atlas';
+import './crab-atlas-workspace.css';
+import {CrabReaderWorkspace} from './crab-reader-workspace';
+import './crab-reader-tools.css';
+import './crab-questions.css';
+
 type Paragraph={text:string;origin:string;sources:string[]};
 type Section={id:string;title:string;paragraphs:Paragraph[];children:Section[]};
-const sections:Section[]=merged.sections;
-const refs:Record<string,{title:string;url:string}>=profiles.references;
+type Selection={source:string;paragraphs?:number[];id?:string;title?:string;cluster?:string;subsection?:string};
+type Category={id:string;title:string;sections:Selection[];note?:string;empty?:string;links?:{target:string;title:string}[]};
+const groups:Category[]=categories;
+const flatten=(items:Section[]):Section[]=>items.flatMap(s=>[s,...flatten(s.children)]);
+const byId=new Map(flatten(merged.sections).map(s=>[s.id,s]));
+const refs:Record<string,{title:string;url:string}>={...profiles.references,...research};
 const collect=(ss:{sources:string[];children:any[]}[]):string[]=>ss.flatMap(s=>[...s.sources,...collect(s.children)]);
-const sourceIds=Array.from(new Set(collect(profiles.articles['SP-001'])));
+const sourceIds=Array.from(new Set([...collect(profiles.articles['SP-001']),...Object.keys(research)]));
+function subgroups(c:{id:string;items:Selection[]}){const groups:{id:string;title:string;items:Selection[]}[]=[];for(const item of c.items){const title=item.subsection||'';let group=groups.find(g=>g.title===title);if(!group){group={id:c.id+'-sub-'+groups.length,title,items:[]};groups.push(group)}group.items.push(item)}return groups}
+function selected(item:Selection):Section{const source=byId.get(item.source)!;return {...source,id:item.id||source.id,title:item.title||source.title,paragraphs:item.paragraphs?item.paragraphs.map(i=>source.paragraphs[i]):source.paragraphs,children:[]}}
+function clusters(group:Category){const result:{id:string;title:string;items:Selection[]}[]=[];for(const item of group.sections){const title=item.cluster||selected(item).title;let cluster=result.find(c=>c.title===title);if(!cluster){cluster={id:item.cluster?'crab-group-'+group.id+'-'+result.length:selected(item).id,title,items:[]};result.push(cluster)}cluster.items.push(item)}return result}
+const slotLinks:Record<string,{target:string;title:string}[]>={transport:[{target:'movement-calendar',title:'Seasonal movement calendar'}],graphics:[{target:'crab-image',title:'Blue crab illustration'},{target:'interactive',title:'Interactive observation explorer'}],business:[{target:'history',title:'Measurements & history'},{target:'blue-historical-fishery-table',title:'Historical fisheries table'}],fitness:[{target:'assessments',title:'Population assessments'}],survival:[{target:'ecology',title:'Ecological context'}]};
+function owner(target:string){if(['crab-profiles','crab-testing','connections'].includes(target))return 'overview';if(target==='crab-category-literature'||target==='crab-in-culture'||target==='crab-questions'||target==='crab-questions-common'||target==='crab-questions-unresolved'||target==='crab-major-risks'||target==='crab-world-map')return 'overview';return groups.find(g=>target==='crab-category-'+g.id||g.sections.some(s=>selected(s).id===target)||clusters(g).some(c=>c.id===target||subgroups(c).some(s=>s.id===target))||(slotLinks[g.id]||[]).some(l=>l.target===target))?.id}
+function hashTarget(){try{return decodeURIComponent(window.location.hash.slice(1))}catch{return ''}}
 export function MergedCrabContents({link}:{link:(target:string,label:string)=>ReactNode}){
- const render=(ss:Section[]):ReactNode=><ul>{ss.map(s=><li key={s.id}>{s.children.length?<details open><summary>{link(s.id,s.title)}</summary>{render(s.children)}</details>:link(s.id,s.title)}</li>)}</ul>;
- return render(sections);
+ return <ul>{groups.map(group=><li key={group.id}><details><summary>{link('crab-category-'+group.id,group.title)}</summary><ul>{clusters(group).map(c=><Fragment key={c.id}><li>{link(c.id,c.title)}{subgroups(c).some(s=>s.title)&&<ul>{subgroups(c).map(s=><li key={s.id}>{link(s.id,s.title)}</li>)}</ul>}</li>{group.id==='overview'&&c.title==='Significance across Beliefs'&&<><li>{link('crab-major-risks','Major Risks and Issues')}</li><li>{link('crab-world-map','World Map')}</li></>}</Fragment>)}{group.id==='overview'&&<><li>{link('crab-profiles','Network Connections')}</li><li>{link('crab-testing','Workshop Showcase')}</li><li>{link('connections','Connected Records')}</li><li>{link('crab-questions','Common & Unresolved Questions')}<ul><li>{link('crab-questions-common','Common questions')}</li><li>{link('crab-questions-unresolved','Unresolved questions')}</li></ul></li></>}<li>{link('article-see-also','See Also & Further Reading')}</li>{(slotLinks[group.id]||[]).map(item=><li key={item.target}>{link(item.target,item.title)}</li>)}</ul></details></li>)}</ul>;
 }
-export function MergedCrabArticle(){
- function paragraph(p:Paragraph,i:number){const text=p.origin==='general'?p.text.split(/(\[\d+\])/g).map((part,j)=>/^\[\d+\]$/.test(part)?<sup key={j}><a href={'#crab-reference-'+part.slice(1,-1)} aria-label={'Crab reference '+part.slice(1,-1)}>{part}</a></sup>:part):p.text;return <p className="crab-original-paragraph" key={i}>{text}{p.sources.map(source=><sup key={source}><a href={'#reference-'+source} aria-label={refs[source].title}>[{sourceIds.indexOf(source)+1}]</a></sup>)}</p>}
- function section(s:Section,depth:number):ReactNode{const Heading=depth===0?'h2':depth===1?'h3':depth===2?'h4':'h5';return <section id={s.id} key={s.id}><Heading>{s.title}</Heading>{s.paragraphs.map(paragraph)}{s.children.map(child=>section(child,depth+1))}</section>}
- return <div className="article-prose full-crab">{merged.intro.map(paragraph)}{sections.map(s=>section(s,0))}</div>;
+export function MergedCrabArticle({slots={}}:{slots?:Partial<Record<string,ReactNode>>}){
+ const [active,setActive]=useState(()=>owner(hashTarget())||'overview');
+ function jump(target:string){if(target==='crab-category-literature')target='article-further-reading';const next=owner(target);if(next)setActive(next);window.dispatchEvent(new CustomEvent('crab-belief-navigate',{detail:target}));requestAnimationFrame(()=>requestAnimationFrame(()=>{const element=document.getElementById(target);if(element){let parent=element.parentElement;while(parent){if(parent instanceof HTMLDetailsElement)parent.open=true;parent=parent.parentElement}element.tabIndex=-1;element.focus({preventScroll:true});element.scrollIntoView({block:'start'})}}))}
+ useEffect(()=>{const hash=()=>jump(hashTarget());const custom=(e:Event)=>jump((e as CustomEvent<string>).detail);window.addEventListener('hashchange',hash);window.addEventListener('popstate',hash);window.addEventListener('crab-navigate',custom);if(hashTarget())hash();return()=>{window.removeEventListener('hashchange',hash);window.removeEventListener('popstate',hash);window.removeEventListener('crab-navigate',custom)}},[]);
+ function internalLink(e:MouseEvent<HTMLDivElement>){const a=(e.target as HTMLElement).closest('a');const href=a?.getAttribute('href');if(!href?.startsWith('#'))return;const target=href.slice(1);e.preventDefault();window.history.pushState({},'','#'+target);jump(target)}
+ function choose(id:string){setActive(id);window.history.pushState({},'','#crab-category-'+id);document.getElementById('crab-profile-tabs')?.scrollIntoView({block:'start'})}
+ function paragraph(p:Paragraph,i:number){const lead=p.text.match(/^(Brain and coordination|Sensing and decisions|Conscious experience|Body plan|A changing skeleton|Internal functions|Daily activity|Responses to stimuli|Individual variation)\.\s/);const body=lead?<><strong className="biology-paragraph-lead">{lead[1]}.</strong>{p.text.slice(lead[0].length)}</>:p.origin==='general'?p.text.split(/(\[\d+\])/g).map((part,j)=>/^\[\d+\]$/.test(part)?<sup key={j}><a href={'#crab-reference-'+part.slice(1,-1)} aria-label={'General crab reference '+part.slice(1,-1)}>[G{part.slice(1,-1)}]</a></sup>:part):p.text;return <p className="crab-original-paragraph" key={i}>{body}{p.sources.map(source=><sup key={source}><a href={'#reference-'+source} aria-label={refs[source]?.title||source}>[{sourceIds.indexOf(source)+1}]</a></sup>)}</p>}
+
+ function clusterBody(c:ReturnType<typeof clusters>[number]){
+  const subsections=subgroups(c);
+  const renderSub=(sub:typeof subsections[number])=><section key={sub.id} id={sub.id} className={sub.title?"crab-section crab-level-2":undefined}>{sub.title&&<h4>{sub.title}</h4>}{c.title==='Crabs in culture'?<><p>{cultureIntros[sub.title]}</p><h5>Major works and appearances</h5><CrabCultureSelections category={sub.title}/><details className="crab-culture-previous"><summary>Additional appearances and retained context</summary><ul className="crab-culture-list">{sub.items.map(item=>{const s=selected(item);return <li id={s.id} key={s.id}>{s.paragraphs.map(paragraph)}</li>})}</ul></details></>:sub.items.map(item=>{const s=selected(item);return <div id={s.id} key={s.id}>{s.paragraphs.map(paragraph)}</div>})}</section>;
+  if(c.title==='Significance across Beliefs')return <><CrabBeliefTabs entries={subsections.map(sub=>({id:sub.id,title:sub.title,targets:sub.items.map(item=>selected(item).id),content:renderSub(sub)}))}/></>;
+  if(c.title==='Origins and development')return <><CrabEvolutionLab/><details className="crab-history-notes"><summary>Source notes by phase</summary>{subsections.map(renderSub)}</details></>;
+  if(c.title==='Mind, Body and Disposition')return <CrabBiologyExperience>{subsections.map(renderSub)}</CrabBiologyExperience>;
+  return subsections.map(renderSub);
+ }
+ function footer(group:Category){const paragraphs=[...group.sections.flatMap(item=>selected(item).paragraphs),...byId.get('crab-in-culture')!.paragraphs];const sources=Array.from(new Set([...paragraphs.flatMap(p=>p.sources),'blue','crab',...(slots[group.id]?collect(profiles.articles['SP-001']):[])]));const general=new Set(paragraphs.filter(p=>p.origin==='general').flatMap(p=>Array.from(p.text.matchAll(/\[(\d+)\]/g),m=>Number(m[1]))));
+ return <div className="crab-tab-footer">{group.id==='overview'&&<section className="overview-connected">{slots.related}</section>}{group.id==='overview'&&<CrabQuestions/>}<section id="article-see-also"><h3>See Also</h3><section id="article-further-reading" className="crab-further-reading"><h3>Further Reading</h3><div className="crab-reading-links"><a href="#overview-significance-fiction"><span>Within this archive</span>Crabs in fiction →</a><a href={refs.kipling.url} target="_blank" rel="noreferrer"><span>Full text · Rudyard Kipling</span>The Crab that Played with the Sea ↗</a><a href={refs.karkinos.url} target="_blank" rel="noreferrer"><span>Classical texts & translations</span>Karkinos and the Hydra ↗</a><a href={refs.xavier.url} target="_blank" rel="noreferrer"><span>Devotional storytelling</span>St. Francis Xavier and the Crab ↗</a></div><details id="crab-in-culture"><summary>Literary context · myths and stories</summary>{byId.get("crab-in-culture")!.paragraphs.map(paragraph)}</details></section>{group.id!=='overview'&&<><nav className="crab-category-links" aria-label={'Related to '+group.title}>{(group.links||[]).map(l=><a key={l.target} href={'#'+l.target}>{l.title}</a>)}{groups.filter(g=>g.id!==group.id).map(g=><a href={'#crab-category-'+g.id} key={g.id}>{g.title}</a>)}</nav>{slots.related}</>}</section><section id="article-references" className="article-references"><h3>References</h3><ol>{sources.map(source=>refs[source]&&<li key={source} id={'reference-'+source} value={sourceIds.indexOf(source)+1}><a href={refs[source].url} target="_blank" rel="noreferrer">{refs[source].title}</a></li>)}</ol>{general.size>0&&<><h4>General crab source notes</h4><ul>{Array.from(general).sort((a,b)=>a-b).map(n=><li id={'crab-reference-'+n} key={n}>[G{n}] {bibliography.references[n-1]}</li>)}</ul></>}<p className="subnote">Adapted from user-supplied Wikipedia articles and the sources listed here. Wikipedia text is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Wording and organization have changed; historical claims are not current assessments. <a href="https://en.wikipedia.org/w/index.php?title=Crab&action=history">Crab contributors</a> · <a href="https://en.wikipedia.org/w/index.php?title=Callinectes_sapidus&action=history">Blue-crab contributors</a>.</p><h4 id="article-external-links">External links</h4><a href="#history">Measurements and source data</a></section></div>}
+ return <div className="article-prose full-crab crab-tabbed-profile" onClick={internalLink}><Tabs value={active} onValueChange={choose} activationMode="manual"><div className="crab-tab-strip" id="crab-profile-tabs"><TabsList aria-label="Blue crab profile sections" className="crab-tabs-list">{groups.map(g=><TabsTrigger value={g.id} key={g.id}>{g.title}</TabsTrigger>)}</TabsList></div>{groups.map((group,index)=><TabsContent key={group.id} value={group.id}><section id={'crab-category-'+group.id} className="crab-section crab-level-0"><h2><span className="crab-chapter-number" aria-hidden="true">{String(index+1).padStart(2,'0')}</span><span>{group.title}</span></h2>{group.id==='overview'&&<><CrabReaderWorkspace/><CrabOverviewHero/><div className="overview-action-bar">{slots.actions}</div>{slots.overview}</>}{group.note&&<p className="crab-category-note">{group.note}</p>}{clusters(group).map(c=><Fragment key={c.id}><section className={'crab-section crab-level-1'+(c.title==='Origins and development'?' crab-history-section':c.title==='Significance across Beliefs'?' crab-belief-cards':'')} id={c.id} key={c.id}><h3>{c.title}</h3>{clusterBody(c)}</section>{group.id==='overview'&&c.title==='Significance across Beliefs'&&<><CrabRisks/><CrabWorldMap/></>}</Fragment>)}{group.id==='overview'&&<><CrabNetworkPreview/><CrabTestingPreview/></>}{group.id==='business'&&<BlueFisheryTable/>}{group.id==='fitness'&&<p className="subnote">The supplied growth account mentions both seven and an eighth zoeal stage; that source inconsistency is retained rather than silently resolved.</p>}{group.id!=='overview'&&slots[group.id]}{group.empty&&<div className="crab-media-empty"><span>Not yet available</span><p>{group.empty}</p></div>}{footer(group)}</section></TabsContent>)}</Tabs><CrabMusicDock/></div>;
 }

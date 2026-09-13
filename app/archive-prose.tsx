@@ -1,4 +1,5 @@
 import {useRef,useState} from 'react';
+import type {ReactNode} from 'react';
 import {List} from 'lucide-react';
 import {Sheet,SheetTrigger,SheetContent,SheetHeader,SheetTitle,SheetDescription} from '@/components/ui/sheet';
 import {MergedCrabArticle,MergedCrabContents} from './crab-merged';
@@ -17,16 +18,16 @@ export function ArticleContents({id}:{id:string}){
   const destination=useRef<string|null>(null);
   function link(target:string,label:string){return <a href={'#'+target} onClick={e=>{e.preventDefault();destination.current=target;setOpen(false)}}>{label}</a>}
   function links(sections:Section[]){return <ul>{sections.map(section=><li key={section.id}>{section.children.length?<details open><summary>{link(anchor(section.id),section.title)}</summary>{links(section.children)}</details>:link(anchor(section.id),section.title)}</li>)}</ul>}
-  return <Sheet open={open} onOpenChange={setOpen}><SheetTrigger className="contents-trigger"><List size={18}/>Contents</SheetTrigger><SheetContent side="left" className="contents-panel" onCloseAutoFocus={e=>{if(destination.current){e.preventDefault();const target=destination.current;destination.current=null;window.history.replaceState({},'',window.location.pathname+window.location.search+'#'+target);const element=document.getElementById(target);if(element){element.tabIndex=-1;element.focus({preventScroll:true});element.scrollIntoView({block:'start'})}}}}><SheetHeader><SheetTitle>Contents</SheetTitle><SheetDescription>Jump to a section. Use the arrows to expand or collapse subsections.</SheetDescription></SheetHeader><nav className="article-toc" aria-label="Article contents">{link('article-title','(Top)')}{id==='SP-001'?<MergedCrabContents link={link}/>:links(articles[id]||[])}<ul><li>{link('interactive','Interactive graphic')}</li><li>{link('ecology','Ecological context')}</li><li>{link('assessments','Assessments')}</li><li>{link('history','Measurements & history')}</li></ul><div className="contents-end">{link('article-see-also','See also')}{link('article-references','References')}{link('article-external-links','External links')}</div></nav></SheetContent></Sheet>;
+  return <Sheet open={open} onOpenChange={setOpen}><SheetTrigger className="contents-trigger"><List size={18}/>Contents</SheetTrigger><SheetContent side="left" className="contents-panel" onCloseAutoFocus={e=>{if(destination.current){e.preventDefault();const target=destination.current;destination.current=null;window.history.replaceState({},'',window.location.pathname+window.location.search+'#'+target);if(id==='SP-001'){window.dispatchEvent(new CustomEvent('crab-navigate',{detail:target}));return;}const element=document.getElementById(target);if(element){element.tabIndex=-1;element.focus({preventScroll:true});element.scrollIntoView({block:'start'})}}}}><SheetHeader><SheetTitle>Contents</SheetTitle><SheetDescription>Jump to a section. Use the arrows to expand or collapse subsections.</SheetDescription></SheetHeader><nav className="article-toc" aria-label="Article contents">{link('article-title','(Top)')}{id==='SP-001'?<MergedCrabContents link={link}/>:links(articles[id]||[])}{id!=='SP-001'&&<ul><li>{link('interactive','Interactive graphic')}</li><li>{link('ecology','Ecological context')}</li><li>{link('assessments','Assessments')}</li><li>{link('history','Measurements & history')}</li></ul>}<div className="contents-end">{link('article-see-also','See also')}{link('article-references','References')}{link('article-external-links','External links')}</div></nav></SheetContent></Sheet>;
 }
 
-export function ArticleProse({id}:{id:string}){
+export function ArticleProse({id,slots}:{id:string;slots?:Partial<Record<string,ReactNode>>}){
  const sources=sourcesFor(id);
  function section(item:Section,depth:number){
   const Heading=depth===0?'h2':depth===1?'h3':'h4';
   return <section key={item.id} id={anchor(item.id)}><Heading>{item.title}</Heading>{item.paragraphs.map((p,i)=><p key={i}>{p}{i===item.paragraphs.length-1&&item.sources.map(source=><sup key={source}><a aria-label={'Reference: '+references[source].title} href={'#reference-'+source}>[{sources.indexOf(source)+1}]</a></sup>)}</p>)}{item.children.map(child=>section(child,depth+1))}</section>
  }
- return id==='SP-001'?<MergedCrabArticle/>:<div className="article-prose">{(articles[id]||[]).map(item=>section(item,0))}</div>;
+ return id==='SP-001'?<MergedCrabArticle slots={slots}/>:<div className="article-prose">{(articles[id]||[]).map(item=>section(item,0))}</div>;
 }
 
 export function ArticleReferences({id}:{id:string}){
