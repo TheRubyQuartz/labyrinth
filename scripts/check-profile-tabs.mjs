@@ -12,13 +12,13 @@ try{
  for(const group of groups){
   window.location.hash='#crab-category-'+group.id;
   const html=renderToStaticMarkup(React.createElement(MergedCrabArticle));
-  assert.equal((html.match(/role="tab"/g)||[]).length,group.id==='overview'?18:13,group.id+' tab count');
+  assert.equal((html.match(/role="tab"/g)||[]).length,group.id==='overview'?41:13,group.id+' tab count');
   assert(html.includes('id="crab-category-'+group.id+'"'),group.id+' active content');
   assert(html.includes('id="article-see-also"'),group.id+' See Also');
   assert(html.includes('id="article-references"'),group.id+' References');
   assert(html.includes('Hide player'),group.id+' music control');
   assert(html.includes('id="article-further-reading"'),group.id+' Further Reading');
-  assert(html.includes('id="crab-in-culture"'),group.id+' preserved literature');
+  assert(!html.includes('Literary context'),group.id+' obsolete literary context removed');
   assert(html.indexOf('id="article-further-reading"')>html.indexOf('id="article-see-also"'),'Further Reading nested after See Also');
   assert.equal((html.match(/id="article-references"/g)||[]).length,1,'No duplicate reference IDs');
   if(group.id==='overview'){
@@ -43,7 +43,7 @@ try{
    assert(html.indexOf('<h3>Crabs in culture</h3>')>html.indexOf('<h3>Mind, Body and Disposition</h3>'));
    assert(html.includes('All beliefs · 460'));
    assert(html.includes('aria-label="Significance across Beliefs"'));
-   assert.equal((html.match(/Major works and appearances/g)||[]).length,3);
+   assert.equal((html.match(/class="culture-explorer culture-/g)||[]).length,3);
    assert(!html.includes('spiritual aura')&&!html.includes('primary religious lens'));
   }
  }

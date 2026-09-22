@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {CrabBodyInspector} from './crab-body-inspector';
+import {CrabBiologyLab} from './crab-biology-lab';
 import type {ReactNode} from 'react';
 import {ArrowUpRight,Eye,Shield,Activity,Brain,Focus,ChevronRight} from 'lucide-react';
 
@@ -17,4 +17,4 @@ const responses=[
  {name:'A recent molt',signal:'Soft new exoskeleton',response:'Seek protection',body:'A newly molted crab is more vulnerable until its covering hardens. Shelter and concealment reduce exposure during this transition.',source:'https://www.chesapeakebay.net/news/blog/clues-of-a-growing-blue-crab'},
  {name:'Cooling water',signal:'Seasonal conditions',response:'Reduce activity',body:'In the Chesapeake Bay, winter cold reduces activity and crabs shelter in bottom sediment. This is a seasonal response, not a permanent behavioral trait.',source:'https://www.chesapeakebay.net/discover/faq/category/blue-crabs'}
 ];
-export function CrabBiologyExperience({children}:{children:ReactNode}){const [active,setActive]=useState(0);const r=responses[active];return <div className="biology-experience"><div className="biology-system-strip"><span><Brain size={19}/> Perception</span><ChevronRight size={15}/><span><Activity size={19}/> Integration</span><ChevronRight size={15}/><span><Shield size={19}/> Response</span></div><p className="experience-lead">A distributed nervous system, a growing external skeleton, and behavior shaped by the immediate situation.</p><CrabBodyInspector/>{children}<div className="behavior-observatory"><header><span className="experience-eyebrow">BEHAVIOR OBSERVATORY</span><h4>Change the context. Inspect the response.</h4><p>Choose an observed context to explore a typical response—not a prediction for every individual.</p></header><div className="behavior-buttons" role="group" aria-label="Behavioral context">{responses.map((item,i)=><button key={item.name} aria-pressed={active===i} onClick={()=>setActive(i)}>{item.name}</button>)}</div><div className="behavior-response" aria-live="polite"><div><span>CONTEXT</span><strong>{r.signal}</strong></div><ChevronRight size={26}/><div><span>OBSERVED RESPONSE</span><strong>{r.response}</strong></div></div><p>{r.body}</p><a href={r.source} target="_blank" rel="noreferrer">Read the supporting source <ArrowUpRight size={14}/></a></div></div>}
+export function CrabBiologyExperience({children}:{children:ReactNode}){return <div className="biology-experience"><CrabBiologyLab responses={responses}/>{children}</div>}
