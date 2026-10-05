@@ -1,0 +1,10 @@
+import {WebSocketServer,WebSocket} from 'ws';
+import type {Plugin} from 'vite';
+import {randomUUID} from 'node:crypto';
+// Preview-only, memory-only presence. No identities, accounts, chat or persistence.
+export function explorerPresence():Plugin{return {name:'labyrinth-explorer-presence',configureServer(server){
+ const wss=new WebSocketServer({noServer:true,maxPayload:2048}),peers=new Map<WebSocket,{id:string;state:unknown;last:number}>();
+ const upgrade=(req:import('node:http').IncomingMessage,socket:import('node:stream').Duplex,head:Buffer)=>{if(req.url!=='/explorer-presence')return;const origin=req.headers.origin;try{if(!origin||new URL(origin).host!==req.headers.host){socket.destroy();return}}catch{socket.destroy();return}if(peers.size>=24){socket.destroy();return}wss.handleUpgrade(req,socket,head,ws=>wss.emit('connection',ws,req))};server.httpServer?.on('upgrade',upgrade);
+ wss.on('connection',ws=>{const peer={id:randomUUID(),state:null as unknown,last:0};peers.set(ws,peer);ws.send(JSON.stringify({you:peer.id}));ws.on('message',raw=>{const now=Date.now();if(now-peer.last<70)return;peer.last=now;try{const p=JSON.parse(raw.toString());if(!Array.isArray(p.n)||p.n.length!==3||!p.n.every((v:unknown)=>typeof v==='number'&&Number.isFinite(v)&&Math.abs(v)<=1.01))return;if(!p.look||!['coat','trousers','boots'].every(k=>/^#[0-9a-f]{6}$/i.test(p.look[k])))return;peer.state={world:p.world==='maze'?'maze':'sphere',n:p.n,yaw:Number.isFinite(p.yaw)?p.yaw:0,jump:Math.max(0,Math.min(2,Number(p.jump)||0)),look:{coat:p.look.coat,trousers:p.look.trousers,boots:p.look.boots,hat:!!p.look.hat},emote:['👋','💚','✨','🌱','🔎','🎉'].includes(p.emote)?p.emote:''}}catch{}});ws.on('close',()=>peers.delete(ws));ws.on('error',()=>peers.delete(ws))});
+ const timer=setInterval(()=>{const packet=JSON.stringify({peers:[...peers.values()].filter(p=>p.state).map(p=>({id:p.id,...p.state as object}))});for(const ws of peers.keys())if(ws.readyState===WebSocket.OPEN&&ws.bufferedAmount<64000)ws.send(packet)},100);server.httpServer?.once('close',()=>{clearInterval(timer);server.httpServer?.off('upgrade',upgrade);wss.close();for(const ws of peers.keys())ws.terminate()});
+ }} }

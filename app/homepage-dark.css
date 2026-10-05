@@ -1,0 +1,51 @@
+/* Homepage-only palette. Archive styles remain untouched. */
+.lh{--paper:#101b17;--ink:#e5ebdd;--lime:#d5ee9e;--line:#34483b;color-scheme:dark}
+.lh-header{background:#101b17}
+.lh-hero{background:radial-gradient(ellipse at 75% 45%,#20382a66,transparent 60%)}
+.lh-hero-top,.lh-orb-tag,.lh-orb-controls,.lh-section-label{color:#a9bba0}
+.lh-hero-top i{background:var(--lime)}
+.lh-intro,.lh-title-row p,.lh-record-info>p,.lh-record-info>div,.lh-note>span,.lh-note p{color:#b1bfa7}
+.lh-contours{opacity:.2}
+.lh-contours i{border-color:#829972}
+.lh-ticket{background:#1d3024!important;border-color:#465b3b!important;color:#e4ecd7}
+.lh-ticket small{color:#adbf9c}
+.lh-orb-controls button{border-color:#637c51}
+.lh-pill:hover{background:#2d432c}
+.lh-section-label,.lh-filterbar,.lh-records-list .lh-record{border-color:#3c503e}
+.lh-filters button.selected{background:var(--lime);color:#1d301b}
+.lh-filters button:hover{border-color:#79915f}
+.lh-view-controls button[aria-pressed=true]{background:#31462e}
+.lh-record-visual{border-color:#455d3b!important}
+.lh-note{border-color:#506446}
+.lh-note:hover h3{color:var(--lime)}
+.lh-manifesto{background:#09140f}
+.lh-end{background:#1c3122;color:#e1edcf;border-top:1px solid #3e5336}
+.lh-end em,.lh-end>a svg{color:var(--lime)}
+.lh-dock{background:#14251fe8;color:#d8e9c2;border-color:#526546}
+.lh-dock>span{border-color:#526546}
+.lh-chapters{mix-blend-mode:normal;color:#d0dfbd}
+.lh-chapters{width:24px;pointer-events:none}
+.lh-chapters button{position:relative;width:24px;pointer-events:auto}
+.lh-chapters button span{position:absolute;right:32px;white-space:nowrap;pointer-events:none}
+.lh-dialog{background:#17271f;color:#e1ebd5;border:1px solid #4b6040}
+.lh-close{color:#1d301c!important}
+.lh-search-panel input{color:#e3edd7}
+.lh-search-panel label,.lh-search-results button,.lh-settings label,.lh-detail-copy dl,.lh-detail-copy dl>div{border-color:#40583a}
+.lh-search-panel>p:not(.lh-micro),.lh-search-results small,.lh-settings>p:not(.lh-micro),.lh-detail-copy>em,.lh-detail-copy>p:not(.lh-micro),.lh-detail-copy dt{color:#b0c09f}
+.lh-settings label button{background:#30452c;color:#e0edcc}
+.lh-settings label button[aria-pressed=true]{background:var(--lime);color:#20351e}
+.lh-settings input{accent-color:#c5e694}
+.lh-tour{background:#1c3023;color:#e4efd5;border-color:#607a49}
+.lh-tour p{color:#b7c7a6}
+.lh-skip{color:#20301c!important}
+.lh button:focus-visible,.lh a:focus-visible,.lh canvas:focus-visible{outline-color:#d5ee9e}
+.lh-record-visual .lh-record-context{position:absolute;inset:0;opacity:0;transition:opacity .65s,transform 1.1s}
+.lh-record-visual:hover .lh-record-context,.lh-record-visual:focus-visible .lh-record-context{opacity:.9;transform:scale(1.05)}
+.lh-essay-photo a img{height:115%;position:absolute;top:-7.5%}
+@supports(animation-timeline:view()){
+ .lh:not(.lh-still) .lh-essay-photo a img{animation:lh-photo-scroll linear both;animation-timeline:view();animation-range:entry 0% exit 100%}
+}
+@keyframes lh-photo-scroll{from{translate:0 -4%}to{translate:0 4%}}
+.lh-header-shop{display:flex;gap:6px;align-items:center;font-size:11px}
+
+@media(max-width:850px){.lh-header-shop{display:none}}
