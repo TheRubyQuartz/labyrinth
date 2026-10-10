@@ -108,7 +108,7 @@
   {
     "id": "infrastructure",
     "title": "Infrastructure",
-    "note": "Blue-crab refuge and shelter use. This profile does not document built shelters or external tool use; it does not borrow captive-care practices from other crab species.",
+    "note": "Refuge used by the crab and instruments used to study it. Sediment concealment is distinguished from built structures; research equipment is human technology.",
     "sections": [
       {
         "source": "crab-ecological-niches",
@@ -178,7 +178,7 @@
         "cluster": "Seafood industry & regional history"
       }
     ],
-    "note": "Industry and regional history. Historical figures and source claims are not live market estimates."
+    "note": "Animal interaction, behavioral studies and human cultural significance. Historical fishery figures are not live market estimates."
   },
   {
     "id": "fitness",
@@ -252,13 +252,8 @@
       {
         "source": "blue-armor-models",
         "cluster": "Armor & external protection"
-      },
-      {
-        "source": "blue-fashion-concepts",
-        "cluster": "Crab-inspired fashion · concepts for future models"
       }
-    ],
-    "empty": "Specimen and fashion models are planned. Descriptions are available; no interactive 3D model is connected."
+    ]
   },
   {
     "id": "animation",
@@ -267,9 +262,12 @@
       {
         "source": "crab-art-history",
         "cluster": "Art across media & history"
+      },
+      {
+        "source": "blue-fashion-concepts",
+        "cluster": "Crab-inspired design concepts"
       }
     ],
-    "empty": "No drawings or animated artwork are attached yet. The existing crab illustration is in Graphics.",
     "links": [
       {
         "target": "crab-category-graphics",
@@ -298,7 +296,7 @@
         "cluster": "Simulations · environmental conditions"
       }
     ],
-    "note": "Habitat, geographic range and environmental conditions. Use the planned simulation subsection to explore the scope of future environmental tests."
+    "note": "Habitat, geographic range and environmental observations. The interactive habitat diagram is conceptual, not a calibrated environmental forecast."
   },
   {
     "id": "survival",
@@ -334,13 +332,11 @@
   {
     "id": "film",
     "title": "Videos",
-    "sections": [],
-    "empty": "No live footage or edited videos have been added yet."
+    "sections": []
   },
   {
     "id": "sounds",
     "title": "Sounds",
-    "sections": [],
-    "empty": "No audio recordings or music library are connected yet. The persistent player remains available at the bottom of the page."
+    "sections": []
   }
 ]

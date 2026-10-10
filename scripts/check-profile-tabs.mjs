@@ -16,7 +16,8 @@ try{
   assert(html.includes('id="crab-category-'+group.id+'"'),group.id+' active content');
   assert(html.includes('id="article-see-also"'),group.id+' See Also');
   assert(html.includes('id="article-references"'),group.id+' References');
-  assert(html.includes('Hide player'),group.id+' music control');
+  assert(!html.includes('Hide player'),group.id+' empty floating player removed');
+  assert(html.indexOf('id="crab-collection-'+group.id+'"')<html.indexOf('class="crab-background-reading"'),group.id+' collection precedes background reading');
   assert(html.includes('id="article-further-reading"'),group.id+' Further Reading');
   assert(!html.includes('Literary context'),group.id+' obsolete literary context removed');
   assert(html.indexOf('id="article-further-reading"')>html.indexOf('id="article-see-also"'),'Further Reading nested after See Also');
@@ -50,5 +51,6 @@ try{
  const toc=renderToStaticMarkup(React.createElement(MergedCrabContents,{link:(target,label)=>React.createElement('a',{href:'#'+target},label)}));
  assert(!toc.includes('Music'),'Music must not appear in Contents');
  assert(toc.includes('Overview')&&toc.includes('Survival'));
- console.log('PASS: all 13 tabs render independently with See Also, References and player controls; Contents excludes music.');
+ console.log('PASS: all 13 tabs render collections first, retain See Also and References, and omit the disconnected player.');
 }finally{await server.close()}
+process.exit(0);

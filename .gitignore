@@ -1,4 +1,10 @@
 node_modules/
+.labyrinth-data/
+.practice-preview/
+.practice-qa/
+.removed-practice/
+.removed-feature-tools-20261008/
+.feature-preview/
 .DS_Store
 *.tsbuildinfo
 *.log

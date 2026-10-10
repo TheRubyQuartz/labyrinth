@@ -1,0 +1,52 @@
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');
+process.env.PLAYWRIGHT_BROWSERS_PATH=path.resolve('.practice-qa/browsers');
+const {chromium}=require('playwright');
+const browser=await chromium.launch({headless:true,args:['--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const groups=JSON.parse(fs.readFileSync('app/crab-categories.json','utf8'));
+try{
+ await page.goto('http://127.0.0.1:5205/?entry=SP-001',{waitUntil:'domcontentloaded'});
+ for(const group of groups){
+  await page.getByRole('tab',{name:group.title,exact:true}).first().click();
+  const collection=page.locator('#crab-collection-'+group.id);
+  await collection.waitFor({state:'visible'});
+  assert(await collection.locator('.crab-record-list button').count()>=12);
+  const records=collection.locator('.crab-record-list button');
+  await records.nth(1).click();
+  assert.equal(await records.nth(1).getAttribute('aria-pressed'),'true');
+  await collection.getByRole('combobox').first().selectOption('0');
+  assert.equal(await collection.locator('.crab-record-comparison').count(),1);
+  const search=collection.getByRole('searchbox');await search.fill('zz-no-record');
+  await collection.getByRole('button',{name:'Clear search'}).click();
+  assert(await records.count()>=3);
+  await collection.locator('.crab-collection-explore > summary').first().click();
+  const steps=collection.locator('.crab-pathway-steps button');
+  if(await steps.count())await steps.last().click();
+  console.log('PASS '+group.title+' records, selection, comparison, search and feature controls');
+ }
+ await page.locator('#crab-collection-sounds .crab-record-list button').first().click();
+ assert.equal(await page.locator('.crab-selected-object audio').count(),1);
+ await page.getByRole('tab',{name:'Models',exact:true}).first().click();
+ await page.locator('.crab-model-canvas canvas').waitFor();
+ await page.getByRole('button',{name:'Claw-bearing pair',exact:true}).click();
+ await page.getByLabel('Separate shell and abdomen').check();
+ await page.getByRole('button',{name:'Whole crab',exact:true}).click();
+ await page.getByRole('button',{name:'Reset view',exact:true}).click();
+ await page.getByRole('button',{name:'Zoom into component model',exact:true}).click();
+ await page.getByRole('button',{name:'Zoom out of component model',exact:true}).click();
+ await page.locator('.crab-component-model').screenshot({path:'.practice-qa/crab-components.png'});
+ await page.getByRole('tab',{name:'Art',exact:true}).first().click();
+ await page.locator('#crab-collection-animation').screenshot({path:'.practice-qa/crab-art-collection.png'});
+ await page.setViewportSize({width:390,height:844});
+ await page.getByRole('tab',{name:'Infrastructure',exact:true}).first().click();
+ await page.locator('#crab-collection-infrastructure').screenshot({path:'.practice-qa/crab-infrastructure-mobile.png'});
+ assert(await page.locator('#crab-collection-infrastructure').evaluate(el=>el.scrollWidth<=el.clientWidth+2),'Collection mobile overflow');
+ const download=page.waitForEvent('download');await page.getByRole('button',{name:'Export source catalog'}).click();assert((await download).suggestedFilename().includes('infrastructure'));
+ assert.deepEqual(errors,[]);
+ console.log('PASS embedded audio element, component controls, catalog download, mobile collection width; no browser exceptions');
+}finally{await browser.close()}
