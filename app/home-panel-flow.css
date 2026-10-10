@@ -1,0 +1,61 @@
+/* Graphics direction: cinematic entrance, distinct editorial panels, object particles.
+   The fixed landscape stays behind content, never above unpositioned panels. */
+.lh .lh-main{position:relative;z-index:1;isolation:isolate;background:transparent}
+.lh .lh-main>.lh-hero{margin-bottom:clamp(70px,12vh,140px)}
+.lh-panel-flow{position:relative;display:flow-root;isolation:isolate}
+.lh .lh-panel-flow>section{position:relative;width:min(1200px,92vw);margin:0 auto clamp(64px,12vh,150px);padding:clamp(28px,5vw,72px);border:1px solid #9cb7a333;border-radius:4px;box-shadow:0 28px 80px #0004;scroll-margin-top:28px;color:#e5ebdd}
+.lh .lh-panel-flow>.li-sequence{height:150vh;min-height:900px;padding:0;background:#0b1d22}
+.lh-panel-flow .li-sticky{height:100vh;min-height:680px;max-height:100%;overflow:hidden}
+.lh-panel-flow .li-stage{opacity:1}
+.lh .lh-panel-flow>.lh-sequence{background:#0b1711;overflow:hidden;padding-bottom:0}
+.lh .lh-panel-flow>.lh-discover{background:#10241d}
+.lh .lh-panel-flow>.lh-perspectives{min-height:680px;height:85vh;max-height:920px;overflow:hidden;background:#11271f}
+.lh .lh-panel-flow>.lh-fieldnotes{background:#182c27}
+.lh .lh-panel-flow>.lh-expedition{background:#0c1812}
+.lh .lh-panel-flow>.lh-market-feature{background:#263c28}
+.lh .lh-panel-flow>.lh-connect{background:#13231a;margin-bottom:64px}
+.lh-panel-flow .lh-reveal{opacity:1;transform:none}
+.lh-panel-flow .lh-section-label{gap:20px;line-height:1.7;flex-wrap:wrap;color:#b4c6ad;border-color:#718a6555}
+.lh-panel-flow .lh-title-row{gap:24px}
+.lh-panel-flow .lh-title-row p,.lh-panel-flow .lh-note p,.lh-panel-flow .lh-record-info>div,.lh-panel-flow .lh-record-info>p{color:#b6c9ad}
+.lh-panel-flow .lh-records{grid-template-columns:repeat(3,minmax(0,1fr))}
+.lh-panel-flow .lh-records-list{display:block}
+.lh-panel-flow .lh-record{transform:none!important;min-width:0}
+.lh-panel-flow .lh-record h3{line-height:1.25}
+.lh-panel-flow .lh-perspective-image{translate:none;inset:0}
+.lh-panel-flow .lh-perspective-overlay{background:linear-gradient(90deg,#071911f0,#10241d9c 65%,#10241d40)}
+.lh-panel-flow .lh-sequence .lh-two-paths{margin:0 calc(-1 * clamp(28px,5vw,72px))}
+.lh-panel-flow .lh-two-paths>a{padding:36px;min-height:400px}
+.lh-panel-flow .lh-filterbar{gap:18px;flex-wrap:wrap}
+.lh-panel-flow .lh-filters{flex-wrap:wrap}
+.lh .lh-footer,.lh .lh-footer-wordmark{position:relative;z-index:1;width:92%;max-width:1200px}
+@media(max-width:700px){
+ .lh .lh-panel-flow>section{width:94vw;padding:24px;margin-bottom:48px}
+ .lh .lh-panel-flow>.li-sequence{padding:0;height:auto;min-height:0}
+ .lh-panel-flow .li-sticky{position:relative;min-height:900px;height:auto}
+ .lh-panel-flow .li-stage{height:400px;inset:0 0 auto}
+ .lh-panel-flow .li-story{position:relative;left:auto;top:auto;bottom:auto;width:auto;padding:430px 24px 24px;max-width:none}
+ .lh-panel-flow .li-records{position:relative;left:auto;right:auto;top:auto;bottom:auto;width:auto;display:grid;grid-template-columns:1fr;margin:0 24px}
+ .lh-panel-flow .li-controls{position:relative;left:auto;right:auto;bottom:auto;padding:24px;display:grid;gap:18px}
+ .lh-panel-flow .li-controls>div{flex-wrap:wrap}
+ .lh-panel-flow .lh-records{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}
+ .lh-panel-flow .lh-record h3{font-size:18px}
+ .lh-panel-flow .lh-records-list .lh-record{gap:14px}
+ .lh-panel-flow .lh-records-list .lh-record-visual{width:100px;flex-shrink:0}
+ .lh .lh-panel-flow>.lh-perspectives{height:720px;min-height:0}
+ .lh-panel-flow .lh-perspective-copy h2{font-size:50px}
+ .lh-panel-flow .lh-perspective-bottom{display:block}
+ .lh-panel-flow .lh-segmented{width:max-content;max-width:100%;flex-wrap:wrap}
+ .lh-panel-flow .lh-segmented button{padding:10px 8px;letter-spacing:0}
+ .lh-panel-flow .lh-photo-essay{display:grid;grid-template-columns:1fr 1fr;gap:24px 16px}
+ .lh-panel-flow .lh-photo-essay figure{grid-column:auto;grid-row:auto;margin:0!important}
+ .lh-panel-flow .lh-photo-essay blockquote{grid-column:1/-1;grid-row:auto;padding:16px 0}
+ .lh-panel-flow .lh-photo-essay figure a{aspect-ratio:4/5}
+ .lh-panel-flow .lh-sequence .lh-two-paths{margin:0 -24px}
+ .lh-panel-flow .lh-two-paths>a{padding:28px}
+ .lh-panel-flow .lh-calendar-stage,.lh-panel-flow .lh-market-feature,.lh-panel-flow .lh-connect{gap:30px}
+ .lh-panel-flow .lh-calendar-tabs{flex-wrap:wrap}
+ .lh-panel-flow .lh-plan-detail label{flex-wrap:wrap}
+ .lh .lh-footer,.lh .lh-footer-wordmark{width:94%;padding:28px 24px}
+ .lh .lh-footer-directory{grid-template-columns:1fr 1fr!important;gap:24px!important}
+}
