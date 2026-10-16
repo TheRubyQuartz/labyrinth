@@ -1,0 +1,12 @@
+.lab-fire-atmosphere{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 50% 115%,#ff6a004d,transparent 65%),linear-gradient(0deg,#36100575,transparent 75%)}
+.lab-fire-atmosphere:before,.lab-fire-atmosphere:after{content:'';position:absolute;inset:25% -20% -40%;background:radial-gradient(ellipse at 25% 80%,#ff3c0066,transparent 30%),radial-gradient(ellipse at 65% 95%,#ffb21b75,transparent 40%),radial-gradient(ellipse at 90% 60%,#ed390044,transparent 35%);filter:blur(35px);animation:fire-billow 9s ease-in-out infinite alternate}
+.lab-fire-atmosphere:after{animation-delay:-5s;animation-duration:13s;mix-blend-mode:screen}
+.lab-fire-atmosphere i{position:absolute;left:var(--x);bottom:-20px;width:3px;height:7px;border-radius:50%;background:#ffe1a1;box-shadow:0 0 8px 2px #ff7900,0 0 22px #ff3d00;animation:fire-rise var(--duration) linear var(--delay) infinite}
+.lab-expedition-carousel{isolation:isolate;text-shadow:0 2px 12px #250b00}
+.lab-expedition-carousel button{background:linear-gradient(145deg,#4c1b11ed,#27100de8);border-color:#ff9a4677;color:#ffe3c2;box-shadow:inset 0 1px #ffc37033,0 0 16px #ff58001a;transition:background .3s,box-shadow .3s,transform .3s}
+.lab-expedition-carousel button:hover,.lab-expedition-carousel button:focus-visible{background:#81300e;box-shadow:0 0 24px #ff6a0077;transform:translateY(-2px);outline-color:#ffd483}
+.lab-expedition-carousel nav button[aria-pressed=true]{background:linear-gradient(130deg,#ffe2a0,#ff8a24);color:#321005;border-color:#ffdc8c;box-shadow:0 0 25px #ff6b0066;text-shadow:none}
+.lab-expedition .lab-expedition-inner{background:#29170ff0;border-color:#e99a4c66}.lab-expedition input,.lab-expedition textarea{background:#1e100b;color:#fff0dc;border-color:#d98b5066}.lab-expedition button{background:#4c2419;border-color:#dd945477;color:#ffe6c6}.lab-expedition button[aria-pressed=true]{background:#ffba68;color:#2b1007}
+@keyframes fire-rise{0%{transform:translate(0,0) scale(.5);opacity:0}10%{opacity:.85}75%{opacity:.65}100%{transform:translate(var(--drift),-105vh) scale(.15);opacity:0}}
+@keyframes fire-billow{from{transform:translate(-3%,4%) scale(.95);opacity:.65}to{transform:translate(4%,-8%) scale(1.15);opacity:1}}
+@media(prefers-reduced-motion:reduce){.lab-fire-atmosphere:before,.lab-fire-atmosphere:after,.lab-fire-atmosphere i{animation:none}.lab-fire-atmosphere i{display:none}}

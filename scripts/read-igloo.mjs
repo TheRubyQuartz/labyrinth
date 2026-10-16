@@ -1,0 +1,4 @@
+import {createRequire} from 'node:module';import path from 'node:path';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');process.env.PLAYWRIGHT_BROWSERS_PATH=path.resolve('.practice-qa/browsers');const {chromium}=require('playwright');
+const browser=await chromium.launch({headless:true,args:['--enable-unsafe-swiftshader']});
+try{const page=await browser.newPage({viewport:{width:1440,height:900}});await page.goto('https://www.igloo.inc/',{waitUntil:'domcontentloaded'});await page.waitForTimeout(10000);console.log(await page.evaluate(()=>({title:document.title,text:document.body.innerText,resources:performance.getEntriesByType('resource').map(r=>r.name).filter(x=>/glb|gltf|ktx|mp3|woff|\.js/.test(x))})));}finally{await browser.close()}

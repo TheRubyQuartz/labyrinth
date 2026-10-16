@@ -1,0 +1,17 @@
+/* Isolate the reference composition from Labyrinth's global UI styles. */
+.ig-rebuild .ig-header,.ig-rebuild .ig-footer{background:none;border:0;box-shadow:none;padding:0}
+.ig-rebuild .ig-logo{display:block;width:176px;height:41px;font-size:0!important;background:url('./igloo-mark.svg') left center/contain no-repeat;filter:drop-shadow(0 0 3px #d8edff88);-webkit-text-stroke:0;text-shadow:none}
+.ig-rebuild .ig-label h1{font:500 16px/1.35 monospace;letter-spacing:.02em;background:#eff5ff;color:#526174;padding:6px 10px;max-width:260px;text-shadow:none}
+.ig-rebuild .ig-label{top:23%;left:26%}
+.ig-rebuild .ig-label:after{content:"";position:absolute;left:25px;top:100%;width:110px;height:1px;background:#e9f5ff;transform-origin:left;transform:rotate(43deg);box-shadow:0 0 8px #d0ebff}
+.ig-rebuild .ig-label small{font-size:9px}
+.ig-rebuild .ig-label-three{left:12%;top:30%}
+.ig-rebuild .ig-label-four{left:65%;top:55%}
+.ig-rebuild .ig-nav{opacity:.55}
+.ig-rebuild .ig-header{opacity:var(--intro-ui,0)}
+.ig-rebuild .ig-atmosphere{opacity:.12}
+.ig-rebuild .ig-loading{font-size:10px;background:#979da8}
+.ig-rebuild .ig-footer{flex-direction:row;flex-wrap:nowrap;gap:12px;align-items:flex-end}
+.ig-rebuild .ig-footer,.ig-rebuild .ig-nav{opacity:var(--intro-ui,0)}
+.ig-rebuild .ig-header p{margin:0;text-shadow:0 1px 6px #26344799}
+@media(max-width:700px){.ig-rebuild .ig-logo{font-size:29px}.ig-rebuild .ig-label{left:8%;top:22%}.ig-rebuild .ig-label-four{top:67%}.ig-rebuild .ig-label h1{font-size:13px;max-width:210px}}

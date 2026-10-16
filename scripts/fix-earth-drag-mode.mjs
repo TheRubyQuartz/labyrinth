@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const root='public/reference/igloo-complete/';
+let s=fs.readFileSync(root+'labyrinth-scenes.js','utf8');
+const before="if(!this.active()||e.target.closest('.lab-globe-ui button,.lab-globe-panel,.lab-globe-selection'))return;";
+if(!s.includes(before))throw Error('Earth drag seam missing');
+s=s.replace(before,"if(!this.active()||!this.interacting||e.target.closest('.lab-globe-ui button,.lab-globe-panel,.lab-globe-selection'))return;");
+s=s.replace('Drag to rotate. Use + / − to zoom. “Explore globe” enables wheel zoom; otherwise scroll down to continue.','Drag or scroll to move through the page. Choose “Explore globe” to rotate and zoom Earth; choose “Done exploring” to resume page navigation.');
+fs.writeFileSync(root+'labyrinth-scenes.js',s);
+s=fs.readFileSync(root+'labyrinth-expedition-carousel.js','utf8').replaceAll('setScalar(7.5)','setScalar(15)').replace('setScalar(mobile?5.8:7.5)','setScalar(mobile?11.6:15)');
+fs.writeFileSync(root+'labyrinth-expedition-carousel.js',s);

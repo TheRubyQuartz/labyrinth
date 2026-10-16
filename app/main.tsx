@@ -1,11 +1,13 @@
-import { StrictMode } from 'react';
+import { StrictMode, Suspense, lazy } from 'react';
 import { createRoot } from 'react-dom/client';
-import Exploration from './exploration';
-import HomePage from './homepage';
+const Exploration=lazy(()=>import('./exploration'));
+const Destinations=lazy(()=>import('./labyrinth-destinations'));
+import HomePage from './igloo-complete-home';
 import './globals.css';
+import './site-theme.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {new URLSearchParams(window.location.search).has('entry') || new URLSearchParams(window.location.search).has('view') ? <Exploration /> : <HomePage />}
+    {['workshop','social'].includes(new URLSearchParams(window.location.search).get('view')||'') ? <Suspense fallback={<p role="status">Loading Labyrinth…</p>}><Destinations/></Suspense> : new URLSearchParams(window.location.search).has('entry') || new URLSearchParams(window.location.search).has('view') ? <Suspense fallback={<p role="status">Loading Labyrinth…</p>}><Exploration /></Suspense> : <HomePage />}
   </StrictMode>,
 );

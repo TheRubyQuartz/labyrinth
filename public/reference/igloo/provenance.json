@@ -1,0 +1,111 @@
+{
+  "source": "https://www.igloo.inc/",
+  "purpose": "User-requested local reference reconstruction. Original assets remain the property of their respective creators; no redistribution license is asserted.",
+  "files": [
+    {
+      "file": "geometries/igloo.drc",
+      "source": "https://www.igloo.inc/assets/geometries/igloo.drc",
+      "sha256": "ec225346c9abf9f82cbd703892b7f890f6b6f897777c2826c143d4d242a16956"
+    },
+    {
+      "file": "geometries/igloo/igloo_cage.drc",
+      "source": "https://www.igloo.inc/assets/geometries/igloo/igloo_cage.drc",
+      "sha256": "f10a57dd5db7e96f6d9783710e29a2b56cf6e6e77278681693f196aea587901e"
+    },
+    {
+      "file": "geometries/igloo/igloo_outline.drc",
+      "source": "https://www.igloo.inc/assets/geometries/igloo/igloo_outline.drc",
+      "sha256": "4a94c95d69303ff7e59153f3da0ae1a6a11dfbacd888c66696b992423b942645"
+    },
+    {
+      "file": "geometries/ground.drc",
+      "source": "https://www.igloo.inc/assets/geometries/ground.drc",
+      "sha256": "aac98a1cc006a7ac33b245a963a17d7aa86a0664dc0b73d860fd047a056247f7"
+    },
+    {
+      "file": "geometries/mountain.drc",
+      "source": "https://www.igloo.inc/assets/geometries/mountain.drc",
+      "sha256": "cd14edcb22a7453631ed17de5d8ca1b4d82902011201e1989466b1fb766c9c45"
+    },
+    {
+      "file": "images/igloo/igloo_color.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/igloo_color.ktx2",
+      "sha256": "fba0f68f753ec64f4412d0c88beec686f2ac9fdee5ca0eb936515faf6eba8307"
+    },
+    {
+      "file": "images/igloo/igloo_exploded_color.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/igloo_exploded_color.ktx2",
+      "sha256": "dac2bf41c72e98dfb94d421fc8f6a1f378423f7d82ea9762e758c9a4ce2c594e"
+    },
+    {
+      "file": "images/igloo/ground_color.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/ground_color.ktx2",
+      "sha256": "810dcf5e7f2ea194c149efbbeb0e1bce4a55aec2a6bee24e2bf8fc201c391ac1"
+    },
+    {
+      "file": "images/igloo/ground_sansigloo_color.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/ground_sansigloo_color.ktx2",
+      "sha256": "56dbac44ec5b55f31842ea913fbb08e8a56753cda7eed4942db76d54b7e4a216"
+    },
+    {
+      "file": "images/igloo/ground_glow.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/ground_glow.ktx2",
+      "sha256": "93d142993b56b67346b8c5b2bab25a0c8c06e9805485339a4fb6b60a1eec1d40"
+    },
+    {
+      "file": "images/igloo/mountain_color.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/mountain_color.ktx2",
+      "sha256": "32f523d29a44e5a32aa75877ed4c172b8e5af283c29bfab2ca713e76450a35d6"
+    },
+    {
+      "file": "images/igloo/triangles_tiling.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/triangles_tiling.ktx2",
+      "sha256": "e1127f77920367f47006ac7d8d5e64f6ab6adc7388ad9907f6c19a19f00bc6e9"
+    },
+    {
+      "file": "images/igloo/igloo_scene.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/igloo_scene.ktx2",
+      "sha256": "69af3267e3a083dc901486561aa7e11a5d39ee756d8c3369a3073b8a9b52665f"
+    },
+    {
+      "file": "images/wind_noise.ktx2",
+      "source": "https://www.igloo.inc/assets/images/wind_noise.ktx2",
+      "sha256": "c4c6d024e3d7a15661ebabc188b7a92e69433bdf7cf029aaef7039e035e93d92"
+    },
+    {
+      "file": "images/mosaic.ktx2",
+      "source": "https://www.igloo.inc/assets/images/mosaic.ktx2",
+      "sha256": "2ca8fb4f570e02ddc55248f9deb1251d9a32088761e68f4c0d471466b4674713"
+    },
+    {
+      "file": "audio/wind.ogg",
+      "source": "https://www.igloo.inc/assets/audio/wind.ogg",
+      "sha256": "478786ec448b99d4b6751adf8c105954f04612ef70a3c8624c8a6a36c1866d16"
+    },
+    {
+      "file": "audio/igloo.ogg",
+      "source": "https://www.igloo.inc/assets/audio/igloo.ogg",
+      "sha256": "c197e17cdb8d6502a6c0a36c98ec96e8efa19b71988128dd839399bc05f68418"
+    },
+    {
+      "file": "audio/particles.ogg",
+      "source": "https://www.igloo.inc/assets/audio/particles.ogg",
+      "sha256": "9c155073e7226ed9fa67e5a0eea309291e087c88c52b7bbe2b591272eb554412"
+    },
+    {
+      "file": "geometries/intro_particles.drc",
+      "source": "https://www.igloo.inc/assets/geometries/intro_particles.drc",
+      "sha256": "3bbfafee6007980b6bc44153f1c7cbfc37ea9da86878ffc13447157d339557fe"
+    },
+    {
+      "file": "geometries/igloo/patch.drc",
+      "source": "https://www.igloo.inc/assets/geometries/igloo/patch.drc",
+      "sha256": "5163022aad65b6d3aead4b837d3cb66feb172a5206221004cc7fb61f64ac53ae"
+    },
+    {
+      "file": "images/igloo/numbers.ktx2",
+      "source": "https://www.igloo.inc/assets/images/igloo/numbers.ktx2",
+      "sha256": "08d72c64ae151c7161dab3d6d3fe7cd51cf97448088ba9ac4211226ec1bdc04c"
+    }
+  ]
+}
