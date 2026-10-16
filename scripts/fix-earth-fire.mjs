@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const root='public/reference/igloo-complete/';
+let s=fs.readFileSync(root+'labyrinth-scenes.js','utf8');
+const before="addEventListener('wheel',e=>{if(this.active()&&(this.interacting||e.ctrlKey)&&!e.target.closest('.lab-globe-panel')){e.preventDefault();e.stopImmediatePropagation();this.targetDistance=Math.max(2.65,Math.min(10.5,this.targetDistance+e.deltaY*.003));this.autoRotate=false}},{capture:true,passive:false});";
+const after="addEventListener('wheel',e=>{if(!this.isSceneVisible||this.controller.isDetailOpen)return;e.preventDefault();e.stopImmediatePropagation();if(this.active()&&(this.interacting||e.ctrlKey)&&!e.target.closest('.lab-globe-panel')){this.targetDistance=Math.max(2.65,Math.min(10.5,this.targetDistance+e.deltaY*.003));this.autoRotate=false}else{const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?innerHeight:1);this.controller.stopAutoCenter();this.controller.scroll.targetY2+=delta*this.controller.scrollMultiplier;}},{capture:true,passive:false});";
+if(!s.includes(before))throw Error('Earth wheel seam missing');s=s.replace(before,after);fs.writeFileSync(root+'labyrinth-scenes.js',s);
+s=fs.readFileSync(root+'labyrinth-expedition-carousel.js','utf8');
+s=s.replace("header.append(element('span','','YOUR NEXT EXPEDITION')","header.append(element('span','','FIRE / YOUR NEXT EXPEDITION')");
+const marker="scene.journalTrigger=tabs[0];scene.calendarTrigger=tabs[1];";
+s=s.replace(marker,marker+`const atmosphere=element('div','lab-fire-atmosphere');atmosphere.setAttribute('aria-hidden','true');for(let i=0;i<48;i++){const ember=element('i');ember.style.setProperty('--x',((i*37)%101)+'%');ember.style.setProperty('--delay',(-i*.43)+'s');ember.style.setProperty('--duration',(5+i%8)+'s');ember.style.setProperty('--drift',((i%2?1:-1)*(40+i%7*25))+'px');atmosphere.append(ember)}hud.prepend(atmosphere);`);
+fs.writeFileSync(root+'labyrinth-expedition-carousel.js',s);

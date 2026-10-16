@@ -15,18 +15,19 @@ try{
   await page.getByRole('tab',{name:group.title,exact:true}).first().click();
   const collection=page.locator('#crab-collection-'+group.id);
   await collection.waitFor({state:'visible'});
+  assert.notEqual(await collection.locator('.crab-collection-heading h3').innerText(),'The collection');
+  assert.equal(await page.locator('#crab-category-'+group.id+' .crab-background-reading').getAttribute('open'),'');
   assert(await collection.locator('.crab-record-list button').count()>=12);
   const records=collection.locator('.crab-record-list button');
   await records.nth(1).click();
   assert.equal(await records.nth(1).getAttribute('aria-pressed'),'true');
-  await collection.getByRole('combobox').first().selectOption('0');
+  await collection.locator('.crab-record-compare select').selectOption('0');
   assert.equal(await collection.locator('.crab-record-comparison').count(),1);
   const search=collection.getByRole('searchbox');await search.fill('zz-no-record');
   await collection.getByRole('button',{name:'Clear search'}).click();
   assert(await records.count()>=3);
-  await collection.locator('.crab-collection-explore > summary').first().click();
-  const steps=collection.locator('.crab-pathway-steps button');
-  if(await steps.count())await steps.last().click();
+  assert.equal(await collection.getByText('Explore relationships & study tools',{exact:true}).count(),0);
+  assert.equal(await collection.locator('.crab-inspection-guide').count(),1);
   console.log('PASS '+group.title+' records, selection, comparison, search and feature controls');
  }
  await page.locator('#crab-collection-sounds .crab-record-list button').first().click();

@@ -1,0 +1,11 @@
+/* Shared homepage-led palette. Media and data-visualization colors remain intact. */
+:root{color-scheme:dark;--site-bg:#101b17;--site-surface:#1d3024;--site-raised:#293e30;--site-deep:#09140f;--site-text:#e5ebdd;--site-muted:#b1bfa7;--site-accent:#d5ee9e;--site-on-accent:#142318;--site-border:#465b3b;--background:var(--site-bg);--foreground:var(--site-text);--card:var(--site-surface);--card-foreground:var(--site-text);--popover:var(--site-surface);--popover-foreground:var(--site-text);--primary:var(--site-accent);--primary-foreground:var(--site-on-accent);--muted-foreground:var(--site-muted);--border:var(--site-border);--ring:var(--site-accent)}
+body,.lh,.xr-app{--paper:var(--site-bg);--ink:var(--site-text);--lime:var(--site-accent);--line:var(--site-border);--ar-paper:var(--site-bg);--ar-ink:var(--site-text);--ar-line:var(--site-border);background-color:var(--site-bg)!important;color:var(--site-text)!important}
+:is(.lh-header,.rf-global,.ar-local-nav,.dn-panel,.dn-footer,.lh-footer){background:var(--site-bg)!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+:is(.rf-chapter,.xr-app .rf-chapter,.ar-hero,.xr-intro,.lh .lh-panel-flow>section){background:linear-gradient(135deg,var(--site-deep),var(--site-surface))!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+:is(.sc-connections,.sc-notebook,.sc-connections a,.rf-dialog,.xr-dialog,.ar-dialog,.crab-focus-dialog,.lh-dialog,.dn-market-compare,.terrain-controls,.measurement-panel,.selected-record){background:var(--site-surface)!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+:is(.sc-connections p,.sc-notebook small,.sc-notebook p,.dn-footer p,.dn-footer-note,.dn-panel small,.rf-chapter p,.rf-chapter small){color:var(--site-muted)!important}
+:is(.sc-notebook button,.lh-lime,.rf-pill:not(.rf-outline),.ar-primary){background:var(--site-accent)!important;color:var(--site-on-accent)!important}
+:is(.sc-notebook textarea,.lh input,.lh select,.lh textarea){background:var(--site-deep)!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+:is(.lh,.xr-app) :is(a,button,input,select,textarea):focus-visible{outline-color:var(--site-accent)!important}
+dialog::backdrop{background:#09140fd9!important}

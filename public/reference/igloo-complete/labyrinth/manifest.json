@@ -1,0 +1,18 @@
+{
+  "mazeBlocks": 255,
+  "cathedralPieces": 528,
+  "models": [
+    "specimen",
+    "habitat",
+    "world",
+    "asset",
+    "cathedral",
+    "globe"
+  ],
+  "description": "Labyrinth model adaptations: gothic dungeon gateway, horizontal natural-history exhibits and interactive Earth. Opening retains attributed original ice-block surfaces and UV detail.",
+  "earthSources": [
+    "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_day_4096.jpg",
+    "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_bump_roughness_clouds_4096.jpg",
+    "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_normal_2048.jpg"
+  ]
+}

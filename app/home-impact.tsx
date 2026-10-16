@@ -1,0 +1,3 @@
+import {useEffect,useRef} from 'react';
+import './home-impact.css';
+export default function HomeImpact({paused,replay}:{paused:boolean;replay:number}){const root=useRef<HTMLDivElement>(null);useEffect(()=>{const el=root.current!;if(paused||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const animation=el.animate([{opacity:0},{opacity:.16,offset:.12},{opacity:0,offset:.15},{opacity:0,offset:.38},{opacity:.22,offset:.4},{opacity:0,offset:.45},{opacity:0}],{duration:2200,easing:'linear'});return()=>animation.cancel()},[paused,replay]);return <div ref={root} className="lh-impact" aria-hidden="true"><i/><i/><i/></div>}

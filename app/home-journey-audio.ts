@@ -1,0 +1,8 @@
+// Original synthesized effects. No autoplay or downloaded/reference audio.
+export class JourneyAudio{
+ context:AudioContext|null=null;master:GainNode|null=null;wind:AudioBufferSourceNode|null=null;
+ async enable(){if(!this.context){const c=new AudioContext();this.context=c;this.master=c.createGain();this.master.gain.value=.22;this.master.connect(c.destination);const buffer=c.createBuffer(1,c.sampleRate*4,c.sampleRate),data=buffer.getChannelData(0);let last=0;for(let i=0;i<data.length;i++){last=(last+(Math.random()*2-1)*.035)/1.018;data[i]=last}const source=c.createBufferSource();source.buffer=buffer;source.loop=true;const filter=c.createBiquadFilter();filter.type='lowpass';filter.frequency.value=680;source.connect(filter);filter.connect(this.master);source.start();this.wind=source}await this.context.resume()}
+ mute(){void this.context?.suspend()}
+ effect(kind:'assemble'|'disperse'|'travel'){const c=this.context,master=this.master;if(!c||!master||c.state!=='running')return;const now=c.currentTime,duration=kind==='travel'?1.3:.65;const osc=c.createOscillator(),gain=c.createGain();osc.type='sine';osc.frequency.setValueAtTime(kind==='assemble'?170:85,now);osc.frequency.exponentialRampToValueAtTime(kind==='assemble'?430:32,now+duration);gain.gain.setValueAtTime(.0001,now);gain.gain.exponentialRampToValueAtTime(.12,now+.08);gain.gain.exponentialRampToValueAtTime(.0001,now+duration);osc.connect(gain);gain.connect(master);osc.start();osc.stop(now+duration);osc.onended=()=>{osc.disconnect();gain.disconnect()}}
+ dispose(){this.wind?.stop();void this.context?.close();this.context=null}
+}
