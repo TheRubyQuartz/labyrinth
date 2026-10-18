@@ -1,4 +1,4 @@
-import{a as e,i as t,n}from"./index-HKOSKBIv.js";import{B as r,C as i,D as a,E as o,Et as s,Ht as c,Kt as l,O as u,Q as d,R as f,Rt as p,St as m,T as h,Tt as g,Ut as _,Wt as v,Y as y,Z as b,_ as ee,c as x,d as S,dt as te,gt as ne,h as re,ht as C,l as ie,mt as ae,n as oe,pt as se,qt as ce,s as w,tt as le,ut as T,x as E,y as ue,zt as de}from"./three.module-CbbeAA8_.js";import{t as fe}from"./RoundedBoxGeometry-DtTHaKj1.js";var D=e(t(),1),O={name:`CopyShader`,uniforms:{tDiffuse:{value:null},opacity:{value:1}},vertexShader:`
+import{a as e,i as t,n}from"./index-DIG2fRSs.js";import{B as r,C as i,D as a,E as o,Et as s,Ht as c,Kt as l,O as u,Q as d,R as f,Rt as p,St as m,T as h,Tt as g,Ut as _,Wt as v,Y as y,Z as b,_ as ee,c as x,d as S,dt as te,gt as ne,h as re,ht as C,l as ie,mt as ae,n as oe,pt as se,qt as ce,s as w,tt as le,ut as T,x as E,y as ue,zt as de}from"./three.module-CbbeAA8_.js";import{t as fe}from"./RoundedBoxGeometry-DtTHaKj1.js";var D=e(t(),1),O={name:`CopyShader`,uniforms:{tDiffuse:{value:null},opacity:{value:1}},vertexShader:`
 
 		varying vec2 vUv;
 
