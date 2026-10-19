@@ -1,5 +1,11 @@
 # Labyrinth homepage scene adaptation
 
+## October 16 reference revision
+
+The two supplied west-facade photos guide a revised vertical hierarchy, wider side portals, paired lancets/quatrefoils beside the rose, upper arcade, 28-figure Kings' Gallery and rear wall/buttress depth. This remains an original stylized model using the existing sculpted ice-block meshes/UVs and original assembly pipeline; it is not Ubisoft's model. Search did not establish an official downloadable Ubisoft model licensed for website reuse. Ubisoft describes its game/VR work at https://news.ubisoft.com/es-mx/article/3jsMF7A3sNwJQIZnAR3zkA/games-as-historical-immersion-and-preservation-creating-fun-and-plausible-worlds-for-players .
+
+Final-scene volume targets now depict an open book, grandfather clock (dial, pendulum case and plinth), and hatchet. The existing journal/calendar/marketplace actions remain. Volcanic additions include 32 drifting ash fragments and five staggered background puffs with reduced-motion support. The social destination is labeled Network; its existing route remains `view=social` for compatibility.
+
 ## October 15, 2026
 
 Earth drag-mode correction: pointer-down only starts globe rotation when `interacting` is explicitly enabled by Explore Globe. Default click/release/re-drag is left to the original page drag controller. Fire particle geometry and its interaction proxy are doubled (desktop scale 15, mobile 11.6).

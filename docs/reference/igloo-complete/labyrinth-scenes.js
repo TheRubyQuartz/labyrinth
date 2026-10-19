@@ -1,10 +1,12 @@
 import {createExpeditionScene} from './labyrinth-expedition.js';
+import {installSceneScrollbar} from './labyrinth-scrollbar.js';
 // New content scenes use the reference compositor, camera, frost, sound and transition pipeline.
 export function createLabyrinthScenes({Base,Cubes,Cube,Opening,Entry,Background,Mesh,Material,Vector,Color,Points,Geometry,Attribute,ParticleVolume,Tween,geometry,textures,events,time,config}){
  const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css';document.head.append(css);
  const element=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e};
  const smooth=(a,b,x)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t)};
  class PortalOpening extends Opening{
+  constructor(options){super(options);installSceneScrollbar(options.mainController)}
   update(){super.update();const intro=this.introWeight.value,open=smooth(.51,.66,this.progress),travel=smooth(.57,.91,this.progress);this.portalOpen=open;this.portalTravel=travel;
    if(intro>.999){this.camera.basePosition.set(-13.9*(1-travel),4.3+(1.7-4.3)*travel,13.9*(1-travel));this.camera.baseTarget.set(travel*.7,3.65+(1.7-3.65)*travel,-travel*.7);this.camera.displacement.position.set(.025*(1-travel),.012*(1-travel));}
    if(!this.igloo?._objects)return;

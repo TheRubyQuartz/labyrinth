@@ -1,0 +1,7 @@
+// Acquire a reproducible low-resolution GIS fallback, not invented terrain.
+import {mkdir,writeFile} from 'node:fs/promises';
+const url='https://coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180.json?altitude%5B(-90):60:(90)%5D%5B(-180):60:(180)%5D';
+const response=await fetch(url);if(!response.ok)throw Error(response.status);const data=await response.json();
+const rows=data.table.rows;const values=new Int16Array(rows.map(r=>r[2]));await mkdir('public/world-terrain',{recursive:true});await writeFile('public/world-terrain/etopo1-degree.bin',new Uint8Array(values.buffer));
+await writeFile('public/world-terrain/source.json',JSON.stringify({source:'NOAA ETOPO1 via ERDDAP',url,width:361,height:181,step:1,south:-90,west:-180,units:'metres',order:'south to north; west to east',resolution:'1 degree fallback; live tiles provide finer terrain',accessed:'2026-10-18'},null,2));console.log({samples:rows.length,first:rows[0],last:rows.at(-1)});
+for(const [name,south,north] of [['north',80,90],['south',-90,-80]]){const q=`altitude[(${south}):5:(${north})][(-180):5:(180)]`;const r=await fetch('https://coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180.json?'+encodeURI(q));if(!r.ok)throw Error(r.status);const polar=(await r.json()).table.rows;const heights=new Int16Array(polar.map(r=>r[2]));await writeFile(`public/world-terrain/polar-${name}-5min.bin`,new Uint8Array(heights.buffer));console.log({name,samples:polar.length,first:polar[0],last:polar.at(-1)});}

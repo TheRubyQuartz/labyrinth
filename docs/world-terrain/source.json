@@ -1,0 +1,13 @@
+{
+  "source": "NOAA ETOPO1 via ERDDAP",
+  "url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180.json?altitude%5B(-90):60:(90)%5D%5B(-180):60:(180)%5D",
+  "width": 361,
+  "height": 181,
+  "step": 1,
+  "south": -90,
+  "west": -180,
+  "units": "metres",
+  "order": "south to north; west to east",
+  "resolution": "1 degree fallback; live tiles provide finer terrain",
+  "accessed": "2026-10-18"
+}

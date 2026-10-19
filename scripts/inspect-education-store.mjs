@@ -1,0 +1,4 @@
+import {createRequire} from 'node:module';
+process.env.PLAYWRIGHT_BROWSERS_PATH='C:/Users/Neo/Downloads/labyrinth-main (1)/labyrinth-home-recovery/.practice-qa/browsers';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');const {chromium}=require('playwright');const b=await chromium.launch({headless:true});
+try{const p=await b.newPage({viewport:{width:1440,height:1000}});await p.goto('https://www.apple.com/us-edu/store',{waitUntil:'domcontentloaded',timeout:60000});await p.waitForTimeout(2500);for(const [i,y] of [0,850,1600,2350,3100,3900,4700,5500].entries()){await p.evaluate(y=>scrollTo(0,y),y);await p.waitForTimeout(400);await p.screenshot({path:'.practice-qa/edu-'+i+'.png'});}console.log(await p.locator('h1,h2').allTextContents());console.log(await p.getByRole('button').allTextContents());}finally{await b.close()}

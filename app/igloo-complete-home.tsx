@@ -18,7 +18,7 @@ export default function IglooCompleteHome(){
   {error&&!ready&&<aside className="ig-complete-error" role="alert">The 3D experience could not finish loading. <button onClick={()=>{setError('');if(frame.current)frame.current.src='./reference/igloo-complete/index.html?retry='+Date.now()}}>Retry</button><a href="?view=archive">Open archive</a></aside>}
   <dialog ref={dialog} className="ig-destination-dialog" onClick={event=>{if(event.target===dialog.current)dialog.current.close()}}>
    <div><header><h1>Explore Labyrinth</h1><button autoFocus onClick={()=>dialog.current?.close()} aria-label="Close destinations">×</button></header>
-    <nav aria-label="Labyrinth destinations">{[['archive','Archive'],['workshop','Workshop'],['social','Social platform'],['map','World map'],['news','Conservation news'],['marketplace','Marketplace']].map(([view,label])=><a key={view} href={'?view='+view}>{label}<span>↗</span></a>)}</nav>
+    <nav aria-label="Labyrinth destinations">{[['archive','Archive'],['workshop','Workshop'],['social','Network'],['map','World map'],['news','Conservation news'],['marketplace','Marketplace']].map(([view,label])=><a key={view} href={'?view='+view}>{label}<span>↗</span></a>)}</nav>
     <p>Labyrinth content and models, built on the attributed Igloo reference runtime. Original effects, audio and reference artwork belong to their respective creators.</p>
     <a className="ig-provenance" href="./reference/igloo-complete/provenance.json" target="_blank" rel="noreferrer">Asset provenance ↗</a>
    </div>

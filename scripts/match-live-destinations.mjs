@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const path='app/exploration-reference.tsx';let s=fs.readFileSync(path,'utf8');
+s="import {StoreRailControls} from './store-rail-controls';\n"+s;
+s=s.replace('<DestinationIntro kind="marketplace"/><div className="xr-store-notice">','<div className="xr-store-notice">');
+s=s.replace('Sample listings only—no purchases or bookings.</div><nav','Sample listings only—no purchases or bookings.</div><header className="store-masthead"><h1>Marketplace</h1><div><h2>Tools and opportunities.<br/>For your next expedition.</h2><a href="#market-guidance">Get help choosing ↗</a><a href="?view=map">Explore locations ↗</a></div></header><nav');
+s=s.replace('<h2>Find your next step.</h2>','<h2>The collection. <span>Find your next step.</span></h2>');
+s=s.replace('</article>)}</div>{!shown.length','</article>)}</div><StoreRailControls/>{!shown.length');
+s=s.replace('<DestinationIntro kind="news"/>','<header className="news-masthead"><a href="?view=news"><strong>LABYRINTH</strong><span>Conservation News</span></a><a href="?view=archive">Search the archive ↗</a></header>');
+s=s.replace('<div className="xr-journal-bar">','<div className="xr-journal-bar">');
+fs.writeFileSync(path,s);

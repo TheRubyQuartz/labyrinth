@@ -1,0 +1,36 @@
+/* Route-level materials. Archive records always inherit ice, never category colors. */
+.xr-app{--site-bg:#101923;--site-deep:#0d1620;--site-surface:#20313f;--site-text:#eef7fc;--site-muted:#bccfdd;--site-border:#69889b66;--site-accent:#c0e7f6;--element-glow:#9ddcf226;--element:var(--site-accent);--element-surface:var(--site-surface);--secondary:var(--site-surface);--accent:var(--site-surface);--primary-foreground:var(--site-deep)}
+.xr-app.xr-view-map{--site-bg:#171c16;--site-deep:#101710;--site-surface:#2c3528;--site-text:#f1f0e5;--site-muted:#c4c9af;--site-border:#89977166;--site-accent:#c7d49e;--element-glow:#a6bc6a20}
+.xr-app.xr-view-marketplace{--site-bg:#211512;--site-deep:#180e0d;--site-surface:#38221d;--site-text:#fff2e7;--site-muted:#dec0ad;--site-border:#a9674566;--site-accent:#ffba7e;--element-glow:#f277322d}
+.xr-app.xr-view-news{color-scheme:light;--site-bg:#dfc56d;--site-deep:#cfb359;--site-surface:#ead17f;--site-text:#292310;--site-muted:#51421e;--site-border:#80662388;--site-accent:#58400c;--element-glow:#f8df8b66}
+body:has(.xr-app){background:#101923}
+body .xr-app.xr-app{background:var(--site-bg)!important;color:var(--site-text)!important}
+body .xr-app :is(.global,.section-tabs,.rf-global-nav,.wiki-contents,.wiki-infobox,.wiki-rule,.data-status,.rf-footer,.dn-footer,main>footer){background:var(--site-deep)!important;color:var(--site-muted)!important;border-color:var(--site-border)!important}
+body .xr-app :is(.xr-intro,.ar-hero,.xr-crab-hero,.crab-entry-hero,.rf-chapter,.ar-world-panel,.xr-evidence,.ar-evidence,.rf-digest){background:radial-gradient(ellipse at 65% 0,var(--element-glow),transparent 70%),linear-gradient(135deg,var(--site-surface),var(--site-deep))!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+body .xr-app :is(.ar-record-visual,.ar-modal-art,.xr-story-art,.ar-feature-card,.xr-product-art,.ar-working-journal article,.crab-card-preview){background:linear-gradient(145deg,var(--element-glow),var(--site-deep))!important;border-color:var(--site-border)!important}
+body .xr-app :is(input,textarea,select,.ar-segmented,.ar-category-strip,.xr-store-categories,.xr-store-notice,.xr-store-toolbar label,.xr-journal-bar label,.crab-tab-strip,.crab-tabs-list,.crab-format-filters button,.crab-focus-dialog,.ar-bookmark,.rf-chips button,.rf-help-grid article){background:var(--site-deep)!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+body .xr-app :is(.primary,.xr-product-actions button:last-child,button[aria-pressed=true],button[data-state=active]){background:var(--site-accent)!important;color:var(--site-deep)!important;border-color:var(--site-accent)!important}
+body .xr-app :is(.secondary,.text-link,.wiki-contents a,.wiki-article a,.xr-story-actions button,.xr-intro>span,.rf-chips button,.crab-inspect-actions button){color:var(--site-accent)!important;border-color:var(--site-border)!important}
+body .xr-app :is(.wiki-kicker,.wiki-latin,.wiki-article p,.wiki-article li,.wiki-article dd,.wiki-article dt,.wiki-article figcaption,.wiki-contents,.xr-context,.xr-product-art small,.xr-products>article>span:first-child,.xr-story-art>span,.xr-evidence p,.ar-editorial small,.ar-editorial p,.ar-category-strip button,.ar-category-strip span,.ar-category-strip small){color:var(--site-muted)!important}
+body .xr-app :is(.wiki-article h1,.wiki-article h2,.wiki-article h3,.wiki-article h4,.wiki-article strong,.ar-editorial h3,.xr-story h2){color:var(--site-text)!important}
+body .xr-app :is(.ar-record,.crab-collection){--element:var(--site-accent);--element-surface:var(--site-surface)}
+body .xr-app .crab-collection{background:linear-gradient(140deg,var(--site-surface),var(--site-deep))!important}
+body .xr-app :is(.ar-feature-section,.ar-help,.ar-footer,.ar-lineup-section,.ar-editorial,.reference-archive){background:var(--site-bg)!important;color:var(--site-text)!important}
+body .xr-app :is(.ar-localnav,.ar-megamenu,.ar-bottom-strip,.ar-notice){background:var(--site-surface)!important;border-color:var(--site-border)!important}
+body .xr-app .section-tabs>button{color:var(--site-muted)!important}
+body .xr-app .section-tabs>button[data-state=active]{color:var(--site-deep)!important}
+body .xr-app :focus-visible{outline-color:var(--site-accent)!important}
+body .xr-app.xr-app .section-tabs{background:var(--site-deep)!important}
+body .xr-app.xr-app .section-tabs>button[data-state=active]{color:var(--site-deep)!important}
+body .xr-app.xr-app .section-tabs>button span{background:var(--site-surface)!important;color:var(--site-text)!important}
+body .xr-app{--muted:var(--site-surface);--ring:var(--site-accent)}
+body .xr-app :is(.ar-plus,.secondary,.badge.neutral,.risk-compare-toggle,.crab-overview-facts,.detail-actions,.crab-belief-tablist){background:var(--site-surface)!important;color:var(--site-text)!important;border-color:var(--site-border)!important}
+body .xr-app .wiki-article :is(section,details,summary,table,thead,th,td){border-color:var(--site-border)!important}
+/* Air: golden yellow surfaces and dark ink throughout News. */
+body:has(.xr-view-news){background:#dfc56d}
+body .xr-app.xr-view-news :is(.rf-global,.rf-global a,.rf-global button,.news-masthead a,.news-compact-nav a,.dn-news-links a,.xr-story h2 button,.xr-story-actions button,.xr-journal-bar nav button,.news-filter-drawer summary){color:var(--site-text)!important}
+body .xr-app.xr-view-news :is(button[aria-pressed=true],button[data-state=active]){background:#b5902f!important;color:#211a08!important;border-color:#715719!important}
+body .xr-app.xr-view-news .section-tabs>button[data-state=active]{color:#302d20!important}
+body .xr-app.xr-view-news .section-tabs>button{color:#51421e!important;opacity:1}
+body .xr-app.xr-view-news :is(.dn-panel,.dn-footer,.rf-digest,.xr-evidence){background:var(--site-surface)!important;color:var(--site-text)!important}
+body .xr-app.xr-view-news :is(.dn-panel a,.dn-panel small,.dn-footer a,.dn-footer p,.dn-footer summary,.dn-footer-note,.rf-digest h2,.rf-digest h3,.rf-digest p,.rf-digest small,.xr-evidence h2,.xr-evidence p){color:var(--site-text)!important}

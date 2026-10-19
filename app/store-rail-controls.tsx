@@ -1,0 +1,3 @@
+import {useRef} from 'react';
+import {useMarketDrag} from './use-market-drag';
+export function StoreRailControls(){useMarketDrag();const root=useRef<HTMLDivElement>(null);return <div ref={root} className="store-rail-controls" aria-label="Browse marketplace listings"><span>Drag or scroll to explore all roles</span>{[-1,1].map(direction=><button key={direction} aria-label={direction<0?'Previous listings':'Next listings'} onClick={()=>root.current?.previousElementSibling?.scrollBy({left:direction*420,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}>{direction<0?'‹':'›'}</button>)}</div>}

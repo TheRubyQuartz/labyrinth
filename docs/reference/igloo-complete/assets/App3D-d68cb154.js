@@ -6074,8 +6074,8 @@ float grain=(.6*texture2D(tNoise,vPos.xy*.17+vPos.zy*.11).r+.4*texture2D(tNoise,
 color=mix(vec3(.38,.52,.63),vec3(.78,.88,.97),grain)*stoneLight;float iceSpec=pow(max(dot(reflect(-normalize(vec3(-.65,1.,1.)),normalize(vStoneNormal)),normalize(cameraPosition-vPos)),0.),24.);color+=vec3(.3,.42,.5)*iceSpec;
 color+=vec3(.12,.29,.36)*pow(1.-abs(dot(normalize(vStoneNormal),normalize(vec3(-1.,.3,1.)))),4.);
 if(vSurface> .5&&vSurface<1.5)color=vec3(.025,.045,.07)*stoneLight;
-if(vSurface>1.5&&vSurface<2.5)color=vec3(.25,.43,.5)*stoneLight+vec3(.08,.2,.25);
-if(vSurface>2.5&&vSurface<3.5)color=vec3(.35,1.1,1.6)*(1.+.18*sin(time*1.4+vPos.y*2.));
+if(vSurface>1.5&&vSurface<2.5)color=vec3(.66,.68,.70)*stoneLight+vec3(.06,.06,.065);
+if(vSurface>2.5&&vSurface<3.5)color=vec3(.78,.80,.82)*stoneLight+vec3(.08,.08,.085);
 if(vSurface>4.5&&vSurface<6.5){float rune=pow(max(0.,sin(vUv.x*37.)*sin(vUv.y*45.)),12.);color=vec3(.045,.08,.13)*stoneLight+vec3(.1,.65,1.)*rune*.7;}
 if(vSurface>6.5){vec2 p=vec2((vUv.x-.5)*1.2,vUv.y-.48);float r=length(p),angle=atan(p.y,p.x);float spiral=sin(angle*5.+r*30.-time*2.3);float rim=pow(clamp(r*1.8,0.,1.),4.);float sparks=pow(max(0.,spiral),16.);color=mix(vec3(.035,.015,.14),vec3(.1,.65,1.4),rim)+vec3(.15,.45,.95)*sparks*(.2+r)+vec3(.12,.025,.25)*(sin(time+r*19.)*.5+.5);}
 

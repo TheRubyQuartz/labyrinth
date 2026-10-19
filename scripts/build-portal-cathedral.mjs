@@ -6,9 +6,12 @@ import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js'
 // Surface 5/6 identifies hinged door leaves; 7 is the animated portal membrane.
 export function buildPortalCathedral(save,originalBlocks){
  const parts=[],lines=[];let serial=0;
+ // Photo-matched vertical bands: portals, Kings' Gallery, rose, open arcade, belfries.
+ const bands=[[0,0],[3.52,2.7],[4.16,3.35],[5.72,5.25],[5.87,5.55],[7.8,8.05]];
+ function facadeY(y){if(y<0)return y;for(let i=1;i<bands.length;i++)if(y<=bands[i][0]){const a=bands[i-1],b=bands[i];return a[1]+(y-a[0])/(b[0]-a[0])*(b[1]-a[1])}return 8.05+y-7.8}
  function part(g,pos=[0,0,0],surface=0,emission=.95){
   if(!g.index)g.setIndex(Array.from({length:g.attributes.position.count},(_,i)=>i));
-  g.translate(...pos);g.scale(1.36,1.03,1.55);g.rotateY(-Math.PI/4);const center=new T.Vector3(pos[0]*1.36,pos[1]*1.03,pos[2]*1.55).applyAxisAngle(new T.Vector3(0,1,0),-Math.PI/4),n=g.attributes.position.count;
+  g.translate(...pos);const vertices=g.attributes.position;for(let i=0;i<vertices.count;i++)vertices.setY(i,facadeY(vertices.getY(i)));g.computeVertexNormals();g.scale(1.36,1.03,1.55);g.rotateY(-Math.PI/4);const center=new T.Vector3(pos[0]*1.36,facadeY(pos[1])*1.03,pos[2]*1.55).applyAxisAngle(new T.Vector3(0,1,0),-Math.PI/4),n=g.attributes.position.count;
   const originalEmission=g.attributes.emission;
   for(const key of Object.keys(g.attributes))if(!['position','normal','uv'].includes(key))g.deleteAttribute(key);
   if(!g.attributes.uv)g.setAttribute('uv',new T.Float32BufferAttribute(new Float32Array(n*2),2));
@@ -35,7 +38,7 @@ export function buildPortalCathedral(save,originalBlocks){
  for(let row=0;row<12;row++)for(let col=0;col<13;col++){
   const x=(col-6)*.46,y=.245+row*course;
   const centerOpening=Math.abs(x)<1.03&&y<3.52-Math.max(0,Math.abs(x)-.2)*1.1;
-  const sideOpening=Math.abs(Math.abs(x)-2.12)<.52&&y<2.45;
+  const sideOpening=Math.abs(Math.abs(x)-2.12)<.68&&y<3.05-Math.max(0,Math.abs(Math.abs(x)-2.12)-.2)*.8;
   const roseOpening=x*x+(y-4.85)**2<.72**2;
   if(centerOpening||sideOpening||roseOpening)continue;
   part(box(.455,.475,1.45),[x,y,-.345],0);
@@ -59,17 +62,27 @@ export function buildPortalCathedral(save,originalBlocks){
   // Strong vertical buttresses establish the facade's mass from foundation to roof.
   for(const dx of [-.86,.86])for(let row=0;row<20;row++)part(box(.28,.37,.55),[x+dx,.185+row*.375,.49],0);
   // Smaller side portals, with nested archivolts and solid inset doors.
-  part(box(.97,2.4,.1),[x,1.2,-.15],1,.35);
+  part(box(1.3,2.95,.1),[x,1.475,-.15],1,.35);
   for(let layer=0;layer<3;layer++){
-   const w=.51+layer*.08,h=2.48+layer*.1;
+   const w=.67+layer*.065,h=3.05+layer*.09;
    rib([[x-w,0,.5+layer*.05],[x-w,1.65,.5+layer*.05],[x-w*.65,h-.25,.5+layer*.05],[x,h,.5+layer*.05],[x+w*.65,h-.25,.5+layer*.05],[x+w,1.65,.5+layer*.05],[x+w,0,.5+layer*.05]],.065,layer===1?2:0);
   }
   for(let j=0;j<5;j++)part(box(.025,2.05,.04),[x+(j-2)*.16,1.04,.04],2,.65);
  }
  // The horizontal Gallery of Kings and upper openwork arcade.
+ // Side lancets and quatrefoils flank the rose, as in both supplied facade references.
+ for(const side of [-1,1]){
+  const x=side*2.12;
+  for(const offset of [-.24,.24]){
+   part(box(.32,.72,.06),[x+offset,4.64,.68],1,.3);
+   rib([[x+offset-.18,4.27,.77],[x+offset-.18,4.89,.77],[x+offset,5.12,.77],[x+offset+.18,4.89,.77],[x+offset+.18,4.27,.77]],.042,0);
+  }
+  for(let q=0;q<4;q++)part(new T.TorusGeometry(.085,.018,6,16),[x+Math.sin(q*Math.PI/2)*.065,5.27+Math.cos(q*Math.PI/2)*.065,.73],0);
+  for(let i=0;i<6;i++){const xx=x+(i-2.5)*.25;part(box(.043,.43,.16),[xx,5.46,.7],0);rib([[xx-.1,5.58,.7],[xx,5.72,.7],[xx+.1,5.58,.7]],.025,0)}
+ }
  for(const y of [3.69,4.16,5.72])part(box(6.15,.13,1.62),[0,y,-.08],0);
- for(let i=0;i<22;i++){
-  const x=(i-10.5)*.265;
+ for(let i=0;i<28;i++){
+  const x=(i-13.5)*.21;
   part(new T.CylinderGeometry(.04,.065,.27,8),[x,3.91,.77],0,.92);
   part(new T.SphereGeometry(.057,8,6),[x,4.075,.77],0,.92);
   part(box(.025,.4,.06),[x+.115,3.94,.74],2,.8);
@@ -96,6 +109,9 @@ export function buildPortalCathedral(save,originalBlocks){
   part(mergeGeometries(pieces),[0,0,.75],side<0?5:6,.95);
  }
  for(let i=0;i<5;i++)part(box(2.35+i*.22,.12,.48),[0,-.06-i*.1,1.0+i*.25],0,.65);
+ // The building continues behind its west front, rather than reading as a flat screen.
+ for(const side of [-1,1])for(let row=0;row<10;row++)for(let col=0;col<7;col++)part(box(.42,.48,.48),[side*2.7,.24+row*.48,-1.15-col*.47],0);
+ for(const side of [-1,1])for(let col=0;col<5;col++)rib([[side*2.72,4.9,-1.6-col*.55],[side*3.1,4.4,-1.6-col*.55],[side*3.3,3.1,-1.6-col*.55]],.10,0);
  save('cathedral',mergeGeometries(parts));const wire=new T.BufferGeometry();wire.setAttribute('position',new T.Float32BufferAttribute(lines,3));wire.setAttribute('color',new T.Float32BufferAttribute(lines.map(()=>.7),3));wire.setAttribute('centr',new T.Float32BufferAttribute(lines,3));save('cathedral-wire',wire);
  return serial;
 }

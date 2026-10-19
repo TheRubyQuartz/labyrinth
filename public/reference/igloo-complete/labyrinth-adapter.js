@@ -11,7 +11,7 @@ export function installLabyrinth({config,geometry,textures,Geometry,Attribute,Da
   exhibit('ENVIRONMENTS / Connected habitats','environments','lab-habitat','cube1','Explore environments as connected systems: terrain, water, living communities and the forces that change them.\n\nThis miniature alpine habitat is an illustrative scene. Discover habitat records, compare environmental evidence, or enter the workshop to begin an investigation.',[{name:'Environment records',link:destination('archive')},{name:'Enter workshop',link:destination('workshop')}]),
   exhibit('ASSETS / Field instruments','field-assets','lab-asset','cube3','Tools connect observations to evidence. This environmental monitoring station combines a wind sensor, protected instruments, a solar panel and a field tripod.\n\nThe model is an illustrative asset, not a live sensor. Explore the asset and marketplace collections to connect equipment with an investigation.',[{name:'Browse assets',link:destination('marketplace')},{name:'Start an investigation',link:destination('workshop')}])
  ];
- config.links=[{title:'Archive',url:destination('archive'),vdb:'lab-archive',scale:1.15},{title:'Workshop',url:destination('workshop'),vdb:'lab-workshop',scale:1.15},{title:'Social platform',url:destination('social'),vdb:'lab-social',scale:1.15}];
+ config.links=[{title:'Archive',url:destination('archive'),vdb:'lab-archive',scale:1.15},{title:'Workshop',url:destination('workshop'),vdb:'lab-workshop',scale:1.15},{title:'Network',url:destination('social'),vdb:'lab-social',scale:1.15}];
  const geometryCache=new Map(),originalLoad=geometry.load.bind(geometry);
  geometry.load=function(name,...args){const key=name==='igloo.drc'?'cathedral':/igloo\/(igloo_cage|igloo_outline)\.drc/.test(name)?'cathedral-wire':/^lab-(specimen|habitat|world|asset|globe|expedition-book|expedition-calendar|expedition-kit)\.drc$/.test(name)?name.slice(4,-4):null;if(!key)return originalLoad(name,...args);if(!geometryCache.has(key))geometryCache.set(key,fetch(root+key+'.json').then(r=>{if(!r.ok)throw Error('Missing Labyrinth model: '+key);return r.json()}).then(async data=>{const response=await fetch(root+data.binary);if(!response.ok)throw Error('Missing Labyrinth geometry: '+key);const binary=await response.arrayBuffer(),g=new Geometry();for(const [name,a]of Object.entries(data.attributes))g.setAttribute(name,new Attribute(new Float32Array(binary,a.offset,a.length),a.itemSize));if(data.index)g.setIndex(new Attribute(new Uint32Array(binary,data.index.offset,data.index.length),1));g.computeBoundingBox();g.computeBoundingSphere();return g}));return geometryCache.get(key)};
  const cache=new Map(),originalTexture=textures.load.bind(textures);
@@ -25,9 +25,22 @@ export function installLabyrinth({config,geometry,textures,Geometry,Attribute,Da
  const sphere=(x,y,z,r)=>Math.hypot(x,y,z)-r;
  const capsule=(x,y,z,a,b,r)=>{const p=[x-a[0],y-a[1],z-a[2]],d=b.map((v,i)=>v-a[i]),t=Math.max(0,Math.min(1,p.reduce((s,v,i)=>s+v*d[i],0)/d.reduce((s,v)=>s+v*v,0)));return Math.hypot(...p.map((v,i)=>v-d[i]*t))-r};
  function sdf(kind,x,y,z){
-  if(kind==='journal')return Math.min(box(x,y,z,.29,.22,.065),box(x+.29,y,z,.025,.235,.08),box(x,y+.23,z,.31,.012,.085),box(x,y-.23,z,.31,.012,.085));
-  if(kind==='calendar'){let d=Math.min(box(x,y,z,.24,.28,.035),box(x,y-.22,z-.015,.25,.055,.045));for(let i=0;i<5;i++)d=Math.min(d,Math.hypot(Math.hypot(y-.27,z)-.045,x+.18-i*.09)-.012);for(let row=0;row<4;row++)for(let col=0;col<5;col++)d=Math.min(d,box(x+.17-col*.085,y+.16-row*.085,z-.045,.025,.025,.012));return d}
-  if(kind==='kit')return Math.min(box(x,y,z,.24,.26,.11)-.025,box(x,y+.09,z-.12,.19,.11,.025)-.012,Math.max(Math.hypot(x,y-.27)-.1,Math.abs(z)-.025),capsule(x,y,z,[-.3,-.15,0],[-.3,.1,0],.045));
+  // Unfurled parchment scroll: bowed sheet, prominent rolled ends and spindle tips.
+  if(kind==='journal'){
+   const sheetZ=.035*Math.cos(y*11.)+.018*Math.sin(x*9.);
+   let d=box(x,y,z-sheetZ,.205,.215,.012);
+   for(const side of [-1,1]){
+    const roll=Math.max(Math.hypot(y-side*.225,z-.025)-.055,Math.abs(x)-.24);
+    const spindle=capsule(x,y,z,[-.275,side*.225,.025],[.275,side*.225,.025],.017);
+    d=Math.min(d,roll,spindle);
+    for(const tip of [-1,1])d=Math.min(d,sphere(x-tip*.275,y-side*.225,z-.025,.026));
+   }
+   return d;
+  }
+  // Grandfather clock: arched hood, circular dial, hollow pendulum case and plinth.
+  if(kind==='calendar'){const dial=Math.hypot(x,y-.19);let d=Math.min(box(x,y+.29,z,.15,.035,.095),box(x,y+.07,z+.035,.105,.2,.035),box(x-.115,y+.07,z,.018,.2,.075),box(x+.115,y+.07,z,.018,.2,.075),box(x,y-.18,z,.15,.11,.075),Math.max(Math.hypot(x,y-.27)-.145,Math.abs(z)-.075));d=Math.max(d,-Math.max(.115-dial,Math.abs(z-.07)-.028));return Math.min(d,Math.max(Math.abs(dial-.113)-.012,Math.abs(z-.085)-.013),capsule(x,y,z,[0,.19,.085],[.065,.23,.085],.009),capsule(x,y,z,[0,.19,.085],[0,.275,.085],.008),capsule(x,y,z,[0,.065,.07],[0,-.17,.07],.008),sphere(x,y+.18,z-.07,.047))}
+  // Hatchet: curved wooden handle and a flared, bevelled cutting head.
+  if(kind==='kit'){const handle=Math.min(capsule(x,y,z,[-.055,-.3,0],[.025,.06,0],.027),capsule(x,y,z,[.025,.06,0],[.04,.23,0],.026));const blade=Math.max(Math.abs(z)-(.022+.035*Math.max(0,(x+.2)/.3)),Math.abs(y-.18)-(.065+.28*Math.max(0,.06-x)),x-.075,-.25-x);return Math.min(handle,blade,box(x-.105,y-.18,z,.045,.055,.045))}
   if(kind==='archive'){let d=box(x,y+.28,z,.31,.035,.18);for(const yy of [-.13,.05,.23])d=Math.min(d,box(x,y-yy,z,.29,.025,.17));for(const xx of [-.31,.31])d=Math.min(d,box(x-xx,y,z,.025,.31,.18));for(let i=0;i<5;i++)d=Math.min(d,box(x+.22-i*.105,y+.02,z,.035,.22,.12));return d}
   if(kind==='workshop'){const shaft=capsule(x,y,z,[-.22,-.26,0],[.17,.22,0],.06),ring=Math.hypot(Math.hypot(x-.22,y-.26)-.12,z)-.045;return Math.min(shaft,Math.max(ring,-box(x-.29,y-.34,z,.08,.07,.1)),capsule(x,y,z,[.22,-.26,.04],[-.18,.22,.04],.035),box(x+.21,y-.25,z-.04,.12,.045,.07))}
   const points=[[-.24,.14,0],[.23,.14,0],[0,-.24,0]];let d=99;for(const p of points)d=Math.min(d,sphere(x-p[0],y-p[1],z,.12));for(let i=0;i<3;i++)d=Math.min(d,capsule(x,y,z,points[i],points[(i+1)%3],.035));return d;

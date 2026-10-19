@@ -1,10 +1,12 @@
+import {installVolcano} from './labyrinth-volcano.js';
 export function installExpeditionCarousel(scene,{Points,Geometry,Attribute,Material,Vector,Tween,time,element,button,overlay}){
+ const updateVolcano=installVolcano(scene,{Points,Geometry,Attribute,Material,Mesh:scene.book.constructor});
  const names=['Field journal','Reading calendar','Field kit'];scene.selectedExhibit=0;scene.carouselPosition=0;
  const hud=scene.hud=overlay('lab-expedition-hud lab-expedition-carousel'),header=element('header');
  header.append(element('span','','FIRE / YOUR NEXT EXPEDITION'),element('h2','','Read. Reflect. Explore.'));hud.append(header);
  const nav=element('nav');nav.setAttribute('aria-label','Expedition carousel');nav.append(button('←',()=>select(scene.selectedExhibit-1)));
  const tabs=names.map((name,i)=>{const b=button(name,()=>select(i));b.setAttribute('aria-label','Show '+name);nav.append(b);return b});nav.append(button('→',()=>select(scene.selectedExhibit+1)));hud.append(nav);
- const caption=element('div','lab-expedition-model-caption');const count=element('span'),title=element('h3'),action=button('Open field journal ↗',()=>activate());caption.append(count,title,action);hud.append(caption,element('p','lab-expedition-scroll','SWIPE SIDEWAYS TO EXPLORE · SCROLL DOWN TO RETURN TO THE GATEWAY'));scene.journalTrigger=tabs[0];scene.calendarTrigger=tabs[1];const atmosphere=element('div','lab-fire-atmosphere');atmosphere.setAttribute('aria-hidden','true');for(let i=0;i<48;i++){const ember=element('i');ember.style.setProperty('--x',((i*37)%101)+'%');ember.style.setProperty('--delay',(-i*.43)+'s');ember.style.setProperty('--duration',(5+i%8)+'s');ember.style.setProperty('--drift',((i%2?1:-1)*(40+i%7*25))+'px');atmosphere.append(ember)}hud.prepend(atmosphere);
+ const caption=element('div','lab-expedition-model-caption');const count=element('span'),title=element('h3'),action=button('Open field journal ↗',()=>activate());caption.append(count,title,action);hud.append(caption,element('p','lab-expedition-scroll','SWIPE SIDEWAYS TO EXPLORE · SCROLL DOWN TO RETURN TO THE GATEWAY'));scene.journalTrigger=tabs[0];scene.calendarTrigger=tabs[1];const atmosphere=element('div','lab-fire-atmosphere');atmosphere.setAttribute('aria-hidden','true');for(let i=0;i<48;i++){const ember=element('i');ember.style.setProperty('--x',((i*37)%101)+'%');ember.style.setProperty('--delay',(-i*.43)+'s');ember.style.setProperty('--duration',(5+i%8)+'s');ember.style.setProperty('--drift',((i%2?1:-1)*(40+i%7*25))+'px');atmosphere.append(ember)}for(let i=0;i<32;i++){const ash=element('b','lab-volcanic-ash');ash.style.setProperty('--x',((i*43)%100)+'%');ash.style.setProperty('--delay',(-i*.71)+'s');ash.style.setProperty('--duration',(9+i%9)+'s');ash.style.setProperty('--drift',((i%2?1:-1)*140)+'px');atmosphere.append(ash)}for(let i=0;i<5;i++){const burst=element('span','lab-volcanic-burst');burst.style.setProperty('--x',(8+i*21)+'%');burst.style.setProperty('--delay',(-i*2.9)+'s');atmosphere.append(burst)}hud.prepend(atmosphere);
  function activate(){if(scene.selectedExhibit===2)parent.location.assign('/labyrinth/?view=marketplace');else scene.openEditor(scene.selectedExhibit===0?'journal':'calendar')}
  function select(i){scene.selectedExhibit=(i+3)%3;if(scene.originalParticles){const p=scene.originalParticles,u=p.mesh.computationMaterial.uniforms;p.currentLink=scene.selectedExhibit;u.tVolume.value=p.vdbs[p.currentLink];u.uVolumeScale.value=p.vdbScales[p.currentLink];u.uRotation.value=Math.PI*1.5;Tween.fromTo(u.uAdditionalNoise,{value:1},{value:0,duration:.5,ease:"power2.inOut",overwrite:true});}tabs.forEach((b,j)=>b.setAttribute('aria-pressed',String(j===scene.selectedExhibit)));count.textContent=`0${scene.selectedExhibit+1} / 03`;title.textContent=names[scene.selectedExhibit];action.textContent=['Open field journal ↗','Open reading calendar ↗','Explore the marketplace ↗'][scene.selectedExhibit];}
  scene.selectExhibit=select;select(0);
@@ -21,8 +23,8 @@ export function installExpeditionCarousel(scene,{Points,Geometry,Attribute,Mater
  const uniforms=particleMesh.material.uniforms;
  uniforms.uColorInitial.value.set('#ffb34a');uniforms.uColorLight.value.set('#ff7b13');uniforms.uColorDark.value.set('#7d1605');uniforms.uColorFast.value.set('#fff1ae');
  // The original velocity/curl/volume simulation and pointer fluid interaction remain intact.
- const compute=particleMesh.computationMaterial;
- compute.fragmentShader=compute.fragmentShader.replace('// add curl noise','currentVel.y += .000025 * dtRatio;\n                        // add curl noise');compute.needsUpdate=true;
+ // Keep Air's solver untouched; compensate sprite size for enlarged model coordinates.
+ uniforms.uSize.value=45;
  scene.expeditionParticles=[particleMesh];
  let previous=performance.now();const smooth=(a,b,x)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t)};
  scene.updateCarousel=()=>{const now=performance.now(),dt=Math.min(.08,(now-previous)/1000);previous=now;scene.carouselPosition+=(scene.selectedExhibit-scene.carouselPosition)*(1-Math.exp(-dt*6));const vertical=smooth(.12,.38,scene.progress)*(1-smooth(.7,1,scene.progress)),mobile=innerWidth<650,t=time.time;
@@ -32,7 +34,7 @@ export function installExpeditionCarousel(scene,{Points,Geometry,Attribute,Mater
   uniforms.uAlpha.value=vertical;uniforms.uInitialGlow.value=1-smooth(.12,.38,scene.progress);
   simulation.mesh.computationMaterial.uniforms.uShowNoise.value=1-vertical;
   simulation.mesh.computationMaterial.uniforms.uInteractForce.value=vertical;
-  particleMesh.scale.setScalar(mobile?11.6:15);particleMesh.updateMatrixWorld(true);
+  particleMesh.scale.setScalar(mobile?11.6:15);particleMesh.updateMatrixWorld(true);updateVolcano(t,vertical);
 
  };
 }

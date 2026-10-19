@@ -1,1 +1,1 @@
-export {default} from './terrain-map';
+export {default} from './global-map';

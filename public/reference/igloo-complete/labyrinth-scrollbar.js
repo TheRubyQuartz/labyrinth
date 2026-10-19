@@ -1,0 +1,8 @@
+export function installSceneScrollbar(controller){
+ if(document.querySelector('.lab-scene-scrollbar'))return;
+ const range=document.createElement('input');range.type='range';range.min='0';range.max='10000';range.step='1';range.className='lab-scene-scrollbar';range.setAttribute('aria-label','Homepage scroll position');range.setAttribute('aria-orientation','vertical');
+ const style=document.createElement('style');style.textContent='.lab-scene-scrollbar{position:fixed;right:3px;top:12%;height:76%;width:16px;writing-mode:vertical-lr;direction:rtl;z-index:80;accent-color:#aebdc6;opacity:.8;cursor:ns-resize}.lab-scene-scrollbar:hover,.lab-scene-scrollbar:focus-visible{opacity:1;outline:2px solid #e6edf2;outline-offset:2px}';document.head.append(style);document.body.append(range);
+ let dragging=false;range.addEventListener('pointerdown',e=>{dragging=true;e.stopPropagation()});addEventListener('pointerup',()=>dragging=false);for(const name of ['keydown','wheel','mousedown','touchstart'])range.addEventListener(name,e=>e.stopPropagation());
+ range.addEventListener('input',()=>{controller.stopAutoCenter();const total=controller.scroll.total;if(!total)return;const cycle=Math.floor(controller.scroll.y/total);const y=cycle*total+Number(range.value)/10000*total;controller.scroll.y=controller.scroll.targetY1=controller.scroll.targetY2=y;controller.autoCenter.needed=false});
+ setInterval(()=>{if(dragging||document.activeElement===range)return;const total=controller.scroll.total;if(total){range.value=String(((controller.scroll.y%total+total)%total)/total*10000);range.disabled=controller.isDetailOpen}},100);
+}

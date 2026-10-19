@@ -8,5 +8,10 @@
 .lab-expedition-carousel nav button[aria-pressed=true]{background:linear-gradient(130deg,#ffe2a0,#ff8a24);color:#321005;border-color:#ffdc8c;box-shadow:0 0 25px #ff6b0066;text-shadow:none}
 .lab-expedition .lab-expedition-inner{background:#29170ff0;border-color:#e99a4c66}.lab-expedition input,.lab-expedition textarea{background:#1e100b;color:#fff0dc;border-color:#d98b5066}.lab-expedition button{background:#4c2419;border-color:#dd945477;color:#ffe6c6}.lab-expedition button[aria-pressed=true]{background:#ffba68;color:#2b1007}
 @keyframes fire-rise{0%{transform:translate(0,0) scale(.5);opacity:0}10%{opacity:.85}75%{opacity:.65}100%{transform:translate(var(--drift),-105vh) scale(.15);opacity:0}}
+.lab-volcanic-ash{position:absolute;top:-20px;left:var(--x);width:5px;height:3px;background:#43332ec4;box-shadow:0 0 3px #18100d;border-radius:30%;animation:volcanic-ash var(--duration) linear var(--delay) infinite}
+.lab-volcanic-burst{position:absolute;bottom:7%;left:var(--x);width:130px;height:100px;border-radius:50%;background:radial-gradient(ellipse,#fff0b1 0%,#ffb62c 12%,#ff4800a3 30%,#63332855 55%,transparent 70%);filter:blur(9px);opacity:0;animation:volcanic-puff 12s ease-out var(--delay) infinite}
+@keyframes volcanic-ash{0%{transform:translate(0,-10vh) rotate(0);opacity:0}15%{opacity:.75}85%{opacity:.5}100%{transform:translate(var(--drift),110vh) rotate(480deg);opacity:0}}
+@keyframes volcanic-puff{0%,65%,100%{opacity:0;transform:translateY(0) scale(.1)}68%{opacity:.6;transform:translateY(-12px) scale(.45)}75%{opacity:.35;transform:translateY(-85px) scale(1.2)}90%{opacity:0;transform:translateY(-160px) scale(1.8)}}
+@media(prefers-reduced-motion:reduce){.lab-volcanic-ash,.lab-volcanic-burst{display:none;animation:none}}
 @keyframes fire-billow{from{transform:translate(-3%,4%) scale(.95);opacity:.65}to{transform:translate(4%,-8%) scale(1.15);opacity:1}}
 @media(prefers-reduced-motion:reduce){.lab-fire-atmosphere:before,.lab-fire-atmosphere:after,.lab-fire-atmosphere i{animation:none}.lab-fire-atmosphere i{display:none}}

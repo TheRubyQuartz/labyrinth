@@ -1,0 +1,10 @@
+import fs from 'node:fs';const file='app/archive-reference.tsx';let s=fs.readFileSync(file,'utf8');s="import {ArchiveJournal} from './archive-journal';\n"+s;
+s=s.replace("function scroll(id:string)","function useTool(id:string){if(id==='observe')setPanel({kind:'search'});else if(id==='evidence')setPanel({kind:'sources'});else if(id==='compare')setPanel({kind:'compare'});else if(id==='save')chooseFilter('Saved');else{setFilter('All');setQuery('');setLayout('Connections');scroll('ar-lineup')}}\n function scroll(id:string)");
+s=s.replace('Get to know your world.','Your archive toolkit.').replace('More ways to look. More to discover.','Five tools. Five different tasks.');
+s=s.replaceAll("onClick={()=>setPanel({kind:'guide',id:g.id})}","onClick={()=>useTool(g.id)}");
+s=s.replace('>{g.title}</h3><g.icon','>{({observe:"Find a subject",connect:"Trace relationships",evidence:"Inspect primary sources",compare:"Compare records",save:"Open saved entries"} as Record<string,string>)[g.id]}</h3><g.icon');
+const start=s.indexOf(' <section className="ar-editorial"'),end=s.indexOf(' <section className="ar-evidence"',start);if(start<0||end<0)throw Error('Editorial seam missing');s=s.slice(0,start)+' <ArchiveJournal records={records} onOpen={onOpen}/>\n'+s.slice(end);
+s=s.replace('A DIFFERENT PERSPECTIVE','GEOGRAPHIC CONTEXT').replace('One world.<br/>Endless connections.','Place the evidence.<br/>Explore the map.').replace('Turn it around. Change your point of view.','Open the existing regional map to inspect locations and spatial context. Archive relationships are not geographic coordinates.');
+s=s.replace("onClick={()=>{setLayout('Connections');scroll('ar-lineup')}}>Follow connections","onClick={()=>{location.href='?view=map'}}>Open geographic map");
+s=s.replace("onSelect={()=>scroll('ar-lineup')}","onSelect={()=>{location.href='?view=map'}}");
+fs.writeFileSync(file,s);

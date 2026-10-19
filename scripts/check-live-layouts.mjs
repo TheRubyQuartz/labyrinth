@@ -1,0 +1,9 @@
+import {createRequire} from 'node:module';
+process.env.PLAYWRIGHT_BROWSERS_PATH='C:/Users/Neo/Downloads/labyrinth-main (1)/labyrinth-home-recovery/.practice-qa/browsers';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');const {chromium}=require('playwright');const b=await chromium.launch({headless:true});
+try{const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.goto('http://127.0.0.1:5212/?view=marketplace');await p.locator('.xr-products article').first().waitFor();await p.screenshot({path:'.practice-qa/store-matched.png'});await p.getByRole('button',{name:'Next listings',exact:true}).click();if(await p.locator('.xr-products').evaluate(e=>e.scrollLeft)<=0)throw Error('Rail did not move');await p.getByRole('button',{name:'View details ↗',exact:true}).first().click();await p.locator('dialog[open]').waitFor();await p.keyboard.press('Escape');
+await p.goto('http://127.0.0.1:5212/?view=news');await p.locator('.xr-story').first().waitFor();await p.screenshot({path:'.practice-qa/news-matched.png'});await p.locator('.xr-story-art').first().click();await p.locator('dialog[open]').waitFor();await p.keyboard.press('Escape');
+await p.setViewportSize({width:390,height:844});for(const view of ['marketplace','news']){await p.goto('http://127.0.0.1:5212/?view='+view);await p.locator('.xr-app').waitFor();if(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+15))throw Error('Mobile overflow '+view);await p.screenshot({path:'.practice-qa/'+view+'-mobile.png'});}
+if(errors.length)throw Error(errors.join('\n'));console.log('PASS: rail scrolling, listing/story dialogs, mobile overflow, runtime errors');
+}finally{await b.close()}

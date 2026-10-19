@@ -74,6 +74,9 @@ let particle=s.slice(particleStart,particleEnd);
 if(!particle.includes('this.scene.particleLinks'))particle=particle.replaceAll('Be.links','(this.scene.particleLinks||Be.links)');
 particle=particle.replace('this.UI=new yF(this),await this.UI.ready','this.UI=this.scene.particleLinks?null:new yF(this),await this.UI?.ready');
 s=s.slice(0,particleStart)+particle+s.slice(particleEnd);
+// Architectural frames share the neutral masonry palette; only the portal retains colour.
+s=s.replace('color=vec3(.25,.43,.5)*stoneLight+vec3(.08,.2,.25);','color=vec3(.66,.68,.70)*stoneLight+vec3(.06,.06,.065);');
+s=s.replace('color=vec3(.35,1.1,1.6)*(1.+.18*sin(time*1.4+vPos.y*2.));','color=vec3(.78,.80,.82)*stoneLight+vec3(.08,.08,.085);');
 fs.writeFileSync(path,s);
 console.log('Labyrinth cathedral, horizontal exhibit gallery and globe installed.');
 const htmlPath='public/reference/igloo-complete/index.html';
