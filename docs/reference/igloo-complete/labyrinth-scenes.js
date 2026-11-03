@@ -1,10 +1,10 @@
-import {createHomepageGlobe} from './homepage-globe.js';
-const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css',import.meta.url).href;document.head.append(searchStyles);
-import {createExpeditionScene} from './labyrinth-expedition.js';
-import {installSceneScrollbar} from './labyrinth-scrollbar.js';
+import {createHomepageGlobe} from './homepage-globe.js?v=6b2940e8ae11';
+const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css?v=6b2940e8ae11',import.meta.url).href;document.head.append(searchStyles);
+import {createExpeditionScene} from './labyrinth-expedition.js?v=6b2940e8ae11';
+import {installSceneScrollbar} from './labyrinth-scrollbar.js?v=6b2940e8ae11';
 // New content scenes use the reference compositor, camera, frost, sound and transition pipeline.
 export function createLabyrinthScenes({Base,Cubes,Cube,Opening,Entry,Background,Mesh,Material,Vector,Color,Points,Geometry,Attribute,ParticleVolume,Tween,geometry,textures,events,time,config}){
- const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css';document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css?v=6b2940e8ae11';document.head.append(css);
  const element=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e};
  const smooth=(a,b,x)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t)};
  class PortalOpening extends Opening{
@@ -58,7 +58,7 @@ export function createLabyrinthScenes({Base,Cubes,Cube,Opening,Entry,Background,
    this.pins=places.map(place=>{const pin=button(place.name,()=>this.focusPlace(place));pin.className='lab-globe-pin';pin.setAttribute('aria-label','Select '+place.name);this.ui.append(pin);return {pin,place}});
   }
   renderResults(){this.results.replaceChildren();const found=places.filter(p=>(p.category||'region')===this.searchCategory).filter(p=>(p.name+' '+p.kind).toLowerCase().includes(this.search.value.toLowerCase()));for(const place of found)this.results.append(button(place.name,()=>this.focusPlace(place)));if(!found.length)this.results.append(element('p','','No matching locations.'))}
-  focusPlace(place){if(place.direct){const base=new URL('../../',location.href);base.search='?entry='+place.entry;base.hash=place.entry==='SP-001'?'crab-category-transport':'movement';window.top.location.href=base.href;return;}this.targetYaw=-Math.PI/2-place.lon*Math.PI/180;this.targetPitch=place.lat*Math.PI/180;this.targetDistance=5.4;this.autoRotate=false;this.setInfo(place.name,`${place.kind} · ${place.lat.toFixed(2)}°, ${place.lon.toFixed(2)}°\n${place.text}`,place.link)}
+  focusPlace(place){if(place.direct){const base=new URL('../../',import.meta.url);base.search='?entry='+place.entry;base.hash=place.entry==='SP-001'?'crab-category-transport':'movement';window.top.location.href=base.href;return;}this.targetYaw=-Math.PI/2-place.lon*Math.PI/180;this.targetPitch=place.lat*Math.PI/180;this.targetDistance=5.4;this.autoRotate=false;this.setInfo(place.name,`${place.kind} · ${place.lat.toFixed(2)}°, ${place.lon.toFixed(2)}°\n${place.text}`,place.link)}
   setInfo(title,text,link){this.info.replaceChildren(element('h3','',title),element('p','',text));if(link){const a=element('a','','Open Blue crab Movement ↗');a.href=link;a.target='_top';this.info.append(a)}}
   zoom(direction){this.targetDistance=Math.max(2.65,Math.min(10.5,this.targetDistance+direction*.65));this.autoRotate=false}
   active(){return this.isSceneVisible&&this.progress>.32&&this.progress<.72&&!this.controller.isDetailOpen}

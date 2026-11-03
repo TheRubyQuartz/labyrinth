@@ -1,4 +1,4 @@
-import {installVolcano} from './labyrinth-volcano.js';
+import {installVolcano} from './labyrinth-volcano.js?v=6b2940e8ae11';
 export function installExpeditionCarousel(scene,{Points,Geometry,Attribute,Material,Vector,Tween,time,element,button,overlay}){
  const updateVolcano=installVolcano(scene,{Points,Geometry,Attribute,Material,Mesh:scene.book.constructor});
  const names=['Field journal','Reading calendar','Field kit'];scene.selectedExhibit=0;scene.carouselPosition=0;

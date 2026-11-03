@@ -13,7 +13,7 @@ export default function IglooCompleteHome(){
   return()=>{document.title=title;document.body.style.overflow=overflow;removeEventListener('message',receive)};
  },[]);
  return <main className="ig-complete" data-scene-ready={ready}>
-  <iframe ref={frame} src="./reference/igloo-complete/index.html" title="Labyrinth: glowing cathedral portal, exhibit gallery, interactive globe, destinations and reading calendar with journal" allow="autoplay; fullscreen"/>
+  <iframe ref={frame} src="./reference/igloo-complete/index.html?v=20261102" title="Labyrinth: glowing cathedral portal, exhibit gallery, interactive globe, destinations and reading calendar with journal" allow="autoplay; fullscreen"/>
   <button className="ig-labyrinth-access" onClick={()=>dialog.current?.showModal()} aria-haspopup="dialog">LABYRINTH <span>＋</span></button>
   {error&&!ready&&<aside className="ig-complete-error" role="alert">The 3D experience could not finish loading. <button onClick={()=>{setError('');if(frame.current)frame.current.src='./reference/igloo-complete/index.html?retry='+Date.now()}}>Retry</button><a href="?view=archive">Open archive</a></aside>}
   <dialog ref={dialog} className="ig-destination-dialog" onClick={event=>{if(event.target===dialog.current)dialog.current.close()}}>
