@@ -1,0 +1,537 @@
+{
+  "reviewed": "2026-10-21",
+  "sources": [
+    {
+      "id": "viking",
+      "publisher": "Viking Foods Group",
+      "url": "https://vikingfoodsgroup.com/",
+      "title": "Blue crab sourcing and daily air imports",
+      "role": "Company primary source"
+    },
+    {
+      "id": "twin",
+      "publisher": "Twin Tails Seafood",
+      "url": "https://twintailsseafood.wordpress.com/2012/10/09/october-updates/",
+      "title": "October 2012 air-cargo operations",
+      "role": "Historical company primary source"
+    },
+    {
+      "id": "forkys",
+      "publisher": "Forkys Foods",
+      "url": "https://forkysfoods.com/en/",
+      "title": "Collection and refrigerated-truck transport",
+      "role": "Company primary source"
+    },
+    {
+      "id": "expro",
+      "publisher": "Exprolago",
+      "url": "https://exprolago.com/",
+      "title": "Lake Maracaibo sourcing and US exports",
+      "role": "Company primary source"
+    },
+    {
+      "id": "clayton",
+      "publisher": "J. M. Clayton",
+      "url": "https://jmclayton.com/",
+      "title": "Chesapeake blue crab sourcing",
+      "role": "Company primary source"
+    },
+    {
+      "id": "cbp",
+      "publisher": "US CBP (mirror)",
+      "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY+N150585",
+      "title": "N150585 · 18 March 2011",
+      "role": "Government ruling; proposed operation"
+    },
+    {
+      "id": "oneal",
+      "publisher": "Bluecrab.info",
+      "url": "https://www.bluecrab.info/o%27neals.htm",
+      "title": "O’Neal’s dock and truck photo report",
+      "role": "Independent field documentation; undated"
+    },
+    {
+      "id": "italy",
+      "publisher": "Emilia-Romagna regional government",
+      "url": "https://notizie.regione.emilia-romagna.it/comunicati/2023/agosto/pesca-parte-per-gli-usa-il-granchio-blu-pescato-in-emilia-romagna-e-nel-delta-del-po-il-primo-carico-oltre-15-tonnellate-destinato-alla-commercializzazione-assessore-mammi-201cal-lavoro-per-creare-una-filiera-e-fornire-redditivita-alle-nostre-imprese",
+      "title": "Mariscadoras’ 15.75-tonne US shipment · 17 August 2023",
+      "role": "Government shipment announcement"
+    },
+    {
+      "id": "texas",
+      "publisher": "Texas DSHS",
+      "url": "https://www.dshs.texas.gov/sites/default/files/seafood/PDF2/Imported-Crab-Meat/OOC%20Crab%20Approved%20Firms%202025-2026.pdf",
+      "title": "2025–2026 approved importer/supplier pairs",
+      "role": "Government register; not shipment evidence"
+    },
+    {
+      "id": "manifest",
+      "publisher": "ImportGenius",
+      "url": "https://www.importgenius.cn/suppliers/mariscadoras-srl",
+      "title": "Bill of lading ZIMULVN463293 · September 2026",
+      "role": "Third-party transcription of ocean manifest"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ORG01",
+      "organizations": [
+        "Viking Foods Group"
+      ],
+      "activities": [
+        "Import"
+      ],
+      "family": "Air",
+      "mode": "Air freight",
+      "from": "Lake Maracaibo, Venezuela",
+      "to": "Miami, Florida",
+      "a": [
+        -71.6,
+        10.2
+      ],
+      "b": [
+        -80.19,
+        25.76
+      ],
+      "source": "viking",
+      "period": "Undated company page",
+      "status": "Company reported",
+      "note": "Company reports daily fresh-crab air imports. Regional endpoints only; airline, airports and flight numbers undisclosed.",
+      "scope": "Callinectes sapidus"
+    },
+    {
+      "id": "ORG02",
+      "organizations": [
+        "Twin Tails Seafood"
+      ],
+      "activities": [
+        "Import",
+        "Export"
+      ],
+      "family": "Air",
+      "mode": "Air freight",
+      "from": "Lake Maracaibo, Venezuela",
+      "to": "United States · market anchor",
+      "a": [
+        -71.6,
+        10.2
+      ],
+      "b": [
+        -98.5,
+        39.5
+      ],
+      "source": "twin",
+      "period": "2012",
+      "status": "Historical company report",
+      "note": "Company reported processing at its lake facility and air cargo 2–3 times weekly. US anchor is not a landing airport. Historical frequency is not a current schedule.",
+      "scope": "Callinectes sapidus"
+    },
+    {
+      "id": "ORG03",
+      "organizations": [
+        "Forkys Foods",
+        "Local fishermen · Thessaloniki"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Land",
+      "mode": "Refrigerated truck",
+      "from": "Thessaloniki fishing region",
+      "to": "Sindos processing area",
+      "a": [
+        22.8,
+        40.55
+      ],
+      "b": [
+        22.8,
+        40.67
+      ],
+      "source": "forkys",
+      "period": "Undated company page",
+      "status": "Company reported",
+      "note": "Local fishermen supply blue crabs; company-owned ATP-certified refrigerated trucks collect them. Origin is a regional proxy, not a documented loading coordinate.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG04",
+      "organizations": [
+        "Exprolago",
+        "Artisanal fisheries · Lake Maracaibo"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Lake Maracaibo fisheries",
+      "to": "El Bajo processing area",
+      "a": [
+        -71.6,
+        10.2
+      ],
+      "b": [
+        -71.65,
+        10.5
+      ],
+      "source": "expro",
+      "period": "Undated company page",
+      "status": "Company reported",
+      "note": "Company identifies artisanal lake suppliers and its El Bajo plant. Collection vehicle and landing sites are not published.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG05",
+      "organizations": [
+        "Exprolago"
+      ],
+      "activities": [
+        "Export"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "El Bajo, Venezuela",
+      "to": "United States · market anchor",
+      "a": [
+        -71.65,
+        10.5
+      ],
+      "b": [
+        -98.5,
+        39.5
+      ],
+      "source": "expro",
+      "period": "Undated company page",
+      "status": "Company reported",
+      "note": "US export market is stated. The Doral office is not proof of a cargo destination; method and arrival point are undisclosed.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG06",
+      "organizations": [
+        "J. M. Clayton",
+        "Local watermen · Chesapeake Bay"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Chesapeake Bay watermen",
+      "to": "Cambridge, Maryland",
+      "a": [
+        -76.2,
+        38.35
+      ],
+      "b": [
+        -76.08,
+        38.57
+      ],
+      "source": "clayton",
+      "period": "Undated company page",
+      "status": "Company reported",
+      "note": "Local watermen supply Chesapeake blue crabs. The source does not assign a transport method or exact catch locations.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG07",
+      "organizations": [
+        "Pontchartrain Blue Crab"
+      ],
+      "activities": [
+        "Import"
+      ],
+      "family": "Land",
+      "mode": "Refrigerated truck",
+      "from": "Mexico · country anchor",
+      "to": "United States · market anchor",
+      "a": [
+        -102,
+        23.6
+      ],
+      "b": [
+        -98.5,
+        39.5
+      ],
+      "source": "cbp",
+      "period": "2011",
+      "status": "Proposed operation",
+      "note": "Ruling describes proposed refrigerated-truck imports for US picking. No crossing, receiving plant or completed shipment is established.",
+      "scope": "Crab; species not stated in ruling"
+    },
+    {
+      "id": "ORG08",
+      "organizations": [
+        "O’Neal’s Sea Harvest",
+        "Local fishermen · Wanchese"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Sea",
+      "mode": "Fishing vessel / dock landing",
+      "from": "Wanchese fishing region",
+      "to": "Wanchese loading dock",
+      "a": [
+        -75.6,
+        35.82
+      ],
+      "b": [
+        -75.63,
+        35.84
+      ],
+      "source": "oneal",
+      "period": "Undated field report",
+      "status": "Field documented",
+      "note": "Photo sequence documents boat unloading of blue crabs. Regional origin only; catch coordinates and vessel identity unknown.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG09",
+      "organizations": [
+        "O’Neal’s Sea Harvest",
+        "W. T. Ruark"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Land",
+      "mode": "Refrigerated truck",
+      "from": "Wanchese, North Carolina",
+      "to": "Fishing Creek, Maryland",
+      "a": [
+        -75.63,
+        35.84
+      ],
+      "b": [
+        -76.22,
+        38.32
+      ],
+      "source": "oneal",
+      "period": "Undated field report",
+      "status": "Field documented",
+      "note": "Photographed refrigerated shipment to Fishing Creek. W. T. Ruark appears on the truck; contractual role unknown. Receiving-market acquisition, not international export.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG10",
+      "organizations": [
+        "Mariscadoras / Blueat",
+        "Fishing enterprises · Po Delta"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Sacca di Goro",
+      "to": "Mestre processing area",
+      "a": [
+        12.3,
+        44.82
+      ],
+      "b": [
+        12.24,
+        45.49
+      ],
+      "source": "italy",
+      "period": "2023",
+      "status": "Government reported",
+      "note": "Government identifies this catch area and a Mestre processing partnership. Method and individual fishing firms are unnamed.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG11",
+      "organizations": [
+        "Mariscadoras / Blueat",
+        "Fishing enterprises · Po Delta"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Comacchio",
+      "to": "Mestre processing area",
+      "a": [
+        12.18,
+        44.7
+      ],
+      "b": [
+        12.24,
+        45.49
+      ],
+      "source": "italy",
+      "period": "2023",
+      "status": "Government reported",
+      "note": "Government identifies this catch area and a Mestre processing partnership. Method and individual fishing firms are unnamed.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG12",
+      "organizations": [
+        "Mariscadoras / Blueat",
+        "Fishing enterprises · Po Delta"
+      ],
+      "activities": [
+        "Acquisition"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Po Delta",
+      "to": "Mestre processing area",
+      "a": [
+        12.35,
+        44.95
+      ],
+      "b": [
+        12.24,
+        45.49
+      ],
+      "source": "italy",
+      "period": "2023",
+      "status": "Government reported",
+      "note": "Government identifies this catch area and a Mestre processing partnership. Method and individual fishing firms are unnamed.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG13",
+      "organizations": [
+        "Mariscadoras / Blueat"
+      ],
+      "activities": [
+        "Export"
+      ],
+      "family": "Unspecified",
+      "mode": "Container shipment · mode not explicit",
+      "from": "Mestre processing area",
+      "to": "Miami, Florida",
+      "a": [
+        12.24,
+        45.49
+      ],
+      "b": [
+        -80.19,
+        25.76
+      ],
+      "source": "italy",
+      "period": "2023",
+      "status": "Government reported",
+      "note": "Government reports a 15.75-tonne container consignment to Miami. Port and carrier unspecified; container alone does not prove mode.",
+      "scope": "Blue crab; common name in source"
+    },
+    {
+      "id": "ORG14",
+      "organizations": [
+        "Twin Tails Seafood",
+        "Corporacion Blu"
+      ],
+      "activities": [
+        "Import",
+        "Export"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Venezuela · country anchor",
+      "to": "Twin Tails · Miami",
+      "a": [
+        -66.6,
+        7
+      ],
+      "b": [
+        -80.19,
+        25.76
+      ],
+      "source": "texas",
+      "period": "2025–2026 approval list",
+      "status": "Approved supplier pairing",
+      "note": "Register pairs this supplier with Twin Tales (register spelling). Approval is not a shipment, mode or volume record. Supplier facility unresolved.",
+      "scope": "Crabmeat; species not stated in register"
+    },
+    {
+      "id": "ORG15",
+      "organizations": [
+        "Twin Tails Seafood",
+        "Procesadora Aquazul"
+      ],
+      "activities": [
+        "Import",
+        "Export"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Venezuela · country anchor",
+      "to": "Twin Tails · Miami",
+      "a": [
+        -66.6,
+        7
+      ],
+      "b": [
+        -80.19,
+        25.76
+      ],
+      "source": "texas",
+      "period": "2025–2026 approval list",
+      "status": "Approved supplier pairing",
+      "note": "Register pairs this supplier with Twin Tales (register spelling). Approval is not a shipment, mode or volume record. Supplier facility unresolved.",
+      "scope": "Crabmeat; species not stated in register"
+    },
+    {
+      "id": "ORG16",
+      "organizations": [
+        "Twin Tails Seafood",
+        "Productos Marinos (Promarca)"
+      ],
+      "activities": [
+        "Import",
+        "Export"
+      ],
+      "family": "Unspecified",
+      "mode": "Unspecified transport",
+      "from": "Venezuela · country anchor",
+      "to": "Twin Tails · Miami",
+      "a": [
+        -66.6,
+        7
+      ],
+      "b": [
+        -80.19,
+        25.76
+      ],
+      "source": "texas",
+      "period": "2025–2026 approval list",
+      "status": "Approved supplier pairing",
+      "note": "Register pairs this supplier with Twin Tales (register spelling). Approval is not a shipment, mode or volume record. Supplier facility unresolved.",
+      "scope": "Crabmeat; species not stated in register"
+    },
+    {
+      "id": "ORG17",
+      "organizations": [
+        "Mariscadoras / Blueat",
+        "Crustacea Seafood Company",
+        "ZIM"
+      ],
+      "activities": [
+        "Export",
+        "Import"
+      ],
+      "family": "Sea",
+      "mode": "Refrigerated container vessel",
+      "from": "Livorno, Italy",
+      "to": "United States · arrival port unresolved",
+      "a": [
+        10.3,
+        43.55
+      ],
+      "b": [
+        -98.5,
+        39.5
+      ],
+      "source": "manifest",
+      "period": "2026",
+      "status": "Third-party manifest",
+      "scope": "Callinectes sapidus",
+      "note": "Manifest sample explicitly names the species, exporter, consignee, carrier ZIM and vessel SEOUL EXPRESS; 40-foot reefer, about 19,930 kg. Destination port is missing in the detailed sample and other summaries conflict. US country anchor is not a port or physical ship track. Record has not been verified against the carrier original."
+    }
+  ]
+}

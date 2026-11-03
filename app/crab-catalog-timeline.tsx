@@ -1,0 +1,13 @@
+import {useState} from 'react';
+import type {CrabRecord} from './crab-collections';
+import {catalogPeriod} from './crab-section-workflows';
+import {CrabMediaThumbnail} from './crab-record-media';
+
+/** A chronology of source records, never a synthetic biological time series. */
+export function CrabCatalogTimeline({records,selected,onSelect,onCompare,onScrub}:{records:CrabRecord[];selected:number;onSelect:(index:number)=>void;onCompare:(index:number)=>void;onScrub?:(index:number)=>void}){
+ const [expanded,setExpanded]=useState(false);
+ const dated=records.map((record,index)=>({record,index,period:catalogPeriod(record)})).filter(item=>item.period!==null).sort((a,b)=>a.period!.start-b.period!.start);
+ const position=dated.findIndex(item=>item.index===selected);
+ if(!dated.length)return <p className="catalog-date-empty">These sources do not state catalog years. Their dates remain unspecified; you can still compare the records and keep dated observations beside each object.</p>;
+ return <section className="catalog-chronology" aria-label="Source chronology"><header><div><span className="crab-collection-eyebrow">SOURCE CHRONOLOGY</span><h4>{dated[0].period!.label} — {dated[dated.length-1].period!.label}</h4><p>Browse the dated sources. These are catalog years, not a measured population or environmental trend.</p></div><button aria-expanded={expanded} onClick={()=>setExpanded(!expanded)}>{expanded?'Compact timeline':'Show all dates'}</button></header><div className="catalog-time-scrubber"><label>Step through dated records<input aria-label="Step through dated source records" type="range" min="0" max={dated.length-1} value={Math.max(0,position)} disabled={dated.length<2} onChange={e=>(onScrub||onSelect)(dated[Number(e.target.value)].index)}/></label><output>{position<0?'Selected record is undated':dated[position].period!.label+' · '+(position+1)+' of '+dated.length}</output><small>Each step selects one source; spacing does not represent elapsed time.</small></div><ol className={expanded?'is-expanded':''}>{dated.map(({record,index,period})=><li key={index} className={selected===index?'is-current':''}>{record.media&&<button className="catalog-record-preview" onClick={()=>onSelect(index)} aria-label={'Inspect '+record.title}><CrabMediaThumbnail record={record}/></button>}<span className="catalog-year">{period!.label}</span><button aria-pressed={selected===index} onClick={()=>onSelect(index)}>{record.title}</button><small>{record.kind}</small>{selected!==index&&<button className="catalog-compare" onClick={()=>onCompare(index)}>Compare with selected →</button>}</li>)}</ol><small>{records.length-dated.length} other records have no stated catalog year and remain in the collection.</small></section>;
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "import-Indonesia",
+    "from": "Indonesia",
+    "to": "United States",
+    "a": [
+      118,
+      -2
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-Venezuela",
+    "from": "Venezuela",
+    "to": "United States",
+    "a": [
+      -66,
+      7
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-Vietnam",
+    "from": "Vietnam",
+    "to": "United States",
+    "a": [
+      106,
+      16
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-China",
+    "from": "China",
+    "to": "United States",
+    "a": [
+      104,
+      35
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-Philippines",
+    "from": "Philippines",
+    "to": "United States",
+    "a": [
+      122,
+      12
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-India",
+    "from": "India",
+    "to": "United States",
+    "a": [
+      79,
+      22
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "import-Mexico",
+    "from": "Mexico",
+    "to": "United States",
+    "a": [
+      -102,
+      23
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L01",
+    "period": "2023",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Official commission minutes report this import origin. Commodity totals do not identify species, port or transport mode.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "case-Indonesia",
+    "from": "Indonesia",
+    "to": "Virginia processor region",
+    "a": [
+      118,
+      -2
+    ],
+    "b": [
+      -76.4,
+      37
+    ],
+    "source": "L02",
+    "period": "2010–2015",
+    "scope": "Other crab species · historical supply",
+    "note": "Historical supply connection documented in a federal seafood-mislabeling case. Not an ongoing shipment or Atlantic blue crab identification.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "case-China",
+    "from": "China",
+    "to": "Virginia processor region",
+    "a": [
+      104,
+      35
+    ],
+    "b": [
+      -76.4,
+      37
+    ],
+    "source": "L02",
+    "period": "2010–2015",
+    "scope": "Other crab species · historical supply",
+    "note": "Historical supply connection documented in a federal seafood-mislabeling case. Not an ongoing shipment or Atlantic blue crab identification.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "case-Thailand",
+    "from": "Thailand",
+    "to": "Virginia processor region",
+    "a": [
+      101,
+      15
+    ],
+    "b": [
+      -76.4,
+      37
+    ],
+    "source": "L02",
+    "period": "2010–2015",
+    "scope": "Other crab species · historical supply",
+    "note": "Historical supply connection documented in a federal seafood-mislabeling case. Not an ongoing shipment or Atlantic blue crab identification.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "case-Vietnam",
+    "from": "Vietnam",
+    "to": "Virginia processor region",
+    "a": [
+      106,
+      16
+    ],
+    "b": [
+      -76.4,
+      37
+    ],
+    "source": "L02",
+    "period": "2010–2015",
+    "scope": "Other crab species · historical supply",
+    "note": "Historical supply connection documented in a federal seafood-mislabeling case. Not an ongoing shipment or Atlantic blue crab identification.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "trace-venezuela",
+    "from": "Venezuela",
+    "to": "Maryland retail traceback",
+    "a": [
+      -66,
+      7
+    ],
+    "b": [
+      -76.7,
+      39
+    ],
+    "source": "L03",
+    "period": "2018",
+    "scope": "Crabmeat · species unspecified",
+    "note": "Historical traceback established Venezuelan suppliers for crabmeat sold in Maryland. No port, carrier or voyage is identified.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "tunisia-United States",
+    "from": "Tunisia",
+    "to": "United States",
+    "a": [
+      10,
+      34
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L04",
+    "period": "2021",
+    "scope": "Other blue crab industry",
+    "note": "FAO describes these markets for Tunisian blue crab. The account concerns an invasive-crab industry, not a species-resolved Callinectes sapidus shipment.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "tunisia-Australia",
+    "from": "Tunisia",
+    "to": "Australia",
+    "a": [
+      10,
+      34
+    ],
+    "b": [
+      134,
+      -25
+    ],
+    "source": "L04",
+    "period": "2021",
+    "scope": "Other blue crab industry",
+    "note": "FAO describes these markets for Tunisian blue crab. The account concerns an invasive-crab industry, not a species-resolved Callinectes sapidus shipment.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "russia-China",
+    "from": "Russia",
+    "to": "China",
+    "a": [
+      105,
+      60
+    ],
+    "b": [
+      104,
+      35
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "Country-level crab trade reported by FAO; not Atlantic blue crab. Endpoints are regional anchors, not ports.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "russia-Republic of Korea",
+    "from": "Russia",
+    "to": "Republic of Korea",
+    "a": [
+      105,
+      60
+    ],
+    "b": [
+      128,
+      36
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "Country-level crab trade reported by FAO; not Atlantic blue crab. Endpoints are regional anchors, not ports.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "russia-Japan",
+    "from": "Russia",
+    "to": "Japan",
+    "a": [
+      105,
+      60
+    ],
+    "b": [
+      138,
+      37
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "Country-level crab trade reported by FAO; not Atlantic blue crab. Endpoints are regional anchors, not ports.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "canada-us",
+    "from": "Canada",
+    "to": "United States",
+    "a": [
+      -106,
+      56
+    ],
+    "b": [
+      -98,
+      39
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "FAO identifies Canada as the main supplier to the US crab market; species mix differs from Atlantic blue crab.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "vietnam-china",
+    "from": "Vietnam",
+    "to": "China",
+    "a": [
+      106,
+      16
+    ],
+    "b": [
+      104,
+      35
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "FAO identifies Vietnam among Chinese crab suppliers; species and transport route are not resolved.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "indonesia-china",
+    "from": "Indonesia",
+    "to": "China",
+    "a": [
+      118,
+      -2
+    ],
+    "b": [
+      104,
+      35
+    ],
+    "source": "L06",
+    "period": "2025",
+    "scope": "Wider crab industry",
+    "note": "FAO identifies Indonesia among Chinese crab suppliers; species and transport route are not resolved.",
+    "mode": "Unspecified transport"
+  },
+  {
+    "id": "air-pdx-hkg",
+    "from": "Portland",
+    "to": "Hong Kong",
+    "a": [
+      -122.68,
+      45.52
+    ],
+    "b": [
+      114.17,
+      22.32
+    ],
+    "source": "L05",
+    "period": "2016 / reported 2017",
+    "scope": "Wider crab industry",
+    "note": "FAO links improved Cathay Pacific cargo service between these cities to West Coast crab export opportunities. Historical air corridor, not proof of a specific shipment or current schedule.",
+    "mode": "Air freight"
+  }
+]

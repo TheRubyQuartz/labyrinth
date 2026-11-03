@@ -1,0 +1,30 @@
+import {createRequire} from 'node:module';
+import assert from 'node:assert/strict';
+process.env.PLAYWRIGHT_BROWSERS_PATH='C:/Users/Neo/Downloads/labyrinth-main (1)/labyrinth-home-recovery/.practice-qa/browsers';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');
+const {chromium}=require('playwright');
+const b=await chromium.launch({headless:true,args:['--enable-webgl','--ignore-gpu-blocklist','--use-angle=swiftshader']});
+try{
+const p=await b.newPage({viewport:{width:1440,height:1000}});p.setDefaultTimeout(90000);
+await p.goto('http://127.0.0.1:5212/?view=map');
+await p.locator('.gm-console').waitFor();assert(p.url().includes('entry=SP-001#crab-category-transport'));
+assert(await p.getByRole('tab',{name:'Movement',exact:true}).getAttribute('data-state')==='active');
+assert(await p.locator('.gm-subject-list label').filter({hasText:'Blue crab'}).getByRole('checkbox').isChecked());
+await p.getByText('40,388',{exact:true}).waitFor();
+await p.locator('.gm-loading').waitFor({state:'hidden'});
+await p.locator('.gm-console').scrollIntoViewIfNeeded();
+await p.getByRole('button',{name:'Tools',exact:true}).click();
+await p.getByRole('button',{name:'Environment',exact:true}).click();
+await p.screenshot({path:'.practice-qa/movement-relocation-desktop.png'});
+await p.getByRole('button',{name:'Subjects & filters',exact:true}).click();
+await p.locator('.gm-console').evaluate(e=>e.scrollIntoView({block:'center'}));
+const before=await p.locator('.gm-stage').boundingBox();
+await p.locator('.gm-dock-content').evaluate(e=>e.scrollTop=500);
+const after=await p.locator('.gm-stage').boundingBox();assert.equal(Math.round(before.y),Math.round(after.y));
+await p.setViewportSize({width:390,height:844});
+await p.locator('.gm-console').scrollIntoViewIfNeeded();
+assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+await p.screenshot({path:'.practice-qa/movement-relocation-mobile.png'});
+await p.goto('http://127.0.0.1:5212/?view=archive');assert.equal(await p.getByRole('tab',{name:'3D Map'}).count(),0);
+console.log('PASS: legacy redirect, Movement chapter, selected crab, data, tools, independent dock, mobile width, removed map tab');
+}finally{await b.close()}

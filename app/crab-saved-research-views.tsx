@@ -1,0 +1,10 @@
+import {useState} from 'react';
+import {normalizeResearchView,type ResearchView} from './crab-research-state';
+type SavedView={id:string;name:string;view:ResearchView};
+export function CrabSavedResearchViews({section,view,onRestore}:{section:string;view:ResearchView;onRestore:(v:ResearchView)=>void}){
+ const key='crab-saved-research-views:'+section;
+ const [items,Items]=useState<SavedView[]>(()=>{try{const data=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(data)?data.filter(v=>v&&typeof v.id==='string'&&typeof v.name==='string').map(v=>({...v,view:normalizeResearchView(v.view)})):[]}catch{return []}});
+ const [name,Name]=useState(''),[message,Message]=useState(''),[removed,Removed]=useState<SavedView|null>(null);
+ function persist(next:SavedView[]){try{localStorage.setItem(key,JSON.stringify(next));Items(next);return true}catch{Message('This browser could not save the view. Use Share filtered view instead.');return false}}
+ return <details className="research-saved-views"><summary>Saved views <span>{items.length}</span></summary><p>Reuse a period and topic. The view shows matching evidence, not a frozen copy.</p><form onSubmit={e=>{e.preventDefault();if(!name.trim())return;if(persist([...items,{id:crypto.randomUUID(),name:name.trim(),view}])){Name('');Message('Research view saved on this device.')}}}><label>Name this view<input value={name} maxLength={80} onChange={e=>Name(e.target.value)} placeholder="For example: recent movement studies"/></label><button disabled={!name.trim()} type="submit">Save current view</button></form><ul>{items.map(item=><li key={item.id}><button onClick={()=>{onRestore(item.view);Message('Loaded '+item.name)}}>{item.name}<small>{item.view.from||'First year'}–{item.view.to||'Latest'} · {item.view.topic}</small></button><button aria-label={'Remove saved view '+item.name} onClick={()=>{if(persist(items.filter(i=>i.id!==item.id))){Removed(item);Message('View removed.')}}}>×</button></li>)}</ul><p role="status">{message} {removed&&<button onClick={()=>{if(persist([...items,removed])){Removed(null);Message('View restored.')}}}>Undo</button>}</p></details>
+}

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {binObservations} from '../app/map-observation-bins.ts';
+import {hexBins} from '../app/map-hex-bins.ts';
+import {distanceMeters} from '../app/terrain-math.ts';
+const rows=[[1,-76,38,2020,'NAT'],[2,-76,38,2021,'NIS'],[3,179.9,0,2000,'NAT'],[4,-179.9,0,2001,'NIS']];
+const bins=binObservations(rows,5);assert.equal(bins.reduce((n,b)=>n+b.count,0),4);assert.equal(bins.find(b=>b.count===2).native,1);assert.equal(bins.find(b=>b.count===2).introduced,1);
+const hex=hexBins(rows);assert.equal(hex.reduce((n,b)=>n+b.count,0),4);assert(hex.every(b=>b.ring.length===6&&b.ring.flat().every(Number.isFinite)));
+assert.equal(hexBins([[1,0,90]]).length,0);assert(distanceMeters({lon:179.9,lat:0},{lon:-179.9,lat:0})<23000);
+const ledger=JSON.parse(readFileSync('public/research/maps/implementation.json'));assert.equal(ledger.sources.length,100);assert.equal(new Set(ledger.sources.map(s=>s.id)).size,100);assert(ledger.sources.every(s=>s.location&&s.remaining&&s.files));
+console.log('Aggregation counts, mixed status, date-line distance, hex geometry and 100-entry ledger: PASS');

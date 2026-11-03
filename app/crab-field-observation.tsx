@@ -1,0 +1,9 @@
+import {useState} from 'react';
+import {CrabRecordMedia} from './crab-record-media';
+import type {CrabRecord} from './crab-collections';
+const source='https://www.vims.edu/newsandevents/topstories/2022/low_tide_attack.php';
+const record:CrabRecord={title:'Low-tide ambush pits',kind:'Field observation film',focus:'Habitat use',description:'VIMS footage documents blue crabs using water-filled marsh depressions while hunting at low tide. This is a specific field study, not a universal behavior sequence.',inspect:[],source,credit:'VIMS · David Johnson and collaborators · 2022',media:{type:'youtube',url:'6TIJp2eUlqE'}};
+export function CrabFieldObservation(){
+ const [watch,W]=useState(false),[failed,F]=useState(false);
+ return <section className="crab-field-observation"><header><span>SURVIVAL / FIELD NOTE / PUBLISHED 2022</span><h4>At the edge<br/>of the tide.</h4></header><div className="field-observation-image">{watch?<CrabRecordMedia record={record}/>:<>{failed?<p>The source photograph could not load. The field film and source account remain available.</p>:<img loading="lazy" onError={()=>F(true)} src="https://www.vims.edu/newsandevents/topstories/2022/_photosets/low_tide_attack/emerging_bluecrab_475.jpg" alt="A mud-covered blue crab emerging from a shallow ambush pit at low tide"/>}<button onClick={()=>W(true)} aria-label="Play VIMS low-tide field footage">▶ Watch the recorded behavior</button></>}</div><div className="field-observation-caption"><p>{record.description}</p><p>Photograph: Aileen Devlin / Virginia Sea Grant. Research account published 16 August 2022; not the capture date of every frame.</p><a href={source} target="_blank" rel="noreferrer">Read the study, methods and limitations ↗</a>{watch&&<button onClick={()=>W(false)}>Return to field photograph</button>}</div></section>
+}

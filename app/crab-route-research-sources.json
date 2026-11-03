@@ -1,0 +1,135 @@
+[
+{
+  "id": "desertfins-importkey",
+  "publisher": "ImportKey",
+  "url": "https://importkey.com/i/desertfins-seafood-llc",
+  "title": "Desertfins manifest records",
+  "role": "Commercial manifest transcription"
+},
+{
+  "id": "forkys-sindos-manifest",
+  "publisher": "ImportInfo",
+  "url": "https://www.importinfo.com/greece/central-macedonia/sindos",
+  "title": "Forkys bill MEDUWF300828",
+  "role": "Commercial manifest transcription"
+},
+{
+  "id": "zauba-frozen-fcl",
+  "publisher": "Zauba",
+  "url": "https://www.zauba.com/frozen-crab-whole-fcl-shipments-with-1-to-3-fcl-v1tnjms64pwe",
+  "title": "Frozen crab container records",
+  "role": "Commercial manifest transcription"
+},
+{
+  "id": "zauba-tunisia-crab",
+  "publisher": "Zauba",
+  "url": "https://www.zauba.com/tunisia-exports-under-hs-code-200570-hsa0dxgmp35e",
+  "title": "Species-named Tunisian shipment records",
+  "role": "Commercial manifest transcription; species determined from description, not HS code"
+},
+{
+  "id": "homard-importkey",
+  "publisher": "ImportKey",
+  "url": "https://importkey.com/i/ste-l-homard",
+  "title": "STE L HOMARD port-pair records",
+  "role": "Commercial manifest transcription"
+},
+{
+  "id": "homard-itrade",
+  "publisher": "i-Trade",
+  "url": "https://www.i-trade.biz/supplier?name=STE+L+HOMARD",
+  "title": "STE L HOMARD bill and partner corroboration",
+  "role": "Commercial manifest transcription"
+},
+{
+  "id": "handy-1987",
+  "publisher": "The Washington Post",
+  "url": "https://www.washingtonpost.com/archive/business/1987/06/01/selling-softshells/b1c3632d-f6ed-439f-b667-487e3bc8fa32/",
+  "title": "Selling Softshells",
+  "role": "Historical company reporting"
+},
+{
+  "id": "maryland-air-1991",
+  "publisher": "Los Angeles Times",
+  "url": "https://www.latimes.com/archives/la-xpm-1991-04-07-tr-216-story.html",
+  "title": "Maryland Crab Houses",
+  "role": "Historical reporting"
+},
+{
+  "id": "la-market-2006",
+  "publisher": "Los Angeles Times",
+  "url": "https://www.latimes.com/archives/la-xpm-2006-apr-14-me-neworleans14-story.html",
+  "title": "Where the Fish Has Bite",
+  "role": "Historical reporting"
+},
+{
+  "id": "whitemarsh-banner-2025",
+  "publisher": "The Baltimore Banner",
+  "url": "https://www.thebanner.com/economy/maryland-crab-docks-sourcing-louisiana-J2S2CFYBCNAFVLWR3QIPWGZ35U/",
+  "title": "Louisiana crabs are powering Maryland's seafood scene",
+  "role": "Operator interviews and field reporting"
+},
+{
+  "id": "hunters-2009",
+  "publisher": "The Philadelphia Inquirer",
+  "url": "https://www.inquirer.com/philly/food/restaurants/20090507_On_the_Side__On_Chesapeake_Bay_.html",
+  "title": "Hopes for blue-crab catch stir a sleepy spot in Md.",
+  "role": "Historical field reporting"
+},
+{
+  "id": "viking-process",
+  "publisher": "Viking Foods Group",
+  "url": "https://vikingfoodsgroup.com/",
+  "title": "Lake Maracaibo–Miami blue-crab supply process",
+  "role": "Primary company description"
+},
+{
+  "id": "texas-air-1972",
+  "publisher": "Texas Airport System Plan",
+  "url": "https://library.ctr.utexas.edu/digitized/texasarchive/phase3/tx_ms760_1972.pdf",
+  "title": "Air Cargo Analysis and Forecasts (1972)",
+  "role": "Historical government air-cargo study"
+},
+{
+  "id": "gsmfc-fishery-profile",
+  "publisher": "Gulf States Marine Fisheries Commission",
+  "url": "https://www.gsmfc.org/publications/GSMFC%20Number%20009.pdf",
+  "title": "A Profile of the Blue Crab Fishery of the Gulf of Mexico",
+  "role": "Historical fishery industry study"
+},
+  {
+    "id": "pomes-field-2025",
+    "publisher": "The Baltimore Banner / Verite News",
+    "url": "https://veritenews.org/2025/08/12/maryland-crab-docks-sourcing-louisiana/",
+    "title": "New Orleans–Jessup crab trucking, August 2025",
+    "role": "Reporter-observed supply chain and operator interview"
+  },
+  {
+    "id": "southwest-field-2020",
+    "publisher": "The Points Guy",
+    "url": "https://thepointsguy.com/news/southwest-airlines-cargo-holiday-season/",
+    "title": "Houston Hobby–Baltimore cargo facility observation, 2020",
+    "role": "Reporter-observed arriving crab cargo"
+  },
+  {
+    "id": "mariscadoras-manifests",
+    "publisher": "ImportKey",
+    "url": "https://importkey.com/i/mariscadoras-srl-societa-benefit",
+    "title": "Mariscadoras shipment records: named ports and buyers",
+    "role": "Commercial manifest transcription"
+  },
+  {
+    "id": "bayhundred-2001",
+    "publisher": "FleetOwner",
+    "url": "https://www.fleetowner.com/refrigerated-transporter/article/21227152/waterman-becomes-seafood-wholesaler",
+    "title": "Bay Hundred Seafood delivery network, 2001",
+    "role": "Operator interview / historical industry reporting"
+  },
+  {
+    "id": "houston-destinations-2016",
+    "publisher": "Houston Chronicle",
+    "url": "https://www.houstonchronicle.com/business/retail/article/Marylanders-find-Gulf-crabs-will-do-in-a-pinch-7973668.php",
+    "title": "T&Y Seafood air-cargo destinations, May 2016",
+    "role": "Historical field reporting"
+  }
+]

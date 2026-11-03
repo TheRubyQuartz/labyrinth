@@ -1,0 +1,35 @@
+import {createRequire} from 'node:module';
+import assert from 'node:assert/strict';
+process.env.PLAYWRIGHT_BROWSERS_PATH='C:/Users/Neo/Downloads/labyrinth-main (1)/labyrinth-home-recovery/.practice-qa/browsers';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');
+const {chromium}=require('playwright');
+const browser=await chromium.launch({headless:true,args:['--enable-webgl','--ignore-gpu-blocklist','--use-angle=swiftshader']});
+try{const page=await browser.newPage({viewport:{width:1440,height:1000}});page.setDefaultTimeout(60000);const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:5212/?entry=SP-001#crab-category-transport');
+await page.getByRole('button',{name:'Subject & data',exact:true}).click();await page.getByRole('button',{name:'Heat maps',exact:true}).click();
+const panel=page.locator('.gm-heatmaps');await panel.getByText('United States · 51,577 tonnes live weight',{exact:true}).waitFor();
+assert.equal(await panel.locator('article').count(),12);
+assert.equal(await page.getByLabel('Global map imagery').inputValue(),'Satellite');
+await page.getByLabel('Active heatmap legend').waitFor();
+await page.getByLabel('Heat color scale').selectOption('Linear');
+await page.getByLabel('Active heatmap legend').getByText('tonnes live weight · linear scale',{exact:true}).waitFor();
+await panel.getByRole('button',{name:'Hide overlay',exact:true}).click();
+await page.getByLabel('Active heatmap legend').getByText(/Overlay hidden/).waitFor();
+await panel.getByRole('button',{name:'Show overlay',exact:true}).click();
+await page.getByLabel('Heat color scale').selectOption('Logarithmic');
+await page.waitForFunction(()=>document.querySelectorAll('.gm-heat-coverage-list > div').length>=250);
+const coverageCount=await panel.locator('.gm-heat-coverage-list > div').count();
+assert(coverageCount>=250,'Expanded worldwide country/territory catalog must load');
+assert((await panel.locator('.gm-heat-coverage-list').textContent()).includes('No connected measurement'));
+console.log('Worldwide geography catalog:',coverageCount,'countries and territories; missing measurements explicitly labeled');
+await page.getByLabel('Find heat region').fill('Mexico');assert.equal(await panel.locator('article').count(),1);
+await panel.getByText('Mexico · 2,564.344 tonnes live weight',{exact:true}).waitFor();
+await page.getByLabel('Find heat region').fill('');
+await page.getByLabel('Heat year').selectOption('1950');await panel.getByText('United States · 57,187 tonnes live weight',{exact:true}).waitFor();
+await page.getByLabel('Heat measurement').selectOption('Exports');await panel.getByText('Venezuela · 2,726 tonnes',{exact:true}).waitFor();
+await page.getByLabel('Heat year').selectOption('2016');await panel.getByText('Venezuela · 1,674 tonnes',{exact:true}).waitFor();
+await page.getByLabel('Heat measurement').selectOption('Population');await panel.getByText('Chesapeake Bay · 349 million crabs',{exact:true}).waitFor();
+for(const name of ['Imports','Consumption']){await page.getByLabel('Heat measurement').selectOption(name);assert(await page.getByLabel('Heat year').isDisabled());assert.equal(await panel.locator('article').count(),0)}
+await page.getByLabel('Heat measurement').selectOption('Recorded sightings');await panel.getByText(/Historical global occurrence archive/).waitFor();
+await page.getByRole('button',{name:'Population',exact:true}).click();assert.equal(await panel.count(),0);assert.deepEqual(errors,[]);console.log('PASS: metric and year changes, source values, missing-data states, and tab cleanup');
+}finally{await browser.close()}

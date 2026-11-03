@@ -1,0 +1,4 @@
+.lab-globe-search-types{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
+.lab-globe-search-types button{border:1px solid #a8d6df55;border-radius:16px;background:#14202ad9;color:#dfedf4;padding:8px 10px;font:inherit;font-size:12px;cursor:pointer}
+.lab-globe-search-types button[aria-pressed=true]{background:#d3eaf2;color:#14212b}
+.lab-globe-panel input{width:100%;box-sizing:border-box}

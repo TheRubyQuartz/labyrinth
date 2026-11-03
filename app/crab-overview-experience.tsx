@@ -9,7 +9,21 @@ const features=[
  {title:'Protection that can grow',label:'STRUCTURE',icon:Shield,body:'A mineralized external skeleton protects the body. Growth requires molting, temporarily exchanging rigid protection for a larger, soft new shell.',target:'overview-body'},
  {title:'Built for more than walking',label:'MOVEMENT',icon:Activity,body:'Rear swimming paddles complement walking legs and grasping claws. The crab can forage on the bottom and move through the water.',target:'overview-disposition'}
 ];
-export function CrabOverviewHero(){const [active,setActive]=useState(0);const f=features[active];return <div className="crab-experience-hero"><div className="experience-image"><img src={`${import.meta.env.BASE_URL}blue-crab-hero.png`} alt="Illustrated blue crab with olive carapace, blue limbs and extended claws" width="1672" height="941"/><span className="experience-image-tag">CALLINECTES SAPIDUS / SPECIES ATLAS</span><div className="experience-image-caption">An estuary.<br/>An entire world.</div></div><div className="experience-hero-console"><div className="experience-feature-nav" role="group" aria-label="Explore blue crab features">{features.map((item,i)=><button key={item.title} aria-label={item.label} aria-pressed={active===i} onClick={()=>setActive(i)}><item.icon size={19}/><span>0{i+1}</span></button>)}</div><div aria-live="polite"><span className="experience-eyebrow">{f.label}</span><h3>{f.title}</h3><p>{f.body}</p><a href={'#'+f.target}>Explore this system <ArrowUpRight size={14}/></a></div><div className="experience-evidence-note">Illustrated portrait · features explained in the sourced profile below</div></div></div>}
+export function CrabOverviewHero(){
+ const [active,setActive]=useState(0),[zoom,setZoom]=useState(false);
+ const f=features[active];
+ return <div className="crab-experience-hero">
+ <div className={'experience-image'+(zoom?' is-inspecting':'')} onPointerMove={e=>{if(!zoom)return;const b=e.currentTarget.getBoundingClientRect();e.currentTarget.style.setProperty('--inspect-x',((e.clientX-b.left)/b.width*100)+'%');e.currentTarget.style.setProperty('--inspect-y',((e.clientY-b.top)/b.height*100)+'%')}}>
+ <img src={`${import.meta.env.BASE_URL}blue-crab-hero.png`} alt="Illustrated blue crab with olive carapace, blue limbs and extended claws" width="1672" height="941"/>
+ <span className="experience-image-tag">CALLINECTES SAPIDUS / SPECIES ATLAS</span>
+ <div className="experience-image-caption">An estuary.<br/>An entire world.</div>
+ <button className="experience-inspect" aria-pressed={zoom} onClick={()=>setZoom(!zoom)}>{zoom?'− Restore full portrait':'+ Inspect portrait'}</button>
+ {zoom&&<span className="experience-inspect-hint">Move across the illustration to inspect its details</span>}
+ </div>
+ <div className="experience-hero-console"><div className="experience-feature-nav" role="group" aria-label="Explore blue crab features">{features.map((item,i)=><button key={item.title} aria-label={item.label} aria-pressed={active===i} onClick={()=>setActive(i)}><item.icon size={19}/><span>{['Whole organism','Senses','Structure','Movement'][i]}</span></button>)}</div>
+ <div key={active} className="experience-feature-reading" aria-live="polite"><span className="experience-eyebrow">{f.label}</span><h3>{f.title}</h3><p>{f.body}</p><a href={'#'+f.target}>Explore this system <ArrowUpRight size={14}/></a></div>
+ <div className="experience-evidence-note">Illustrated portrait · features explained in the sourced profile below</div></div></div>
+}
 
 const responses=[
  {name:'Food cues',signal:'Chemical information',response:'Search & approach',body:'Waterborne food cues guide searching. Odor detection works with water movement and contact sensing as the crab locates a possible meal.',source:'https://www.dnr.sc.gov/marine/pub/seascience/bluecrab.html'},

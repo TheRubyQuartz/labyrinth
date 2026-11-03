@@ -2,6 +2,8 @@ import {useEffect,useId,useRef,useState} from 'react';
 import type {ReactNode} from 'react';
 import works from './crab-culture-selections.json';
 import './crab-culture-explorer.css';
+import {CultureObjectMedia,cultureDates} from './crab-culture-media';
+import {CrabObjectJournal} from './crab-object-journal';
 const roles:Record<string,[string,string]>={
 'Two Crabs':['Painting','The animal as subject'],
 'Crustaceans':['Painting','Observation and repetition'],
@@ -19,6 +21,7 @@ export function CrabCultureSelections({category,additional=[]}:{category:string;
  for(const extra of additional){const match=entries.find(w=>w.title===extra.title);if(match)match.content=extra.content;else entries.push(extra)}
  const id=useId();
  const [index,setIndex]=useState(0),[readAll,setReadAll]=useState(false),[notice,setNotice]=useState('');
+ const [compare,setCompare]=useState(false),[other,setOther]=useState(1);
  const container=useRef<HTMLDivElement>(null);
  useEffect(()=>{function reveal(event?:Event){let target='';try{target=event?.type==='crab-navigate'?(event as CustomEvent<string>).detail:decodeURIComponent(location.hash.slice(1))}catch{return}const element=document.getElementById(target),panel=element?.closest('.culture-work');if(panel&&container.current?.contains(panel)){const panels=Array.from(container.current.querySelectorAll('.culture-work'));setIndex(panels.indexOf(panel))}}reveal();window.addEventListener('hashchange',reveal);window.addEventListener('crab-navigate',reveal);return()=>{window.removeEventListener('hashchange',reveal);window.removeEventListener('crab-navigate',reveal)}},[]);
  const buttons=useRef<(HTMLButtonElement|null)[]>([]);
@@ -33,9 +36,10 @@ export function CrabCultureSelections({category,additional=[]}:{category:string;
  <span className="culture-nav-number">{String(i+1).padStart(2,'0')}</span><span><strong>{work.title}</strong><small>{(roles[work.title]?.[0]||category)}</small></span><span className="culture-nav-arrow" aria-hidden="true">↗</span></button>)}
  </div>}
  <div className="culture-stage">{entries.map((work,i)=><article hidden={!readAll&&index!==i} className="culture-work" key={work.title} id={id+'-panel-'+i} role={readAll?undefined:'tabpanel'} aria-labelledby={readAll?undefined:id+'-tab-'+i} tabIndex={readAll?undefined:0}>
- <div className="culture-art-band" aria-hidden="true"><span>{String(i+1).padStart(2,'0')}</span><svg viewBox="0 0 400 160" fill="none"><ellipse cx="255" cy="83" rx="48" ry="31"/><path d="M217 65L195 40L174 48L169 22L190 29L195 40M292 65L314 40L335 48L340 22L319 29L314 40M209 79L182 71L155 83M207 88L176 91L151 108M215 101L190 114L178 137M301 79L328 71L355 83M303 88L334 91L359 108M295 101L320 114L332 137M240 54L235 43M270 54L275 43"/><circle cx="235" cy="42" r="3"/><circle cx="275" cy="42" r="3"/><path className="culture-orbit" d="M110 145Q150 0 310 10T390 140M100 100Q240 155 380 30"/></svg><span className="culture-band-type">{(roles[work.title]?.[0]||category)}</span></div>
+ <CultureObjectMedia title={work.title}/>
  <div className="culture-work-copy"><p className="culture-role">{(roles[work.title]?.[1]||'')}</p><h5>{work.title}</h5><p className="culture-work-tradition">{work.tradition}</p>{work.description&&<p className="culture-description">{work.description}</p>}{work.content}
- <div className="culture-work-actions"><a href={work.url} target="_blank" rel="noreferrer">Explore source <span aria-hidden="true">↗</span><span className="culture-sr-only"> for {work.title}</span></a><button onClick={()=>save(work.title)} aria-label={'Save '+work.title} aria-pressed={saved.includes(work.title)}>{saved.includes(work.title)?'★ Saved':'☆ Save'}</button></div></div>
- </article>)}</div></div>{notice&&<p role="status">{notice}</p>}
+ <div className="culture-work-actions"><a href={work.url} target="_blank" rel="noreferrer">Explore source <span aria-hidden="true">↗</span><span className="culture-sr-only"> for {work.title}</span></a><button onClick={()=>save(work.title)} aria-label={'Save '+work.title} aria-pressed={saved.includes(work.title)}>{saved.includes(work.title)?'★ Saved':'☆ Save'}</button></div><CrabObjectJournal title={work.title}/></div>
+ </article>)}</div></div>
+ <section className="culture-time-comparison" aria-label={category+' through time'}><header><h5>Compare works through time</h5><button aria-expanded={compare} onClick={()=>setCompare(!compare)}>{compare?'Close comparison':'Compare two works'}</button></header><p>Compare depictions and interpretations. Creation dates, edition dates and undated traditions are kept distinct.</p><div className="culture-date-rail">{entries.map((work,i)=>({work,i,date:cultureDates[work.title]})).sort((a,b)=>(a.date?.year??Infinity)-(b.date?.year??Infinity)).map(({work,i,date})=><button key={work.title} aria-pressed={index===i} onClick={()=>{setIndex(i);setReadAll(false)}}><span>{date?.label||'Undated in this record'}</span><strong>{work.title}</strong></button>)}</div>{compare&&<><label>Compare selected work with<select value={other} onChange={e=>setOther(Number(e.target.value))}>{entries.map((work,i)=><option key={work.title} value={i}>{work.title}</option>)}</select></label><div className="culture-compare-pair">{[index,Math.min(other,entries.length-1)].map((n,col)=><article key={col}><span>{cultureDates[entries[n].title]?.label||'Date not established'}</span><h5>{entries[n].title}</h5><p>{entries[n].tradition}</p><p>{entries[n].description}</p><small>{cultureDates[entries[n].title]?.basis||'No date is inferred from the age of the tradition.'}</small><a href={entries[n].url} target="_blank" rel="noreferrer">Source for this work ↗</a></article>)}</div></>}</section>{notice&&<p role="status">{notice}</p>}
  </div>;
 }

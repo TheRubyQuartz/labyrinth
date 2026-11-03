@@ -13,10 +13,10 @@ export async function createGlobalTerrain(C:any,status:(message:string)=>void){
   if(level<2)return out;
   // NOAA's geographic grid covers both poles, outside Mercator tile coverage.
   if(south>=80||north<=-80)return out;
-  const z=Math.max(0,Math.min(12,level+Math.floor(Math.log2(Math.max(.15,Math.cos((north+south)*Math.PI/360))))));const n=2**z;
+  const z=Math.max(0,Math.min(15,level+Math.floor(Math.log2(Math.max(.15,Math.cos((north+south)*Math.PI/360))))));const n=2**z;
   const locations:{key:string;px:number;py:number}[]=[];const requests=new Map<string,Promise<Uint8ClampedArray>>();
-  for(let j=0;j<65;j++)for(let i=0;i<65;i++){const lon=west+(east-west)*i/64,lat=north-(north-south)*j/64;if(Math.abs(lat)>=80){locations.push({key:'polar',px:0,py:0});continue}const xx=Math.min(n-1e-8,Math.max(0,(lon+180)/360*n)),yy=Math.min(n-1e-8,Math.max(0,(1-Math.asinh(Math.tan(lat*Math.PI/180))/Math.PI)/2*n));const tx=Math.floor(xx),ty=Math.floor(yy),key=`${tx}/${ty}`;locations.push({key,px:Math.min(255,Math.floor((xx-tx)*256)),py:Math.min(255,Math.floor((yy-ty)*256))});if(!requests.has(key))requests.set(key,pixels(z,tx,ty))}
+  for(let j=0;j<65;j++)for(let i=0;i<65;i++){const lon=west+(east-west)*i/64,lat=north-(north-south)*j/64;if(Math.abs(lat)>=80){locations.push({key:'polar',px:0,py:0});continue}const xx=Math.min(n-1e-8,Math.max(0,(lon+180)/360*n)),yy=Math.min(n-1e-8,Math.max(0,(1-Math.asinh(Math.tan(lat*Math.PI/180))/Math.PI)/2*n));const tx=Math.floor(xx),ty=Math.floor(yy),key=`${tx}/${ty}`;locations.push({key,px:Math.min(255,(xx-tx)*256),py:Math.min(255,(yy-ty)*256)});if(!requests.has(key))requests.set(key,pixels(z,tx,ty))}
   const tiles=new Map<string,Uint8ClampedArray>();await Promise.all([...requests].map(async([key,p])=>{try{tiles.set(key,await p)}catch{if(!warned){status('Some elevation tiles are unavailable; affected areas use coarse NOAA fallback.');warned=true}}}));
-  locations.forEach((p,i)=>{const data=tiles.get(p.key);if(data){const k=(p.py*256+p.px)*4;out[i]=data[k]*256+data[k+1]+data[k+2]/256-32768}});return out;
+  locations.forEach((p,i)=>{const data=tiles.get(p.key);if(data){const x0=Math.floor(p.px),y0=Math.floor(p.py),x1=Math.min(255,x0+1),y1=Math.min(255,y0+1),u=p.px-x0,v=p.py-y0;const height=(x:number,y:number)=>{const k=(y*256+x)*4;return data[k]*256+data[k+1]+data[k+2]/256-32768};out[i]=height(x0,y0)*(1-u)*(1-v)+height(x1,y0)*u*(1-v)+height(x0,y1)*(1-u)*v+height(x1,y1)*u*v}});return out;
  }});
 }

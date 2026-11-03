@@ -1,0 +1,1006 @@
+{
+  "date": "2026-10-20",
+  "scope": "100 reference pages mapped to implemented adaptations, not complete source-product parity.",
+  "sources": [
+    {
+      "id": "001",
+      "title": "Movebank — tracking-data-map",
+      "url": "https://www.movebank.org/cms/movebank-content/tracking-data-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "002",
+      "title": "Movebank — browse-tracks",
+      "url": "https://www.movebank.org/cms/movebank-content/browse-tracks",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "003",
+      "title": "Introduction | Motus Docs",
+      "url": "https://docs.motus.org/en/explore/introduction",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "004",
+      "title": "Explore Data",
+      "url": "https://motus.org/dashboard/index.html",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "005",
+      "title": "Movebank — animal-tracker",
+      "url": "https://www.movebank.org/cms/movebank-content/animal-tracker",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "006",
+      "title": "BirdCast Migration Dashboard",
+      "url": "https://dashboard.birdcast.info/region/us-ky",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "007",
+      "title": "Our Map – Global Fishing Watch",
+      "url": "https://globalfishingwatch.org/our-map/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "008",
+      "title": "Display Density Maps on the Live Map | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/9552735-display-density-maps-on-the-live-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Spatial aggregation",
+      "location": "Blue crab dashboard: individual records, angular clusters and 3D hexagons",
+      "files": "app/map-observation-bins.ts; app/map-hex-bins.ts",
+      "remaining": "Sampling counts are not population density. Grids are not equal-area; hex display omits latitudes beyond 85°."
+    },
+    {
+      "id": "009",
+      "title": "Introducing Global Reports on the Global Fishing Watch Map – Global Fishing Watch",
+      "url": "https://globalfishingwatch.org/platform-update/introducing-global-reports-on-the-global-fishing-watch-map/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "010",
+      "title": "User Guide – Global Fishing Watch",
+      "url": "https://globalfishingwatch.org/user-guide/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "011",
+      "title": "What exactly is the Density Map Layer? | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/9552882-what-exactly-is-the-density-map-layer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Spatial aggregation",
+      "location": "Blue crab dashboard: individual records, angular clusters and 3D hexagons",
+      "files": "app/map-observation-bins.ts; app/map-hex-bins.ts",
+      "remaining": "Sampling counts are not population density. Grids are not equal-area; hex display omits latitudes beyond 85°."
+    },
+    {
+      "id": "012",
+      "title": "Live Map | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/9552654-live-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "013",
+      "title": "How do I view map layers? | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/13706765-how-do-i-view-map-layers",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "014",
+      "title": "How do I display ports, marinas, and other locations on the map ? | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/14594407-how-do-i-display-ports-marinas-and-other-locations-on-the-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "015",
+      "title": "Playback - Past Track | MarineTraffic",
+      "url": "https://support.marinetraffic.com/en/articles/9552736-playback-past-track",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "016",
+      "title": "about earth :: a global map of wind, weather, and ocean conditions",
+      "url": "https://earth.nullschool.net/about.html",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "017",
+      "title": "Windy: Wind map & weather forecast",
+      "url": "https://www.windy.com/maps",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "018",
+      "title": "Weather - World | Ventusky",
+      "url": "https://www.ventusky.com/forecast",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "019",
+      "title": "earth :: a global map of wind, weather, and ocean conditions",
+      "url": "https://earth.nullschool.net/?trk=public_profile__reactions-text",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "020",
+      "title": "Windy: Wind map & weather forecast",
+      "url": "https://www.windy.com/-34.380/18.826/ecmwfWaves/waves",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "021",
+      "title": "Help | Ventusky",
+      "url": "https://www.ventusky.com/help",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "022",
+      "title": "Windy: Currents",
+      "url": "https://www.windy.com/-Currents-currents",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "023",
+      "title": "Map Help – ADS-B Exchange Help Center",
+      "url": "https://support.adsbexchange.com/hc/en-us/articles/44653064937741-Map-Help",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "024",
+      "title": "Live Flight Tracker - FlightAware",
+      "url": "https://www.flightaware.com/live/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "025",
+      "title": "Mobile Map - ADS-B Exchange",
+      "url": "https://www.adsbexchange.com/maps/mobile-map/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "026",
+      "title": "How To Track a Specific Aircraft – ADS-B Exchange Help Center",
+      "url": "https://support.adsbexchange.com/hc/en-us/articles/45478440676365-How-To-Track-a-Specific-Aircraft",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "027",
+      "title": "Interesting Map Activity - ADS-B Exchange",
+      "url": "https://www.adsbexchange.com/maps/interesting-map-activity/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "028",
+      "title": "Trips History | Geotab Support Center",
+      "url": "https://support.geotab.com/help/mygeotab/fleet-activity/trips/trips-history",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "029",
+      "title": "Geofences - Traccar",
+      "url": "https://www.traccar.org/geofences/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "030",
+      "title": "Signalbox - Live Train Map",
+      "url": "https://www.map.signalbox.io/embed/full-map?wmode=opaque",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "031",
+      "title": "Samsara Driver App Map – Samsara Help Center",
+      "url": "https://kb.samsara.com/hc/en-us/articles/27594344513421-Samsara-Driver-App-Map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "032",
+      "title": "Zones",
+      "url": "https://support.geotab.com/help/mygeotab/fleet-activity/zones",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "033",
+      "title": "- Abundance Map - eBird Status and Trends",
+      "url": "https://science.ebird.org/en/status-and-trends/species/integr/abundance-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "034",
+      "title": "Track Sharks With Us | OCEARCH Shark Tracker",
+      "url": "https://www.ocearch.org/research/track-sharks-with-us/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "035",
+      "title": "Products, Data, and Interpretation - BirdCast",
+      "url": "https://birdcast.info/about/review/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "036",
+      "title": "North American bird declines story map",
+      "url": "https://trends.ebird.org/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "037",
+      "title": "3D Terrain - MapLibre GL JS",
+      "url": "https://maplibre.org/maplibre-gl-js/docs/examples/3d-terrain/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "038",
+      "title": "Add 3D Tiles, 3D objects and models using Three.js - MapLibre GL JS",
+      "url": "https://maplibre.org/maplibre-gl-js/docs/examples/add-3d-tiles-3d-objects-and-models-using-threejs/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "3D objects on maps",
+      "location": "Import: Local GLB specimen/asset; homepage globe and regional terrain",
+      "files": "app/map-local-model.tsx; app/homepage-map-globe.ts",
+      "remaining": "Local self-contained GLBs supported; arbitrary remote 3D Tiles catalogs and modeling/editing tools not implemented."
+    },
+    {
+      "id": "039",
+      "title": "Add 3D model and animate along route | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/add-3d-model-and-animate-along-route/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "040",
+      "title": "Zoom Earth | Weather Map & Hurricane Tracker",
+      "url": "https://zoom.earth/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "041",
+      "title": "NASA | LANCE | FIRMS",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/?os=win",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "042",
+      "title": "NASA | LANCE | FIRMS US/Canada",
+      "url": "https://firms.modaps.eosdis.nasa.gov/usfs/map/?mibextid=Zxz2cZ",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "043",
+      "title": "Explore the World's Protected Areas",
+      "url": "https://www.protectedplanet.net/en",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "044",
+      "title": "Explore Data Sets — Resource Watch | Resource Watch",
+      "url": "https://resourcewatch.org/embed/data/explore",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "045",
+      "title": "Turning User Feedback Into Smart Digital Design - Resource Watch Blog",
+      "url": "https://blog.resourcewatch.org/2020/08/17/turning-user-feedback-into-smart-digital-design/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Workbench usability and exploration",
+      "location": "Categorized tools, filters, import, comparisons, exports and mobile controls",
+      "files": "app/map-research-tools.tsx; app/map-research-tools.css",
+      "remaining": "Consolidated crab workbench, not every Resource Watch or kepler.gl feature."
+    },
+    {
+      "id": "046",
+      "title": "Resource Watch",
+      "url": "https://resourcewatch.org/data/explore?section=Near+Real-Time",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Filtered reports and temporal comparison",
+      "location": "Analyze: Compare filtered observations; Blue crab timeline and population series",
+      "files": "app/map-comparison-report.tsx; app/crab-population.tsx",
+      "remaining": "Population estimates are Chesapeake-only; no global abundance model or causal trend estimate."
+    },
+    {
+      "id": "047",
+      "title": "deck.gl — terrain-layer",
+      "url": "https://deck.gl/next/examples/terrain-layer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "048",
+      "title": "deck.gl ArcLayer Example | WebGL visualization",
+      "url": "https://deck.gl/gallery/arc-layer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "049",
+      "title": "deck.gl — globe-view",
+      "url": "https://deck.gl/examples/globe-view",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "050",
+      "title": "deck.gl — tile-layer",
+      "url": "https://deck.gl/examples/tile-layer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "051",
+      "title": "deck.gl — terrain-extension",
+      "url": "https://deck.gl/examples/terrain-extension",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "052",
+      "title": "Create and style clusters | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/cluster/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Spatial aggregation",
+      "location": "Blue crab dashboard: individual records, angular clusters and 3D hexagons",
+      "files": "app/map-observation-bins.ts; app/map-hex-bins.ts",
+      "remaining": "Sampling counts are not population density. Grids are not equal-area; hex display omits latitudes beyond 85°."
+    },
+    {
+      "id": "053",
+      "title": "Add 3D terrain to a map | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/add-terrain/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "054",
+      "title": "Create a rotating globe | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/globe-spin/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Camera and projection",
+      "location": "Navigate: rotation, 3D/2D/oblique, saved viewpoints and share links",
+      "files": "app/map-view-controls.tsx; app/map-research-tools.tsx",
+      "remaining": "Cesium camera modes; not every Mapbox projection or appearance shader."
+    },
+    {
+      "id": "055",
+      "title": "Animate a custom marker on appearance | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/animate-marker-on-appearance/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Camera and projection",
+      "location": "Navigate: rotation, 3D/2D/oblique, saved viewpoints and share links",
+      "files": "app/map-view-controls.tsx; app/map-research-tools.tsx",
+      "remaining": "Cesium camera modes; not every Mapbox projection or appearance shader."
+    },
+    {
+      "id": "056",
+      "title": "Query terrain elevation | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/query-terrain-elevation/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "057",
+      "title": "Customize camera animations | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/camera-animation/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Camera and projection",
+      "location": "Navigate: rotation, 3D/2D/oblique, saved viewpoints and share links",
+      "files": "app/map-view-controls.tsx; app/map-research-tools.tsx",
+      "remaining": "Cesium camera modes; not every Mapbox projection or appearance shader."
+    },
+    {
+      "id": "058",
+      "title": "Display HTML clusters with custom properties | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Spatial aggregation",
+      "location": "Blue crab dashboard: individual records, angular clusters and 3D hexagons",
+      "files": "app/map-observation-bins.ts; app/map-hex-bins.ts",
+      "remaining": "Sampling counts are not population density. Grids are not equal-area; hex display omits latitudes beyond 85°."
+    },
+    {
+      "id": "059",
+      "title": "Add an elevated line to a map | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/elevated-line/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "060",
+      "title": "Animate a line | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/animate-a-line/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "061",
+      "title": "Use different map projections for web maps | Mapbox GL JS | Mapbox",
+      "url": "https://docs.mapbox.com/mapbox-gl-js/example/projections/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Camera and projection",
+      "location": "Navigate: rotation, 3D/2D/oblique, saved viewpoints and share links",
+      "files": "app/map-view-controls.tsx; app/map-research-tools.tsx",
+      "remaining": "Cesium camera modes; not every Mapbox projection or appearance shader."
+    },
+    {
+      "id": "062",
+      "title": "Mission Support Demos – Cesium",
+      "url": "https://cesium.com/industries/mission-support/mission-support-demos/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "063",
+      "title": "Use map tools—ArcGIS Mission | Documentation",
+      "url": "https://doc.arcgis.com/en/mission/11.1/responder/responder-active-map-tools.htm",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "064",
+      "title": "Mission map panel—ArcGIS Mission | Documentation",
+      "url": "https://doc.arcgis.com/en/mission/10.9/manager/manager-mission-analyst-map-panel.htm",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "065",
+      "title": "Mission map—ArcGIS Mission | Documentation",
+      "url": "https://doc.arcgis.com/en/mission/11.2/responder/responder-active-mission-map.htm",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Study areas and annotations",
+      "location": "Analyze: radius/transect; Fieldwork: notes; Import: boundaries",
+      "files": "app/map-research-tools.tsx; app/map-field-notes.tsx; app/map-terrain-analysis.tsx",
+      "remaining": "User-defined regions; not live fire feeds, the complete protected-area database, collaboration servers or live geofence alerts."
+    },
+    {
+      "id": "066",
+      "title": "Transitland Global Transit Map • Transitland Documentation",
+      "url": "https://www.transit.land/documentation/website/global-transit-map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "067",
+      "title": "Transitland • Global Transit Map",
+      "url": "https://www.transit.land/map",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "068",
+      "title": "TRAVIC - Transit Visualization Client",
+      "url": "https://travic.app/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "069",
+      "title": "OpenRailwayMap",
+      "url": "https://www.openrailwaymap.org/?lat=54.75792846113911&lon=11.865427494049072&style=standard&zoom=15",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "070",
+      "title": "Updated Feature: Improved Map Layers UI and the New Layer Catalog - CalTopo",
+      "url": "https://blog.caltopo.com/2026/01/07/updated-feature-improved-map-layers-ui-and-the-new-layer-catalog/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "071",
+      "title": "New Feature: 3D - CalTopo",
+      "url": "https://blog.caltopo.com/2024/09/30/new-feature-3d/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "072",
+      "title": "Map - CalTopo",
+      "url": "https://caltopo.com/m/GLS21V4",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "073",
+      "title": "3D | CalTopo Training",
+      "url": "https://training.caltopo.com/all_users/getting-started/3D",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "074",
+      "title": "Introducing the Gaia Hike Map: Plan Your Hike, Your Way - Gaia GPS",
+      "url": "https://blog.gaiagps.com/introducing-the-gaia-hike-map/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "075",
+      "title": "Map Viewer Tour | CalTopo Training",
+      "url": "https://training.caltopo.com/all_users/getting-started/map-tour",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "076",
+      "title": "Contour Lines - Feet | Gaia GPS",
+      "url": "https://www.gaiagps.com/maps/source/GaiaRasterContoursFeet/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "077",
+      "title": "NASA Worldview",
+      "url": "https://worldview.earthdata.nasa.gov/?dil=en-US",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "078",
+      "title": "earth.google.com",
+      "url": "https://earth.google.com/web/Timelapse",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "079",
+      "title": "Human Activities | European Marine Observation and Data Network (EMODnet)",
+      "url": "https://emodnet.ec.europa.eu/en/human-activities",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "080",
+      "title": "Bathymetry | European Marine Observation and Data Network (EMODnet)",
+      "url": "https://emodnet.ec.europa.eu/en/bathymetry",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "081",
+      "title": "Copernicus Marine MyOcean Viewer",
+      "url": "https://data.marine.copernicus.eu/viewer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "082",
+      "title": "EMODnet Map Viewer",
+      "url": "https://emodnet.ec.europa.eu/geoviewer/?map=c2hpcHdyZWNrc3xzcGxhc2hjb3MxfHNwbGFzaGNvczJ8c3BsYXNoY29zM3xzcGxhc2hjb3M0fHNwbGFzaGNvczV8c3BsYXNoY29zNnxzcGxhc2hjb3M3fHNwbGFzaGNvczgmbWFwY2VudHJlPTY3NTYxNCw1NjEwNTQxJnpvb21sZXY9NCZtYXBiYXNlPWh5YnJpZCZmaWx0ZXJzPSZmaWx0ZXJzbXM9",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "083",
+      "title": "BLOG #7 (September 2025): Boosting Map Viewer Accessibility and Usability | European Marine Observation and Data Network (EMODnet)",
+      "url": "https://emodnet.ec.europa.eu/en/blog-7-september-2025-boosting-map-viewer-accessibility-and-usability",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "084",
+      "title": "CoastWatch Data Portal | NOAA CoastWatch",
+      "url": "https://coastwatch.noaa.gov/cwn/data-access-tools/coastwatch-data-portal.html",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "085",
+      "title": "EMODnet’s Central Map Viewer Unveils new visualization and technical Upgrades | European Marine Observation and Data Network (EMODnet)",
+      "url": "https://emodnet.ec.europa.eu/en/emodnets-central-map-viewer-unveils-new-visualization-and-technical-upgrades",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "086",
+      "title": "BLOG #2 (June 2024): The EMODnet Map Viewer, your tool to data discovery | European Marine Observation and Data Network (EMODnet)",
+      "url": "https://emodnet.ec.europa.eu/en/blog-2-june-2024-emodnet-map-viewer-your-tool-data-discovery",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Layers and provenance",
+      "location": "View selector; Environment; Import overlays; source explanations",
+      "files": "app/map-environment-layers.tsx; app/map-local-layer.tsx",
+      "remaining": "Selected public layers and local GeoJSON, not every source platform’s layer catalog."
+    },
+    {
+      "id": "087",
+      "title": "NOAA CoastWatch Data Portal",
+      "url": "https://coastwatch.noaa.gov/cw_html/cwViewer.html?lat=7.05&layer0=basemapWI&layer1=chl2kdineofnrt3sensord&lon=-147.33&z=2",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Dated environmental maps",
+      "location": "Environment: NASA imagery/date swipe; regional wind/current forecasts",
+      "files": "app/map-environment-layers.tsx; app/map-wind-layer.tsx",
+      "remaining": "Connected NASA satellite/chlorophyll/SST and nine-location wind/current samples; not complete continuous global particle fields or Google timelapse."
+    },
+    {
+      "id": "088",
+      "title": "deck.gl — hexagon-layer",
+      "url": "https://deck.gl/examples/hexagon-layer",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Spatial aggregation",
+      "location": "Blue crab dashboard: individual records, angular clusters and 3D hexagons",
+      "files": "app/map-observation-bins.ts; app/map-hex-bins.ts",
+      "remaining": "Sampling counts are not population density. Grids are not equal-area; hex display omits latitudes beyond 85°."
+    },
+    {
+      "id": "089",
+      "title": "Animate a point along a route - MapLibre GL JS",
+      "url": "https://maplibre.org/maplibre-gl-js/docs/examples/animate-a-point-along-a-route/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "090",
+      "title": "Add a simple custom layer on a globe - MapLibre GL JS",
+      "url": "https://maplibre.org/maplibre-gl-js/docs/examples/globe-custom-simple/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "3D objects on maps",
+      "location": "Import: Local GLB specimen/asset; homepage globe and regional terrain",
+      "files": "app/map-local-model.tsx; app/homepage-map-globe.ts",
+      "remaining": "Local self-contained GLBs supported; arbitrary remote 3D Tiles catalogs and modeling/editing tools not implemented."
+    },
+    {
+      "id": "091",
+      "title": "SEATURTLE.ORG - Data Explorer",
+      "url": "https://seaturtle.org/tracking/explorer/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "092",
+      "title": "seaturtle.org - Satellite Tracking",
+      "url": "https://seaturtle.org/tracking/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "093",
+      "title": "seaturtle.org - Satellite Tracking",
+      "url": "https://www.seaturtle.org/tracking/index.shtml?full=1&lang=&tag_id=40669",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "094",
+      "title": "Maps - ADS-B Exchange",
+      "url": "https://www.adsbexchange.com/maps/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "095",
+      "title": "ForeFlight - Synthetic Vision: Obstacle and Terrain Awareness",
+      "url": "https://foreflight.com/products/foreflight-mobile/synthetic-vision/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "096",
+      "title": "ForeFlight - Airport 3D View",
+      "url": "https://www.foreflight.com/products/foreflight-mobile/3d-airport/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Terrain and selected-region analysis",
+      "location": "Global terrain and region inspector; Navigate contours; Analyze profiles",
+      "files": "app/map-terrain-analysis.tsx; app/map-view-controls.tsx; app/region-inspector.tsx",
+      "remaining": "Resolution and datum vary. No certified obstacle avoidance, flight navigation or safe route planning."
+    },
+    {
+      "id": "097",
+      "title": "Product features | Flightradar24 Blog",
+      "url": "https://www.flightradar24.com/blog/product-features/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Subject discovery and geographic selection",
+      "location": "Follow a subject: search, type filters, toggles, locate, record inspection",
+      "files": "app/subject-movements.tsx; app/crab-observation-explorer.tsx",
+      "remaining": "Original providers’ live fleet, aircraft, train and animal feeds are not connected."
+    },
+    {
+      "id": "098",
+      "title": "Exploring the New Flightradar24 3D View | Flightradar24 Blog",
+      "url": "https://www.flightradar24.com/blog/inside-flightradar24/exploring-the-new-flightradar24-3d-view/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "099",
+      "title": "Introducing Enhanced 3D View on Flightradar24 | Flightradar24 Blog",
+      "url": "https://www.flightradar24.com/blog/inside-flightradar24/introducing-enhanced-3d-view-on-flightradar24/",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Time, movement and 3D routes",
+      "location": "Import: Timestamped track replay; selected pathway illustration and export",
+      "files": "app/map-track-player.tsx; app/map-route-inspector.tsx",
+      "remaining": "Imported fixes can be replayed. Schematic crab routes have no biological clock or verified individual trajectory."
+    },
+    {
+      "id": "100",
+      "title": "kepler.gl interactive geospatial map",
+      "url": "https://kepler.gl/demo",
+      "status": "Implemented adaptation; not full source parity",
+      "feature": "Workbench usability and exploration",
+      "location": "Categorized tools, filters, import, comparisons, exports and mobile controls",
+      "files": "app/map-research-tools.tsx; app/map-research-tools.css",
+      "remaining": "Consolidated crab workbench, not every Resource Watch or kepler.gl feature."
+    }
+  ]
+}

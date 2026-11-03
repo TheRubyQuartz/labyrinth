@@ -1,0 +1,402 @@
+[
+  {
+    "id": "L01",
+    "publisher": "Maryland Agriculture",
+    "title": "2024 seafood commission: 2023 import origins",
+    "url": "https://mda.maryland.gov/Documents/Seafood%20Marketing%20Advisory%20Commmission%20-%202.22.24%20%285%29.pdf",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L02",
+    "publisher": "US Department of Justice",
+    "title": "Casey seafood: documented foreign supply origins, 2010–2015",
+    "url": "https://www.justice.gov/usao-edva/pr/seafood-processor-pleads-guilty-selling-foreign-crab-meat-falsely-labeled-blue-crab-us",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L03",
+    "publisher": "CDC",
+    "title": "Venezuelan crabmeat traceback, 2018",
+    "url": "https://archive.cdc.gov/www_cdc_gov/vibrio/investigations/vibriop-07-18/index.html",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L04",
+    "publisher": "FAO",
+    "title": "Tunisian crab export markets, 2021",
+    "url": "https://www.fao.org/newsroom/story/From-invasive-species-to-prized-export/",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L05",
+    "publisher": "FAO",
+    "title": "Portland–Hong Kong cargo service and crab market, 2017",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/Tightening-supplies-and-high-prices-for-snow-crab-and-king-crab/en",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L06",
+    "publisher": "FAO",
+    "title": "Crab trade redirected towards Asia, 2025",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/market-restrictions-redirect-crab-trade-towards-asia/en",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L07",
+    "publisher": "FAO",
+    "title": "First-quarter 2026 crab imports",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/republic-of-korea-overtakes-the-united-states-in-crab-imports/en",
+    "role": "Route evidence",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L08",
+    "publisher": "FAO",
+    "title": "North American king and snow crab supply, 2023",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/Tight-supplies-of-king-crab-in-North-America/en",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L09",
+    "publisher": "FAO",
+    "title": "Crab demand and trade, 2022",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/Crab---Improving-demand-weak-prices/en",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L10",
+    "publisher": "FAO",
+    "title": "Crab quotas and trade, 2016",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/Crab-quota-cuts-in-the-USA-increases-in-the-Russian-Federation/en",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L11",
+    "publisher": "FAO",
+    "title": "Crab supply and trade, 2018",
+    "url": "https://www.fao.org/in-action/globefish/news-events/news/news-detail/Tighter-supplies-prices-keep-rising-/en",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L12",
+    "publisher": "FAO",
+    "title": "GLOBEFISH highlights, second issue 2022",
+    "url": "https://openknowledge.fao.org/3/cc1350en/cc1350en.pdf",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L13",
+    "publisher": "NOAA",
+    "title": "Foreign fishery trade data definitions",
+    "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/foreign-fishery-trade-data",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L14",
+    "publisher": "NOAA",
+    "title": "Seafood import program selector",
+    "url": "https://www.fisheries.noaa.gov/seafood-import-and-export-tool/import",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L15",
+    "publisher": "NOAA",
+    "title": "Seafood Import Monitoring Program",
+    "url": "https://www.fisheries.noaa.gov/international/international-affairs/seafood-import-monitoring-program",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L16",
+    "publisher": "NOAA",
+    "title": "2026 comparability findings and import restrictions",
+    "url": "https://www.fisheries.noaa.gov/international-affairs/marine-mammal-protection-act-comparability-finding-determinations-harvesting-nations",
+    "role": "Trade context",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L17",
+    "publisher": "NOAA",
+    "title": "Commercial blue crab fishery",
+    "url": "https://www.fisheries.noaa.gov/species/blue-crab/commercial",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L18",
+    "publisher": "NOAA",
+    "title": "Commercial fisheries landings",
+    "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/commercial-fisheries-landings",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L19",
+    "publisher": "Maryland DNR",
+    "title": "Commercial blue crab landings",
+    "url": "https://dnr.maryland.gov/fisheries/Pages/bcrab_commercial_landings.aspx",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L20",
+    "publisher": "Maryland DNR",
+    "title": "Blue crab industry advisory representation",
+    "url": "https://dnr.maryland.gov/fisheries/pages/blue-crab/members.aspx",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L21",
+    "publisher": "Louisiana Wildlife and Fisheries",
+    "title": "Commercial crab fishery",
+    "url": "https://www.wlf.louisiana.gov/page/commercial-crab",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L22",
+    "publisher": "Florida FWC",
+    "title": "Commercial blue crab fishery",
+    "url": "https://myfwc.com/fishing/saltwater/commercial/blue-crab/",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L23",
+    "publisher": "Florida FWC",
+    "title": "Commercial saltwater licenses and wholesale dealers",
+    "url": "https://myfwc.com/license/commercial/saltwater/",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L24",
+    "publisher": "North Carolina DEQ",
+    "title": "Blue crab fishery update, 2021",
+    "url": "https://www.deq.nc.gov/marine-fisheries/fisheries-management/annual-fmp-review/2021/2021-blue-crab-fmp-update/open",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L25",
+    "publisher": "North Carolina DEQ",
+    "title": "Commercial landings and trip-ticket reporting, 2020",
+    "url": "https://www.deq.nc.gov/news/press-releases/2021/07/23/north-carolina-commercial-fishermen-landed-less-seafood-2020-recreational-harvest-remained-stable",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L26",
+    "publisher": "Texas Parks and Wildlife",
+    "title": "Blue crab harvesting and sales to processors",
+    "url": "https://tpwd.texas.gov/huntwild/wild/species/bluecrab/",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L27",
+    "publisher": "South Carolina DNR",
+    "title": "State of blue crab resource, 2004",
+    "url": "https://www.dnr.sc.gov/marine/mrri/pubs/yr2004/statebluecrab.pdf",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L28",
+    "publisher": "Virginia Marine Resources Commission",
+    "title": "Blue crab management plan and working waterfronts, 2012",
+    "url": "https://mrc.virginia.gov/Notices/2012/Blue_Crab_Fishery_Management_Plan_2012_FINAL.pdf",
+    "role": "Harvest",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L29",
+    "publisher": "Maryland Agriculture",
+    "title": "True Blue local crab marketing, 2023",
+    "url": "https://news.maryland.gov/mda/press-release/2023/05/26/kick-off-the-summer-with-maryland-crabs/",
+    "role": "Distribution",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L30",
+    "publisher": "State of Maryland / Data.gov",
+    "title": "True Blue participant dataset",
+    "url": "https://catalog.data.gov/dataset/true-blue-participants",
+    "role": "Distribution",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L31",
+    "publisher": "Maryland Agriculture",
+    "title": "2019 annual report: True Blue program",
+    "url": "https://mda.maryland.gov/documents/mda-annual-report-2019.pdf",
+    "role": "Distribution",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L32",
+    "publisher": "Maryland Agriculture",
+    "title": "October 2024 seafood marketing minutes",
+    "url": "https://mda.maryland.gov/Documents/Seafood%20Marketing%20Advisory%20Commission%20-%2010.24.24%20%281%29.pdf",
+    "role": "Distribution",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L33",
+    "publisher": "Maryland State Archives",
+    "title": "Historical seafood product and service directory, 2013",
+    "url": "https://msa.maryland.gov/megafile/msa/speccol/sc5300/sc5339/000113/016000/016478/unrestricted/20130327e.pdf",
+    "role": "Distribution",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L34",
+    "publisher": "FDA",
+    "title": "Seafood identity: Callinectes sapidus",
+    "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=Callinectes_sapidus&set=SeafoodList",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L35",
+    "publisher": "FDA",
+    "title": "Fish and fishery product hazards guidance",
+    "url": "https://www.fda.gov/food/seafood-guidance-documents-regulatory-information/fish-and-fishery-products-hazards-and-controls",
+    "role": "Food handling",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L36",
+    "publisher": "FDA",
+    "title": "Procesadora Vikingo regulatory assessment, 2024",
+    "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/procesadora-vikingo-ca-672307-03062024",
+    "role": "Food handling",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L37",
+    "publisher": "FDA",
+    "title": "Import alert 16-120",
+    "url": "https://www.accessdata.fda.gov/cms_ia/importalert_25.html",
+    "role": "Food handling",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L38",
+    "publisher": "CDC",
+    "title": "Crabmeat traceback research report",
+    "url": "https://stacks.cdc.gov/view/cdc/150280",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L39",
+    "publisher": "CDC",
+    "title": "2018 foodborne outbreak surveillance",
+    "url": "https://www.cdc.gov/nors/reports/foodborne-outbreaks-2018.html",
+    "role": "Food handling",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L40",
+    "publisher": "NOAA",
+    "title": "Seafood mislabeling and fraud",
+    "url": "https://www.fisheries.noaa.gov/national/sustainable-seafood/seafood-fraud",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L41",
+    "publisher": "NOAA",
+    "title": "IUU enforcement report, 2021",
+    "url": "https://media.fisheries.noaa.gov/2021-08/SAFEACTReport_Enforcement.pdf",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L42",
+    "publisher": "NOAA",
+    "title": "International fisheries management report, 2019",
+    "url": "https://media.fisheries.noaa.gov/dam-migration/improvingintlfisheriesmgmt_2019_report_final.pdf",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L43",
+    "publisher": "NOAA",
+    "title": "Seafood import monitoring priority report, 2022",
+    "url": "https://media.fisheries.noaa.gov/2022-03/NOAA%20NMFS-Seafood%20Import%20Monitoring%20Program%20Priority%20List%20Report.pdf",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L44",
+    "publisher": "US Department of Justice",
+    "title": "Capt. Neill supply and mislabeling case document",
+    "url": "https://www.justice.gov/file/1010931/dl?inline=",
+    "role": "Traceability",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L45",
+    "publisher": "IATA",
+    "title": "Shipping perishable goods by air",
+    "url": "https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-ship-perishable-goods-by-air",
+    "role": "Air logistics guidance",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L46",
+    "publisher": "IATA",
+    "title": "Perishable cargo operations",
+    "url": "https://www.iata.org/perishables",
+    "role": "Air logistics guidance",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L47",
+    "publisher": "IATA",
+    "title": "Perishable Cargo Regulations overview",
+    "url": "https://www.iata.org/en/publications/manuals/perishable-cargo-regulations",
+    "role": "Air logistics guidance",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L48",
+    "publisher": "IATA",
+    "title": "Live Animals and Perishables Board",
+    "url": "https://www.iata.org/en/programs/cargo/live-animals/lapb/",
+    "role": "Air logistics guidance",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L49",
+    "publisher": "IATA",
+    "title": "Live Animals Regulations overview",
+    "url": "https://www.iata.org/en/publications/manuals/live-animals-regulations",
+    "role": "Air logistics guidance",
+    "reviewed": "2026-10-21"
+  },
+  {
+    "id": "L50",
+    "publisher": "FAO GFCM",
+    "title": "Blue crab species and regional fisheries research",
+    "url": "https://www.fao.org/gfcm/areas-of-work/fisheries/scientific-advice-and-knowledge/management-oriented-research/blue-crabs/en",
+    "role": "Species scope",
+    "reviewed": "2026-10-21"
+  }
+]

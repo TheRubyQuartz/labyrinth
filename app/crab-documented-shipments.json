@@ -1,0 +1,1015 @@
+[
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-MAEU258826472",
+  "organizations": [
+    "STE L HOMARD",
+    "Desertfins Seafood LLC",
+    "Maersk"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Yangshan, China",
+  "a": [
+    122.08,
+    30.63
+  ],
+  "to": "Los Angeles, California",
+  "b": [
+    -118.26,
+    33.73
+  ],
+  "period": "2025-11-05",
+  "source": "desertfins-importkey",
+  "note": "Mixed-species cargo includes C. sapidus and P. segnis. No species-specific weight assigned. Loading port is not the catch origin.",
+  "status": "Published manifest; mixed-species cargo"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-MAEU259807994",
+  "organizations": [
+    "STE L HOMARD",
+    "Desertfins Seafood LLC",
+    "Maersk"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Tangier, Morocco",
+  "a": [
+    -5.5,
+    35.89
+  ],
+  "to": "Houston, Texas",
+  "b": [
+    -95.05,
+    29.68
+  ],
+  "period": "2025-11-07",
+  "source": "desertfins-importkey",
+  "note": "Mixed-species cargo; C. sapidus confirmed by matching bill in i-Trade. No species-specific weight assigned.",
+  "status": "Published manifest; mixed-species cargo"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-MEDUWF300828",
+  "organizations": [
+    "Forkys Foods SMPC",
+    "MSC"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Freeport, Grand Bahama",
+  "a": [
+    -78.78,
+    26.53
+  ],
+  "to": "Savannah, Georgia",
+  "b": [
+    -81.1,
+    32.09
+  ],
+  "period": "2026-07-24",
+  "source": "forkys-sindos-manifest",
+  "note": "Greek product received at Thessaloniki; published arrival leg via Freeport. Buyer not disclosed. Not a claim that crabs originated in the Bahamas.",
+  "status": "Published manifest transcription; not independently audited"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-MAEU272050385",
+  "organizations": [
+    "STE L HOMARD",
+    "New Ocean Inc.",
+    "Maersk"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Tangier, Morocco",
+  "a": [
+    -5.5,
+    35.89
+  ],
+  "to": "Savannah, Georgia",
+  "b": [
+    -81.1,
+    32.09
+  ],
+  "period": "2026-08-06",
+  "source": "zauba-frozen-fcl",
+  "note": "Species-specific bill; company pairing corroborated by i-Trade supplier records.",
+  "status": "Published manifest transcription; not independently audited"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-CMDUCNT0285250",
+  "organizations": [
+    "L HOMARD SA",
+    "CMA CGM"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Valencia, Spain",
+  "a": [
+    -0.32,
+    39.44
+  ],
+  "to": "Savannah, Georgia",
+  "b": [
+    -81.1,
+    32.09
+  ],
+  "period": "2026-01-06",
+  "source": "zauba-tunisia-crab",
+  "note": "Named shipper corroborated by ImportKey. Buyer not disclosed; port pair is the published arrival connection.",
+  "status": "Published manifest transcription; not independently audited"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-CMDUCNT0283421",
+  "organizations": [
+    "STE L HOMARD",
+    "CMA CGM"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Port Bustamante, Kingston, Jamaica",
+  "a": [
+    -76.83,
+    17.98
+  ],
+  "to": "Houston, Texas",
+  "b": [
+    -95.05,
+    29.68
+  ],
+  "period": "2025-12-15",
+  "source": "zauba-tunisia-crab",
+  "note": "Shipper corroborated by i-Trade. Buyer not disclosed. Transshipment-port connection, not harvest origin.",
+  "status": "Published manifest transcription; not independently audited"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-CMDUCNT0283974",
+  "organizations": [
+    "STE L HOMARD",
+    "CMA CGM"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Valencia, Spain",
+  "a": [
+    -0.32,
+    39.44
+  ],
+  "to": "New York, New York",
+  "b": [
+    -74.04,
+    40.67
+  ],
+  "period": "2025-12-08",
+  "source": "zauba-tunisia-crab",
+  "note": "Shipper corroborated by i-Trade. Buyer not disclosed; terminal not stated.",
+  "status": "Published manifest transcription; not independently audited"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "BOL-MAEU254526331",
+  "organizations": [
+    "STE L HOMARD",
+    "Desertfins Seafood LLC",
+    "Maersk"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Sea",
+  "mode": "Container ship",
+  "from": "Cartagena, Colombia",
+  "a": [
+    -75.53,
+    10.39
+  ],
+  "to": "New Orleans, Louisiana",
+  "b": [
+    -90.06,
+    29.94
+  ],
+  "period": "2025-07-16",
+  "source": "homard-importkey",
+  "note": "Mixed-species cargo. ImportKey also lists an earlier Algeciras–Newark arrival under this bill; this plot represents its separately dated Cartagena–New Orleans record, not a reconstructed complete itinerary.",
+  "status": "Published manifest; mixed-species cargo"
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "LAND-HANDY-JFK",
+  "organizations": [
+    "John T. Handy Co."
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Land",
+  "mode": "Truck",
+  "from": "Crisfield",
+  "a": [
+    -75.86,
+    37.98
+  ],
+  "to": "JFK",
+  "b": [
+    -73.7781,
+    40.6413
+  ],
+  "period": "1987",
+  "source": "handy-1987",
+  "status": "Historical reported corridor",
+  "note": "Schematic connection; not a measured itinerary."
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "AIR-HANDY-TOKYO",
+  "organizations": [
+    "John T. Handy Co."
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "JFK",
+  "a": [
+    -73.7781,
+    40.6413
+  ],
+  "to": "Tokyo",
+  "b": [
+    139.76,
+    35.68
+  ],
+  "period": "1987",
+  "source": "handy-1987",
+  "status": "Historical reported corridor",
+  "note": "City anchor; no destination airport assigned."
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "AIR-MARYLAND-LONDON",
+  "organizations": [
+    "Maryland exporters (not individually identified)"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Maryland",
+  "a": [
+    -76.4,
+    38.9
+  ],
+  "to": "London",
+  "b": [
+    -0.13,
+    51.51
+  ],
+  "period": "1991",
+  "source": "maryland-air-1991",
+  "status": "Historical regional air corridor",
+  "note": "Regional/city anchors; no airport or airline assigned."
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "AIR-GULF-LOSANGELES",
+  "organizations": [
+    "New Orleans Fish Market"
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Gulf Coast",
+  "a": [
+    -90,
+    29.5
+  ],
+  "to": "Los Angeles",
+  "b": [
+    -118.3,
+    34.02
+  ],
+  "period": "2006",
+  "source": "la-market-2006",
+  "status": "Historical regional air corridor",
+  "note": "Regional/city anchors; no airport or airline assigned."
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "LAND-WHITEMARSH-SPARROWS",
+  "organizations": [
+    "White Marsh Transport"
+  ],
+  "activities": [
+    "Acquisition",
+    "Distribution"
+  ],
+  "family": "Land",
+  "mode": "Truck",
+  "from": "Louisiana sourcing region",
+  "a": [
+    -90.5,
+    29.8
+  ],
+  "to": "Sparrows Point, Maryland",
+  "b": [
+    -76.46,
+    39.22
+  ],
+  "period": "2025-08 report",
+  "source": "whitemarsh-banner-2025",
+  "status": "Reported regional trucking corridor",
+  "note": "Named operator and receiving dock; Louisiana loading facilities not individually disclosed. Regional anchor, not exact pickup coordinates."
+},
+{
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations",
+  "id": "LAND-HUNTERS-PHILADELPHIA",
+  "organizations": [
+    "Hunter's Crabs & Seafood Market"
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Land",
+  "mode": "Truck",
+  "from": "Grasonville, Maryland",
+  "a": [
+    -76.21,
+    38.96
+  ],
+  "to": "Philadelphia, Pennsylvania",
+  "b": [
+    -75.17,
+    39.95
+  ],
+  "period": "2009-05 report",
+  "source": "hunters-2009",
+  "status": "Historical operator-reported corridor",
+  "note": "Reporter describes Jerry Hunter's deliveries to Philadelphia crab businesses. City anchors, not GPS tracking."
+},
+{
+  "id": "AIR-VIKING-MARACAIBO-MIAMI",
+  "organizations": [
+    "Viking Foods Group"
+  ],
+  "activities": [
+    "Export",
+    "Import"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Lake Maracaibo processing region, Venezuela",
+  "to": "Miami, Florida",
+  "a": [
+    -71.6,
+    10.2
+  ],
+  "b": [
+    -80.19,
+    25.76
+  ],
+  "source": "viking-process",
+  "period": "Company website, accessed 2026-10-22",
+  "status": "Company-reported regional corridor",
+  "note": "Daily air shipments of Callinectes sapidus meat. Regional/city anchors; airports, carrier and intermediate legs are not stated.",
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations"
+},
+{
+  "id": "AIR-TEXAS-1972-0",
+  "organizations": [
+    "Texas Gulf Coast crab shippers (not individually identified)"
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Texas Gulf Coast production region",
+  "to": "Chicago, Illinois",
+  "a": [
+    -95.8,
+    28.9
+  ],
+  "b": [
+    -87.63,
+    41.88
+  ],
+  "source": "texas-air-1972",
+  "period": "1972 study",
+  "status": "Historical government-reported regional corridor",
+  "note": "Study names this receiving market for live crabs or processed meat. Regional/city anchors, not airport locations; no specific operator or nonstop service assigned.",
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations"
+},
+{
+  "id": "AIR-TEXAS-1972-1",
+  "organizations": [
+    "Texas Gulf Coast crab shippers (not individually identified)"
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Texas Gulf Coast production region",
+  "to": "Philadelphia, Pennsylvania",
+  "a": [
+    -95.8,
+    28.9
+  ],
+  "b": [
+    -75.17,
+    39.95
+  ],
+  "source": "texas-air-1972",
+  "period": "1972 study",
+  "status": "Historical government-reported regional corridor",
+  "note": "Study names this receiving market for live crabs or processed meat. Regional/city anchors, not airport locations; no specific operator or nonstop service assigned.",
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations"
+},
+{
+  "id": "AIR-TEXAS-1972-2",
+  "organizations": [
+    "Texas Gulf Coast crab shippers (not individually identified)"
+  ],
+  "activities": [
+    "Distribution"
+  ],
+  "family": "Air",
+  "mode": "Air freight",
+  "from": "Texas Gulf Coast production region",
+  "to": "Boston, Massachusetts",
+  "a": [
+    -95.8,
+    28.9
+  ],
+  "b": [
+    -71.06,
+    42.36
+  ],
+  "source": "texas-air-1972",
+  "period": "1972 study",
+  "status": "Historical government-reported regional corridor",
+  "note": "Study names this receiving market for live crabs or processed meat. Regional/city anchors, not airport locations; no specific operator or nonstop service assigned.",
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations"
+},
+{
+  "id": "LAND-STAR-HACKBERRY-PALACIOS",
+  "organizations": [
+    "Star Crab Company"
+  ],
+  "activities": [
+    "Acquisition"
+  ],
+  "family": "Land",
+  "mode": "Truck",
+  "from": "Hackberry, Louisiana",
+  "to": "Palacios, Texas",
+  "a": [
+    -93.38,
+    29.99
+  ],
+  "b": [
+    -96.22,
+    28.71
+  ],
+  "source": "gsmfc-fishery-profile",
+  "period": "1960s",
+  "status": "Historical government-reported trucking corridor",
+  "note": "GSMFC records regular trucking from Hackberry to Star Crab Company in Palacios. City anchors; exact roads and refrigeration equipment not documented.",
+  "scope": "Callinectes sapidus",
+  "layer": "Organizations"
+},
+  {
+    "activities": [
+      "Export",
+      "Import"
+    ],
+    "family": "Sea",
+    "mode": "Container ship",
+    "status": "Published manifest transcription; not independently audited",
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "BOL-ZIMULVN462927",
+    "organizations": [
+      "Mariscadoras SRL",
+      "Crustacea Seafood Company",
+      "ZIM"
+    ],
+    "from": "Livorno (Leghorn), Italy",
+    "to": "Port Everglades, Florida",
+    "a": [
+      10.3,
+      43.55
+    ],
+    "b": [
+      -80.12,
+      26.09
+    ],
+    "source": "manifest-crustacea",
+    "period": "2026-07-06",
+    "note": "Bill ZIMULVN462927; vessel MAERSK IDAHO, IMO 9193264; 1,500 cases. Species and both ports are named in the published record. Weight differs between commercial transcriptions and is excluded from ranking. Port-to-port connection only, not the ship's sailed track or a claim of a top global route."
+  },
+  {
+    "activities": [
+      "Export",
+      "Import"
+    ],
+    "family": "Sea",
+    "mode": "Container ship",
+    "status": "Published manifest transcription; not independently audited",
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "BOL-MAEU259810222",
+    "organizations": [
+      "STE L HOMARD",
+      "Desertfins Seafood LLC",
+      "Maersk"
+    ],
+    "from": "Algeciras, Spain",
+    "to": "Newark, New Jersey",
+    "a": [
+      -5.43,
+      36.13
+    ],
+    "b": [
+      -74.14,
+      40.68
+    ],
+    "source": "manifest-desertfins",
+    "period": "2025-11-01",
+    "note": "Bill MAEU259810222; LARS MAERSK, IMO 9294379; 1,680 cartons. Commodity explicitly names Callinectes sapidus. Other mixed-species bills are excluded. Weight discrepancies prevent comparable volume ranking. Algeciras is the loading port, not an asserted harvest origin; line is not an AIS track."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "LAND-POMES-NOLA-JESSUP",
+    "organizations": [
+      "Pomes Seafood"
+    ],
+    "activities": [
+      "Acquisition",
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "New Orleans, Louisiana",
+    "to": "Jessup, Maryland",
+    "a": [
+      -89.86,
+      30.1
+    ],
+    "b": [
+      -76.79,
+      39.15
+    ],
+    "source": "pomes-field-2025",
+    "period": "2025-08 report",
+    "status": "Field-reported operating corridor",
+    "note": "Reported operation: three truck-dispatch days per week and approximately 8,000 bushels weekly to Jessup. City-area map anchors, not exact depot coordinates or a recorded road itinerary. This supports substantial throughput, not a worldwide rank. Domestic distribution, not international import/export."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "AIR-HOU-BWI",
+    "organizations": [
+      "Southwest Airlines"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Air",
+    "mode": "Air freight",
+    "from": "Houston Hobby Airport (HOU)",
+    "to": "Baltimore/Washington Airport (BWI)",
+    "a": [
+      -95.2789,
+      29.6454
+    ],
+    "b": [
+      -76.6683,
+      39.1754
+    ],
+    "source": "southwest-field-2020",
+    "period": "2020-11 field observation",
+    "status": "Observed historical air-cargo corridor",
+    "note": "Reporter observed crab cargo unloaded from the Houston Hobby flight at BWI. Airport endpoints are documented; this is historical evidence, not a current flight schedule. Comparable route-specific tonnage and global rank are not published."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "BOL-MEDUK9246589",
+    "organizations": [
+      "Mariscadoras SRL Societa Benefit",
+      "AFFCO Trading Inc.",
+      "MSC"
+    ],
+    "activities": [
+      "Export",
+      "Import"
+    ],
+    "family": "Sea",
+    "mode": "Container ship",
+    "from": "Gioia Tauro, Italy",
+    "to": "Houston, Texas",
+    "a": [
+      15.9,
+      38.45
+    ],
+    "b": [
+      -95.05,
+      29.68
+    ],
+    "source": "mariscadoras-manifests",
+    "period": "2026-01-05",
+    "status": "Published manifest transcription; not independently audited",
+    "note": "Bill MEDUK9246589. Species, buyer and ports explicitly identified. Approximate port anchors; no sailed track or global rank asserted. Additional shipments on this corridor do not count as distinct routes."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "BOL-ZIMULVN460685",
+    "organizations": [
+      "Mariscadoras SRL Societa Benefit",
+      "Morena Foods",
+      "ZIM"
+    ],
+    "activities": [
+      "Export",
+      "Import"
+    ],
+    "family": "Sea",
+    "mode": "Container ship",
+    "from": "Livorno (Leghorn), Italy",
+    "to": "Newark, New Jersey",
+    "a": [
+      10.3,
+      43.55
+    ],
+    "b": [
+      -74.14,
+      40.68
+    ],
+    "source": "mariscadoras-manifests",
+    "period": "2025-07-20",
+    "status": "Published manifest transcription; not independently audited",
+    "note": "Bill ZIMULVN460685. Species, buyer and ports explicitly identified. Approximate port anchors; no sailed track or global rank asserted. Additional shipments on this corridor do not count as distinct routes."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-0",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "Baltimore, Maryland",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -76.61,
+      39.29
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: 6 days/week. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-1",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "Washington, DC",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -77.04,
+      38.91
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: 5–6 days/week. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-2",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "Ocean City, Maryland",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -75.08,
+      38.34
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: Wednesday/Friday. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-3",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "York, Pennsylvania",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -76.73,
+      39.96
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: Wednesday/Friday. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-4",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "Philadelphia, Pennsylvania",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -75.17,
+      39.95
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: Tuesday/Thursday/Saturday. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-5",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "McDaniel, Maryland",
+    "to": "Wilmington, Delaware",
+    "a": [
+      -76.28,
+      38.81
+    ],
+    "b": [
+      -75.55,
+      39.74
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Reported schedule: Tuesday/Thursday/Saturday. McDaniel processing base; city anchors, not customer addresses. Not a current schedule or global ranking."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-BAYHUNDRED-BRUNSWICK",
+    "organizations": [
+      "Bay Hundred Seafood"
+    ],
+    "activities": [
+      "Acquisition"
+    ],
+    "family": "Land",
+    "mode": "Refrigerated truck",
+    "from": "Brunswick area, Georgia",
+    "to": "McDaniel, Maryland",
+    "a": [
+      -81.49,
+      31.15
+    ],
+    "b": [
+      -76.28,
+      38.81
+    ],
+    "source": "bayhundred-2001",
+    "period": "2001-06 report",
+    "status": "Historical operator-reported route",
+    "note": "Crab return loads after supply deliveries; up to three runs weekly when needed. Approximate regional endpoints; not current."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-TY-AIR-0",
+    "organizations": [
+      "T&Y Seafood",
+      "Southwest Airlines"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Air",
+    "mode": "Air freight",
+    "from": "Houston Hobby Airport (HOU)",
+    "to": "Albuquerque, New Mexico",
+    "a": [
+      -95.2789,
+      29.6454
+    ],
+    "b": [
+      -106.65,
+      35.08
+    ],
+    "source": "houston-destinations-2016",
+    "period": "2016-05 report",
+    "status": "Historical reported destination; city-level endpoint",
+    "note": "Named dispatch destination. Receiving airport and connecting legs unspecified; schematic, not nonstop flight."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-TY-AIR-1",
+    "organizations": [
+      "T&Y Seafood",
+      "Southwest Airlines"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Air",
+    "mode": "Air freight",
+    "from": "Houston Hobby Airport (HOU)",
+    "to": "Los Angeles, California",
+    "a": [
+      -95.2789,
+      29.6454
+    ],
+    "b": [
+      -118.24,
+      34.05
+    ],
+    "source": "houston-destinations-2016",
+    "period": "2016-05 report",
+    "status": "Historical reported destination; city-level endpoint",
+    "note": "Named dispatch destination. Receiving airport and connecting legs unspecified; schematic, not nonstop flight."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-TY-AIR-2",
+    "organizations": [
+      "T&Y Seafood",
+      "Southwest Airlines"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Air",
+    "mode": "Air freight",
+    "from": "Houston Hobby Airport (HOU)",
+    "to": "Las Vegas, Nevada",
+    "a": [
+      -95.2789,
+      29.6454
+    ],
+    "b": [
+      -115.14,
+      36.17
+    ],
+    "source": "houston-destinations-2016",
+    "period": "2016-05 report",
+    "status": "Historical reported destination; city-level endpoint",
+    "note": "Named dispatch destination. Receiving airport and connecting legs unspecified; schematic, not nonstop flight."
+  },
+  {
+    "scope": "Callinectes sapidus",
+    "layer": "Organizations",
+    "id": "REPORTED-TY-AIR-3",
+    "organizations": [
+      "T&Y Seafood",
+      "Southwest Airlines"
+    ],
+    "activities": [
+      "Distribution"
+    ],
+    "family": "Air",
+    "mode": "Air freight",
+    "from": "Houston Hobby Airport (HOU)",
+    "to": "Phoenix, Arizona",
+    "a": [
+      -95.2789,
+      29.6454
+    ],
+    "b": [
+      -112.07,
+      33.45
+    ],
+    "source": "houston-destinations-2016",
+    "period": "2016-05 report",
+    "status": "Historical reported destination; city-level endpoint",
+    "note": "Named dispatch destination. Receiving airport and connecting legs unspecified; schematic, not nonstop flight."
+  }
+]

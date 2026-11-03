@@ -1,0 +1,67 @@
+/* The map and its controls share one viewport; only the control content scrolls. */
+.gm-console{display:grid;grid-template-columns:minmax(0,1fr) minmax(330px,390px);gap:16px;height:clamp(540px,76dvh,950px);min-width:0}
+.gm-viewport{min-width:0;min-height:0;display:flex;flex-direction:column}
+.xr-view-map .global-map-workspace .gm-console .gm-stage{flex:1;min-height:0;height:auto}
+.gm-viewport .gm-readout{flex-shrink:0;min-height:44px;padding:10px 6px;gap:8px;font-size:11px}
+.gm-control-dock{display:flex;flex-direction:column;min-height:0;min-width:0;background:#15271f;border:1px solid #526651;border-radius:12px;overflow:hidden}
+.gm-panel-tabs{display:flex;flex-shrink:0;gap:3px;padding:8px;border-bottom:1px solid #536651;background:#1c3026}
+.gm-panel-tabs button{flex:1;padding:10px 5px;border:0;border-radius:7px;background:transparent;color:#dce4d5;font-size:12px;line-height:1.35}
+.gm-panel-tabs button[aria-pressed=true]{background:#c6cda8;color:#19271d;font-weight:650}
+.gm-dock-content{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:14px;scrollbar-color:#87966d #192b20}
+.gm-dock-content [hidden]{display:none!important}
+.gm-control-dock .gm-research-tools{padding:0;margin:0;border:0;background:transparent}
+.gm-control-dock .gm-research-grid{grid-template-columns:minmax(0,1fr)}
+.gm-control-dock .gm-research-grid article{padding:14px}
+.gm-control-dock .gm-subjects{margin:0;padding:0;border:0}
+.gm-control-dock .gm-subjects h3,.gm-control-dock .gm-research-tools h3{font-size:21px}
+.gm-control-dock .gm-subject-list,.gm-control-dock .gm-route-list{grid-template-columns:minmax(0,1fr)}
+.gm-control-dock .gm-subject-filters{flex-wrap:wrap}
+.gm-control-dock .gm-subject-filters input{flex-basis:100%}
+.gm-control-dock .gm-subject-filters select{flex:1;min-width:0}
+.gm-control-dock .gm-analysis{padding:12px}
+.gm-control-dock .gm-analysis-filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gm-control-dock .gm-analysis-filters input,.gm-control-dock .gm-analysis-filters select{max-width:100%;min-width:0;width:100%}
+.gm-control-dock .gm-stat-grid{grid-template-columns:minmax(0,1fr)}
+.gm-control-dock .gm-playback{flex-wrap:wrap}
+.gm-control-dock .gm-playback input{min-width:0;max-width:100%;flex:1}
+.gm-control-dock .gm-tool-tabs{gap:5px;margin:12px 0}
+.gm-control-dock .gm-tool-tabs button{font-size:11px;padding:7px 11px}
+.gm-control-dock .gm-destinations{border:0;padding-top:0}
+.gm-control-dock .gm-regional-toggle{max-width:100%;font-size:12px}
+.gm-expanded .gm-console{height:calc(100dvh - 230px);min-height:350px}
+@media(max-width:1000px){
+ .gm-console{grid-template-columns:minmax(0,1fr) minmax(300px,340px);gap:10px}
+ .gm-viewport .gm-hint{font-size:9px}.gm-viewport .gm-hint span{display:none}
+ .gm-viewport .gm-movement-overview{padding:9px;left:8px;top:8px;font-size:11px}
+ .gm-viewport .gm-movement-overview>div,.gm-viewport .gm-movement-overview small{display:none}
+}
+@media(max-width:760px){
+ .gm-console{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(210px,37dvh) minmax(220px,39dvh);height:auto;gap:8px}
+ .gm-viewport .gm-readout{min-height:28px;padding:5px;font-size:10px}
+ .gm-viewport .gm-navigation{top:6px;right:6px;gap:0}
+ .gm-viewport .gm-navigation button{padding:5px}
+ .gm-viewport .gm-navigation svg{width:17px;height:17px}
+ .gm-viewport .gm-map-scale{bottom:35px;font-size:9px;padding:5px 8px}
+ .gm-viewport .gm-map-scale small{display:none}
+ .gm-dock-content{padding:10px}
+ .gm-panel-tabs{padding:5px}
+ .gm-panel-tabs button{padding:8px 5px}
+ .gm-expanded .gm-console{height:auto;min-height:0;grid-template-rows:minmax(180px,32dvh) minmax(190px,33dvh)}
+}
+.gm-subject-jumps{display:flex;flex-wrap:wrap;gap:5px;position:sticky;top:-14px;z-index:7;background:#15271ff5;padding:8px 0 12px;margin-bottom:12px;border-bottom:1px solid #526651}.gm-subject-jumps button{font-size:11px;padding:7px 9px;background:#263b2d;border-radius:20px}.gm-subject-jumps button:disabled{opacity:.4}.gm-control-dock .gm-subjects header>button{font-size:11px;padding:8px;white-space:nowrap}.gm-control-dock .gm-subjects header>div>small{font-size:9px;letter-spacing:1px}.gm-control-dock .gm-subjects header{align-items:flex-start}
+
+/* The full atlas now belongs to the Blue crab Movement chapter. */
+.crab-movement-map{width:100%;max-width:none;min-width:0;margin:20px auto 40px}
+.crab-movement-map .map-layout{display:block!important}
+.crab-movement-map .map-records{display:none}
+.crab-movement-map .global-map-workspace{padding:14px}
+.crab-movement-map .gm-top h2{font-size:24px}
+.crab-movement-map .gm-console{height:calc(100dvh - 100px);min-height:540px;display:block;position:relative}
+.crab-movement-map .gm-viewport{height:100%;width:100%}
+.crab-movement-map .gm-control-dock{position:absolute;left:16px;top:66px;bottom:54px;width:min(350px,calc(100% - 32px));z-index:10;background:#15271ff2;box-shadow:0 16px 60px #0008}
+.crab-movement-map .gm-control-dock[hidden]{display:none}
+.gm-dock-toggle{position:absolute;top:16px;left:16px;z-index:11;padding:12px 18px;border:1px solid #a6d0d466;border-radius:24px;background:#14232de8;color:#e9f6fa}
+.crab-movement-map .gm-stage{background:#070e13}
+@media(max-width:760px){.crab-movement-map .gm-console{height:80dvh;min-height:460px}}
+.crab-movement-map .gm-expanded .gm-console{height:calc(100dvh - 220px)}
+@media(min-width:1100px){.xr-view-crab:has(.crab-movement-map) .wiki-layout{grid-template-columns:180px minmax(0,1fr)}}

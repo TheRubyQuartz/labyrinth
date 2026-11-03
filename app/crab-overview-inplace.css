@@ -1,0 +1,103 @@
+/* In-place editorial treatment. Content, anchors and research tools stay mounted. */
+.crab-overview-restored .culture-date-rail button[aria-pressed=true]{background:#c9e6f2!important;color:#102530!important}
+.crab-overview-restored .culture-date-rail button[aria-pressed=true] :is(span,strong){color:#102530!important}
+.object-journal{margin-top:28px;padding-top:24px;border-top:1px solid #bcd9e333}.object-journal header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.object-journal small{display:block;margin-top:8px;color:#94adbd}.object-journal label{display:grid;gap:8px;margin:18px 0;font-size:13px}.object-journal :is(input,textarea,select){width:100%;min-width:0;padding:12px;background:#0d1a25;border:1px solid #bcd9e344;color:#e5f1f8;border-radius:8px}.object-journal textarea{min-height:110px;resize:vertical}.object-journal button{min-height:44px;padding:10px 16px;border-radius:8px;border:1px solid #bcd9e344;background:#20394b;color:#e5f1f8}.object-observation-list{list-style:none;padding:0!important}.object-observation-list li{padding:16px 0;border-bottom:1px solid #bcd9e322}.object-observation-list time{font:12px monospace;color:#b7dcec}.object-note-compare>div{display:grid;grid-template-columns:1fr 1fr;gap:16px}.object-note-compare article{min-width:0;padding:16px;background:#122331;border-radius:10px}@media(max-width:700px){.object-note-compare>div{grid-template-columns:1fr}}
+.crab-overview-restored .culture-image-viewport:not(.is-enlarged){overflow:hidden}
+.crab-overview-restored .culture-image-viewport:not(.is-enlarged) img{height:100%!important;object-fit:contain}
+.crab-overview-restored{container-type:inline-size;min-width:0;width:100%;--overview-gutter:clamp(16px,3vw,28px)}
+.crab-overview-restored,.crab-overview-restored *{box-sizing:border-box}
+.crab-overview-restored .crab-background-reading>.crab-level-1>h3{max-width:none!important;width:100%}
+.crab-overview-restored :is(.crab-belief-tabs,.crab-belief-panel,.culture-layout,.culture-stage,.bio-lab,.evo-observatory,.crab-risk-grid){min-width:0;max-width:100%}
+.crab-overview-restored .crab-belief-tablist{justify-content:flex-start!important;overflow-x:hidden;overflow-y:auto;max-height:calc(100dvh - 140px)}
+.crab-overview-restored .crab-belief-panel{margin:0!important}
+.crab-overview-restored .belief-editorial-heading{padding:0!important;margin:0!important}
+.crab-overview-restored .belief-object-toolbar{display:grid;grid-template-columns:minmax(0,1fr) 44px 44px auto;gap:8px;padding:12px var(--overview-gutter);align-items:center}
+.crab-overview-restored .belief-object-toolbar button{height:44px;padding:0 12px;margin:0;line-height:1}
+.crab-overview-restored .belief-object figcaption{padding:24px var(--overview-gutter)}
+.crab-overview-restored .crab-belief-examples>.crab-level-2{padding:0!important;margin:0!important;border:0!important;background:none!important;box-shadow:none!important}
+.crab-overview-restored .crab-level-1>.crab-level-2{margin:32px 0!important;padding:0!important;border:0!important;background:none!important}
+.crab-overview-restored .crab-level-2>h4{margin:0 0 16px!important;padding:0!important}
+.crab-overview-restored .culture-layout{grid-template-columns:minmax(180px,24%) minmax(0,1fr);align-items:start;background:#101c27}
+.crab-overview-restored .culture-navigation{background:#111f2b}
+.crab-overview-restored .culture-work-copy{padding:var(--overview-gutter)}
+.crab-overview-restored .culture-work-actions{align-items:center;flex-wrap:wrap}
+.crab-overview-restored .bio-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.crab-overview-restored .bio-tabs button{white-space:normal;min-width:0;text-align:left}
+.crab-overview-restored .crab-risk-card{display:flex;flex-direction:column;align-items:stretch}
+.crab-overview-restored .crab-risk-card .risk-direct-source{margin-top:auto;padding-top:16px}
+.crab-overview-restored :is(.belief-matrix-scroll,.evo-table-scroll){max-width:100%;overflow:auto}
+.crab-overview-restored .belief-object{margin:0 0 32px;background:#0b131d;border:1px solid #b8cfdf30;border-radius:16px;overflow:hidden}
+.belief-object-stage{height:clamp(280px,42vw,500px);overflow:hidden;display:grid;place-items:center;background:#252525;cursor:crosshair;touch-action:pan-y}
+.crab-overview-restored .belief-object-stage img{height:100%!important;width:100%!important;max-height:100%;min-height:0;object-fit:contain;align-self:stretch;transition:transform .25s ease-out}
+.belief-object-toolbar{display:flex;gap:6px;align-items:center;padding:12px 18px;background:#172631}
+.belief-object-toolbar>span{margin-right:auto;font:10px monospace;color:#b5ccda}
+.belief-object-toolbar button{min-width:38px;min-height:38px;border:1px solid #b8cfdf40;border-radius:8px;background:#223746;color:#e8f4fa;cursor:pointer}
+.belief-object-toolbar button:disabled{opacity:.35;cursor:default}
+.belief-object figcaption{display:grid;gap:12px;padding:24px;font-size:13px;color:#c2d1db}
+.belief-object figcaption strong{font-size:22px;line-height:1.3;color:#eef6fa}
+.belief-object figcaption small{font-size:11px;color:#94aab9}
+.crab-overview-restored .belief-editorial-heading h4{font:600 clamp(32px,4vw,48px)/1.1 system-ui!important;letter-spacing:-.04em;margin:12px 0 24px}
+.crab-overview-restored .experience-feature-nav{display:grid;grid-template-columns:1fr 1fr}
+.crab-overview-restored .experience-feature-nav button{justify-content:flex-start;padding:12px!important}
+.crab-overview-restored .experience-feature-nav button span{font:500 12px system-ui}
+.crab-overview-restored .experience-image img{transition:transform .8s cubic-bezier(.2,.7,.2,1);transform-origin:var(--inspect-x,50%) var(--inspect-y,50%)}
+.crab-overview-restored .experience-image.is-inspecting img{transform:scale(2)}
+.crab-overview-restored .experience-image.is-inspecting .experience-image-caption{opacity:0}
+.crab-overview-restored .experience-inspect{position:absolute;right:20px;bottom:20px;background:#e6f4fb;color:#12222d;border:0;border-radius:24px;padding:12px 18px;cursor:pointer;z-index:2;font-size:12px}
+.crab-overview-restored .experience-inspect-hint{position:absolute;left:20px;bottom:72px;color:#f0f8ff;background:#101c27cc;padding:8px 12px;font-size:11px}
+.crab-overview-restored .experience-feature-reading{animation:overview-reading-in .35s ease-out}
+@keyframes overview-reading-in{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.crab-overview-restored{--ov-paper:#eef5f8;--ov-muted:#afc2ce;--ov-rule:#bad8e32b;--ov-surface:#101c27;color:var(--ov-paper)}
+.crab-overview-restored .crab-background-reading{padding:0!important;background:transparent!important;border:0!important;max-width:none!important}
+.crab-overview-restored .crab-background-reading>.crab-level-1{margin:72px 0!important;padding:0!important;border:0!important;background:transparent!important;min-width:0}
+.crab-overview-restored .crab-background-reading>.crab-level-1>h3{font:600 clamp(28px,4vw,50px)/1.08 system-ui!important;letter-spacing:-.045em;color:var(--ov-paper)!important;max-width:850px;margin:0 0 30px!important;padding:28px 0 0!important;border-top:1px solid var(--ov-rule)!important}
+.crab-overview-restored .crab-original-paragraph{font-size:16px!important;line-height:1.85!important;max-width:78ch;color:#cfdae2}
+.crab-overview-restored .crab-original-paragraph sup{margin-left:4px}
+.crab-overview-restored .crab-level-2>h4{font:500 clamp(22px,3vw,32px)/1.2 system-ui!important;letter-spacing:-.025em}
+.crab-overview-restored .crab-belief-tabs{display:grid;grid-template-columns:190px minmax(0,1fr);gap:0 32px;border-top:1px solid var(--ov-rule);padding-top:24px}
+.crab-overview-restored .crab-belief-tablist{grid-column:1;grid-row:1;align-self:start;display:flex!important;flex-direction:column;align-items:stretch!important;gap:4px;padding:0!important;border:0;background:none;position:sticky;top:100px}
+.crab-overview-restored .crab-belief-tablist button{justify-content:flex-start;text-align:left;white-space:normal;line-height:1.4;padding:16px!important;border-radius:9px;flex:none;font-size:14px;transition:background .2s,color .2s}
+.crab-overview-restored .crab-belief-panel{grid-column:2;grid-row:1;border:0;padding:0;min-width:0}
+.crab-overview-restored .crab-belief-panel>h4{font:600 clamp(32px,4vw,48px)/1.1 system-ui!important;letter-spacing:-.035em;margin:0 0 24px}
+.crab-overview-restored .crab-belief-summary{font:400 20px/1.7 Georgia,serif!important;color:#e1eaf0!important;max-width:65ch}
+.crab-overview-restored .crab-belief-roles{grid-template-columns:1fr!important;counter-reset:belief-role;gap:0;margin:28px 0!important}
+.crab-overview-restored .crab-belief-roles li{display:grid;grid-template-columns:28px 130px minmax(0,1fr);gap:16px;padding:22px 0;counter-increment:belief-role;align-items:start}
+.crab-overview-restored .crab-belief-roles li:before{content:'0' counter(belief-role);font:11px/2 monospace;color:#7897aa}
+.crab-overview-restored .crab-belief-roles strong{font-size:13px;color:#d3e6ef;margin:0;line-height:1.7}
+.crab-overview-restored .crab-belief-roles span{font-size:15px;color:#b9cad5;line-height:1.8}
+.crab-overview-restored .belief-comparison{grid-column:1/-1;grid-row:2;margin-top:28px;border:1px solid var(--ov-rule);border-radius:12px;padding:4px 18px;background:#15222d}
+.crab-overview-restored .crab-belief-examples{background:#111f2b;border:1px solid var(--ov-rule);border-radius:12px;padding:6px 24px 20px}
+.crab-overview-restored .crab-belief-examples summary{font-size:14px;color:#dcebf4}
+.crab-overview-restored .crab-belief-examples .crab-level-2{padding:0;border:0;margin:0}
+.crab-overview-restored .crab-history-notes{padding:12px 24px;background:#101e2a;border-radius:12px;border:1px solid var(--ov-rule)}
+.crab-overview-restored .evo-inspector{background:linear-gradient(110deg,#182d3d,#101a26)!important;padding:30px!important;border-radius:16px;gap:30px}
+.crab-overview-restored .evo-age-stamp{font-size:clamp(48px,8vw,90px)!important;letter-spacing:-.06em;color:#cceafa!important}
+.crab-overview-restored .evo-milestone-strip{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.crab-overview-restored .evo-milestone-strip>button{width:auto;min-width:0;min-height:120px;text-align:left;padding:18px!important;border-radius:12px!important}
+.crab-overview-restored .bio-header{padding:32px!important;background:radial-gradient(ellipse at 100% 0,#264d6555,transparent 65%),#101c27;border-radius:18px 18px 0 0}
+.crab-overview-restored .bio-header h4{font:600 clamp(28px,4vw,44px)/1.1 system-ui!important;letter-spacing:-.035em}
+.crab-overview-restored .bio-tabs{gap:0!important;padding:0!important;border-radius:0!important}
+.crab-overview-restored .bio-tabs button{flex:1;padding:20px!important;border-radius:0!important;min-height:65px}
+.crab-overview-restored .crab-risk-grid{gap:18px!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))!important}
+.crab-overview-restored .crab-risk-grid article{padding:26px!important;border:1px solid var(--ov-rule)!important;background:linear-gradient(145deg,#1a2b37,#111b25)!important;border-radius:16px!important}
+.risk-illustration{margin:0 0 24px;overflow:hidden;border-radius:8px;background:#0c1d2a}
+.risk-illustration svg{display:block;width:100%;height:auto}
+.risk-illustration figcaption{font:9px/1.5 monospace;color:#91aabb;padding:8px 12px}
+.risk-direct-source{display:block;font-size:12px;margin:14px 0 22px}
+.crab-overview-restored .crab-reading-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.crab-overview-restored .crab-reading-links a{display:flex;flex-direction:column;gap:16px;padding:24px;border:1px solid var(--ov-rule);border-radius:12px}
+.crab-overview-restored :is(button,a,input,select,summary):focus-visible{outline:2px solid #c3eafa!important;outline-offset:5px}
+.crab-overview-restored :is(section,[id]){scroll-margin-top:110px}
+@media(max-width:800px){.crab-overview-restored .crab-belief-tabs{display:block}.crab-overview-restored .crab-belief-tablist{position:static;flex-direction:row;overflow:auto;flex-wrap:nowrap!important;margin-bottom:24px}.crab-overview-restored .crab-belief-tablist button{white-space:nowrap;min-width:max-content}.crab-overview-restored .crab-belief-roles li{grid-template-columns:24px 1fr;gap:8px 12px}.crab-overview-restored .crab-belief-roles span{grid-column:2}.crab-overview-restored .crab-background-reading>.crab-level-1{margin:44px 0!important}.crab-overview-restored .evo-inspector{padding:18px!important}.crab-overview-restored .bio-tabs button{padding:14px 8px!important}}
+@media(prefers-reduced-motion:reduce){.crab-overview-restored *{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+@container(max-width:800px){
+ .crab-overview-restored .crab-belief-tabs{display:block}
+ .crab-overview-restored .crab-belief-tablist{position:static;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));max-height:none;overflow:visible;gap:8px;margin:0 0 28px}
+ .crab-overview-restored .crab-belief-tablist button{min-width:0!important;white-space:normal!important;min-height:48px;text-align:left;justify-content:flex-start;max-width:100%}
+ .crab-overview-restored .crab-belief-tablist button:last-child{grid-column:1/-1}
+ .crab-overview-restored .culture-layout{grid-template-columns:1fr}
+ .crab-overview-restored .culture-navigation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-right:0;border-bottom:1px solid var(--ov-rule)}
+ .crab-overview-restored .culture-navigation button{min-width:0}
+ .crab-overview-restored .evo-inspector{grid-template-columns:1fr}
+ .crab-overview-restored .reading-all .culture-stage{grid-template-columns:1fr}
+}

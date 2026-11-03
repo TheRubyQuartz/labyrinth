@@ -1,0 +1,22 @@
+import {createRequire} from 'node:module';
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+process.env.PLAYWRIGHT_BROWSERS_PATH='C:/Users/Neo/Downloads/labyrinth-main (1)/labyrinth-home-recovery/.practice-qa/browsers';
+const require=createRequire('C:/Users/Neo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');
+const {chromium}=require('playwright');
+const sources=JSON.parse(readFileSync('app/crab-logistics-sources.json'));const routes=JSON.parse(readFileSync('app/crab-logistics-routes.json'));
+assert.equal(sources.length,50);assert.equal(new Set(sources.map(s=>s.url)).size,50);assert.equal(routes.length,21);for(const r of routes)assert(sources.some(s=>s.id===r.source));
+const b=await chromium.launch({headless:true,args:['--enable-webgl','--ignore-gpu-blocklist','--use-angle=swiftshader']});
+try{const p=await b.newPage({viewport:{width:1440,height:1000}});p.setDefaultTimeout(60000);const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.goto('http://127.0.0.1:5212/?entry=SP-001#crab-category-transport');
+if(process.env.CHECK_LIVE_GLOBE)await p.locator('.gm-loading').waitFor({state:'hidden'});
+await p.getByRole('button',{name:'Subject & data',exact:true}).click();await p.getByRole('button',{name:'Human logistics',exact:true}).click();
+const panel=p.locator('.gm-logistics-evidence');await panel.getByText('21 plots visible · 21 match your filters',{exact:true}).waitFor();
+await p.getByLabel('Logistics Origin',{exact:true}).selectOption('Indonesia');await panel.getByText('3 plots visible · 3 match your filters',{exact:true}).waitFor();
+await panel.getByRole('button',{name:'Hide matching plots',exact:true}).click();await panel.getByText('0 plots visible · 3 match your filters',{exact:true}).waitFor();
+await panel.getByRole('button',{name:'Show all matching plots',exact:true}).click();await panel.getByText('3 plots visible · 3 match your filters',{exact:true}).waitFor();
+await panel.getByRole('button',{name:'Reset filters',exact:true}).click();await p.getByLabel('Logistics Transport mode',{exact:true}).selectOption('Air freight');await panel.getByText('1 plots visible · 1 match your filters',{exact:true}).waitFor();
+await panel.getByRole('button',{name:'Evidence',exact:true}).click();await panel.getByText(/Historical air corridor, not proof/).waitFor();
+await panel.getByRole('button',{name:'Reset filters',exact:true}).click();await p.screenshot({path:'.practice-qa/crab-logistics.png'});
+assert.deepEqual(errors,[]);console.log('PASS: 50 unique source pages, 21 source-linked routes, multi-route filtering, show/hide, air corridor evidence, no runtime errors');
+}finally{await b.close()}
