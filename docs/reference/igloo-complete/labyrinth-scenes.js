@@ -1,20 +1,15 @@
-import {createHomepageGlobe} from './homepage-globe.js?v=6b2940e8ae11';
-const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css?v=6b2940e8ae11',import.meta.url).href;document.head.append(searchStyles);
-import {createExpeditionScene} from './labyrinth-expedition.js?v=6b2940e8ae11';
-import {installSceneScrollbar} from './labyrinth-scrollbar.js?v=6b2940e8ae11';
+import {createHomepageGlobe} from './homepage-globe.js?v=6bc5fde29fe1';
+const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css?v=6bc5fde29fe1',import.meta.url).href;document.head.append(searchStyles);
+import {createExpeditionScene} from './labyrinth-expedition.js?v=6bc5fde29fe1';
+import {installSceneScrollbar} from './labyrinth-scrollbar.js?v=6bc5fde29fe1';
 // New content scenes use the reference compositor, camera, frost, sound and transition pipeline.
 export function createLabyrinthScenes({Base,Cubes,Cube,Opening,Entry,Background,Mesh,Material,Vector,Color,Points,Geometry,Attribute,ParticleVolume,Tween,geometry,textures,events,time,config}){
- const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css?v=6b2940e8ae11';document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css?v=6bc5fde29fe1';document.head.append(css);
  const element=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e};
  const smooth=(a,b,x)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t)};
  class PortalOpening extends Opening{
   constructor(options){super(options);installSceneScrollbar(options.mainController)}
-  update(){super.update();const intro=this.introWeight.value,open=smooth(.51,.66,this.progress),travel=smooth(.57,.91,this.progress);this.portalOpen=open;this.portalTravel=travel;
-   if(intro>.999){this.camera.basePosition.set(-13.9*(1-travel),4.3+(1.7-4.3)*travel,13.9*(1-travel));this.camera.baseTarget.set(travel*.7,3.65+(1.7-3.65)*travel,-travel*.7);this.camera.displacement.position.set(.025*(1-travel),.012*(1-travel));}
-   if(!this.igloo?._objects)return;
-   for(const object of this.igloo._objects){if(object._surface!==5&&object._surface!==6)continue;const side=object._surface===5?-1:1,angle=side*open*Math.PI*.49,hinge=new Vector(side*.99*1.36,0,.75*1.55).applyAxisAngle(new Vector(0,1,0),-Math.PI/4);object.position.copy(object.centroid).sub(hinge).applyAxisAngle(new Vector(0,1,0),angle).add(hinge);object.quaternion.setFromAxisAngle(new Vector(0,1,0),angle);object.updateMatrix();this.igloo.mesh.setMatrixAt(object._pieceIndex,object.matrix)}
-   if(open>.05&&!this.portalSound){events.emit('webgl_play_audio','enter-project');this.portalSound=true}if(open<.01)this.portalSound=false;
-  }
+  // Retain the original igloo camera, hover, assembly and scroll transitions.
  }
  function button(label,callback){const b=element('button','',label);b.type='button';b.addEventListener('click',e=>{e.stopPropagation();callback()});return b}
  function overlay(cls){const e=element('section',cls);e.hidden=true;document.body.append(e);for(const type of ['pointerdown','mousedown','touchstart'])e.addEventListener(type,event=>event.stopPropagation());return e}
