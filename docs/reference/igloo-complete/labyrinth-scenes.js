@@ -1,10 +1,10 @@
-import {createHomepageGlobe} from './homepage-globe.js?v=6bc5fde29fe1';
-const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css?v=6bc5fde29fe1',import.meta.url).href;document.head.append(searchStyles);
-import {createExpeditionScene} from './labyrinth-expedition.js?v=6bc5fde29fe1';
-import {installSceneScrollbar} from './labyrinth-scrollbar.js?v=6bc5fde29fe1';
+import {createHomepageGlobe} from './homepage-globe.js?v=ff3657b62c88';
+const searchStyles=document.createElement('link');searchStyles.rel='stylesheet';searchStyles.href=new URL('./globe-search.css?v=ff3657b62c88',import.meta.url).href;document.head.append(searchStyles);
+import {createExpeditionScene} from './labyrinth-expedition.js?v=ff3657b62c88';
+import {installSceneScrollbar} from './labyrinth-scrollbar.js?v=ff3657b62c88';
 // New content scenes use the reference compositor, camera, frost, sound and transition pipeline.
 export function createLabyrinthScenes({Base,Cubes,Cube,Opening,Entry,Background,Mesh,Material,Vector,Color,Points,Geometry,Attribute,ParticleVolume,Tween,geometry,textures,events,time,config}){
- const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css?v=6bc5fde29fe1';document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-scenes.css?v=ff3657b62c88';document.head.append(css);
  const element=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e};
  const smooth=(a,b,x)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t)};
  class PortalOpening extends Opening{

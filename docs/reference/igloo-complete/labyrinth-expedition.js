@@ -1,4 +1,4 @@
-import {installExpeditionCarousel} from './labyrinth-expedition-carousel.js?v=6bc5fde29fe1';
+import {installExpeditionCarousel} from './labyrinth-expedition-carousel.js?v=ff3657b62c88';
 // Personal plans share the existing homepage calendar's storage schema.
 const records=[
  ['SP-001','Blue crab','Tangier Sound','Species'],['SP-002','Eastern oyster','Harris Creek','Species'],
@@ -9,8 +9,8 @@ const today=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMon
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch{return fallback}};
 const download=(content,type,name)=>{const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 export function createExpeditionScene({Base,Background,Vector,Mesh,Material,Points,Geometry,Attribute,ParticleVolume,Tween,geometry,time,element,button,overlay}){
- const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-expedition.css?v=6bc5fde29fe1';document.head.append(css);
- const fireCss=document.createElement('link');fireCss.rel='stylesheet';fireCss.href='/labyrinth/reference/igloo-complete/labyrinth-fire.css?v=6bc5fde29fe1';document.head.append(fireCss);
+ const css=document.createElement('link');css.rel='stylesheet';css.href='/labyrinth/reference/igloo-complete/labyrinth-expedition.css?v=ff3657b62c88';document.head.append(css);
+ const fireCss=document.createElement('link');fireCss.rel='stylesheet';fireCss.href='/labyrinth/reference/igloo-complete/labyrinth-fire.css?v=ff3657b62c88';document.head.append(fireCss);
  return class Expedition extends Base{
   get isSceneVisible(){return this._visible||false}set isSceneVisible(v){this._visible=v;if(!v&&this.ui){this.ui.hidden=true;this.hud.hidden=true;this.editorOpen=false}}
   constructor(options){super({orbit:false});this.controller=options.mainController;this.height=2;this.progress=0;this.initialScrollAutocenter=this.finalScrollAutocenter=.5;this.index=0;this.tab='Plan';this.date=today();const saved=read('labyrinth-plans',[]);this.plans=Array.isArray(saved)?saved.filter(p=>records.some(r=>r[0]===p.id)&&/^\d{4}-\d{2}-\d{2}$/.test(p.date)&&typeof p.done==='boolean'):[];const journal=read('labyrinth-expedition-journal',{});this.notes=journal&&typeof journal==='object'&&!Array.isArray(journal)?journal:{};this.init()}
