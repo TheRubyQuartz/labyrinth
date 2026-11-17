@@ -1,0 +1,4 @@
+# Preserve publisher bytes for reproducible telemetry checksums on every platform.
+research/serc-blue-crab-source/*.txt -text
+docs/assets/event-*.txt -text
+docs/assets/occurrence-*.txt -text
