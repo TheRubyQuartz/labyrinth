@@ -1,0 +1,14 @@
+export type CrabDetection={id:string;animal:string;date:string;time:number;latitude:number;longitude:number;uncertainty:string;station:string;protocol:string;generalization:string;sex:string;stage:string};
+export function receiverSummaries(rows:CrabDetection[]){const groups=new Map<string,CrabDetection[]>();for(const row of rows){if(row.protocol!=='acoustic detection')continue;const group=groups.get(row.station)||[];group.push(row);groups.set(row.station,group)}return [...groups].map(([station,records])=>({station,count:records.length,first:records[0],last:records[records.length-1]})).sort((a,b)=>b.count-a.count||a.station.localeCompare(b.station))}
+export function telemetryBounds(rows:CrabDetection[]){if(!rows.length)return {west:0,east:1,south:0,north:1};const lons=rows.map(r=>r.longitude),lats=rows.map(r=>r.latitude),w=Math.min(...lons),e=Math.max(...lons),s=Math.min(...lats),n=Math.max(...lats);const dx=Math.max(.005,(e-w)*.08),dy=Math.max(.005,(n-s)*.08);return {west:w-dx,east:e+dx,south:s-dy,north:n+dy}}
+export function readTsv(text:string){const lines=text.replace(/^\uFEFF/,'').split(/\r?\n/).filter(Boolean);const headers=lines.shift()?.split('\t')||[];return lines.map(line=>{const values=line.split('\t');if(values.length!==headers.length)throw new Error('Source table does not match its declared columns.');return Object.fromEntries(headers.map((h,i)=>[h,values[i]]))})}
+export function parseCrabTelemetry(eventsText:string,occurrenceText:string):CrabDetection[]{
+ const events=new Map(readTsv(eventsText).map(e=>[e.eventID,e]));
+ return readTsv(occurrenceText).filter(o=>o.scientificName==='Callinectes sapidus').map(o=>{const e=events.get(o.eventID);if(!e)throw new Error('An occurrence has no matching event.');
+ const raw=e.eventDate;const time=Date.parse(raw.includes('T')?raw:raw.replace(' ','T')+'Z');
+ const latitude=Number(e.decimalLatitude),longitude=Number(e.decimalLongitude);
+ if(!o.organismID||!raw||raw.includes('/')||!Number.isFinite(time)||!e.decimalLatitude||!e.decimalLongitude||!Number.isFinite(latitude)||Math.abs(latitude)>90||!Number.isFinite(longitude)||Math.abs(longitude)>180)throw new Error('An occurrence has an unsupported date or coordinate.');
+ return {id:o.occurrenceID,animal:o.organismID,date:raw,time,latitude,longitude,uncertainty:e.coordinateUncertaintyInMeters,station:o.locality,protocol:o.samplingProtocol,generalization:o.dataGeneralizations,sex:o.sex,stage:o.lifeStage};
+ }).sort((a,b)=>a.time-b.time||a.id.localeCompare(b.id));
+}
+export function telemetryCsv(rows:CrabDetection[]){const fields=['animal','date','latitude','longitude','uncertainty','station','protocol','generalization','id'] as const;const escape=(v:unknown)=>{const s=String(v??'');return '"'+(/^[=+@\t\r]/.test(s)?"'":'')+s.replace(/"/g,'""')+'"'};return [fields.join(','),...rows.map(r=>fields.map(k=>escape(r[k])).join(','))].join('\r\n')}

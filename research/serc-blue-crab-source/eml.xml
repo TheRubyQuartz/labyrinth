@@ -1,0 +1,338 @@
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+         packageId="7175660d-a6a4-4ecd-91fd-d3d86515c5c3/v2.0" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+    <dataset>
+        <alternateIdentifier>10.14286/m87tnl</alternateIdentifier>
+        <alternateIdentifier>7175660d-a6a4-4ecd-91fd-d3d86515c5c3</alternateIdentifier>
+        <alternateIdentifier>https://members.oceantrack.org/ipt/resource?r=otnsercsercbluecrabstudy</alternateIdentifier>
+        <shortName>SERC Blue Crab Study</shortName>
+        <title xml:lang="eng">SERC Blue Crab Study</title>
+        <creator>
+            <individualName>
+                <givenName>Ocean Tracking Network</givenName>
+                <surName>Data Centre</surName>
+            </individualName>
+            <organizationName>Ocean Tracking Network</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <deliveryPoint>Dalhousie University</deliveryPoint>
+                <city>Halifax</city>
+                <administrativeArea>Nova Scotia</administrativeArea>
+                <postalCode>B3H 4J1</postalCode>
+                <country>CA</country>
+            </address>
+            <phone>+1 (902) 494-4101</phone>
+            <electronicMailAddress>otndc@dal.ca</electronicMailAddress>
+            <onlineUrl>https://members.oceantrack.org</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Kimberly</givenName>
+                <surName>Richie</surName>
+            </individualName>
+            <organizationName>SERC</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <country>US</country>
+            </address>
+            <electronicMailAddress>east.coast.telemetry@gmail.com</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Matthew</givenName>
+                <surName>Ogburn</surName>
+            </individualName>
+            <organizationName>Smithsonian Environmental Research Center</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>ogburnm@si.edu</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0001-5417-555X</userId>
+            <role>principalInvestigator</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Kimberly</givenName>
+                <surName>Richie</surName>
+            </individualName>
+            <organizationName>Smithsonian Environmental Research Center</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>richiek@si.edu</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-8535-9420</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Robert</givenName>
+                <surName>Aguilar</surName>
+            </individualName>
+            <organizationName>Smithsonian Environmental Research Center</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>aguilarr@si.edu</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0001-8732-5382</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Brendan</givenName>
+                <surName>Runde</surName>
+            </individualName>
+            <organizationName>The Nature Conservancy</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>brendan.runde@tnc.org</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-2125-4486</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Matthew</givenName>
+                <surName>Ogburn</surName>
+            </individualName>
+            <organizationName>Smithsonian Environmental Research Center</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>ogburnm@si.edu</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0001-5417-555X</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>David</givenName>
+                <surName>Secor</surName>
+            </individualName>
+            <organizationName>University of Maryland Center for Environmental Science</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>secor@umces.edu</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0001-6007-4827</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Bethany</givenName>
+                <surName>Williams</surName>
+            </individualName>
+            <organizationName>NOAA National Centers for Coastal Ocean Science</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>bethany.williams@noaa.gov</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-5722-8386</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Wilmelie</givenName>
+                <surName>Cruz-Marrero</surName>
+            </individualName>
+            <organizationName>National Oceanic and Atmospheric Administration</organizationName>
+            <address>
+                <country>USA</country>
+            </address>
+            <electronicMailAddress>wilmelie.cruz@noaa.gov</electronicMailAddress>
+            <onlineUrl></onlineUrl>
+            <userId directory="http://orcid.org/">0000-0003-1756-6919</userId>
+            <role>contentProvider</role>
+        </associatedParty>
+        <pubDate>
+            2026-06-03
+        </pubDate>
+        <language>eng</language>
+        <abstract>
+            <para>This is the OBIS extraction of the Atlantic Cooperative Telemetry  and Smithsonian Environmental Research Center (SERC)  SERC Blue Crab Study, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.
+    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=ACT.CBBCRAB).
+  </para><para>Abstract:The Fisheries Conservation Lab at the Smithsonian Environmental Research Center is studying the migration of mature female blue crabs to learn more of their journey from the middle Chesapeake Bay to the spawning grounds in the lower Chesapeake Bay and into the Atlantic Ocean.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>ACOUSTIC TAGS</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH</keyword>
+            <keywordThesaurus>Global Change Master Directory (GCMD)</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Samplingevent</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <additionalInfo>
+            <para>Access Constraints:  none
+Use Constraints:
+Acknowledge the use of specific records from contributing databases in the form appearing in the &apos;Citation&apos; field thereof (if any); and acknowledge the use of the OBIS facility.
+
+For information purposes, email to info@obis.org  the full citation of any publication made (printed or electronic) that cites OBIS or any constituent part.
+
+Recognize the limitations of data in OBIS. See https://manual.obis.org/policy.html#disclaimer for more details</para>
+        </additionalInfo>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://members.oceantrack.org/project?ccode=ACT.CBBCRAB</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>MD</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-76.55</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-76.5</eastBoundingCoordinate>
+                    <northBoundingCoordinate>38.9</northBoundingCoordinate>
+                    <southBoundingCoordinate>38.86</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2023-09-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2025-12-01</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>Species included below are tagged by this project and have left any embargo. Other individuals or species may later be appended to this dataset.</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>species</taxonRankName>
+                    <taxonRankValue>Callinectes sapidus</taxonRankValue>
+                    <commonName>blue crab</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <purpose><para>These data are for display on the OBIS portal and associated mapping programs and for download to personal computers for ad-hoc end-user analysis.</para></purpose>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>unknown</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Ocean Tracking Network</givenName>
+                <surName>Data Centre</surName>
+            </individualName>
+            <organizationName>Ocean Tracking Network</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <deliveryPoint>Dalhousie University</deliveryPoint>
+                <city>Halifax</city>
+                <administrativeArea>Nova Scotia</administrativeArea>
+                <postalCode>B3H 4J1</postalCode>
+                <country>CA</country>
+            </address>
+            <phone>+1 (902) 494-4101</phone>
+            <electronicMailAddress>otndc@dal.ca</electronicMailAddress>
+            <onlineUrl>http://members.oceantrack.org</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>This resource is curated by the Atlantic Cooperative Telemetry Data Centre, this archive was produced using software created by the Ocean Tracking Network to serve as a summarized representation of animal presence determined by electronic tagging efforts. Darwin Core (DwC) records were extracted from the ACT database and OTN-affiliated data systems, filtered and summarized according to international agreed-upon standards.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>Program started 2023-09-01 and ran until 2025-12-01</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Acoustic tags released.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>All species names are verified using the World Register of Marine Species (WoRMS). If species names on new data cannot be verified against (a) known valid names in ACT or OTN, and/or (b) WoRMS the Data Provider will be notified so they can check they are correct. Names that cannot be placed after checking with WoRMS are, where possible, placed on the basis of other authoritative sources, such as FishBase or ITIS; and once completely verified a request will be sent to WoRMS for addition of the verified species name.
+http://members.oceantrack.org/data/discovery/byspecies</para>
+                </description>
+            </qualityControl>
+        </methods>
+        <project>
+            <title>SERC Blue Crab Study</title>
+            <personnel>
+                <individualName>
+                    <givenName>Matthew</givenName>
+                    <surName>Ogburn</surName>
+                </individualName>
+                <userId directory="http://orcid.org/">0000-0001-5417-555X</userId>
+                <role>principalInvestigator</role>
+            </personnel>
+            <abstract>
+                <para>The Fisheries Conservation Lab at the Smithsonian Environmental Research Center is studying the migration of mature female blue crabs to learn more of their journey from the middle Chesapeake Bay to the spawning grounds in the lower Chesapeake Bay and into the Atlantic Ocean.</para>
+            </abstract>
+            <funding>
+                <para>No funding information for this project was provided to ACT for publication.
+    
+    The ACT Network is a community of researchers studying animal movement based at the Smithsonian Environmental Research Center in Edgewater, MD. Support for the ACT Network is primarily provided by the US Integrated Ocean Observing System (IOOS) and its regional associations, MARACOOS and NERACOOS, and in part by The Nature Conservancy. In addition, the ACT Network is grateful to the US Animal Telemetry Network, Ocean Tracking Network, and the Smithsonian Environmental Research Center for their continued support.</para>
+            </funding>
+            <studyAreaDescription>
+                <descriptor name="generic"
+                            citableClassificationSystem="false">
+                    <descriptorValue>No study area description for this project was provided to ACT for publication.</descriptorValue>
+                </descriptor>
+            </studyAreaDescription>
+            <designDescription>
+                <description>
+                    <para>A wide range of aquatic species are tagged with small electronic transmitters, surgically implanted or attached externally, which can operate for up to 20 years. Acoustic receivers arranged in line on the ocean floor as well as attached to buoys, gliders and large animals (e.g. grey seals) pick up the coded acoustic signals from these tags identifying each tagged sea creature that passes within half a kilometer of the receiver. Data collected by these listening stations are subsequently uploaded to one of many compatible data nodes, adding to the reach of an intercompatible network of networks designed and maintained by the Ocean Tracking Network, producing current and reliable records for every part of the globe. Certain classes of electronic tags and listening equipment (receivers) may also be outfitted or co-located with sensors to measure the ocean&apos;s temperature, depth, salinity, currents, chemistry, and other properties.</para>
+                </description>
+            </designDescription>
+        </project>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2024-06-13T00:00:00.000+00:00</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <citation identifier="https://doi.org/10.14286/m87tnl">. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE</citation>
+                <bibliography>
+                    <citation>In: Smithsonian Environmental Research Center Retrieved: 2024-06-13 from data.theactnetwork.com</citation>
+                </bibliography>
+                <physical>
+                    <objectName>SERC Blue Crab Study</objectName>
+                    <characterEncoding>ASCII</characterEncoding>
+                    <dataFormat>
+                        <externallyDefinedFormat>
+                            <formatName>HTM</formatName>
+                        </externallyDefinedFormat>
+                    </dataFormat>
+                    <distribution>
+                        <online>
+                            <url function="download">https://members.oceantrack.org/project?ccode=ACT.CBBCRAB</url>
+                        </online>
+                    </distribution>
+                </physical>
+                <resourceLogoUrl>https://members.oceantrack.org/media/logos/actlogo_long_banner_64x20.png/@@images/image-14999-ced32421e5cba203acffb691105f9fed.png</resourceLogoUrl>
+                <dc:replaces>7175660d-a6a4-4ecd-91fd-d3d86515c5c3/v2.xml</dc:replaces>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
